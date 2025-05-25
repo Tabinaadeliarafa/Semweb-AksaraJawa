@@ -1,0 +1,2890 @@
+@prefix ex: <http://example.org/pupuh#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Paragraf 1
+ex:Paragraf_1 a ex:Paragraf ;
+    ex:isiLatin "Ketika mulai ditulis pada hari Ngahad pukul tujuh pada waktu tanggal dua puluh di bulan Sapar tahun Alip turun masa ketiga" ;
+    ex:isiAksaraJawa "ꦠꦏꦶꦏꦩꦸꦭꦶ ꦢꦶꦠꦸꦭꦶꦱ ꦥꦤ꧀ꦝ ꦲꦶꦫꦶ ꦔꦃꦢ ꦥꦸꦏꦸꦭ ꦠꦸꦗꦸ ꦥꦤ꧀ꦝ ꦠꦠꦸꦁ ꦢꦶ ꦧꦸꦭꦸꦤ꧀ ꦱꦥꦫ ꦠꦲꦸꦤ ꦄꦭꦶꦥ ꦠꦸꦤꦸꦂ ꦩꦱ ꦏꦠꦶꦒ" ;
+    ex:arti "Ketika mulai ditulis pada hari Ngahad pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga" .
+
+ex:Kata_1_0 a ex:Kata ;
+    ex:latin "Ketika" ;
+    ex:aksaraJawa "ꦠꦏꦶꦏ" ;
+    ex:arti "Ketika" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_1 a ex:Kata ;
+    ex:latin "mulai" ;
+    ex:aksaraJawa "ꦩꦸꦭꦶ" ;
+    ex:arti "mulai" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_2 a ex:Kata ;
+    ex:latin "ditulis" ;
+    ex:aksaraJawa "ꦢꦶꦠꦸꦭꦶꦱ" ;
+    ex:arti "ditulis" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_3 a ex:Kata ;
+    ex:latin "pada" ;
+    ex:aksaraJawa "ꦥꦤ꧀ꦝ" ;
+    ex:arti "pada" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_4 a ex:Kata ;
+    ex:latin "hari" ;
+    ex:aksaraJawa "ꦲꦶꦫꦶ" ;
+    ex:arti "hari" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_5 a ex:Kata ;
+    ex:latin "Ngahad" ;
+    ex:aksaraJawa "ꦔꦃꦢ" ;
+    ex:arti "Ngahad" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_6 a ex:Kata ;
+    ex:latin "pukul" ;
+    ex:aksaraJawa "ꦥꦸꦏꦸꦭ" ;
+    ex:arti "pukul" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_7 a ex:Kata ;
+    ex:latin "tujuh" ;
+    ex:aksaraJawa "ꦠꦸꦗꦸ" ;
+    ex:arti "tujuh" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_8 a ex:Kata ;
+    ex:latin "pada" ;
+    ex:aksaraJawa "ꦥꦤ꧀ꦝ" ;
+    ex:arti "pada" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_9 a ex:Kata ;
+    ex:latin "tanggal" ;
+    ex:aksaraJawa "ꦠꦠꦸꦁ" ;
+    ex:arti "tanggal" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_10 a ex:Kata ;
+    ex:latin "dua" ;
+    ex:aksaraJawa "ꦢꦶ" ;
+    ex:arti "dua" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_11 a ex:Kata ;
+    ex:latin "puluh" ;
+    ex:aksaraJawa "ꦧꦸꦭꦸꦤ꧀" ;
+    ex:arti "puluh" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_12 a ex:Kata ;
+    ex:latin "di" ;
+    ex:aksaraJawa "ꦱꦥꦫ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_13 a ex:Kata ;
+    ex:latin "bulan" ;
+    ex:aksaraJawa "ꦠꦲꦸꦤ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_14 a ex:Kata ;
+    ex:latin "Sapar" ;
+    ex:aksaraJawa "ꦄꦭꦶꦥ" ;
+    ex:arti "Sapar" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_15 a ex:Kata ;
+    ex:latin "tahun" ;
+    ex:aksaraJawa "ꦠꦸꦤꦸꦂ" ;
+    ex:arti "tahun" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_16 a ex:Kata ;
+    ex:latin "Alip" ;
+    ex:aksaraJawa "ꦄꦭꦶꦥ" ;
+    ex:arti "Alip" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_17 a ex:Kata ;
+    ex:latin "turun" ;
+    ex:aksaraJawa "ꦠꦸꦫꦸꦤ꧀" ;
+    ex:arti "turun" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_18 a ex:Kata ;
+    ex:latin "masa" ;
+    ex:aksaraJawa "ꦩꦱ" ;
+    ex:arti "masa" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_19 a ex:Kata ;
+    ex:latin "ketiga" ;
+    ex:aksaraJawa "ꦏꦼꦠꦶꦒ" ;
+    ex:arti "ketiga" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+# Paragraf 2
+ex:Paragraf_2 a ex:Paragraf ;
+    ex:isiLatin "Dalam tengah masa itu para ulama berdiskusi tentang hukum dan adat Jawa" ;
+    ex:isiAksaraJawa "ꦢꦭꦩ꧀ ꦠꦼꦁꦃ ꦩꦱ ꦠꦸ ꦥꦫ ꦲꦸꦭꦩ ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦺꦴꦩ꧀ꦧꦠꦸꦁ ꦲꦶꦤ ꦲꦢꦠ ꦗꦮ" ;
+    ex:arti "Dalam tengah masa itu para ulama berdiskusi tentang hukum dan adat Jawa" .
+
+ex:Kata_2_0 a ex:Kata ;
+    ex:latin "Dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:arti "Dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_1 a ex:Kata ;
+    ex:latin "tengah" ;
+    ex:aksaraJawa "ꦠꦼꦁꦃ" ;
+    ex:arti "tengah" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_2 a ex:Kata ;
+    ex:latin "masa" ;
+    ex:aksaraJawa "ꦩꦱ" ;
+    ex:arti "masa" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_3 a ex:Kata ;
+    ex:latin "itu" ;
+    ex:aksaraJawa "ꦠꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_4 a ex:Kata ;
+    ex:latin "para" ;
+    ex:aksaraJawa "ꦥꦫ" ;
+    ex:arti "para" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_5 a ex:Kata ;
+    ex:latin "ulama" ;
+    ex:aksaraJawa "ꦲꦸꦭꦩ" ;
+    ex:arti "ulama" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_6 a ex:Kata ;
+    ex:latin "berdiskusi" ;
+    ex:aksaraJawa "ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
+    ex:arti "berdiskusi" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_7 a ex:Kata ;
+    ex:latin "tentang" ;
+    ex:aksaraJawa "ꦠꦺꦴꦩ꧀ꦧꦠꦸꦁ" ;
+    ex:arti "tentang" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_8 a ex:Kata ;
+    ex:latin "hukum" ;
+    ex:aksaraJawa "ꦲꦶꦤ" ;
+    ex:arti "hukum" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_9 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_10 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦗꦮ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+# Paragraf 3
+ex:Paragraf_3 a ex:Paragraf ;
+    ex:isiLatin "Hasil diskusi tersebut menjadi pedoman dalam menjalankan adat dan hukum masyarakat Jawa" ;
+    ex:isiAksaraJawa "ꦲꦱꦶꦭ ꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦼꦩꦸꦤ꧀ ꦩꦼꦢꦶ ꦥꦼꦢꦺꦴꦩꦤ ꦢꦭꦩ꧀ ꦩꦗꦭꦤ꧀ꦏꦤ ꦲꦢꦠ ꦲꦶꦤ ꦲꦸꦏꦸꦩ ꦩꦱꦿꦗꦠ ꦗꦮ" ;
+    ex:arti "Hasil diskusi tersebut menjadi pedoman dalam menjalankan adat dan hukum masyarakat Jawa" .
+
+ex:Kata_3_0 a ex:Kata ;
+    ex:latin "Hasil" ;
+    ex:aksaraJawa "ꦲꦱꦶꦭ" ;
+    ex:arti "Hasil" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_1 a ex:Kata ;
+    ex:latin "diskusi" ;
+    ex:aksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
+    ex:arti "diskusi" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_2 a ex:Kata ;
+    ex:latin "tersebut" ;
+    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
+    ex:arti "tersebut" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_3 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_4 a ex:Kata ;
+    ex:latin "pedoman" ;
+    ex:aksaraJawa "ꦥꦼꦢꦺꦴꦩꦤ" ;
+    ex:arti "pedoman" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_5 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_6 a ex:Kata ;
+    ex:latin "menjalankan" ;
+    ex:aksaraJawa "ꦩꦗꦭꦤ꧀ꦏꦤ" ;
+    ex:arti "menjalankan" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_7 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_8 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦲꦶꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_9 a ex:Kata ;
+    ex:latin "hukum" ;
+    ex:aksaraJawa "ꦲꦸꦏꦸꦩ" ;
+    ex:arti "hukum" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_10 a ex:Kata ;
+    ex:latin "masyarakat" ;
+    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
+    ex:arti "masyarakat" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_11 a ex:Kata ;
+    ex:latin "Jawa" ;
+    ex:aksaraJawa "ꦗꦮ" ;
+    ex:arti "Jawa" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+# Paragraf 4
+ex:Paragraf_4 a ex:Paragraf ;
+    ex:isiLatin "Para raja juga memperhatikan berbagai aturan dalam kerajaan" ;
+    ex:isiAksaraJawa "ꦥꦫ ꦫꦗ ꦗꦸꦒ ꦩꦥꦼꦫꦠꦶꦤ꧀ ꦧꦫꦒꦺꦴꦲꦶ ꦲꦠꦸꦫꦤ ꦢꦭꦩ꧀ ꦏꦫꦗꦤ" ;
+    ex:arti "Para raja juga memperhatikan berbagai aturan dalam kerajaan" .
+
+ex:Kata_4_0 a ex:Kata ;
+    ex:latin "Para" ;
+    ex:aksaraJawa "ꦥꦫ" ;
+    ex:arti "Para" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_1 a ex:Kata ;
+    ex:latin "raja" ;
+    ex:aksaraJawa "ꦫꦗ" ;
+    ex:arti "raja" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_2 a ex:Kata ;
+    ex:latin "juga" ;
+    ex:aksaraJawa "ꦗꦸꦒ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_3 a ex:Kata ;
+    ex:latin "memperhatikan" ;
+    ex:aksaraJawa "ꦩꦥꦼꦫꦠꦶꦤ꧀" ;
+    ex:arti "memperhatikan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_4 a ex:Kata ;
+    ex:latin "berbagai" ;
+    ex:aksaraJawa "ꦧꦫꦒꦺꦴꦲꦶ" ;
+    ex:arti "berbagai" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_5 a ex:Kata ;
+    ex:latin "aturan" ;
+    ex:aksaraJawa "ꦲꦠꦸꦫꦤ" ;
+    ex:arti "aturan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_6 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_7 a ex:Kata ;
+    ex:latin "kerajaan" ;
+    ex:aksaraJawa "ꦏꦫꦗꦤ" ;
+    ex:arti "kerajaan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+# Paragraf 5
+ex:Paragraf_5 a ex:Paragraf ;
+    ex:isiLatin "Kehidupan rakyat berjalan damai dan sejahtera" ;
+    ex:isiAksaraJawa "ꦏꦺꦲꦶꦢꦶꦥꦤ꧀ ꦫꦪꦏ꧀ ꦧꦼꦫꦗꦭꦤ꧀ ꦢꦩꦲꦶ ꦢꦤ꧀ ꦱꦗꦺꦲꦠꦿ" ;
+    ex:arti "Kehidupan rakyat berjalan damai dan sejahtera" .
+
+ex:Kata_5_0 a ex:Kata ;
+    ex:latin "Kehidupan" ;
+    ex:aksaraJawa "ꦏꦺꦲꦶꦢꦶꦥꦤ꧀" ;
+    ex:arti "Kehidupan" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_1 a ex:Kata ;
+    ex:latin "rakyat" ;
+    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
+    ex:arti "rakyat" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_2 a ex:Kata ;
+    ex:latin "berjalan" ;
+    ex:aksaraJawa "ꦧꦼꦫꦗꦭꦤ꧀" ;
+    ex:arti "berjalan" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_3 a ex:Kata ;
+    ex:latin "damai" ;
+    ex:aksaraJawa "ꦢꦩꦲꦶ" ;
+    ex:arti "damai" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_5 a ex:Kata ;
+    ex:latin "sejahtera" ;
+    ex:aksaraJawa "ꦱꦗꦺꦲꦠꦿ" ;
+    ex:arti "sejahtera" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+# Paragraf 6
+ex:Paragraf_6 a ex:Paragraf ;
+    ex:isiLatin "Raja beserta pembesar kerajaan sering berdiskusi tentang kepentingan rakyat" ;
+    ex:isiAksaraJawa "ꦫꦗ ꦧꦼꦱꦼꦫ ꦥꦼꦩ꧀ꦧꦼꦱꦂ ꦏꦫꦗꦤ ꦱꦼꦂꦒꦶꦁ ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦺꦴꦩ꧀ꦧꦶꦔ꧀ꦠꦺꦤ ꦫꦪꦏ꧀" ;
+    ex:arti "Raja beserta pembesar kerajaan sering berdiskusi tentang kepentingan rakyat" .
+
+ex:Kata_6_0 a ex:Kata ;
+    ex:latin "Raja" ;
+    ex:aksaraJawa "ꦫꦗ" ;
+    ex:arti "Raja" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_1 a ex:Kata ;
+    ex:latin "beserta" ;
+    ex:aksaraJawa "ꦧꦼꦱꦼꦫ" ;
+    ex:arti "beserta" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_2 a ex:Kata ;
+    ex:latin "pembesar" ;
+    ex:aksaraJawa "ꦥꦼꦩ꧀ꦧꦼꦱꦂ" ;
+    ex:arti "pembesar" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_3 a ex:Kata ;
+    ex:latin "kerajaan" ;
+    ex:aksaraJawa "ꦏꦫꦗꦤ" ;
+    ex:arti "kerajaan" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_4 a ex:Kata ;
+    ex:latin "sering" ;
+    ex:aksaraJawa "ꦱꦼꦂꦒꦶꦁ" ;
+    ex:arti "sering" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_5 a ex:Kata ;
+    ex:latin "berdiskusi" ;
+    ex:aksaraJawa "ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
+    ex:arti "berdiskusi" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_6 a ex:Kata ;
+    ex:latin "tentang" ;
+    ex:aksaraJawa "ꦠꦺꦴꦩ꧀ꦧꦶꦔ꧀ꦠꦺꦤ" ;
+    ex:arti "tentang" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_7 a ex:Kata ;
+    ex:latin "kepentingan" ;
+    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
+    ex:arti "kepentingan" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_8 a ex:Kata ;
+    ex:latin "rakyat" ;
+    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
+    ex:arti "rakyat" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+# Paragraf 7
+ex:Paragraf_7 a ex:Paragraf ;
+    ex:isiLatin "Diskusi ini penting untuk menentukan kebijakan yang adil" ;
+    ex:isiAksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦲꦶꦤꦶ ꦥꦶꦁꦠꦶꦁ ꦲꦸꦤ꧀ꦠꦸꦁ ꦠꦼꦩꦸꦤ꧀ꦠꦸꦤ꧀ ꦏꦼꦧꦏꦶꦪꦤ ꦪꦁ ꦲꦢꦶꦭ꧀" ;
+    ex:arti "Diskusi ini penting untuk menentukan kebijakan yang adil" .
+
+ex:Kata_7_0 a ex:Kata ;
+    ex:latin "Diskusi" ;
+    ex:aksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
+    ex:arti "Diskusi" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_1 a ex:Kata ;
+    ex:latin "ini" ;
+    ex:aksaraJawa "ꦲꦶꦤꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_2 a ex:Kata ;
+    ex:latin "penting" ;
+    ex:aksaraJawa "ꦥꦶꦁꦠꦶꦁ" ;
+    ex:arti "penting" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_3 a ex:Kata ;
+    ex:latin "untuk" ;
+    ex:aksaraJawa "ꦲꦸꦤ꧀ꦠꦸꦁ" ;
+    ex:arti "untuk" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_4 a ex:Kata ;
+    ex:latin "menentukan" ;
+    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀ꦠꦸꦤ꧀" ;
+    ex:arti "menentukan" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_5 a ex:Kata ;
+    ex:latin "kebijakan" ;
+    ex:aksaraJawa "ꦏꦼꦧꦏꦶꦪꦤ" ;
+    ex:arti "kebijakan" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_6 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_7 a ex:Kata ;
+    ex:latin "adil" ;
+    ex:aksaraJawa "ꦲꦢꦶꦭ꧀" ;
+    ex:arti "adil" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+# Paragraf 8
+ex:Paragraf_8 a ex:Paragraf ;
+    ex:isiLatin "Ulama berperan besar dalam menjaga keharmonisan sosial" ;
+    ex:isiAksaraJawa "ꦲꦸꦭꦩ ꦧꦼꦂꦥꦺꦫꦤ ꦧꦼꦱꦂ ꦢꦭꦩ꧀ ꦗꦔ꧀ꦗꦃ ꦏꦺꦲꦫꦩꦺꦴꦤꦶꦱꦤ ꦱꦺꦴꦱꦶꦭ" ;
+    ex:arti "Ulama berperan besar dalam menjaga keharmonisan sosial" .
+
+ex:Kata_8_0 a ex:Kata ;
+    ex:latin "Ulama" ;
+    ex:aksaraJawa "ꦲꦸꦭꦩ" ;
+    ex:arti "Ulama" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_1 a ex:Kata ;
+    ex:latin "berperan" ;
+    ex:aksaraJawa "ꦧꦼꦂꦥꦺꦫꦤ" ;
+    ex:arti "berperan" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_2 a ex:Kata ;
+    ex:latin "besar" ;
+    ex:aksaraJawa "ꦧꦼꦱꦂ" ;
+    ex:arti "besar" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_3 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_4 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_5 a ex:Kata ;
+    ex:latin "keharmonisan" ;
+    ex:aksaraJawa "ꦏꦺꦲꦫꦩꦺꦴꦤꦶꦱꦤ" ;
+    ex:arti "keharmonisan" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_6 a ex:Kata ;
+    ex:latin "sosial" ;
+    ex:aksaraJawa "ꦱꦺꦴꦱꦶꦭ" ;
+    ex:arti "sosial" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+# Paragraf 9
+ex:Paragraf_9 a ex:Paragraf ;
+    ex:isiLatin "Mereka juga menjadi panutan dalam masyarakat" ;
+    ex:isiAksaraJawa "ꦩꦼꦫꦏ ꦗꦸꦒ ꦩꦼꦢꦶ ꦥꦤꦸꦠꦤ ꦢꦭꦩ꧀ ꦩꦱꦿꦗꦠ" ;
+    ex:arti "Mereka juga menjadi panutan dalam masyarakat" .
+
+ex:Kata_9_0 a ex:Kata ;
+    ex:latin "Mereka" ;
+    ex:aksaraJawa "ꦩꦼꦫꦏ" ;
+    ex:arti "Mereka" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_1 a ex:Kata ;
+    ex:latin "juga" ;
+    ex:aksaraJawa "ꦗꦸꦒ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_3 a ex:Kata ;
+    ex:latin "panutan" ;
+    ex:aksaraJawa "ꦥꦤꦸꦠꦤ" ;
+    ex:arti "panutan" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_4 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_5 a ex:Kata ;
+    ex:latin "masyarakat" ;
+    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
+    ex:arti "masyarakat" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+# Paragraf 10
+ex:Paragraf_10 a ex:Paragraf ;
+    ex:isiLatin "Maka dari itu penting sekali untuk menjaga adat dan tradisi" ;
+    ex:isiAksaraJawa "ꦩꦏ ꦢꦫꦶ ꦠꦸ ꦥꦶꦁꦠꦶꦁ ꦱꦺꦭꦏꦶ ꦲꦸꦤ꧀ꦠꦸꦁ ꦗꦔ꧀ꦗꦃ ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "Maka dari itu penting sekali untuk menjaga adat dan tradisi" .
+
+ex:Kata_10_0 a ex:Kata ;
+    ex:latin "Maka" ;
+    ex:aksaraJawa "ꦩꦏ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_1 a ex:Kata ;
+    ex:latin "dari" ;
+    ex:aksaraJawa "ꦢꦫꦶ" ;
+    ex:arti "dari" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_2 a ex:Kata ;
+    ex:latin "itu" ;
+    ex:aksaraJawa "ꦠꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_3 a ex:Kata ;
+    ex:latin "penting" ;
+    ex:aksaraJawa "ꦥꦶꦁꦠꦶꦁ" ;
+    ex:arti "penting" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_4 a ex:Kata ;
+    ex:latin "sekali" ;
+    ex:aksaraJawa "ꦱꦺꦭꦏꦶ" ;
+    ex:arti "sekali" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_5 a ex:Kata ;
+    ex:latin "untuk" ;
+    ex:aksaraJawa "ꦲꦸꦤ꧀ꦠꦸꦁ" ;
+    ex:arti "untuk" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_6 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_7 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_8 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦲꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_9 a ex:Kata ;
+    ex:latin "tradisi" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "tradisi" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+# Paragraf 11
+ex:Paragraf_11 a ex:Paragraf ;
+    ex:isiLatin "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" ;
+    ex:isiAksaraJawa "ꦲꦢꦠ ꦆꦱꦶꦢꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦒꦤ꧀ ꦢꦭꦩ ꦭꦶꦗꦶꦬꦤ꧀ ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
+    ex:arti "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" .
+
+ex:Kata_11_0 a ex:Kata ;
+    ex:latin "Adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "Adat" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_1 a ex:Kata ;
+    ex:latin "istiadat" ;
+    ex:aksaraJawa "ꦆꦱꦶꦢꦢꦠ" ;
+    ex:arti "istiadat" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_3 a ex:Kata ;
+    ex:latin "pegangan" ;
+    ex:aksaraJawa "ꦥꦼꦒꦤ꧀" ;
+    ex:arti "pegangan" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_4 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_5 a ex:Kata ;
+    ex:latin "kehidupan" ;
+    ex:aksaraJawa "ꦭꦶꦗꦶꦬꦤ꧀" ;
+    ex:arti "kehidupan" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_6 a ex:Kata ;
+    ex:latin "sehari-hari" ;
+    ex:aksaraJawa "ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
+    ex:arti "sehari-hari" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+# Paragraf 12
+ex:Paragraf_12 a ex:Paragraf ;
+    ex:isiLatin "Penghormatan kepada leluhur sangat dijunjung tinggi" ;
+    ex:isiAksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ ꦏꦺꦴꦥꦢ ꦭꦺꦭꦸꦫ ꦱꦒꦠ꧀ ꦢꦶꦗꦸꦁꦗꦸꦁ ꦠꦲꦶ" ;
+    ex:arti "Penghormatan kepada leluhur sangat dijunjung tinggi" .
+
+ex:Kata_12_0 a ex:Kata ;
+    ex:latin "Penghormatan" ;
+    ex:aksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ" ;
+    ex:arti "Penghormatan" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_1 a ex:Kata ;
+    ex:latin "kepada" ;
+    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_2 a ex:Kata ;
+    ex:latin "leluhur" ;
+    ex:aksaraJawa "ꦭꦺꦭꦸꦫ" ;
+    ex:arti "leluhur" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_3 a ex:Kata ;
+    ex:latin "sangat" ;
+    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
+    ex:arti "sangat" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_4 a ex:Kata ;
+    ex:latin "dijunjung" ;
+    ex:aksaraJawa "ꦢꦶꦗꦸꦁꦗꦸꦁ" ;
+    ex:arti "dijunjung" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_5 a ex:Kata ;
+    ex:latin "tinggi" ;
+    ex:aksaraJawa "ꦠꦲꦶ" ;
+    ex:arti "tinggi" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+# Paragraf 13
+ex:Paragraf_13 a ex:Paragraf ;
+    ex:isiLatin "Adat dan tradisi dilestarikan secara turun temurun" ;
+    ex:isiAksaraJawa "ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦱꦕꦫ ꦠꦸꦫꦤ ꦠꦼꦩꦸꦤ꧀" ;
+    ex:arti "Adat dan tradisi dilestarikan secara turun temurun" .
+
+ex:Kata_13_0 a ex:Kata ;
+    ex:latin "Adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "Adat" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_1 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦲꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_2 a ex:Kata ;
+    ex:latin "tradisi" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "tradisi" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_3 a ex:Kata ;
+    ex:latin "dilestarikan" ;
+    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
+    ex:arti "dilestarikan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_4 a ex:Kata ;
+    ex:latin "secara" ;
+    ex:aksaraJawa "ꦱꦕꦫ" ;
+    ex:arti "secara" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_5 a ex:Kata ;
+    ex:latin "turun" ;
+    ex:aksaraJawa "ꦠꦸꦫꦤ" ;
+    ex:arti "turun" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_6 a ex:Kata ;
+    ex:latin "temurun" ;
+    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
+    ex:arti "temurun" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+# Paragraf 14
+ex:Paragraf_14 a ex:Paragraf ;
+    ex:isiLatin "Setiap generasi wajib mempertahankan warisan budaya" ;
+    ex:isiAksaraJawa "ꦱꦼꦠꦶꦪꦥ ꦒꦼꦤꦼꦫꦱꦶ ꦮꦗꦶꦧ ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀ ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "Setiap generasi wajib mempertahankan warisan budaya" .
+
+ex:Kata_14_0 a ex:Kata ;
+    ex:latin "Setiap" ;
+    ex:aksaraJawa "ꦱꦼꦠꦶꦪꦥ" ;
+    ex:arti "Setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_1 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_2 a ex:Kata ;
+    ex:latin "wajib" ;
+    ex:aksaraJawa "ꦮꦗꦶꦧ" ;
+    ex:arti "wajib" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_3 a ex:Kata ;
+    ex:latin "mempertahankan" ;
+    ex:aksaraJawa "ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀" ;
+    ex:arti "mempertahankan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_4 a ex:Kata ;
+    ex:latin "warisan" ;
+    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
+    ex:arti "warisan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_5 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+# Paragraf 15
+ex:Paragraf_15 a ex:Paragraf ;
+    ex:isiLatin "Warisan budaya adalah identitas bangsa yang harus dijaga" ;
+    ex:isiAksaraJawa "ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ ꦲꦢꦭꦃ ꦲꦶꦢꦺꦤꦶꦠꦱ ꦧꦔ꧀ꦱ ꦪꦁ ꦲꦲꦸꦱ ꦢꦶꦗꦒ" ;
+    ex:arti "Warisan budaya adalah identitas bangsa yang harus dijaga" .
+
+ex:Kata_15_0 a ex:Kata ;
+    ex:latin "Warisan" ;
+    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
+    ex:arti "Warisan" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_2 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦢꦭꦃ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_3 a ex:Kata ;
+    ex:latin "identitas" ;
+    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦶꦠꦱ" ;
+    ex:arti "identitas" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_4 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_5 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_6 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_7 a ex:Kata ;
+    ex:latin "dijaga" ;
+    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
+    ex:arti "dijaga" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+# Paragraf 16
+ex:Paragraf_16 a ex:Paragraf ;
+    ex:isiLatin "Kebudayaan lokal memperkaya wawasan dan kreativitas" ;
+    ex:isiAksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦥꦂꦏꦾ ꦮꦮꦱꦤ ꦢꦤ ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
+    ex:arti "Kebudayaan lokal memperkaya wawasan dan kreativitas" .
+
+ex:Kata_16_0 a ex:Kata ;
+    ex:latin "Kebudayaan" ;
+    ex:aksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ" ;
+    ex:arti "Kebudayaan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_1 a ex:Kata ;
+    ex:latin "lokal" ;
+    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
+    ex:arti "lokal" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_2 a ex:Kata ;
+    ex:latin "memperkaya" ;
+    ex:aksaraJawa "ꦩꦼꦥꦂꦏꦾ" ;
+    ex:arti "memperkaya" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_3 a ex:Kata ;
+    ex:latin "wawasan" ;
+    ex:aksaraJawa "ꦮꦮꦱꦤ" ;
+    ex:arti "wawasan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_5 a ex:Kata ;
+    ex:latin "kreativitas" ;
+    ex:aksaraJawa "ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
+    ex:arti "kreativitas" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+# Paragraf 17
+ex:Paragraf_17 a ex:Paragraf ;
+    ex:isiLatin "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" ;
+    ex:isiAksaraJawa "ꦢꦺꦔꦺꦩ꧀ ꦧꦸꦛꦸꦭꦪ ꦪꦁ ꦏꦸꦠꦏ꧀ ꦩꦱꦿꦗꦠ ꦩꦼꦤꦶꦢꦶ ꦭꦶꦪꦃ ꦧꦼꦂꦱꦸꦠ" ;
+    ex:arti "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" .
+
+ex:Kata_17_0 a ex:Kata ;
+    ex:latin "Dengan" ;
+    ex:aksaraJawa "ꦢꦺꦔꦺꦩ꧀" ;
+    ex:arti "Dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_2 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_3 a ex:Kata ;
+    ex:latin "kuat" ;
+    ex:aksaraJawa "ꦏꦸꦠꦏ꧀" ;
+    ex:arti "kuat" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_4 a ex:Kata ;
+    ex:latin "masyarakat" ;
+    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
+    ex:arti "masyarakat" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_5 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_6 a ex:Kata ;
+    ex:latin "lebih" ;
+    ex:aksaraJawa "ꦭꦶꦪꦃ" ;
+    ex:arti "lebih" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_7 a ex:Kata ;
+    ex:latin "bersatu" ;
+    ex:aksaraJawa "ꦧꦼꦂꦱꦸꦠ" ;
+    ex:arti "bersatu" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+# Paragraf 18
+ex:Paragraf_18 a ex:Paragraf ;
+    ex:isiLatin "Tradisi turun-temurun menjaga nilai dan moral bangsa" ;
+    ex:isiAksaraJawa "ꦠꦿꦢꦶꦱꦶ ꦠꦸꦫꦤ-ꦠꦸꦫꦤ ꦗꦔ꧀ꦗꦃ ꦤꦶꦭꦶ ꦢꦤ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Tradisi turun-temurun menjaga nilai dan moral bangsa" .
+
+ex:Kata_18_0 a ex:Kata ;
+    ex:latin "Tradisi" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "Tradisi" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_1 a ex:Kata ;
+    ex:latin "turun-temurun" ;
+    ex:aksaraJawa "ꦠꦸꦫꦤ-ꦠꦸꦫꦤ" ;
+    ex:arti "turun-temurun" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_2 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_3 a ex:Kata ;
+    ex:latin "nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_5 a ex:Kata ;
+    ex:latin "moral" ;
+    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
+    ex:arti "moral" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_6 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+# Paragraf 19
+ex:Paragraf_19 a ex:Paragraf ;
+    ex:isiLatin "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" ;
+    ex:isiAksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀ ꦲꦢꦠ ꦩꦼꦔꦗꦏꦂꦤ ꦤꦶꦭꦶ ꦭꦸꦲꦸꦂ ꦏꦺꦴꦥꦢ ꦒꦼꦤꦼꦫꦱꦶ ꦩꦸꦢ" ;
+    ex:arti "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" .
+
+ex:Kata_19_0 a ex:Kata ;
+    ex:latin "Pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀" ;
+    ex:arti "Pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_1 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_2 a ex:Kata ;
+    ex:latin "mengajarkan" ;
+    ex:aksaraJawa "ꦩꦼꦔꦗꦏꦂꦤ" ;
+    ex:arti "mengajarkan" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_3 a ex:Kata ;
+    ex:latin "nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_4 a ex:Kata ;
+    ex:latin "luhur" ;
+    ex:aksaraJawa "ꦭꦸꦲꦸꦂ" ;
+    ex:arti "luhur" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_5 a ex:Kata ;
+    ex:latin "kepada" ;
+    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_6 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_7 a ex:Kata ;
+    ex:latin "muda" ;
+    ex:aksaraJawa "ꦩꦸꦢ" ;
+    ex:arti "muda" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+# Paragraf 20
+ex:Paragraf_20 a ex:Paragraf ;
+    ex:isiLatin "Nilai-nilai adat menjadi pondasi moral bangsa" ;
+    ex:isiAksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ ꦲꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦺꦴꦤ꧀ꦝꦶ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Nilai-nilai adat menjadi pondasi moral bangsa" .
+
+ex:Kata_20_0 a ex:Kata ;
+    ex:latin "Nilai-nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ" ;
+    ex:arti "Nilai-nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_1 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_3 a ex:Kata ;
+    ex:latin "pondasi" ;
+    ex:aksaraJawa "ꦥꦺꦴꦤ꧀ꦝꦶ" ;
+    ex:arti "pondasi" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_4 a ex:Kata ;
+    ex:latin "moral" ;
+    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
+    ex:arti "moral" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_5 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+# Paragraf 11
+ex:Paragraf_11 a ex:Paragraf ;
+    ex:isiLatin "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" ;
+    ex:isiAksaraJawa "ꦲꦢꦠ ꦆꦱꦶꦢꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦒꦤ꧀ ꦢꦭꦩ ꦭꦶꦗꦶꦬꦤ꧀ ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
+    ex:arti "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" .
+
+ex:Kata_11_0 a ex:Kata ;
+    ex:latin "Adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "Adat" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_1 a ex:Kata ;
+    ex:latin "istiadat" ;
+    ex:aksaraJawa "ꦆꦱꦶꦢꦢꦠ" ;
+    ex:arti "istiadat" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_3 a ex:Kata ;
+    ex:latin "pegangan" ;
+    ex:aksaraJawa "ꦥꦼꦒꦤ꧀" ;
+    ex:arti "pegangan" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_4 a ex:Kata ;
+    ex:latin "dalam" ;
+    ex:aksaraJawa "ꦢꦭꦩ" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_5 a ex:Kata ;
+    ex:latin "kehidupan" ;
+    ex:aksaraJawa "ꦭꦶꦗꦶꦬꦤ꧀" ;
+    ex:arti "kehidupan" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_6 a ex:Kata ;
+    ex:latin "sehari-hari" ;
+    ex:aksaraJawa "ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
+    ex:arti "sehari-hari" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+# Paragraf 12
+ex:Paragraf_12 a ex:Paragraf ;
+    ex:isiLatin "Penghormatan kepada leluhur sangat dijunjung tinggi" ;
+    ex:isiAksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ ꦏꦺꦴꦥꦢ ꦭꦺꦭꦸꦫ ꦱꦒꦠ꧀ ꦢꦶꦗꦸꦁꦗꦸꦁ ꦠꦲꦶ" ;
+    ex:arti "Penghormatan kepada leluhur sangat dijunjung tinggi" .
+
+ex:Kata_12_0 a ex:Kata ;
+    ex:latin "Penghormatan" ;
+    ex:aksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ" ;
+    ex:arti "Penghormatan" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_1 a ex:Kata ;
+    ex:latin "kepada" ;
+    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_2 a ex:Kata ;
+    ex:latin "leluhur" ;
+    ex:aksaraJawa "ꦭꦺꦭꦸꦫ" ;
+    ex:arti "leluhur" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_3 a ex:Kata ;
+    ex:latin "sangat" ;
+    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
+    ex:arti "sangat" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_4 a ex:Kata ;
+    ex:latin "dijunjung" ;
+    ex:aksaraJawa "ꦢꦶꦗꦸꦁꦗꦸꦁ" ;
+    ex:arti "dijunjung" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_5 a ex:Kata ;
+    ex:latin "tinggi" ;
+    ex:aksaraJawa "ꦠꦲꦶ" ;
+    ex:arti "tinggi" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+# Paragraf 13
+ex:Paragraf_13 a ex:Paragraf ;
+    ex:isiLatin "Adat dan tradisi dilestarikan secara turun temurun" ;
+    ex:isiAksaraJawa "ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦱꦕꦫ ꦠꦸꦫꦤ ꦠꦼꦩꦸꦤ꧀" ;
+    ex:arti "Adat dan tradisi dilestarikan secara turun temurun" .
+
+ex:Kata_13_0 a ex:Kata ;
+    ex:latin "Adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "Adat" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_1 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦲꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_2 a ex:Kata ;
+    ex:latin "tradisi" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "tradisi" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_3 a ex:Kata ;
+    ex:latin "dilestarikan" ;
+    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
+    ex:arti "dilestarikan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_4 a ex:Kata ;
+    ex:latin "secara" ;
+    ex:aksaraJawa "ꦱꦕꦫ" ;
+    ex:arti "secara" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_5 a ex:Kata ;
+    ex:latin "turun" ;
+    ex:aksaraJawa "ꦠꦸꦫꦤ" ;
+    ex:arti "turun" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_6 a ex:Kata ;
+    ex:latin "temurun" ;
+    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
+    ex:arti "temurun" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+# Paragraf 14
+ex:Paragraf_14 a ex:Paragraf ;
+    ex:isiLatin "Setiap generasi wajib mempertahankan warisan budaya" ;
+    ex:isiAksaraJawa "ꦱꦼꦠꦶꦪꦥ ꦒꦼꦤꦼꦫꦱꦶ ꦮꦗꦶꦧ ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀ ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "Setiap generasi wajib mempertahankan warisan budaya" .
+
+ex:Kata_14_0 a ex:Kata ;
+    ex:latin "Setiap" ;
+    ex:aksaraJawa "ꦱꦼꦠꦶꦪꦥ" ;
+    ex:arti "Setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_1 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_2 a ex:Kata ;
+    ex:latin "wajib" ;
+    ex:aksaraJawa "ꦮꦗꦶꦧ" ;
+    ex:arti "wajib" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_3 a ex:Kata ;
+    ex:latin "mempertahankan" ;
+    ex:aksaraJawa "ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀" ;
+    ex:arti "mempertahankan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_4 a ex:Kata ;
+    ex:latin "warisan" ;
+    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
+    ex:arti "warisan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_5 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+# Paragraf 15
+ex:Paragraf_15 a ex:Paragraf ;
+    ex:isiLatin "Warisan budaya adalah identitas bangsa yang harus dijaga" ;
+    ex:isiAksaraJawa "ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ ꦲꦢꦭꦃ ꦲꦶꦢꦺꦤꦶꦠꦱ ꦧꦔ꧀ꦱ ꦪꦁ ꦲꦲꦸꦱ ꦢꦶꦗꦒ" ;
+    ex:arti "Warisan budaya adalah identitas bangsa yang harus dijaga" .
+
+ex:Kata_15_0 a ex:Kata ;
+    ex:latin "Warisan" ;
+    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
+    ex:arti "Warisan" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_2 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦢꦭꦃ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_3 a ex:Kata ;
+    ex:latin "identitas" ;
+    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦶꦠꦱ" ;
+    ex:arti "identitas" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_4 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_5 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_6 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_7 a ex:Kata ;
+    ex:latin "dijaga" ;
+    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
+    ex:arti "dijaga" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+# Paragraf 16
+ex:Paragraf_16 a ex:Paragraf ;
+    ex:isiLatin "Kebudayaan lokal memperkaya wawasan dan kreativitas" ;
+    ex:isiAksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦥꦂꦏꦾ ꦮꦮꦱꦤ ꦢꦤ ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
+    ex:arti "Kebudayaan lokal memperkaya wawasan dan kreativitas" .
+
+ex:Kata_16_0 a ex:Kata ;
+    ex:latin "Kebudayaan" ;
+    ex:aksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ" ;
+    ex:arti "Kebudayaan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_1 a ex:Kata ;
+    ex:latin "lokal" ;
+    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
+    ex:arti "lokal" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_2 a ex:Kata ;
+    ex:latin "memperkaya" ;
+    ex:aksaraJawa "ꦩꦼꦥꦂꦏꦾ" ;
+    ex:arti "memperkaya" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_3 a ex:Kata ;
+    ex:latin "wawasan" ;
+    ex:aksaraJawa "ꦮꦮꦱꦤ" ;
+    ex:arti "wawasan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_5 a ex:Kata ;
+    ex:latin "kreativitas" ;
+    ex:aksaraJawa "ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
+    ex:arti "kreativitas" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+# Paragraf 17
+ex:Paragraf_17 a ex:Paragraf ;
+    ex:isiLatin "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" ;
+    ex:isiAksaraJawa "ꦢꦺꦔꦺꦩ꧀ ꦧꦸꦛꦸꦭꦪ ꦪꦁ ꦏꦸꦠꦏ꧀ ꦩꦱꦿꦗꦠ ꦩꦼꦤꦶꦢꦶ ꦭꦶꦪꦃ ꦧꦼꦂꦱꦸꦠ" ;
+    ex:arti "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" .
+
+ex:Kata_17_0 a ex:Kata ;
+    ex:latin "Dengan" ;
+    ex:aksaraJawa "ꦢꦺꦔꦺꦩ꧀" ;
+    ex:arti "Dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_2 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_3 a ex:Kata ;
+    ex:latin "kuat" ;
+    ex:aksaraJawa "ꦏꦸꦠꦏ꧀" ;
+    ex:arti "kuat" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_4 a ex:Kata ;
+    ex:latin "masyarakat" ;
+    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
+    ex:arti "masyarakat" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_5 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_6 a ex:Kata ;
+    ex:latin "lebih" ;
+    ex:aksaraJawa "ꦭꦶꦪꦃ" ;
+    ex:arti "lebih" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_7 a ex:Kata ;
+    ex:latin "bersatu" ;
+    ex:aksaraJawa "ꦧꦼꦂꦱꦸꦠ" ;
+    ex:arti "bersatu" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+# Paragraf 18
+ex:Paragraf_18 a ex:Paragraf ;
+    ex:isiLatin "Tradisi turun-temurun menjaga nilai dan moral bangsa" ;
+    ex:isiAksaraJawa "ꦠꦿꦢꦶꦱꦶ ꦠꦸꦫꦤ-ꦠꦸꦫꦤ ꦗꦔ꧀ꦗꦃ ꦤꦶꦭꦶ ꦢꦤ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Tradisi turun-temurun menjaga nilai dan moral bangsa" .
+
+ex:Kata_18_0 a ex:Kata ;
+    ex:latin "Tradisi" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
+    ex:arti "Tradisi" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_1 a ex:Kata ;
+    ex:latin "turun-temurun" ;
+    ex:aksaraJawa "ꦠꦸꦫꦤ-ꦠꦸꦫꦤ" ;
+    ex:arti "turun-temurun" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_2 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_3 a ex:Kata ;
+    ex:latin "nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_5 a ex:Kata ;
+    ex:latin "moral" ;
+    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
+    ex:arti "moral" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_6 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+# Paragraf 19
+ex:Paragraf_19 a ex:Paragraf ;
+    ex:isiLatin "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" ;
+    ex:isiAksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀ ꦲꦢꦠ ꦩꦼꦔꦗꦏꦂꦤ ꦤꦶꦭꦶ ꦭꦸꦲꦸꦂ ꦏꦺꦴꦥꦢ ꦒꦼꦤꦼꦫꦱꦶ ꦩꦸꦢ" ;
+    ex:arti "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" .
+
+ex:Kata_19_0 a ex:Kata ;
+    ex:latin "Pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀" ;
+    ex:arti "Pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_1 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_2 a ex:Kata ;
+    ex:latin "mengajarkan" ;
+    ex:aksaraJawa "ꦩꦼꦔꦗꦏꦂꦤ" ;
+    ex:arti "mengajarkan" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_3 a ex:Kata ;
+    ex:latin "nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_4 a ex:Kata ;
+    ex:latin "luhur" ;
+    ex:aksaraJawa "ꦭꦸꦲꦸꦂ" ;
+    ex:arti "luhur" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_5 a ex:Kata ;
+    ex:latin "kepada" ;
+    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_6 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_7 a ex:Kata ;
+    ex:latin "muda" ;
+    ex:aksaraJawa "ꦩꦸꦢ" ;
+    ex:arti "muda" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+# Paragraf 20
+ex:Paragraf_20 a ex:Paragraf ;
+    ex:isiLatin "Nilai-nilai adat menjadi pondasi moral bangsa" ;
+    ex:isiAksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ ꦲꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦺꦴꦤ꧀ꦝꦶ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Nilai-nilai adat menjadi pondasi moral bangsa" .
+
+ex:Kata_20_0 a ex:Kata ;
+    ex:latin "Nilai-nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ" ;
+    ex:arti "Nilai-nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_1 a ex:Kata ;
+    ex:latin "adat" ;
+    ex:aksaraJawa "ꦲꦢꦠ" ;
+    ex:arti "adat" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_3 a ex:Kata ;
+    ex:latin "pondasi" ;
+    ex:aksaraJawa "ꦥꦺꦴꦤ꧀ꦝꦶ" ;
+    ex:arti "pondasi" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_4 a ex:Kata ;
+    ex:latin "moral" ;
+    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
+    ex:arti "moral" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_5 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+# Paragraf 21
+ex:Paragraf_21 a ex:Paragraf ;
+    ex:isiLatin "Pentingnya menjaga kelestarian lingkungan hidup" ;
+    ex:isiAksaraJawa "ꦥꦼꦤꦠꦶꦁꦔꦾ ꦗꦔ꧀ꦗꦃ ꦏꦺꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦶꦧꦸꦥ" ;
+    ex:arti "Pentingnya menjaga kelestarian lingkungan hidup" .
+
+ex:Kata_21_0 a ex:Kata ;
+    ex:latin "Pentingnya" ;
+    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁꦔꦾ" ;
+    ex:arti "Pentingnya" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_1 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_2 a ex:Kata ;
+    ex:latin "kelestarian" ;
+    ex:aksaraJawa "ꦏꦺꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
+    ex:arti "kelestarian" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_3 a ex:Kata ;
+    ex:latin "lingkungan" ;
+    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
+    ex:arti "lingkungan" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_4 a ex:Kata ;
+    ex:latin "hidup" ;
+    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
+    ex:arti "hidup" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+# Paragraf 22
+ex:Paragraf_22 a ex:Paragraf ;
+    ex:isiLatin "Lingkungan yang sehat mendukung kualitas hidup" ;
+    ex:isiAksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ ꦪꦁ ꦱꦲꦺꦠ꧀ ꦩꦼꦤ꧀ꦢꦸꦁꦏꦁ ꦏꦸꦭꦶꦠꦱ ꦲꦶꦧꦸꦥ" ;
+    ex:arti "Lingkungan yang sehat mendukung kualitas hidup" .
+
+ex:Kata_22_0 a ex:Kata ;
+    ex:latin "Lingkungan" ;
+    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
+    ex:arti "Lingkungan" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_1 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_2 a ex:Kata ;
+    ex:latin "sehat" ;
+    ex:aksaraJawa "ꦱꦲꦺꦠ꧀" ;
+    ex:arti "sehat" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_3 a ex:Kata ;
+    ex:latin "mendukung" ;
+    ex:aksaraJawa "ꦩꦼꦤ꧀ꦢꦸꦁꦏꦁ" ;
+    ex:arti "mendukung" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_4 a ex:Kata ;
+    ex:latin "kualitas" ;
+    ex:aksaraJawa "ꦏꦸꦭꦶꦠꦱ" ;
+    ex:arti "kualitas" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_5 a ex:Kata ;
+    ex:latin "hidup" ;
+    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
+    ex:arti "hidup" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+# Paragraf 23
+ex:Paragraf_23 a ex:Paragraf ;
+    ex:isiLatin "Kita harus menjaga sumber daya alam" ;
+    ex:isiAksaraJawa "ꦏꦶꦠ ꦲꦲꦸꦱ ꦗꦔ꧀ꦗꦃ ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ" ;
+    ex:arti "Kita harus menjaga sumber daya alam" .
+
+ex:Kata_23_0 a ex:Kata ;
+    ex:latin "Kita" ;
+    ex:aksaraJawa "ꦏꦶꦠ" ;
+    ex:arti "Kita" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_1 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_2 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_3 a ex:Kata ;
+    ex:latin "sumber" ;
+    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
+    ex:arti "sumber" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_4 a ex:Kata ;
+    ex:latin "daya" ;
+    ex:aksaraJawa "ꦢꦪ" ;
+    ex:arti "daya" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_5 a ex:Kata ;
+    ex:latin "alam" ;
+    ex:aksaraJawa "ꦲꦭꦩ" ;
+    ex:arti "alam" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+# Paragraf 24
+ex:Paragraf_24 a ex:Paragraf ;
+    ex:isiLatin "Pengelolaan sumber daya alam yang bijak sangat penting" ;
+    ex:isiAksaraJawa "ꦥꦼꦔꦭꦺꦴꦭꦲꦤ ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ ꦪꦁ ꦧꦶꦗꦏ ꦱꦒꦠ꧀ ꦥꦼꦤꦠꦶꦁ" ;
+    ex:arti "Pengelolaan sumber daya alam yang bijak sangat penting" .
+
+ex:Kata_24_0 a ex:Kata ;
+    ex:latin "Pengelolaan" ;
+    ex:aksaraJawa "ꦥꦼꦔꦭꦺꦴꦭꦲꦤ" ;
+    ex:arti "Pengelolaan" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_1 a ex:Kata ;
+    ex:latin "sumber" ;
+    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
+    ex:arti "sumber" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_2 a ex:Kata ;
+    ex:latin "daya" ;
+    ex:aksaraJawa "ꦢꦪ" ;
+    ex:arti "daya" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_3 a ex:Kata ;
+    ex:latin "alam" ;
+    ex:aksaraJawa "ꦲꦭꦩ" ;
+    ex:arti "alam" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_4 a ex:Kata ;
+    ex:latin "yang" ;
+    ex:aksaraJawa "ꦪꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_5 a ex:Kata ;
+    ex:latin "bijak" ;
+    ex:aksaraJawa "ꦧꦶꦗꦏ" ;
+    ex:arti "bijak" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_6 a ex:Kata ;
+    ex:latin "sangat" ;
+    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
+    ex:arti "sangat" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_7 a ex:Kata ;
+    ex:latin "penting" ;
+    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
+    ex:arti "penting" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+# Paragraf 25
+ex:Paragraf_25 a ex:Paragraf ;
+    ex:isiLatin "Pemanfaatan teknologi ramah lingkungan harus dioptimalkan" ;
+    ex:isiAksaraJawa "ꦥꦼꦩꦤ꧀ꦥꦠꦶꦠꦤ ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦫꦩꦃ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦲꦸꦱ ꦢꦶꦲꦺꦴꦥ꧀ꦠꦶꦏꦭꦤ" ;
+    ex:arti "Pemanfaatan teknologi ramah lingkungan harus dioptimalkan" .
+
+ex:Kata_25_0 a ex:Kata ;
+    ex:latin "Pemanfaatan" ;
+    ex:aksaraJawa "ꦥꦼꦩꦤ꧀ꦥꦠꦶꦠꦤ" ;
+    ex:arti "Pemanfaatan" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_1 a ex:Kata ;
+    ex:latin "teknologi" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
+    ex:arti "teknologi" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_2 a ex:Kata ;
+    ex:latin "ramah" ;
+    ex:aksaraJawa "ꦫꦩꦃ" ;
+    ex:arti "ramah" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_3 a ex:Kata ;
+    ex:latin "lingkungan" ;
+    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
+    ex:arti "lingkungan" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_4 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_5 a ex:Kata ;
+    ex:latin "dioptimalkan" ;
+    ex:aksaraJawa "ꦢꦶꦲꦺꦴꦥ꧀ꦠꦶꦏꦭꦤ" ;
+    ex:arti "dioptimalkan" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+# Paragraf 26
+ex:Paragraf_26 a ex:Paragraf ;
+    ex:isiLatin "Kearifan lokal harus dilestarikan dan dijaga" ;
+    ex:isiAksaraJawa "ꦏꦺꦫꦶꦥꦤ ꦭꦺꦴꦏꦭ ꦲꦲꦸꦱ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦢꦤ ꦢꦶꦗꦒ" ;
+    ex:arti "Kearifan lokal harus dilestarikan dan dijaga" .
+
+ex:Kata_26_0 a ex:Kata ;
+    ex:latin "Kearifan" ;
+    ex:aksaraJawa "ꦏꦺꦫꦶꦥꦤ" ;
+    ex:arti "Kearifan" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_1 a ex:Kata ;
+    ex:latin "lokal" ;
+    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
+    ex:arti "lokal" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_2 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_3 a ex:Kata ;
+    ex:latin "dilestarikan" ;
+    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
+    ex:arti "dilestarikan" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_4 a ex:Kata ;
+    ex:latin "dan" ;
+    ex:aksaraJawa "ꦢꦤ" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_5 a ex:Kata ;
+    ex:latin "dijaga" ;
+    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
+    ex:arti "dijaga" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+# Paragraf 27
+ex:Paragraf_27 a ex:Paragraf ;
+    ex:isiLatin "Nilai budaya diwariskan dari generasi ke generasi" ;
+    ex:isiAksaraJawa "ꦤꦶꦭꦶ ꦧꦸꦛꦸꦭꦪ ꦢꦶꦮꦫꦶꦱꦏꦤ ꦢꦿꦶꦥꦸꦤ ꦒꦼꦤꦼꦫꦱꦶ ꦏ ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "Nilai budaya diwariskan dari generasi ke generasi" .
+
+ex:Kata_27_0 a ex:Kata ;
+    ex:latin "Nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "Nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_2 a ex:Kata ;
+    ex:latin "diwariskan" ;
+    ex:aksaraJawa "ꦢꦶꦮꦫꦶꦱꦏꦤ" ;
+    ex:arti "diwariskan" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_3 a ex:Kata ;
+    ex:latin "dari" ;
+    ex:aksaraJawa "ꦢꦿꦶꦥꦸꦤ" ;
+    ex:arti "dari" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_4 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_5 a ex:Kata ;
+    ex:latin "ke" ;
+    ex:aksaraJawa "ꦏ" ;
+    ex:arti "ke" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_6 a ex:Kata ;
+    ex:latin "generasi" ;
+    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
+    ex:arti "generasi" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+# Paragraf 28
+ex:Paragraf_28 a ex:Paragraf ;
+    ex:isiLatin "Kearifan lokal menjadi pedoman hidup" ;
+    ex:isiAksaraJawa "ꦏꦺꦫꦶꦥꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦢꦺꦴꦩꦤ ꦲꦶꦧꦸꦥ" ;
+    ex:arti "Kearifan lokal menjadi pedoman hidup" .
+
+ex:Kata_28_0 a ex:Kata ;
+    ex:latin "Kearifan" ;
+    ex:aksaraJawa "ꦏꦺꦫꦶꦥꦤ" ;
+    ex:arti "Kearifan" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_1 a ex:Kata ;
+    ex:latin "lokal" ;
+    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
+    ex:arti "lokal" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_2 a ex:Kata ;
+    ex:latin "menjadi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_3 a ex:Kata ;
+    ex:latin "pedoman" ;
+    ex:aksaraJawa "ꦥꦼꦢꦺꦴꦩꦤ" ;
+    ex:arti "pedoman" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_4 a ex:Kata ;
+    ex:latin "hidup" ;
+    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
+    ex:arti "hidup" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+# Paragraf 29
+ex:Paragraf_29 a ex:Paragraf ;
+    ex:isiLatin "Pelestarian budaya memperkuat identitas bangsa" ;
+    ex:isiAksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦥꦼꦂꦏꦸꦠꦂ ꦲꦶꦢꦺꦤꦠꦶꦱ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Pelestarian budaya memperkuat identitas bangsa" .
+
+ex:Kata_29_0 a ex:Kata ;
+    ex:latin "Pelestarian" ;
+    ex:aksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
+    ex:arti "Pelestarian" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_2 a ex:Kata ;
+    ex:latin "memperkuat" ;
+    ex:aksaraJawa "ꦩꦼꦥꦼꦂꦏꦸꦠꦂ" ;
+    ex:arti "memperkuat" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_3 a ex:Kata ;
+    ex:latin "identitas" ;
+    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦠꦶꦱ" ;
+    ex:arti "identitas" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_4 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+# Paragraf 30
+ex:Paragraf_30 a ex:Paragraf ;
+    ex:isiLatin "Pelestarian lingkungan adalah tanggung jawab bersama" ;
+    ex:isiAksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦠꦁꦒꦸꦁ ꦫꦪꦧ ꦧꦼꦂꦱ" ;
+    ex:arti "Pelestarian lingkungan adalah tanggung jawab bersama" .
+
+ex:Kata_30_0 a ex:Kata ;
+    ex:latin "Pelestarian" ;
+    ex:aksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
+    ex:arti "Pelestarian" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_1 a ex:Kata ;
+    ex:latin "lingkungan" ;
+    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
+    ex:arti "lingkungan" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_2 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_3 a ex:Kata ;
+    ex:latin "tanggung" ;
+    ex:aksaraJawa "ꦠꦁꦒꦸꦁ" ;
+    ex:arti "tanggung" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_4 a ex:Kata ;
+    ex:latin "jawab" ;
+    ex:aksaraJawa "ꦫꦪꦧ" ;
+    ex:arti "jawab" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_5 a ex:Kata ;
+    ex:latin "bersama" ;
+    ex:aksaraJawa "ꦧꦼꦂꦱ" ;
+    ex:arti "bersama" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+# Paragraf 31
+ex:Paragraf_31 a ex:Paragraf ;
+    ex:isiLatin "Pendidikan adalah kunci kemajuan bangsa" ;
+    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦏꦸꦏꦶ ꦏꦼꦩꦲꦸꦁ ꦧꦔ꧀ꦱ" ;
+    ex:arti "Pendidikan adalah kunci kemajuan bangsa" .
+
+ex:Kata_31_0 a ex:Kata ;
+    ex:latin "Pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
+    ex:arti "Pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_1 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_2 a ex:Kata ;
+    ex:latin "kunci" ;
+    ex:aksaraJawa "ꦏꦸꦏꦶ" ;
+    ex:arti "kunci" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_3 a ex:Kata ;
+    ex:latin "kemajuan" ;
+    ex:aksaraJawa "ꦏꦼꦩꦲꦸꦁ" ;
+    ex:arti "kemajuan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_4 a ex:Kata ;
+    ex:latin "bangsa" ;
+    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
+    ex:arti "bangsa" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+# Paragraf 32
+ex:Paragraf_32 a ex:Paragraf ;
+    ex:isiLatin "Teknologi berkembang pesat di era digital" ;
+    ex:isiAksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦧꦼꦂꦏꦭꦁꦒ ꦥꦺꦱꦠ ꦢꦶ ꦲꦺꦫ ꦢꦶꦒꦶꦠꦭ꧀" ;
+    ex:arti "Teknologi berkembang pesat di era digital" .
+
+ex:Kata_32_0 a ex:Kata ;
+    ex:latin "Teknologi" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
+    ex:arti "Teknologi" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_1 a ex:Kata ;
+    ex:latin "berkembang" ;
+    ex:aksaraJawa "ꦧꦼꦂꦏꦭꦁꦒ" ;
+    ex:arti "berkembang" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_2 a ex:Kata ;
+    ex:latin "pesat" ;
+    ex:aksaraJawa "ꦥꦺꦱꦠ" ;
+    ex:arti "pesat" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_3 a ex:Kata ;
+    ex:latin "di" ;
+    ex:aksaraJawa "ꦢꦶ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_4 a ex:Kata ;
+    ex:latin "era" ;
+    ex:aksaraJawa "ꦲꦺꦫ" ;
+    ex:arti "era" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_5 a ex:Kata ;
+    ex:latin "digital" ;
+    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ꧀" ;
+    ex:arti "digital" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+# Paragraf 33
+ex:Paragraf_33 a ex:Paragraf ;
+    ex:isiLatin "Kesehatan mental perlu mendapat perhatian serius" ;
+    ex:isiAksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ ꦩꦼꦤ꧀ꦠꦭ ꦥꦼꦭꦸ ꦩꦼꦤ꧀ꦒꦢꦠ꧀ ꦥꦠꦸꦫꦤ ꦱꦺꦫꦶꦱ" ;
+    ex:arti "Kesehatan mental perlu mendapat perhatian serius" .
+
+ex:Kata_33_0 a ex:Kata ;
+    ex:latin "Kesehatan" ;
+    ex:aksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ" ;
+    ex:arti "Kesehatan" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_1 a ex:Kata ;
+    ex:latin "mental" ;
+    ex:aksaraJawa "ꦩꦼꦤ꧀ꦠꦭ" ;
+    ex:arti "mental" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_2 a ex:Kata ;
+    ex:latin "perlu" ;
+    ex:aksaraJawa "ꦥꦼꦭꦸ" ;
+    ex:arti "perlu" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_3 a ex:Kata ;
+    ex:latin "mendapat" ;
+    ex:aksaraJawa "ꦩꦼꦤ꧀ꦒꦢꦠ꧀" ;
+    ex:arti "mendapat" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_4 a ex:Kata ;
+    ex:latin "perhatian" ;
+    ex:aksaraJawa "ꦥꦠꦸꦫꦤ" ;
+    ex:arti "perhatian" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_5 a ex:Kata ;
+    ex:latin "serius" ;
+    ex:aksaraJawa "ꦱꦺꦫꦶꦱ" ;
+    ex:arti "serius" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+# Paragraf 34
+ex:Paragraf_34 a ex:Paragraf ;
+    ex:isiLatin "Ekonomi digital semakin berkembang pesat" ;
+    ex:isiAksaraJawa "ꦲꦺꦏꦺꦴꦤꦺꦩꦶ ꦢꦶꦒꦶꦠꦭ ꦱꦼꦩꦶꦏꦤ ꦧꦼꦂꦏꦭꦁꦒ ꦥꦺꦱꦠ" ;
+    ex:arti "Ekonomi digital semakin berkembang pesat" .
+
+ex:Kata_34_0 a ex:Kata ;
+    ex:latin "Ekonomi" ;
+    ex:aksaraJawa "ꦲꦺꦏꦺꦴꦤꦺꦩꦶ" ;
+    ex:arti "Ekonomi" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_1 a ex:Kata ;
+    ex:latin "digital" ;
+    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ" ;
+    ex:arti "digital" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_2 a ex:Kata ;
+    ex:latin "semakin" ;
+    ex:aksaraJawa "ꦱꦼꦩꦶꦏꦤ" ;
+    ex:arti "semakin" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_3 a ex:Kata ;
+    ex:latin "berkembang" ;
+    ex:aksaraJawa "ꦧꦼꦂꦏꦭꦁꦒ" ;
+    ex:arti "berkembang" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_4 a ex:Kata ;
+    ex:latin "pesat" ;
+    ex:aksaraJawa "ꦥꦺꦱꦠ" ;
+    ex:arti "pesat" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+# Paragraf 35
+ex:Paragraf_35 a ex:Paragraf ;
+    ex:isiLatin "Seni budaya memperkaya kehidupan manusia" ;
+    ex:isiAksaraJawa "ꦱꦼꦤꦶ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦥꦼꦂꦏꦾ ꦭꦶꦧꦸꦩꦤ ꦩꦤꦸꦱ" ;
+    ex:arti "Seni budaya memperkaya kehidupan manusia" .
+
+ex:Kata_35_0 a ex:Kata ;
+    ex:latin "Seni" ;
+    ex:aksaraJawa "ꦱꦼꦤꦶ" ;
+    ex:arti "Seni" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_2 a ex:Kata ;
+    ex:latin "memperkaya" ;
+    ex:aksaraJawa "ꦩꦼꦥꦼꦂꦏꦾ" ;
+    ex:arti "memperkaya" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_3 a ex:Kata ;
+    ex:latin "kehidupan" ;
+    ex:aksaraJawa "ꦭꦶꦧꦸꦩꦤ" ;
+    ex:arti "kehidupan" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_4 a ex:Kata ;
+    ex:latin "manusia" ;
+    ex:aksaraJawa "ꦩꦤꦸꦱ" ;
+    ex:arti "manusia" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+# Paragraf 36
+ex:Paragraf_36 a ex:Paragraf ;
+    ex:isiLatin "Olahraga penting untuk kesehatan tubuh" ;
+    ex:isiAksaraJawa "ꦎꦭꦿꦲꦸꦒ ꦥꦼꦤꦠꦶꦁ ꦲꦸꦤꦠꦸꦏ ꦏꦼꦱꦺꦲꦠꦤ ꦠꦸꦧꦸꦃ" ;
+    ex:arti "Olahraga penting untuk kesehatan tubuh" .
+
+ex:Kata_36_0 a ex:Kata ;
+    ex:latin "Olahraga" ;
+    ex:aksaraJawa "ꦎꦭꦿꦲꦸꦒ" ;
+    ex:arti "Olahraga" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_1 a ex:Kata ;
+    ex:latin "penting" ;
+    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
+    ex:arti "penting" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_2 a ex:Kata ;
+    ex:latin "untuk" ;
+    ex:aksaraJawa "ꦲꦸꦤꦠꦸꦏ" ;
+    ex:arti "untuk" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_3 a ex:Kata ;
+    ex:latin "kesehatan" ;
+    ex:aksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ" ;
+    ex:arti "kesehatan" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_4 a ex:Kata ;
+    ex:latin "tubuh" ;
+    ex:aksaraJawa "ꦠꦸꦧꦸꦃ" ;
+    ex:arti "tubuh" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+# Paragraf 37
+ex:Paragraf_37 a ex:Paragraf ;
+    ex:isiLatin "Sumber daya alam harus dilestarikan" ;
+    ex:isiAksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ ꦲꦲꦸꦱ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
+    ex:arti "Sumber daya alam harus dilestarikan" .
+
+ex:Kata_37_0 a ex:Kata ;
+    ex:latin "Sumber" ;
+    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
+    ex:arti "Sumber" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_1 a ex:Kata ;
+    ex:latin "daya" ;
+    ex:aksaraJawa "ꦢꦪ" ;
+    ex:arti "daya" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_2 a ex:Kata ;
+    ex:latin "alam" ;
+    ex:aksaraJawa "ꦲꦭꦩ" ;
+    ex:arti "alam" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_3 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_4 a ex:Kata ;
+    ex:latin "dilestarikan" ;
+    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
+    ex:arti "dilestarikan" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+# Paragraf 38
+ex:Paragraf_38 a ex:Paragraf ;
+    ex:isiLatin "Hutan adalah paru-paru dunia" ;
+    ex:isiAksaraJawa "ꦲꦸꦠꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦥꦫꦸ-ꦥꦫꦸ ꦢꦸꦤꦶꦪ" ;
+    ex:arti "Hutan adalah paru-paru dunia" .
+
+ex:Kata_38_0 a ex:Kata ;
+    ex:latin "Hutan" ;
+    ex:aksaraJawa "ꦲꦸꦠꦤ" ;
+    ex:arti "Hutan" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_1 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_2 a ex:Kata ;
+    ex:latin "paru-paru" ;
+    ex:aksaraJawa "ꦥꦫꦸ-ꦥꦫꦸ" ;
+    ex:arti "paru-paru" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_3 a ex:Kata ;
+    ex:latin "dunia" ;
+    ex:aksaraJawa "ꦢꦸꦤꦶꦪ" ;
+    ex:arti "dunia" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+# Paragraf 39
+ex:Paragraf_39 a ex:Paragraf ;
+    ex:isiLatin "Energi terbarukan adalah masa depan" ;
+    ex:isiAksaraJawa "ꦲꦼꦤꦼꦫꦗꦶ ꦠꦼꦂꦧꦫꦸꦤꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦩꦱ ꦢꦺꦥꦤ" ;
+    ex:arti "Energi terbarukan adalah masa depan" .
+
+ex:Kata_39_0 a ex:Kata ;
+    ex:latin "Energi" ;
+    ex:aksaraJawa "ꦲꦼꦤꦼꦫꦗꦶ" ;
+    ex:arti "Energi" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_1 a ex:Kata ;
+    ex:latin "terbarukan" ;
+    ex:aksaraJawa "ꦠꦼꦂꦧꦫꦸꦤꦤ" ;
+    ex:arti "terbarukan" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_2 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_3 a ex:Kata ;
+    ex:latin "masa" ;
+    ex:aksaraJawa "ꦩꦱ" ;
+    ex:arti "masa" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_4 a ex:Kata ;
+    ex:latin "depan" ;
+    ex:aksaraJawa "ꦢꦺꦥꦤ" ;
+    ex:arti "depan" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+# Paragraf 40
+ex:Paragraf_40 a ex:Paragraf ;
+    ex:isiLatin "Inovasi mendorong kemajuan teknologi" ;
+    ex:isiAksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ ꦩꦢꦺꦴꦫꦸꦁ ꦏꦼꦩꦲꦸꦁ ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
+    ex:arti "Inovasi mendorong kemajuan teknologi" .
+
+ex:Kata_40_0 a ex:Kata ;
+    ex:latin "Inovasi" ;
+    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
+    ex:arti "Inovasi" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_1 a ex:Kata ;
+    ex:latin "mendorong" ;
+    ex:aksaraJawa "ꦩꦢꦺꦴꦫꦸꦁ" ;
+    ex:arti "mendorong" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_2 a ex:Kata ;
+    ex:latin "kemajuan" ;
+    ex:aksaraJawa "ꦏꦼꦩꦲꦸꦁ" ;
+    ex:arti "kemajuan" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_3 a ex:Kata ;
+    ex:latin "teknologi" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
+    ex:arti "teknologi" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+# Paragraf 41
+ex:Paragraf_41 a ex:Paragraf ;
+    ex:isiLatin "Literasi digital penting di era modern" ;
+    ex:isiAksaraJawa "ꦭꦶꦠꦺꦫꦶꦱꦶ ꦢꦶꦒꦶꦠꦭ ꦥꦼꦤꦠꦶꦁ ꦢꦶ ꦲꦺꦫ ꦩꦺꦴꦢꦼꦤ" ;
+    ex:arti "Literasi digital penting di era modern" .
+
+ex:Kata_41_0 a ex:Kata ;
+    ex:latin "Literasi" ;
+    ex:aksaraJawa "ꦭꦶꦠꦺꦫꦶꦱꦶ" ;
+    ex:arti "Literasi" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_1 a ex:Kata ;
+    ex:latin "digital" ;
+    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ" ;
+    ex:arti "digital" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_2 a ex:Kata ;
+    ex:latin "penting" ;
+    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
+    ex:arti "penting" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_3 a ex:Kata ;
+    ex:latin "di" ;
+    ex:aksaraJawa "ꦢꦶ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_4 a ex:Kata ;
+    ex:latin "era" ;
+    ex:aksaraJawa "ꦲꦺꦫ" ;
+    ex:arti "era" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_5 a ex:Kata ;
+    ex:latin "modern" ;
+    ex:aksaraJawa "ꦩꦺꦴꦢꦼꦤ" ;
+    ex:arti "modern" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+# Paragraf 42
+ex:Paragraf_42 a ex:Paragraf ;
+    ex:isiLatin "Wisata budaya mengenalkan sejarah lokal" ;
+    ex:isiAksaraJawa "ꦮꦶꦱꦠ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦔꦼꦤ꧀ꦭꦤ꧀ꦏꦤ ꦱꦺꦗꦫꦃ ꦭꦺꦴꦏꦭ꧀" ;
+    ex:arti "Wisata budaya mengenalkan sejarah lokal" .
+
+ex:Kata_42_0 a ex:Kata ;
+    ex:latin "Wisata" ;
+    ex:aksaraJawa "ꦮꦶꦱꦠ" ;
+    ex:arti "Wisata" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_1 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_2 a ex:Kata ;
+    ex:latin "mengenalkan" ;
+    ex:aksaraJawa "ꦩꦼꦔꦼꦤ꧀ꦭꦤ꧀ꦏꦤ" ;
+    ex:arti "mengenalkan" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_3 a ex:Kata ;
+    ex:latin "sejarah" ;
+    ex:aksaraJawa "ꦱꦺꦗꦫꦃ" ;
+    ex:arti "sejarah" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_4 a ex:Kata ;
+    ex:latin "lokal" ;
+    ex:aksaraJawa "ꦭꦺꦴꦏꦭ꧀" ;
+    ex:arti "lokal" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+# Paragraf 43
+ex:Paragraf_43 a ex:Paragraf ;
+    ex:isiLatin "Kreativitas diperlukan untuk inovasi" ;
+    ex:isiAksaraJawa "ꦏꦿꦺꦲꦠꦶꦮꦶꦠꦱ ꦢꦼꦥꦶꦭꦼꦤ ꦲꦸꦤꦠꦸꦏ ꦆꦤꦺꦴꦮꦱꦶ" ;
+    ex:arti "Kreativitas diperlukan untuk inovasi" .
+
+ex:Kata_43_0 a ex:Kata ;
+    ex:latin "Kreativitas" ;
+    ex:aksaraJawa "ꦏꦿꦺꦲꦠꦶꦮꦶꦠꦱ" ;
+    ex:arti "Kreativitas" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_1 a ex:Kata ;
+    ex:latin "diperlukan" ;
+    ex:aksaraJawa "ꦢꦼꦥꦶꦭꦼꦤ" ;
+    ex:arti "diperlukan" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_2 a ex:Kata ;
+    ex:latin "untuk" ;
+    ex:aksaraJawa "ꦲꦸꦤꦠꦸꦏ" ;
+    ex:arti "untuk" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_3 a ex:Kata ;
+    ex:latin "inovasi" ;
+    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
+    ex:arti "inovasi" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+# Paragraf 44
+ex:Paragraf_44 a ex:Paragraf ;
+    ex:isiLatin "Musik tradisional kaya nilai budaya" ;
+    ex:isiAksaraJawa "ꦩꦸꦱꦶꦏ꧀ ꦠꦿꦢꦶꦱꦶꦪꦭꦤ ꦏꦪ ꦤꦶꦭꦶ ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "Musik tradisional kaya nilai budaya" .
+
+ex:Kata_44_0 a ex:Kata ;
+    ex:latin "Musik" ;
+    ex:aksaraJawa "ꦩꦸꦱꦶꦏ꧀" ;
+    ex:arti "Musik" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_1 a ex:Kata ;
+    ex:latin "tradisional" ;
+    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶꦪꦭꦤ" ;
+    ex:arti "tradisional" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_2 a ex:Kata ;
+    ex:latin "kaya" ;
+    ex:aksaraJawa "ꦏꦪ" ;
+    ex:arti "kaya" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_3 a ex:Kata ;
+    ex:latin "nilai" ;
+    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
+    ex:arti "nilai" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_4 a ex:Kata ;
+    ex:latin "budaya" ;
+    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
+    ex:arti "budaya" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+# Paragraf 45
+ex:Paragraf_45 a ex:Paragraf ;
+    ex:isiLatin "Teknik pertanian berkontribusi pada pangan" ;
+    ex:isiAksaraJawa "ꦠꦼꦏꦶꦏ꧀ ꦥꦼꦂꦠꦶꦔꦤ ꦧꦼꦂꦏꦸꦤ꧀ꦠꦿꦶꦧꦸꦱꦶ ꦥꦢ ꦥꦁꦒꦤ" ;
+    ex:arti "Teknik pertanian berkontribusi pada pangan" .
+
+ex:Kata_45_0 a ex:Kata ;
+    ex:latin "Teknik" ;
+    ex:aksaraJawa "ꦠꦼꦏꦶꦏ꧀" ;
+    ex:arti "Teknik" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_1 a ex:Kata ;
+    ex:latin "pertanian" ;
+    ex:aksaraJawa "ꦥꦼꦂꦠꦶꦔꦤ" ;
+    ex:arti "pertanian" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_2 a ex:Kata ;
+    ex:latin "berkontribusi" ;
+    ex:aksaraJawa "ꦧꦼꦂꦏꦸꦤ꧀ꦠꦿꦶꦧꦸꦱꦶ" ;
+    ex:arti "berkontribusi" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_3 a ex:Kata ;
+    ex:latin "pada" ;
+    ex:aksaraJawa "ꦥꦢ" ;
+    ex:arti "pada" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_4 a ex:Kata ;
+    ex:latin "pangan" ;
+    ex:aksaraJawa "ꦥꦁꦒꦤ" ;
+    ex:arti "pangan" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+# Paragraf 46
+ex:Paragraf_46 a ex:Paragraf ;
+    ex:isiLatin "Sistem pendidikan harus adaptif" ;
+    ex:isiAksaraJawa "ꦱꦶꦱ꧀ꦠꦺꦩ꧀ ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦲꦲꦸꦱ ꦲꦢꦥ꧀ꦠꦶꦥ꧀" ;
+    ex:arti "Sistem pendidikan harus adaptif" .
+
+ex:Kata_46_0 a ex:Kata ;
+    ex:latin "Sistem" ;
+    ex:aksaraJawa "ꦱꦶꦱ꧀ꦠꦺꦩ꧀" ;
+    ex:arti "Sistem" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_1 a ex:Kata ;
+    ex:latin "pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
+    ex:arti "pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_2 a ex:Kata ;
+    ex:latin "harus" ;
+    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_3 a ex:Kata ;
+    ex:latin "adaptif" ;
+    ex:aksaraJawa "ꦲꦢꦥ꧀ꦠꦶꦥ꧀" ;
+    ex:arti "adaptif" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+# Paragraf 47
+ex:Paragraf_47 a ex:Paragraf ;
+    ex:isiLatin "Pendidikan karakter membentuk kepribadian" ;
+    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦏꦂꦠꦼꦏꦼꦂ ꦩꦼꦧꦠꦺꦴꦁ ꦏꦼꦥꦿꦶꦧꦶꦪꦤ" ;
+    ex:arti "Pendidikan karakter membentuk kepribadian" .
+
+ex:Kata_47_0 a ex:Kata ;
+    ex:latin "Pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
+    ex:arti "Pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_1 a ex:Kata ;
+    ex:latin "karakter" ;
+    ex:aksaraJawa "ꦏꦂꦠꦼꦏꦼꦂ" ;
+    ex:arti "karakter" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_2 a ex:Kata ;
+    ex:latin "membentuk" ;
+    ex:aksaraJawa "ꦩꦼꦧꦠꦺꦴꦁ" ;
+    ex:arti "membentuk" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_3 a ex:Kata ;
+    ex:latin "kepribadian" ;
+    ex:aksaraJawa "ꦏꦼꦥꦿꦶꦧꦶꦪꦤ" ;
+    ex:arti "kepribadian" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+# Paragraf 48
+ex:Paragraf_48 a ex:Paragraf ;
+    ex:isiLatin "Teknologi informasi mempercepat komunikasi" ;
+    ex:isiAksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦲꦶꦤ꧀ꦥꦿꦩꦼꦂꦕꦼꦥꦠ꧀ ꦏꦺꦴꦩꦸꦤꦶꦏasi" ;
+    ex:arti "Teknologi informasi mempercepat komunikasi" .
+
+ex:Kata_48_0 a ex:Kata ;
+    ex:latin "Teknologi" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
+    ex:arti "Teknologi" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_1 a ex:Kata ;
+    ex:latin "informasi" ;
+    ex:aksaraJawa "ꦲꦶꦤ꧀ꦥꦿꦩꦼꦂꦕꦼꦥꦠ꧀" ;
+    ex:arti "informasi" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_2 a ex:Kata ;
+    ex:latin "mempercepat" ;
+    ex:aksaraJawa "ꦏꦺꦴꦩꦸꦤꦶꦏasi" ;  # maaf ada typo, ini harusnya "ꦩꦼꦥꦼꦂꦕꦼꦥꦠ꧀"
+    ex:arti "mempercepat" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_3 a ex:Kata ;
+    ex:latin "komunikasi" ;
+    ex:aksaraJawa "ꦏꦺꦴꦩꦸꦤꦶꦏꦱꦶ" ;
+    ex:arti "komunikasi" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+# Paragraf 49
+ex:Paragraf_49 a ex:Paragraf ;
+    ex:isiLatin "Olahraga menjaga kesehatan tubuh" ;
+    ex:isiAksaraJawa "ꦎꦭꦺꦴꦫꦠꦱ ꦩꦗꦔ ꦏꦺꦴꦭꦺꦴꦠꦤ ꦠꦸꦧꦸꦃ" ;
+    ex:arti "Olahraga menjaga kesehatan tubuh" .
+
+ex:Kata_49_0 a ex:Kata ;
+    ex:latin "Olahraga" ;
+    ex:aksaraJawa "ꦎꦭꦺꦴꦫꦠꦱ" ;
+    ex:arti "Olahraga" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_1 a ex:Kata ;
+    ex:latin "menjaga" ;
+    ex:aksaraJawa "ꦩꦗꦔ" ;
+    ex:arti "menjaga" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_2 a ex:Kata ;
+    ex:latin "kesehatan" ;
+    ex:aksaraJawa "ꦏꦺꦴꦭꦺꦴꦠꦤ" ;
+    ex:arti "kesehatan" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_3 a ex:Kata ;
+    ex:latin "tubuh" ;
+    ex:aksaraJawa "ꦠꦸꦧꦸꦃ" ;
+    ex:arti "tubuh" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+# Paragraf 50
+ex:Paragraf_50 a ex:Paragraf ;
+    ex:isiLatin "Pendidikan inklusif mendukung keberagaman" ;
+    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦆꦤ꧀ꦏ꧀ꦭꦸꦱꦶꦥ꧀ ꦩꦼꦤ꧀ꦢꦸꦔꦸꦁ ꦏꦼꦧꦫꦒꦮꦤ꧀" ;
+    ex:arti "Pendidikan inklusif mendukung keberagaman" .
+
+ex:Kata_50_0 a ex:Kata ;
+    ex:latin "Pendidikan" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
+    ex:arti "Pendidikan" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_1 a ex:Kata ;
+    ex:latin "inklusif" ;
+    ex:aksaraJawa "ꦆꦤ꧀ꦏ꧀ꦭꦸꦱꦶꦥ꧀" ;
+    ex:arti "inklusif" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_2 a ex:Kata ;
+    ex:latin "mendukung" ;
+    ex:aksaraJawa "ꦩꦼꦤ꧀ꦢꦸꦔꦸꦁ" ;
+    ex:arti "mendukung" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_3 a ex:Kata ;
+    ex:latin "keberagaman" ;
+    ex:aksaraJawa "ꦏꦼꦧꦫꦒꦮꦤ꧀" ;
+    ex:arti "keberagaman" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+# Paragraf 51
+ex:Paragraf_51 a ex:Paragraf ;
+    ex:isiLatin "Maju terus tanpa mandeg" ;
+    ex:isiAksaraJawa "ꦩꦗꦸ ꦠꦼꦫꦸꦱ ꦠꦤ꧀ꦥ ꦩꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "Terus maju tanpa berhenti" .
+
+ex:Kata_51_0 a ex:Kata ;
+    ex:latin "Maju" ;
+    ex:aksaraJawa "ꦩꦗꦸ" ;
+    ex:arti "Maju" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_1 a ex:Kata ;
+    ex:latin "terus" ;
+    ex:aksaraJawa "ꦠꦼꦫꦸꦱ" ;
+    ex:arti "terus" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_2 a ex:Kata ;
+    ex:latin "tanpa" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
+    ex:arti "tanpa" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_3 a ex:Kata ;
+    ex:latin "mandeg" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "berhenti" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+# Paragraf 52
+ex:Paragraf_52 a ex:Paragraf ;
+    ex:isiLatin "Belajar tanpa rasa takut gagal" ;
+    ex:isiAksaraJawa "ꦧꦼꦭꦗꦂ ꦠꦤ꧀ꦥ ꦫꦱ ꦠꦏꦸꦠ꧀ ꦒꦭꦃ" ;
+    ex:arti "Belajar tanpa rasa takut gagal" .
+
+ex:Kata_52_0 a ex:Kata ;
+    ex:latin "Belajar" ;
+    ex:aksaraJawa "ꦧꦼꦭꦗꦂ" ;
+    ex:arti "Belajar" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_1 a ex:Kata ;
+    ex:latin "tanpa" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
+    ex:arti "tanpa" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_2 a ex:Kata ;
+    ex:latin "rasa" ;
+    ex:aksaraJawa "ꦫꦱ" ;
+    ex:arti "rasa" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_3 a ex:Kata ;
+    ex:latin "takut" ;
+    ex:aksaraJawa "ꦠꦏꦸꦠ꧀" ;
+    ex:arti "takut" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_4 a ex:Kata ;
+    ex:latin "gagal" ;
+    ex:aksaraJawa "ꦒꦭꦃ" ;
+    ex:arti "gagal" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+# Paragraf 53
+ex:Paragraf_53 a ex:Paragraf ;
+    ex:isiLatin "Inovasi adalah kunci kemajuan" ;
+    ex:isiAksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ ꦲꦭꦱ ꦏꦸꦏꦶ ꦏꦼꦩꦗꦸꦁ" ;
+    ex:arti "Inovasi adalah kunci kemajuan" .
+
+ex:Kata_53_0 a ex:Kata ;
+    ex:latin "Inovasi" ;
+    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
+    ex:arti "Inovasi" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+ex:Kata_53_1 a ex:Kata ;
+    ex:latin "adalah" ;
+    ex:aksaraJawa "ꦲꦭꦱ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+ex:Kata_53_2 a ex:Kata ;
+    ex:latin "kunci" ;
+    ex:aksaraJawa "ꦏꦸꦏꦶ" ;
+    ex:arti "kunci" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+ex:Kata_53_3 a ex:Kata ;
+    ex:latin "kemajuan" ;
+    ex:aksaraJawa "ꦏꦼꦩꦗꦸꦁ" ;
+    ex:arti "kemajuan" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+# Paragraf 54
+ex:Paragraf_54 a ex:Paragraf ;
+    ex:isiLatin "Kebersamaan membangun harmoni sosial" ;
+    ex:isiAksaraJawa "ꦏꦼꦧꦼꦂꦱꦩꦤ ꦩꦼꦧꦤ꧀ꦒꦸꦤ꧀ ꦲꦫꦩꦺꦴꦤꦶ ꦱꦺꦴꦱꦶꦪꦭ꧀" ;
+    ex:arti "Kebersamaan membangun harmoni sosial" .
+
+ex:Kata_54_0 a ex:Kata ;
+    ex:latin "Kebersamaan" ;
+    ex:aksaraJawa "ꦏꦼꦧꦼꦂꦱꦩꦤ" ;
+    ex:arti "Kebersamaan" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_1 a ex:Kata ;
+    ex:latin "membangun" ;
+    ex:aksaraJawa "ꦩꦼꦧꦤ꧀ꦒꦸꦤ꧀" ;
+    ex:arti "membangun" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_2 a ex:Kata ;
+    ex:latin "harmoni" ;
+    ex:aksaraJawa "ꦲꦫꦩꦺꦴꦤꦶ" ;
+    ex:arti "harmoni" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_3 a ex:Kata ;
+    ex:latin "sosial" ;
+    ex:aksaraJawa "ꦱꦺꦴꦱꦶꦪꦭ꧀" ;
+    ex:arti "sosial" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+# Paragraf 55
+ex:Paragraf_55 a ex:Paragraf ;
+    ex:isiLatin "Pengembangan diri memerlukan disiplin" ;
+    ex:isiAksaraJawa "ꦥꦼꦔꦧꦸꦩꦤ ꦢꦶꦫꦶ ꦩꦼꦤꦺꦴꦭꦸꦂꦏꦤ ꦢꦶꦱꦶꦥ꧀ꦭꦶꦤ꧀" ;
+    ex:arti "Pengembangan diri memerlukan disiplin" .
+
+ex:Kata_55_0 a ex:Kata ;
+    ex:latin "Pengembangan" ;
+    ex:aksaraJawa "ꦥꦼꦔꦧꦸꦩꦤ" ;
+    ex:arti "Pengembangan" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_1 a ex:Kata ;
+    ex:latin "diri" ;
+    ex:aksaraJawa "ꦢꦶꦫꦶ" ;
+    ex:arti "diri" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_2 a ex:Kata ;
+    ex:latin "memerlukan" ;
+    ex:aksaraJawa "ꦩꦼꦤꦺꦴꦭꦸꦂꦏꦤ" ;
+    ex:arti "memerlukan" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_3 a ex:Kata ;
+    ex:latin "disiplin" ;
+    ex:aksaraJawa "ꦢꦶꦱꦶꦥ꧀ꦭꦶꦤ꧀" ;
+    ex:arti "disiplin" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+# Paragraf 56
+ex:Paragraf_56 a ex:Paragraf ;
+    ex:isiLatin "Maju terus tanpa mandeg" ;
+    ex:isiAksaraJawa "ꦩꦗꦸ ꦠꦼꦫꦸꦱ ꦠꦤ꧀ꦥ ꦩꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "Terus maju tanpa berhenti" .
+
+ex:Kata_56_0 a ex:Kata ;
+    ex:latin "Maju" ;
+    ex:aksaraJawa "ꦩꦗꦸ" ;
+    ex:arti "Maju" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_1 a ex:Kata ;
+    ex:latin "terus" ;
+    ex:aksaraJawa "ꦠꦼꦫꦸꦱ" ;
+    ex:arti "terus" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_2 a ex:Kata ;
+    ex:latin "tanpa" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
+    ex:arti "tanpa" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_3 a ex:Kata ;
+    ex:latin "mandeg" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "berhenti" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .

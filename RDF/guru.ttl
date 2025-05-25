@@ -1,0 +1,6789 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix ex: <http://example.org/cerkak/ontologi#>
+
+# Paragraf 1
+ex:Paragraf_1 a ex:Paragraf ;
+    ex:isiLatin "Yèn íng kampúngku ånå jênêng Bu Guru, sing dimaksúd mêsți Bu Warsini garwané Pak Marnó." ;
+    ex:isiAksaraJawa "ꦪꦺꦤ꧀ ꦲꦶꦁ ꦏꦩ꧀ꦥꦸꦔ꧀ꦏꦸ ꦲꦤ ꦗꦼꦤꦼꦁ ꦧꦸ ꦒꦸꦫꦸ, ꦱꦶꦁ ꦢꦶꦩꦏ꧀ꦱꦸꦢ꧀ ꦩꦼꦱ꧀ꦠꦶ ꦧꦸ ꦮꦂꦱꦶꦤꦶ ꦒꦂꦮꦤꦺ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ." ;
+    ex:arti "Jika di kampungku ada nama Bu Guru, yang dimaksud pasti Bu Warsini istrinya Pak Marno." .
+
+ex:Kata_1_0 a ex:Kata ;
+    ex:latin "Yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "Jika" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_1 a ex:Kata ;
+    ex:latin "íng" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_2 a ex:Kata ;
+    ex:latin "kampúngku" ;
+    ex:aksaraJawa "ꦏꦩ꧀ꦥꦸꦔ꧀ꦏꦸ" ;
+    ex:arti "kampungku" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_3 a ex:Kata ;
+    ex:latin "ånå" ;
+    ex:aksaraJawa "ꦲꦤ" ;
+    ex:arti "ada" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_4 a ex:Kata ;
+    ex:latin "jênêng" ;
+    ex:aksaraJawa "ꦗꦼꦤꦼꦁ" ;
+    ex:arti "nama" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_6 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_7 a ex:Kata ;
+    ex:latin "sing" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_8 a ex:Kata ;
+    ex:latin "dimaksúd" ;
+    ex:aksaraJawa "ꦢꦶꦩꦏ꧀ꦱꦸꦢ꧀" ;
+    ex:arti "dimaksud" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_9 a ex:Kata ;
+    ex:latin "mêsți" ;
+    ex:aksaraJawa "ꦩꦼꦱ꧀ꦠꦶ" ;
+    ex:arti "pasti" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_10 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_11 a ex:Kata ;
+    ex:latin "Warsini" ;
+    ex:aksaraJawa "ꦮꦂꦱꦶꦤꦶ" ;
+    ex:arti "Warsini" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_12 a ex:Kata ;
+    ex:latin "garwané" ;
+    ex:aksaraJawa "ꦒꦂꦮꦤꦺ" ;
+    ex:arti "istrinya" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_13 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_14 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+# Paragraf 2
+ex:Paragraf_2 a ex:Paragraf ;
+    ex:isiLatin "Bu Warsini ora dadi guru, nanging dadi bojoné Pak Marnó síng dadi guru SD." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦮꦂꦱꦶꦤꦶ ꦲꦺꦴꦫ ꦢꦢꦶ ꦒꦸꦫꦸ, ꦤꦔꦶꦁ ꦢꦢꦶ ꦧꦺꦴꦗꦺꦴꦤꦺ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦱꦶꦁ ꦢꦢꦶ ꦒꦸꦫꦸ ꦱꦢꦶ." ;
+    ex:arti "Bu Warsini bukan seorang guru, melainkan istri dari Pak Marno yang seorang guru SD." .
+
+ex:Kata_2_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_1 a ex:Kata ;
+    ex:latin "Warsini" ;
+    ex:aksaraJawa "ꦮꦂꦱꦶꦤꦶ" ;
+    ex:arti "Warsini" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_2 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_3 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_4 a ex:Kata ;
+    ex:latin "guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "guru" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_5 a ex:Kata ;
+    ex:latin "nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "tetapi" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_6 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_7 a ex:Kata ;
+    ex:latin "bojoné" ;
+    ex:aksaraJawa "ꦧꦺꦴꦗꦺꦴꦤꦺ" ;
+    ex:arti "istrinya" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_8 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_9 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_10 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_11 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_12 a ex:Kata ;
+    ex:latin "guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "guru" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_13 a ex:Kata ;
+    ex:latin "SD" ;
+    ex:aksaraJawa "ꦱꦢꦶ" ;
+    ex:arti "SD" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+# Paragraf 3
+ex:Paragraf_3 a ex:Paragraf ;
+    ex:isiLatin "Malah Bu Ratmi, Bu Jamilah síng ngastå dadi guru waé ora tau diundang Guru." ;
+    ex:isiAksaraJawa "ꦩꦭꦃ ꦧꦸ ꦫꦠ꧀ꦩꦶ, ꦧꦸ ꦗꦩꦶꦭꦃ ꦱꦶꦁ ꦔꦱ꧀ꦠ ꦢꦢꦶ ꦒꦸꦫꦸ ꦮꦲꦺ ꦲꦺꦴꦫ ꦠꦲꦸ ꦢꦶꦲꦸꦤ꧀ꦢꦁ ꦒꦸꦫꦸ." ;
+    ex:arti "Bahkan Bu Ratmi, Bu Jamilah yang bekerja sebagai guru saja tidak pernah dipanggil Guru." .
+
+ex:Kata_3_0 a ex:Kata ;
+    ex:latin "Malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "Bahkan" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_2 a ex:Kata ;
+    ex:latin "Ratmi" ;
+    ex:aksaraJawa "ꦫꦠ꧀ꦩꦶ" ;
+    ex:arti "Ratmi" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_4 a ex:Kata ;
+    ex:latin "Jamilah" ;
+    ex:aksaraJawa "ꦗꦩꦶꦭꦃ" ;
+    ex:arti "Jamilah" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_5 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_6 a ex:Kata ;
+    ex:latin "ngastå" ;
+    ex:aksaraJawa "ꦔꦱ꧀ꦠ" ;
+    ex:arti "bekerja" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_7 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_8 a ex:Kata ;
+    ex:latin "guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "guru" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_9 a ex:Kata ;
+    ex:latin "waé" ;
+    ex:aksaraJawa "ꦮꦲꦺ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_10 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_11 a ex:Kata ;
+    ex:latin "tau" ;
+    ex:aksaraJawa "ꦠꦲꦸ" ;
+    ex:arti "pernah" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_12 a ex:Kata ;
+    ex:latin "diundang" ;
+    ex:aksaraJawa "ꦢꦶꦲꦸꦤ꧀ꦢꦁ" ;
+    ex:arti "dipanggil" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_13 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+# Paragraf 4
+ex:Paragraf_4 a ex:Paragraf ;
+    ex:isiLatin "Undang-undangané ya múng Bu Ratmi, Bu Jamilah ngono waé. Sêmono uga Bu Tarmi lan Bu Kasmi síng kakungé ugå ngastå dadi Guru, undang-undangané yå ora Bu Guru, nangíng múng Bu Tarmi lan Bu Kasmi ngono waé." ;
+    ex:isiAksaraJawa "ꦲꦸꦤ꧀ꦢꦁ-ꦲꦸꦤ꧀ꦢꦔꦤꦺ ꦪ ꦩꦸꦁ ꦧꦸ ꦫꦠ꧀ꦩꦶ, ꦧꦸ ꦗꦩꦶꦭꦃ ꦔꦺꦴꦤꦺ ꦮꦲꦺ. ꦱꦼꦩꦺꦴꦤꦺ ꦲꦸꦒ ꦧꦸ ꦠꦂꦩꦶ ꦭꦤ꧀ ꦧꦸ ꦏꦱ꧀ꦩꦶ ꦱꦶꦁ ꦏꦏꦸꦔꦺ ꦲꦸꦒ ꦔꦱ꧀ꦠ ꦢꦢꦶ ꦒꦸꦫꦸ, ꦲꦸꦤ꧀ꦢꦁ-ꦲꦸꦤ꧀ꦢꦔꦤꦺ ꦪ ꦲꦺꦴꦫ ꦧꦸ ꦒꦸꦫꦸ, ꦤꦔꦶꦁ ꦩꦸꦁ ꦧꦸ ꦠꦂꦩꦶ ꦭꦤ꧀ ꦧꦸ ꦏꦱ꧀ꦩꦶ ꦔꦺꦴꦤꦺ ꦮꦲꦺ." ;
+    ex:arti "Panggilannya hanya Bu Ratmi, Bu Jamilah begitu saja. Demikian juga Bu Tarmi dan Bu Kasmi yang suaminya juga bekerja sebagai Guru, panggilannya tidak Bu Guru, melainkan hanya Bu Tarmi dan Bu Kasmi begitu saja." .
+
+ex:Kata_4_0 a ex:Kata ;
+    ex:latin "Undang-undangané" ;
+    ex:aksaraJawa "ꦲꦸꦤ꧀ꦢꦁ-ꦲꦸꦤ꧀ꦢꦔꦤꦺ" ;
+    ex:arti "Panggilannya" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_1 a ex:Kata ;
+    ex:latin "ya" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_2 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_4 a ex:Kata ;
+    ex:latin "Ratmi" ;
+    ex:aksaraJawa "ꦫꦠ꧀ꦩꦶ" ;
+    ex:arti "Ratmi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_6 a ex:Kata ;
+    ex:latin "Jamilah" ;
+    ex:aksaraJawa "ꦗꦩꦶꦭꦃ" ;
+    ex:arti "Jamilah" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_7 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_8 a ex:Kata ;
+    ex:latin "waé" ;
+    ex:aksaraJawa "ꦮꦲꦺ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_9 a ex:Kata ;
+    ex:latin "Sêmono" ;
+    ex:aksaraJawa "ꦱꦼꦩꦺꦴꦤꦺ" ;
+    ex:arti "Demikian" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_10 a ex:Kata ;
+    ex:latin "uga" ;
+    ex:aksaraJawa "ꦲꦸꦒ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_11 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_12 a ex:Kata ;
+    ex:latin "Tarmi" ;
+    ex:aksaraJawa "ꦠꦂꦩꦶ" ;
+    ex:arti "Tarmi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_13 a ex:Kata ;
+    ex:latin "lan" ;
+    ex:aksaraJawa "ꦭꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_14 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_15 a ex:Kata ;
+    ex:latin "Kasmi" ;
+    ex:aksaraJawa "ꦏꦱ꧀ꦩꦶ" ;
+    ex:arti "Kasmi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_16 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_17 a ex:Kata ;
+    ex:latin "kakungé" ;
+    ex:aksaraJawa "ꦏꦏꦸꦔꦺ" ;
+    ex:arti "suaminya" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_18 a ex:Kata ;
+    ex:latin "ugå" ;
+    ex:aksaraJawa "ꦲꦸꦒ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_19 a ex:Kata ;
+    ex:latin "ngastå" ;
+    ex:aksaraJawa "ꦔꦱ꧀ꦠ" ;
+    ex:arti "bekerja" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_20 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_21 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_22 a ex:Kata ;
+    ex:latin "undang-undangané" ;
+    ex:aksaraJawa "ꦲꦸꦤ꧀ꦢꦁ-ꦲꦸꦤ꧀ꦢꦔꦤꦺ" ;
+    ex:arti "panggilannya" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_23 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_24 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_25 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_26 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_27 a ex:Kata ;
+    ex:latin "nangíng" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "melainkan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_28 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_29 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_30 a ex:Kata ;
+    ex:latin "Tarmi" ;
+    ex:aksaraJawa "ꦠꦂꦩꦶ" ;
+    ex:arti "Tarmi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_31 a ex:Kata ;
+    ex:latin "lan" ;
+    ex:aksaraJawa "ꦭꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_32 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_33 a ex:Kata ;
+    ex:latin "Kasmi" ;
+    ex:aksaraJawa "ꦏꦱ꧀ꦩꦶ" ;
+    ex:arti "Kasmi" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_34 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_35 a ex:Kata ;
+    ex:latin "waé" ;
+    ex:aksaraJawa "ꦮꦲꦺ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+# Paragraf 5
+ex:Paragraf_5 a ex:Paragraf ;
+    ex:isiLatin "Dadi yèn ảnå wóng ngómóng Bu Guru, sing dikarêpké mêsți Bu Warsini iku." ;
+    ex:isiAksaraJawa "ꦢꦢꦶ ꦪꦺꦤ꧀ ꦲꦤ ꦮꦺꦴꦁ ꦔꦺꦴꦩꦺꦴꦁ ꦧꦸ ꦒꦸꦫꦸ, ꦱꦶꦁ ꦢꦶꦏꦫꦼꦥ꧀ꦏꦺ ꦩꦼꦱ꧀ꦠꦶ ꦧꦸ ꦮꦂꦱꦶꦤꦶ ꦲꦶꦏꦸ." ;
+    ex:arti "Jadi jika ada orang berbicara Bu Guru, yang dimaksud pasti Bu Warsini itu." .
+
+ex:Kata_5_0 a ex:Kata ;
+    ex:latin "Dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "Jadi" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_1 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "jika" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_2 a ex:Kata ;
+    ex:latin "ảnå" ;
+    ex:aksaraJawa "ꦲꦤ" ;
+    ex:arti "ada" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_3 a ex:Kata ;
+    ex:latin "wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "orang" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_4 a ex:Kata ;
+    ex:latin "ngómóng" ;
+    ex:aksaraJawa "ꦔꦺꦴꦩꦺꦴꦁ" ;
+    ex:arti "berbicara" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_6 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_7 a ex:Kata ;
+    ex:latin "sing" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_8 a ex:Kata ;
+    ex:latin "dikarêpké" ;
+    ex:aksaraJawa "ꦢꦶꦏꦫꦼꦥ꧀ꦏꦺ" ;
+    ex:arti "dimaksud" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_9 a ex:Kata ;
+    ex:latin "mêsți" ;
+    ex:aksaraJawa "ꦩꦼꦱ꧀ꦠꦶ" ;
+    ex:arti "pasti" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_10 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_11 a ex:Kata ;
+    ex:latin "Warsini" ;
+    ex:aksaraJawa "ꦮꦂꦱꦶꦤꦶ" ;
+    ex:arti "Warsini" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_12 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+# Paragraf 6
+ex:Paragraf_6 a ex:Paragraf ;
+    ex:isiLatin "Amargå íng kampúngku síng dadi guru disík déwé yå múng Pak Marnó síng saiki wís pènsiún iku." ;
+    ex:isiAksaraJawa "ꦲꦩꦂꦒ ꦲꦶꦁ ꦏꦩ꧀ꦥꦸꦔ꧀ꦏꦸ ꦱꦶꦁ ꦢꦢꦶ ꦒꦸꦫꦸ ꦢꦶꦱꦶꦏ꧀ ꦢꦺꦮꦺ ꦪ ꦩꦸꦁ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦱꦶꦁ ꦱꦲꦶꦏꦶ ꦮꦶꦱ꧀ ꦥꦺꦤ꧀ꦱꦶꦪꦸꦤ꧀ ꦲꦶꦏꦸ." ;
+    ex:arti "Karena di kampungku yang menjadi guru paling dulu adalah Pak Marno yang sekarang sudah pensiun itu." .
+
+ex:Kata_6_0 a ex:Kata ;
+    ex:latin "Amargå" ;
+    ex:aksaraJawa "ꦲꦩꦂꦒ" ;
+    ex:arti "Karena" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_1 a ex:Kata ;
+    ex:latin "íng" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_2 a ex:Kata ;
+    ex:latin "kampúngku" ;
+    ex:aksaraJawa "ꦏꦩ꧀ꦥꦸꦔ꧀ꦏꦸ" ;
+    ex:arti "kampungku" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_3 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_4 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_5 a ex:Kata ;
+    ex:latin "guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "guru" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_6 a ex:Kata ;
+    ex:latin "disík" ;
+    ex:aksaraJawa "ꦢꦶꦱꦶꦏ꧀" ;
+    ex:arti "paling dulu" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_7 a ex:Kata ;
+    ex:latin "déwé" ;
+    ex:aksaraJawa "ꦢꦺꦮꦺ" ;
+    ex:arti "sendiri" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_8 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "adalah" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_9 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_10 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_11 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_12 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_13 a ex:Kata ;
+    ex:latin "saiki" ;
+    ex:aksaraJawa "ꦱꦲꦶꦏꦶ" ;
+    ex:arti "sekarang" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_14 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_15 a ex:Kata ;
+    ex:latin "pènsiún" ;
+    ex:aksaraJawa "ꦥꦺꦤ꧀ꦱꦶꦪꦸꦤ꧀" ;
+    ex:arti "pensiun" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+ex:Kata_6_16 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_6 .
+
+# Paragraf 7
+ex:Paragraf_7 a ex:Paragraf ;
+    ex:isiLatin "Sênajan Pak Marnó wís pènsiún, Bu Warsini isíh têtêp diundang Bu Guru." ;
+    ex:isiAksaraJawa "ꦱꦼꦤꦗꦤ꧀ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦮꦶꦱ꧀ ꦥꦺꦤ꧀ꦱꦶꦪꦸꦤ꧀, ꦧꦸ ꦮꦂꦱꦶꦤꦶ ꦲꦶꦱꦶꦃ ꦠꦼꦠꦼꦥ꧀ ꦢꦶꦲꦸꦤ꧀ꦢꦁ ꦧꦸ ꦒꦸꦫꦸ." ;
+    ex:arti "Meskipun Pak Marno sudah pensiun, Bu Warsini masih tetap dipanggil Bu Guru." .
+
+ex:Kata_7_0 a ex:Kata ;
+    ex:latin "Sênajan" ;
+    ex:aksaraJawa "ꦱꦼꦤꦗꦤ꧀" ;
+    ex:arti "Meskipun" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_1 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_2 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_3 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_4 a ex:Kata ;
+    ex:latin "pènsiún" ;
+    ex:aksaraJawa "ꦥꦺꦤ꧀ꦱꦶꦪꦸꦤ꧀" ;
+    ex:arti "pensiun" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_6 a ex:Kata ;
+    ex:latin "Warsini" ;
+    ex:aksaraJawa "ꦮꦂꦱꦶꦤꦶ" ;
+    ex:arti "Warsini" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_7 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_8 a ex:Kata ;
+    ex:latin "têtêp" ;
+    ex:aksaraJawa "ꦠꦼꦠꦼꦥ꧀" ;
+    ex:arti "tetap" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_9 a ex:Kata ;
+    ex:latin "diundang" ;
+    ex:aksaraJawa "ꦢꦶꦲꦸꦤ꧀ꦢꦁ" ;
+    ex:arti "dipanggil" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_10 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+ex:Kata_7_11 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_7 .
+
+# Paragraf 8
+ex:Paragraf_8 a ex:Paragraf ;
+    ex:isiLatin "Njúr åpå critané Bu Guru, yå Bu Warsini iku? Critané Bu Guru iku ora duwé anak lanang." ;
+    ex:isiAksaraJawa "ꦚ꧀ꦗꦸꦂ ꦲꦥ ꦕꦿꦶꦠꦤꦺ ꦧꦸ ꦒꦸꦫꦸ, ꦪ ꦧꦸ ꦮꦂꦱꦶꦤꦶ ꦲꦶꦏꦸ? ꦕꦿꦶꦠꦤꦺ ꦧꦸ ꦒꦸꦫꦸ ꦲꦶꦏꦸ ꦲꦺꦴꦫ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ." ;
+    ex:arti "Lalu apa ceritanya Bu Guru, yaitu Bu Warsini itu? Ceritanya Bu Guru itu tidak memiliki anak laki-laki." .
+
+ex:Kata_8_0 a ex:Kata ;
+    ex:latin "Njúr" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦸꦂ" ;
+    ex:arti "Lalu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_1 a ex:Kata ;
+    ex:latin "åpå" ;
+    ex:aksaraJawa "ꦲꦥ" ;
+    ex:arti "apa" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_2 a ex:Kata ;
+    ex:latin "crité" ;
+    ex:aksaraJawa "ꦕꦿꦶꦠꦤꦺ" ;
+    ex:arti "ceritanya" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_4 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_5 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "yaitu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_6 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_7 a ex:Kata ;
+    ex:latin "Warsini" ;
+    ex:aksaraJawa "ꦮꦂꦱꦶꦤꦶ" ;
+    ex:arti "Warsini" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_8 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_9 a ex:Kata ;
+    ex:latin "Critané" ;
+    ex:aksaraJawa "ꦕꦿꦶꦠꦤꦺ" ;
+    ex:arti "Ceritanya" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_10 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_11 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_12 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_13 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_14 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "memiliki" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_15 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+ex:Kata_8_16 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_8 .
+
+# Paragraf 9
+ex:Paragraf_9 a ex:Paragraf ;
+    ex:isiLatin "Nalika sêmånå, anaké limå wadón kabèh. Mångkå jaman saiki anak limå iku yå wis képétúng akèh." ;
+    ex:isiAksaraJawa "ꦤꦭꦶꦏ ꦱꦼꦩꦤ, ꦲꦤꦏꦺ ꦭꦶꦩ ꦮꦢꦺꦴꦤ꧀ ꦏꦧꦺꦃ. ꦩꦁꦏ ꦗꦩꦤ꧀ ꦱꦲꦶꦏꦶ ꦲꦤꦏ꧀ ꦭꦶꦩ ꦲꦶꦏꦸ ꦪ ꦮꦶꦱ꧀ ꦏꦺꦥꦺꦠꦸꦁ ꦲꦏꦺꦃ." ;
+    ex:arti "Pada waktu itu, anaknya lima perempuan semua. Padahal zaman sekarang anak lima itu sudah terhitung banyak." .
+
+ex:Kata_9_0 a ex:Kata ;
+    ex:latin "Nalika" ;
+    ex:aksaraJawa "ꦤꦭꦶꦏ" ;
+    ex:arti "Pada waktu" ;
+    ex:munculDalamParagraf ex:Paragrah_9 .
+
+ex:Kata_9_1 a ex:Kata ;
+    ex:latin "sêmånå" ;
+    ex:aksaraJawa "ꦱꦼꦩꦤ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_2 a ex:Kata ;
+    ex:latin "anaké" ;
+    ex:aksaraJawa "ꦲꦤꦏꦺ" ;
+    ex:arti "anaknya" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_3 a ex:Kata ;
+    ex:latin "limå" ;
+    ex:aksaraJawa "ꦭꦶꦩ" ;
+    ex:arti "lima" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_4 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_5 a ex:Kata ;
+    ex:latin "kabèh" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_6 a ex:Kata ;
+    ex:latin "Mångkå" ;
+    ex:aksaraJawa "ꦩꦁꦏ" ;
+    ex:arti "Padahal" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_7 a ex:Kata ;
+    ex:latin "jaman" ;
+    ex:aksaraJawa "ꦗꦩꦤ꧀" ;
+    ex:arti "zaman" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_8 a ex:Kata ;
+    ex:latin "saiki" ;
+    ex:aksaraJawa "ꦱꦲꦶꦏꦶ" ;
+    ex:arti "sekarang" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_9 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_10 a ex:Kata ;
+    ex:latin "limå" ;
+    ex:aksaraJawa "ꦭꦶꦩ" ;
+    ex:arti "lima" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_11 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_12 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_13 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_14 a ex:Kata ;
+    ex:latin "képétúng" ;
+    ex:aksaraJawa "ꦏꦺꦥꦺꦠꦸꦁ" ;
+    ex:arti "terhitung" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_15 a ex:Kata ;
+    ex:latin "akèh" ;
+    ex:aksaraJawa "ꦲꦏꦺꦃ" ;
+    ex:arti "banyak" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+# Paragraf 10
+ex:Paragraf_10 a ex:Paragraf ;
+    ex:isiLatin "Mula Pak Marnó tansah ngandani marang garwané iku, supåyå mèlu ka-bé." ;
+    ex:isiAksaraJawa "ꦩꦸꦭ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦠꦤ꧀ꦱꦃ ꦔꦤ꧀ꦢꦤꦶ ꦩꦫꦁ ꦒꦂꦮꦤꦺ ꦲꦶꦏꦸ, ꦱꦸꦥꦪ ꦩꦺꦭꦸ ꦏ-ꦧꦺ." ;
+    ex:arti "Maka Pak Marno selalu menasihati istrinya itu, agar ikut KB." .
+
+ex:Kata_10_0 a ex:Kata ;
+    ex:latin "Mula" ;
+    ex:aksaraJawa "ꦩꦸꦭ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_1 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_2 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_3 a ex:Kata ;
+    ex:latin "tansah" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦱꦃ" ;
+    ex:arti "selalu" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_4 a ex:Kata ;
+    ex:latin "ngandani" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦢꦤꦶ" ;
+    ex:arti "menasihati" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_5 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_6 a ex:Kata ;
+    ex:latin "garwané" ;
+    ex:aksaraJawa "ꦒꦂꦮꦤꦺ" ;
+    ex:arti "istrinya" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_7 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_8 a ex:Kata ;
+    ex:latin "supåyå" ;
+    ex:aksaraJawa "ꦱꦸꦥꦪ" ;
+    ex:arti "agar" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_9 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+ex:Kata_10_10 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_10 .
+
+# Paragraf 11
+ex:Paragraf_11 a ex:Paragraf ;
+    ex:isiLatin "Yèn manút istilahé Pak Wisnu, ka-bé iku yèn dijawakaké dadi kêluwargå rinancang." ;
+    ex:isiAksaraJawa "ꦪꦺꦤ꧀ ꦩꦤꦸꦠ꧀ ꦲꦶꦱ꧀ꦠꦶꦭꦃꦲꦺ ꦥꦏ꧀ ꦮꦶꦱ꧀ꦤꦸ, ꦏ-ꦧꦺ ꦲꦶꦏꦸ ꦪꦺꦤ꧀ ꦢꦶꦗꦮꦏꦏꦺ ꦢꦢꦶ ꦏꦼꦭꦸꦮꦂꦒ ꦫꦶꦤꦚ꧀ꦕꦁ." ;
+    ex:arti "Menurut istilah Pak Wisnu, KB itu jika diterjemahkan ke bahasa Jawa menjadi keluarga berencana." .
+
+ex:Kata_11_0 a ex:Kata ;
+    ex:latin "Yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "Jika" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_1 a ex:Kata ;
+    ex:latin "manút" ;
+    ex:aksaraJawa "ꦩꦤꦸꦠ꧀" ;
+    ex:arti "menurut" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_2 a ex:Kata ;
+    ex:latin "istilahé" ;
+    ex:aksaraJawa "ꦲꦶꦱ꧀ꦠꦶꦭꦃꦲꦺ" ;
+    ex:arti "istilahnya" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_3 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_4 a ex:Kata ;
+    ex:latin "Wisnu" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀ꦤꦸ" ;
+    ex:arti "Wisnu" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_5 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_6 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_7 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "jika" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_8 a ex:Kata ;
+    ex:latin "dijawakaké" ;
+    ex:aksaraJawa "ꦢꦶꦗꦮꦏꦏꦺ" ;
+    ex:arti "diterjemahkan ke bahasa Jawa" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_9 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_10 a ex:Kata ;
+    ex:latin "kêluwargå" ;
+    ex:aksaraJawa "ꦏꦼꦭꦸꦮꦂꦒ" ;
+    ex:arti "keluarga" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+ex:Kata_11_11 a ex:Kata ;
+    ex:latin "rinancang" ;
+    ex:aksaraJawa "ꦫꦶꦤꦚ꧀ꦕꦁ" ;
+    ex:arti "berencana" ;
+    ex:munculDalamParagraf ex:Paragraf_11 .
+
+# Paragraf 12
+ex:Paragraf_12 a ex:Paragraf ;
+    ex:isiLatin "Nanging Bu Guru kipå-kipå ora gêlêm, amarga isíh kêpéngín duwé anak lanang, nganti Pak Marnó judêg." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦧꦸ ꦒꦸꦫꦸ ꦏꦶꦥ ꦏꦶꦥ ꦲꦺꦴꦫ ꦒꦼꦭꦼꦩ꧀, ꦲꦩꦂꦒ ꦲꦶꦱꦶꦃ ꦏꦼꦥꦺꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ, ꦔꦤ꧀ꦠꦶ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦗꦸꦢꦼꦒ꧀." ;
+    ex:arti "Namun Bu Guru bersikeras tidak mau, karena masih ingin punya anak laki-laki, sampai Pak Marno jengkel." .
+
+ex:Kata_12_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_2 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_3 a ex:Kata ;
+    ex:latin "kipå-kipå" ;
+    ex:aksaraJawa "ꦏꦶꦥ ꦏꦶꦥ" ;
+    ex:arti "bersikeras" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_4 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_5 a ex:Kata ;
+    ex:latin "gêlêm" ;
+    ex:aksaraJawa "ꦒꦼꦭꦼꦩ꧀" ;
+    ex:arti "mau" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_6 a ex:Kata ;
+    ex:latin "amarga" ;
+    ex:aksaraJawa "ꦲꦩꦂꦒ" ;
+    ex:arti "karena" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_7 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_8 a ex:Kata ;
+    ex:latin "kêpéngín" ;
+    ex:aksaraJawa "ꦏꦼꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_9 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_10 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_11 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_12 a ex:Kata ;
+    ex:latin "nganti" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦠꦶ" ;
+    ex:arti "sampai" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_13 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_14 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_15 a ex:Kata ;
+    ex:latin "judêg" ;
+    ex:aksaraJawa "ꦗꦸꦢꦼꦒ꧀" ;
+    ex:arti "jengkel" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+# Paragraf 13
+ex:Paragraf_13 a ex:Paragraf ;
+    ex:isiLatin ""O, alah Bu, mbók wis trimå. Wóng anakmu yå wís limå ngono. Mêngko yên wís påda duwé jodo, kowé rak yå duwé anak lanang ta? Sênajan múng anak mantu, rak ya pådå wać ta; kuwi yå anakmu."" ;
+    ex:isiAksaraJawa "ꦲꦺꦴ, ꦲꦭꦃ ꦧꦸ, ꦩ꧀ꦧꦺꦴꦏ꧀ ꦮꦶꦱ꧀ ꦠꦿꦶꦩ. ꦮꦺꦴꦁ ꦲꦤꦏ꧀ꦩꦸ ꦪ ꦮꦶꦱ꧀ ꦭꦶꦩ ꦔꦺꦴꦤꦺꦴ. ꦩꦼꦔ꧀ꦏꦺꦴ ꦪꦺꦤ꧀ ꦮꦶꦱ꧀ ꦥꦢ ꦢꦸꦮꦺ ꦗꦺꦴꦢꦺꦴ, ꦏꦺꦴꦮꦺ ꦫꦏ꧀ ꦪ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ ꦠ? ꦱꦼꦤꦗꦤ꧀ ꦩꦸꦁ ꦲꦤꦏ꧀ ꦩꦤ꧀ꦠꦸ, ꦫꦏ꧀ ꦪ ꦥꦢ ꦮꦕ꧀ ꦠ; ꦏꦸꦮꦶ ꦪ ꦲꦤꦏ꧀ꦩꦸ." ;
+    ex:arti ""Oh, sudahlah Bu, terimalah saja. Anakmu kan sudah lima. Nanti kalau sudah punya jodoh semua, kamu kan juga punya anak laki-laki? Meskipun cuma anak menantu, kan sama saja; itu juga anakmu."" .
+
+ex:Kata_13_0 a ex:Kata ;
+    ex:latin "O" ;
+    ex:aksaraJawa "ꦲꦺꦴ" ;
+    ex:arti "Oh" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_1 a ex:Kata ;
+    ex:latin "alah" ;
+    ex:aksaraJawa "ꦲꦭꦃ" ;
+    ex:arti "sudahlah" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_2 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_3 a ex:Kata ;
+    ex:latin "mbók" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦏ꧀" ;
+    ex:arti "terimalah" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_4 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_5 a ex:Kata ;
+    ex:latin "trimå" ;
+    ex:aksaraJawa "ꦠꦿꦶꦩ" ;
+    ex:arti "terima" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_6 a ex:Kata ;
+    ex:latin "Wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "Orang" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_7 a ex:Kata ;
+    ex:latin "anakmu" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦩꦸ" ;
+    ex:arti "anakmu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_8 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_9 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_10 a ex:Kata ;
+    ex:latin "limå" ;
+    ex:aksaraJawa "ꦭꦶꦩ" ;
+    ex:arti "lima" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_11 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_12 a ex:Kata ;
+    ex:latin "Mêngko" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ" ;
+    ex:arti "Nanti" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_13 a ex:Kata ;
+    ex:latin "yên" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_14 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_15 a ex:Kata ;
+    ex:latin "påda" ;
+    ex:aksaraJawa "ꦥꦢ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_16 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_17 a ex:Kata ;
+    ex:latin "jodo" ;
+    ex:aksaraJawa "ꦗꦺꦴꦢꦺꦴ" ;
+    ex:arti "jodoh" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_18 a ex:Kata ;
+    ex:latin "kowé" ;
+    ex:aksaraJawa "ꦏꦺꦴꦮꦺ" ;
+    ex:arti "kamu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_19 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_20 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_21 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_22 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_23 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_24 a ex:Kata ;
+    ex:latin "ta?" ;
+    ex:aksaraJawa "ꦠ?" ;
+    ex:arti "kan?" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_25 a ex:Kata ;
+    ex:latin "Sênajan" ;
+    ex:aksaraJawa "ꦱꦼꦤꦗꦤ꧀" ;
+    ex:arti "Meskipun" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_26 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "cuma" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_27 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_28 a ex:Kata ;
+    ex:latin "mantu" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦠꦸ" ;
+    ex:arti "menantu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_29 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_30 a ex:Kata ;
+    ex:latin "ya" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_31 a ex:Kata ;
+    ex:latin "pådå" ;
+    ex:aksaraJawa "ꦥꦢ" ;
+    ex:arti "sama" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_32 a ex:Kata ;
+    ex:latin "wać" ;
+    ex:aksaraJawa "ꦮꦕ꧀" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_33 a ex:Kata ;
+    ex:latin "ta;" ;
+    ex:aksaraJawa "ꦠ;" ;
+    ex:arti "kan;" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_34 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_35 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+ex:Kata_13_36 a ex:Kata ;
+    ex:latin "anakmu" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦩꦸ" ;
+    ex:arti "anakmu" ;
+    ex:munculDalamParagraf ex:Paragraf_13 .
+
+# Paragraf 14
+ex:Paragraf_14 a ex:Paragraf ;
+    ex:isiLatin ""Yå bédå Pak, anak mantu kók karo anak lèh mbrêjêlké déwé..."" ;
+    ex:isiAksaraJawa "ꦪ ꦧꦺꦢ ꦥꦏ꧀, ꦲꦤꦏ꧀ ꦩꦤ꧀ꦠꦸ ꦏꦺꦴꦏ꧀ ꦏꦫꦺꦴ ꦲꦤꦏ꧀ ꦭꦺꦃ ꦩ꧀ꦧꦿꦼꦗꦼꦭ꧀ꦏꦺ ꦢꦺꦮꦺ..." ;
+    ex:arti ""Ya beda Pak, anak menantu kok sama dengan anak kandung sendiri..."" .
+
+ex:Kata_14_0 a ex:Kata ;
+    ex:latin "Yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_1 a ex:Kata ;
+    ex:latin "bédå" ;
+    ex:aksaraJawa "ꦧꦺꦢ" ;
+    ex:arti "beda" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_2 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_3 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_4 a ex:Kata ;
+    ex:latin "mantu" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦠꦸ" ;
+    ex:arti "menantu" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_5 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_6 a ex:Kata ;
+    ex:latin "karo" ;
+    ex:aksaraJawa "ꦏꦫꦺꦴ" ;
+    ex:arti "dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_7 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_8 a ex:Kata ;
+    ex:latin "lèh" ;
+    ex:aksaraJawa "ꦭꦺꦃ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_9 a ex:Kata ;
+    ex:latin "mbrêjêlké" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦿꦼꦗꦼꦭ꧀ꦏꦺ" ;
+    ex:arti "dilahirkan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_10 a ex:Kata ;
+    ex:latin "déwé" ;
+    ex:aksaraJawa "ꦢꦺꦮꦺ" ;
+    ex:arti "sendiri" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+# Paragraf 15
+ex:Paragraf_15 a ex:Paragraf ;
+    ex:isiLatin ""Bédané nggón ngêndi? Apå yên anak mantu kuwi ora gêmati? Akèh lho Bu contoné, anak mantu utåwå anak angkat kuwi malah luwíh ngêrti marang wóng tuwa! Cobå kaé, Parmantó anak angkaté Pak dé Sastró kaé, pêndak sasi sowan nggåwå gula tèh; isíh oleh-oleh bandêng, êndóg, mắngkả mêngko yẻn mulíh isíh ninggali duwit. Balík anak-anaké, êndi síng ngêrti karo wóng tuwa? Mårå pêndak bakda waé sók-sók ora?!"" ;
+    ex:isiAksaraJawa "ꦧꦺꦢꦤꦺ ꦔ꧀ꦒꦺꦴꦤ꧀ ꦔꦼꦤ꧀ꦢꦶ? ꦲꦥ ꦪꦺꦤ꧀ ꦲꦤꦏ꧀ ꦩꦤ꧀ꦠꦸ ꦏꦸꦮꦶ ꦲꦺꦴꦫ ꦒꦼꦩꦠꦶ? ꦲꦏꦺꦃ ꦭꦺꦴ ꦧꦸ ꦕꦺꦴꦤ꧀ꦠꦺꦴꦤꦺ, ꦲꦤꦏ꧀ ꦩꦤ꧀ꦠꦸ ꦲꦸꦠꦮ ꦲꦤꦏ꧀ ꦲꦁꦏꦠ꧀ ꦏꦸꦮꦶ ꦩꦭꦃ ꦭꦸꦮꦶꦃ ꦔꦼꦂꦠꦶ ꦩꦫꦁ ꦮꦺꦴꦁ ꦠꦸꦮ! ꦕꦺꦴꦧ ꦏꦲꦺ, ꦥꦂꦩꦤ꧀ꦠ ꦲꦤꦏ꧀ ꦲꦁꦏꦠꦺ ꦥꦏ꧀ ꦢꦺ ꦱꦱ꧀ꦠꦿ ꦏꦲꦺ, ꦥꦼꦤ꧀ꦢꦏ꧀ ꦱꦱꦶ ꦱꦺꦴꦮꦤ꧀ ꦔ꧀ꦒꦮ ꦒꦸꦭ ꦠꦺꦃ; ꦲꦶꦱꦶꦃ ꦲꦺꦴꦭꦺꦃ-ꦲꦺꦴꦭꦺꦃ ꦧꦤ꧀ꦢꦼꦁ, ꦲꦼꦤ꧀ꦢꦺꦴꦒ꧀, ꦩꦁꦏ ꦩꦼꦔ꧀ꦏꦺꦴ ꦪꦺꦤ꧀ ꦩꦸꦭꦶꦃ ꦲꦶꦱꦶꦃ ꦤꦶꦁꦒꦭꦶ ꦢꦸꦮꦶꦠ꧀. ꦧꦭꦶꦏ꧀ ꦲꦤꦏ꧀-ꦲꦤꦏꦺ, ꦲꦼꦤ꧀ꦢꦶ ꦱꦶꦁ ꦔꦼꦂꦠꦶ ꦏꦫꦺꦴ ꦮꦺꦴꦁ ꦠꦸꦮ? ꦩꦫ ꦥꦼꦤ꧀ꦢꦏ꧀ ꦧꦏ꧀ꦢ ꦮꦲꦺ ꦱꦺꦴꦏ꧀-ꦱꦺꦴꦏ꧀ ꦲꦺꦴꦫ?!" ;
+    ex:arti ""Bedanya di mana? Apa kalau anak menantu itu tidak peduli? Banyak lho Bu contohnya, anak menantu atau anak angkat itu malah lebih mengerti kepada orang tua! Coba itu, Parmanto anak angkatnya Pakde Sastro itu, setiap bulan datang membawa gula teh; masih oleh-oleh bandeng, telur, padahal nanti kalau pulang masih meninggalkan uang. Sebaliknya anak-anaknya, mana yang mengerti dengan orang tua? Datang setiap lebaran saja kadang-kadang tidak?!"" .
+
+ex:Kata_15_0 a ex:Kata ;
+    ex:latin "Bédané" ;
+    ex:aksaraJawa "ꦧꦺꦢꦤꦺ" ;
+    ex:arti "Bedanya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_1 a ex:Kata ;
+    ex:latin "nggón" ;
+    ex:aksaraJawa "ꦔ꧀ꦒꦺꦴꦤ꧀" ;
+    ex:arti "di mana" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_2 a ex:Kata ;
+    ex:latin "ngêndi?" ;
+    ex:aksaraJawa "ꦔꦼꦤ꧀ꦢꦶ?" ;
+    ex:arti "mana?" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_3 a ex:Kata ;
+    ex:latin "Apå" ;
+    ex:aksaraJawa "ꦲꦥ" ;
+    ex:arti "Apa" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_4 a ex:Kata ;
+    ex:latin "yên" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_5 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_6 a ex:Kata ;
+    ex:latin "mantu" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦠꦸ" ;
+    ex:arti "menantu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_7 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_8 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_9 a ex:Kata ;
+    ex:latin "gêmati?" ;
+    ex:aksaraJawa "ꦒꦼꦩꦠꦶ?" ;
+    ex:arti "peduli?" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_10 a ex:Kata ;
+    ex:latin "Akèh" ;
+    ex:aksaraJawa "ꦲꦏꦺꦃ" ;
+    ex:arti "Banyak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_11 a ex:Kata ;
+    ex:latin "lho" ;
+    ex:aksaraJawa "ꦭꦺꦴ" ;
+    ex:arti "lho" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_12 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_13 a ex:Kata ;
+    ex:latin "contoné" ;
+    ex:aksaraJawa "ꦕꦺꦴꦤ꧀ꦠꦺꦴꦤꦺ" ;
+    ex:arti "contohnya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_14 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_15 a ex:Kata ;
+    ex:latin "mantu" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦠꦸ" ;
+    ex:arti "menantu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_16 a ex:Kata ;
+    ex:latin "utåwå" ;
+    ex:aksaraJawa "ꦲꦸꦠꦮ" ;
+    ex:arti "atau" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_17 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_18 a ex:Kata ;
+    ex:latin "angkat" ;
+    ex:aksaraJawa "ꦲꦁꦏꦠ꧀" ;
+    ex:arti "angkat" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_19 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_20 a ex:Kata ;
+    ex:latin "malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "malah" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_21 a ex:Kata ;
+    ex:latin "luwíh" ;
+    ex:aksaraJawa "ꦭꦸꦮꦶꦃ" ;
+    ex:arti "lebih" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_22 a ex:Kata ;
+    ex:latin "ngêrti" ;
+    ex:aksaraJawa "ꦔꦼꦂꦠꦶ" ;
+    ex:arti "mengerti" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_23 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_24 a ex:Kata ;
+    ex:latin "wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "orang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_25 a ex:Kata ;
+    ex:latin "tuwa!" ;
+    ex:aksaraJawa "ꦠꦸꦮ!" ;
+    ex:arti "tua!" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_26 a ex:Kata ;
+    ex:latin "Cobå" ;
+    ex:aksaraJawa "ꦕꦺꦴꦧ" ;
+    ex:arti "Coba" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_27 a ex:Kata ;
+    ex:latin "kaé" ;
+    ex:aksaraJawa "ꦏꦲꦺ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_28 a ex:Kata ;
+    ex:latin "Parmantó" ;
+    ex:aksaraJawa "ꦥꦂꦩꦤ꧀ꦠ" ;
+    ex:arti "Parmanto" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_29 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_30 a ex:Kata ;
+    ex:latin "angkaté" ;
+    ex:aksaraJawa "ꦲꦁꦏꦠꦺ" ;
+    ex:arti "angkatnya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_31 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_32 a ex:Kata ;
+    ex:latin "dé" ;
+    ex:aksaraJawa "ꦢꦺ" ;
+    ex:arti "de" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_33 a ex:Kata ;
+    ex:latin "Sastró" ;
+    ex:aksaraJawa "ꦱꦱ꧀ꦠꦿ" ;
+    ex:arti "Sastro" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_34 a ex:Kata ;
+    ex:latin "kaé" ;
+    ex:aksaraJawa "ꦏꦲꦺ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_35 a ex:Kata ;
+    ex:latin "pêndak" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦏ꧀" ;
+    ex:arti "setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_36 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_37 a ex:Kata ;
+    ex:latin "sowan" ;
+    ex:aksaraJawa "ꦱꦺꦴꦮꦤ꧀" ;
+    ex:arti "datang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_38 a ex:Kata ;
+    ex:latin "nggåwå" ;
+    ex:aksaraJawa "ꦔ꧀ꦒꦮ" ;
+    ex:arti "membawa" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_39 a ex:Kata ;
+    ex:latin "gula" ;
+    ex:aksaraJawa "ꦒꦸꦭ" ;
+    ex:arti "gula" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_40 a ex:Kata ;
+    ex:latin "tèh;" ;
+    ex:aksaraJawa "ꦠꦺꦃ;" ;
+    ex:arti "teh;" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_41 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_42 a ex:Kata ;
+    ex:latin "oleh-oleh" ;
+    ex:aksaraJawa "ꦲꦺꦴꦭꦺꦃ-ꦲꦺꦴꦭꦺꦃ" ;
+    ex:arti "oleh-oleh" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_43 a ex:Kata ;
+    ex:latin "bandêng" ;
+    ex:aksaraJawa "ꦧꦤ꧀ꦢꦼꦁ" ;
+    ex:arti "bandeng" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_44 a ex:Kata ;
+    ex:latin "êndóg" ;
+    ex:aksaraJawa "ꦲꦼꦤ꧀ꦢꦺꦴꦒ꧀" ;
+    ex:arti "telur" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_45 a ex:Kata ;
+    ex:latin "mắngkả" ;
+    ex:aksaraJawa "ꦩꦁꦏ" ;
+    ex:arti "padahal" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_46 a ex:Kata ;
+    ex:latin "mêngko" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ" ;
+    ex:arti "nanti" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_47 a ex:Kata ;
+    ex:latin "yẻn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_48 a ex:Kata ;
+    ex:latin "mulíh" ;
+    ex:aksaraJawa "ꦩꦸꦭꦶꦃ" ;
+    ex:arti "pulang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_49 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_50 a ex:Kata ;
+    ex:latin "ninggali" ;
+    ex:aksaraJawa "ꦤꦶꦁꦒꦭꦶ" ;
+    ex:arti "meninggalkan" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_51 a ex:Kata ;
+    ex:latin "duwit." ;
+    ex:aksaraJawa "ꦢꦸꦮꦶꦠ꧀." ;
+    ex:arti "uang." ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_52 a ex:Kata ;
+    ex:latin "Balík" ;
+    ex:aksaraJawa "ꦧꦭꦶꦏ꧀" ;
+    ex:arti "Sebaliknya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_53 a ex:Kata ;
+    ex:latin "anak-anaké" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀-ꦲꦤꦏꦺ" ;
+    ex:arti "anak-anaknya" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_54 a ex:Kata ;
+    ex:latin "êndi" ;
+    ex:aksaraJawa "ꦲꦼꦤ꧀ꦢꦶ" ;
+    ex:arti "mana" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_55 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_56 a ex:Kata ;
+    ex:latin "ngêrti" ;
+    ex:aksaraJawa "ꦔꦼꦂꦠꦶ" ;
+    ex:arti "mengerti" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_57 a ex:Kata ;
+    ex:latin "karo" ;
+    ex:aksaraJawa "ꦏꦫꦺꦴ" ;
+    ex:arti "dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_58 a ex:Kata ;
+    ex:latin "wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "orang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_59 a ex:Kata ;
+    ex:latin "tuwa?" ;
+    ex:aksaraJawa "ꦠꦸꦮ?" ;
+    ex:arti "tua?" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_60 a ex:Kata ;
+    ex:latin "Mårå" ;
+    ex:aksaraJawa "ꦩꦫ" ;
+    ex:arti "Datang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_61 a ex:Kata ;
+    ex:latin "pêndak" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦏ꧀" ;
+    ex:arti "setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_62 a ex:Kata ;
+    ex:latin "bakda" ;
+    ex:aksaraJawa "ꦧꦏ꧀ꦢ" ;
+    ex:arti "lebaran" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_63 a ex:Kata ;
+    ex:latin "waé" ;
+    ex:aksaraJawa "ꦮꦲꦺ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_64 a ex:Kata ;
+    ex:latin "sók-sók" ;
+    ex:aksaraJawa "ꦱꦺꦴꦏ꧀-ꦱꦺꦴꦏ꧀" ;
+    ex:arti "kadang-kadang" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+ex:Kata_15_65 a ex:Kata ;
+    ex:latin "ora?!" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ?!" ;
+    ex:arti "tidak?!" ;
+    ex:munculDalamParagraf ex:Paragraf_15 .
+
+# Paragraf 16
+ex:Paragraf_16 a ex:Paragraf ;
+    ex:isiLatin ""Êmbúh gêmati êmbúh ora, ngêrti karo wóng tuwå åpå ora, nanging rasané ora kåyå yèn duwé anak lanang déwé, pak!"" ;
+    ex:isiAksaraJawa "ꦲꦼꦩ꧀ꦧꦸꦃ ꦒꦼꦩꦠꦶ ꦲꦼꦩ꧀ꦧꦸꦃ ꦲꦺꦴꦫ, ꦔꦼꦂꦠꦶ ꦏꦫꦺꦴ ꦮꦺꦴꦁ ꦠꦸꦮ ꦲꦥ ꦲꦺꦴꦫ, ꦤꦔꦶꦁ ꦫꦱꦤꦺ ꦲꦺꦴꦫ ꦏꦪ ꦪꦺꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ ꦢꦺꦮꦺ, ꦥꦏ꧀!" ;
+    ex:arti ""Entah peduli entah tidak, mengerti orang tua atau tidak, tapi rasanya tidak seperti punya anak laki-laki sendiri, Pak!"" .
+
+ex:Kata_16_0 a ex:Kata ;
+    ex:latin "Êmbúh" ;
+    ex:aksaraJawa "ꦲꦼꦩ꧀ꦧꦸꦃ" ;
+    ex:arti "Entah" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_1 a ex:Kata ;
+    ex:latin "gêmati" ;
+    ex:aksaraJawa "ꦒꦼꦩꦠꦶ" ;
+    ex:arti "peduli" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_2 a ex:Kata ;
+    ex:latin "êmbúh" ;
+    ex:aksaraJawa "ꦲꦼꦩ꧀ꦧꦸꦃ" ;
+    ex:arti "entah" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_3 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_4 a ex:Kata ;
+    ex:latin "ngêrti" ;
+    ex:aksaraJawa "ꦔꦼꦂꦠꦶ" ;
+    ex:arti "mengerti" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_5 a ex:Kata ;
+    ex:latin "karo" ;
+    ex:aksaraJawa "ꦏꦫꦺꦴ" ;
+    ex:arti "dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_6 a ex:Kata ;
+    ex:latin "wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "orang" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_7 a ex:Kata ;
+    ex:latin "tuwå" ;
+    ex:aksaraJawa "ꦠꦸꦮ" ;
+    ex:arti "tua" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_8 a ex:Kata ;
+    ex:latin "åpå" ;
+    ex:aksaraJawa "ꦲꦥ" ;
+    ex:arti "atau" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_9 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_10 a ex:Kata ;
+    ex:latin "nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_11 a ex:Kata ;
+    ex:latin "rasané" ;
+    ex:aksaraJawa "ꦫꦱꦤꦺ" ;
+    ex:arti "rasanya" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_12 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_13 a ex:Kata ;
+    ex:latin "kåyå" ;
+    ex:aksaraJawa "ꦏꦪ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_14 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_15 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_16 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_17 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_18 a ex:Kata ;
+    ex:latin "déwé" ;
+    ex:aksaraJawa "ꦢꦺꦮꦺ" ;
+    ex:arti "sendiri" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_19 a ex:Kata ;
+    ex:latin "pak!" ;
+    ex:aksaraJawa "ꦥꦏ꧀!" ;
+    ex:arti "Pak!" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+# Paragraf 17
+ex:Paragraf_17 a ex:Paragraf ;
+    ex:isiLatin "Bisa dipamèrké marang liyan gilo iki anakku sing lanang sing ngganțêng, ah pókóké aku isíh kêpéngin duwé anak lanang!"" ;
+    ex:isiAksaraJawa "ꦧꦶꦱ ꦢꦶꦥꦩꦺꦂꦏꦺ ꦩꦫꦁ ꦭꦶꦪꦤ꧀ ꦒꦶꦭꦺꦴ ꦲꦶꦏꦶ ꦲꦤꦏ꧀ꦏꦸ ꦱꦶꦁ ꦭꦤꦁ ꦱꦶꦁ ꦔ꧀ꦒꦤ꧀ꦠꦼꦁ, ꦲꦃ ꦥꦺꦴꦏꦺꦴꦏꦺ ꦲꦏꦸ ꦲꦶꦱꦶꦃ ꦏꦼꦥꦺꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ!"" ;
+    ex:arti "Bisa dipamerkan kepada orang lain, lihat ini anakku yang laki-laki yang tampan, ah pokoknya aku masih ingin punya anak laki-laki!"" .
+
+ex:Kata_17_0 a ex:Kata ;
+    ex:latin "Bisa" ;
+    ex:aksaraJawa "ꦧꦶꦱ" ;
+    ex:arti "Bisa" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_1 a ex:Kata ;
+    ex:latin "dipamèrké" ;
+    ex:aksaraJawa "ꦢꦶꦥꦩꦺꦂꦏꦺ" ;
+    ex:arti "dipamerkan" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_2 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_3 a ex:Kata ;
+    ex:latin "liyan" ;
+    ex:aksaraJawa "ꦭꦶꦪꦤ꧀" ;
+    ex:arti "orang lain" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_4 a ex:Kata ;
+    ex:latin "gilo" ;
+    ex:aksaraJawa "ꦒꦶꦭꦺꦴ" ;
+    ex:arti "lihat" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_5 a ex:Kata ;
+    ex:latin "iki" ;
+    ex:aksaraJawa "ꦲꦶꦏꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_6 a ex:Kata ;
+    ex:latin "anakku" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦏꦸ" ;
+    ex:arti "anakku" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_7 a ex:Kata ;
+    ex:latin "sing" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_8 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_9 a ex:Kata ;
+    ex:latin "sing" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_10 a ex:Kata ;
+    ex:latin "ngganțêng" ;
+    ex:aksaraJawa "ꦔ꧀ꦒꦤ꧀ꦠꦼꦁ" ;
+    ex:arti "tampan" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_11 a ex:Kata ;
+    ex:latin "ah" ;
+    ex:aksaraJawa "ꦲꦃ" ;
+    ex:arti "ah" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_12 a ex:Kata ;
+    ex:latin "pókóké" ;
+    ex:aksaraJawa "ꦥꦺꦴꦏꦺꦴꦏꦺ" ;
+    ex:arti "pokoknya" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_13 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_14 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_15 a ex:Kata ;
+    ex:latin "kêpéngin" ;
+    ex:aksaraJawa "ꦏꦼꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_16 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_17 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+ex:Kata_17_18 a ex:Kata ;
+    ex:latin "lanang!" ;
+    ex:aksaraJawa "ꦭꦤꦁ!" ;
+    ex:arti "laki-laki!" ;
+    ex:munculDalamParagraf ex:Paragraf_17 .
+
+# Paragraf 18
+ex:Paragraf_18 a ex:Paragraf ;
+    ex:isiLatin ""Yå uwís yèn ora kêna takkandani. Wóng diéman kók ora kênå. Kuduné kowé kuwi wís lèrèn ora nglairaké....."" ;
+    ex:isiAksaraJawa "ꦪ ꦲꦸꦮꦶꦱ꧀ ꦪꦺꦤ꧀ ꦲꦺꦴꦫ ꦏꦼꦤ ꦠꦏ꧀ꦏꦤ꧀ꦢꦤꦶ. ꦮꦺꦴꦁ ꦢꦶꦲꦺꦩꦤ꧀ ꦏꦺꦴꦏ꧀ ꦲꦺꦴꦫ ꦏꦼꦤ. ꦏꦸꦢꦸꦤꦺ ꦏꦺꦴꦮꦺ ꦏꦸꦮꦶ ꦮꦶꦱ꧀ ꦭꦺꦫꦺꦤ꧀ ꦲꦺꦴꦫ ꦔ꧀ꦭꦲꦶꦫꦏꦺ....." ;
+    ex:arti ""Ya sudah kalau tidak bisa dinasihati. Orang disayang kok tidak mau. Seharusnya kamu itu sudah berhenti melahirkan....."" .
+
+ex:Kata_18_0 a ex:Kata ;
+    ex:latin "Yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_1 a ex:Kata ;
+    ex:latin "uwís" ;
+    ex:aksaraJawa "ꦲꦸꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_2 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_3 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_4 a ex:Kata ;
+    ex:latin "kêna" ;
+    ex:aksaraJawa "ꦏꦼꦤ" ;
+    ex:arti "bisa" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_5 a ex:Kata ;
+    ex:latin "takkandani." ;
+    ex:aksaraJawa "ꦠꦏ꧀ꦏꦤ꧀ꦢꦤꦶ." ;
+    ex:arti "dinasihati." ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_6 a ex:Kata ;
+    ex:latin "Wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "Orang" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_7 a ex:Kata ;
+    ex:latin "diéman" ;
+    ex:aksaraJawa "ꦢꦶꦲꦺꦩꦤ꧀" ;
+    ex:arti "disayang" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_8 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_9 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_10 a ex:Kata ;
+    ex:latin "kênå." ;
+    ex:aksaraJawa "ꦏꦼꦤ." ;
+    ex:arti "mau." ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_11 a ex:Kata ;
+    ex:latin "Kuduné" ;
+    ex:aksaraJawa "ꦏꦸꦢꦸꦤꦺ" ;
+    ex:arti "Seharusnya" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_12 a ex:Kata ;
+    ex:latin "kowé" ;
+    ex:aksaraJawa "ꦏꦺꦴꦮꦺ" ;
+    ex:arti "kamu" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_13 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_14 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_15 a ex:Kata ;
+    ex:latin "lèrèn" ;
+    ex:aksaraJawa "ꦭꦺꦫꦺꦤ꧀" ;
+    ex:arti "berhenti" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_16 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+ex:Kata_18_17 a ex:Kata ;
+    ex:latin "nglairaké....." ;
+    ex:aksaraJawa "ꦔ꧀ꦭꦲꦶꦫꦏꦺ....." ;
+    ex:arti "melahirkan....." ;
+    ex:munculDalamParagraf ex:Paragraf_18 .
+
+# Paragraf 19
+ex:Paragraf_19 a ex:Paragraf ;
+    ex:isiLatin "Ajå manèh kók Pak Marnó síng bojoné Bu Guru, sênajan Pak Kêtua RT, Pak Kêtua RW, åpådéné pak Bayan;" ;
+    ex:isiAksaraJawa "ꦲꦗ ꦩꦤꦺꦃ ꦏꦺꦴꦏ꧀ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦱꦶꦁ ꦧꦺꦴꦗꦺꦴꦤꦺ ꦧꦸ ꦒꦸꦫꦸ, ꦱꦼꦤꦗꦤ꧀ ꦥꦏ꧀ ꦏꦼꦠꦸꦮ ꦫꦠꦶ, ꦥꦏ꧀ ꦏꦼꦠꦸꦮ ꦫꦮ, ꦲꦥꦢꦺꦤꦺ ꦥꦏ꧀ ꦧꦪꦤ꧀;" ;
+    ex:arti "Apalagi Pak Marno yang suaminya Bu Guru, meskipun Pak Ketua RT, Pak Ketua RW, apalagi Pak Bayan;" .
+
+ex:Kata_19_0 a ex:Kata ;
+    ex:latin "Ajå" ;
+    ex:aksaraJawa "ꦲꦗ" ;
+    ex:arti "Apalagi" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_1 a ex:Kata ;
+    ex:latin "manèh" ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ" ;
+    ex:arti "lagi" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_2 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_3 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_4 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_5 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_6 a ex:Kata ;
+    ex:latin "bojoné" ;
+    ex:aksaraJawa "ꦧꦺꦴꦗꦺꦴꦤꦺ" ;
+    ex:arti "istrinya" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_7 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_8 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_9 a ex:Kata ;
+    ex:latin "sênajan" ;
+    ex:aksaraJawa "ꦱꦼꦤꦗꦤ꧀" ;
+    ex:arti "meskipun" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_10 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_11 a ex:Kata ;
+    ex:latin "Kêtua" ;
+    ex:aksaraJawa "ꦏꦼꦠꦸꦮ" ;
+    ex:arti "Ketua" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_12 a ex:Kata ;
+    ex:latin "RT" ;
+    ex:aksaraJawa "ꦫꦠꦶ" ;
+    ex:arti "RT" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_13 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_14 a ex:Kata ;
+    ex:latin "Kêtua" ;
+    ex:aksaraJawa "ꦏꦼꦠꦸꦮ" ;
+    ex:arti "Ketua" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_15 a ex:Kata ;
+    ex:latin "RW" ;
+    ex:aksaraJawa "ꦫꦮ" ;
+    ex:arti "RW" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_16 a ex:Kata ;
+    ex:latin "åpådéné" ;
+    ex:aksaraJawa "ꦲꦥꦢꦺꦤꦺ" ;
+    ex:arti "apalagi" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_17 a ex:Kata ;
+    ex:latin "pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+ex:Kata_19_18 a ex:Kata ;
+    ex:latin "Bayan;" ;
+    ex:aksaraJawa "ꦧꦪꦤ꧀;" ;
+    ex:arti "Bayan;" ;
+    ex:munculDalamParagraf ex:Paragraf_19 .
+
+# Paragraf 20
+ex:Paragraf_20 a ex:Paragraf ;
+    ex:isiLatin "kabèh pada nganjúraké mělu ka-bé." ;
+    ex:isiAksaraJawa "ꦏꦧꦺꦃ ꦥꦢ ꦔꦚ꧀ꦗꦸꦫꦏꦺ ꦩꦼꦭꦸ ꦏ-ꦧꦺ." ;
+    ex:arti "semua menganjurkan ikut KB." .
+
+ex:Kata_20_0 a ex:Kata ;
+    ex:latin "kabèh" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_1 a ex:Kata ;
+    ex:latin "pada" ;
+    ex:aksaraJawa "ꦥꦢ" ;
+    ex:arti "menganjurkan" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_2 a ex:Kata ;
+    ex:latin "nganjúraké" ;
+    ex:aksaraJawa "ꦔꦚ꧀ꦗꦸꦫꦏꦺ" ;
+    ex:arti "menganjurkan" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_3 a ex:Kata ;
+    ex:latin "mělu" ;
+    ex:aksaraJawa "ꦩꦼꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+ex:Kata_20_4 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_20 .
+
+# Paragraf 21
+ex:Paragraf_21 a ex:Paragraf ;
+    ex:isiLatin "Nanging Bu Guru têtêp mbêguguk nguțåwatón, ora gêlêm mèlu ka-bé." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦧꦸ ꦒꦸꦫꦸ ꦠꦼꦠꦼꦥ꧀ ꦩ꧀ꦧꦼꦒꦸꦒꦸꦏ꧀ ꦔꦸꦛꦮꦠꦺꦴꦤ꧀, ꦲꦺꦴꦫ ꦒꦼꦭꦼꦩ꧀ ꦩꦺꦭꦸ ꦏ-ꦧꦺ." ;
+    ex:arti "Namun Bu Guru tetap berkeras hati, tidak mau ikut KB." .
+
+ex:Kata_21_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_2 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_3 a ex:Kata ;
+    ex:latin "têtêp" ;
+    ex:aksaraJawa "ꦠꦼꦠꦼꦥ꧀" ;
+    ex:arti "tetap" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_4 a ex:Kata ;
+    ex:latin "mbêguguk" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦼꦒꦸꦒꦸꦏ꧀" ;
+    ex:arti "berkeras" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_5 a ex:Kata ;
+    ex:latin "nguțåwatón" ;
+    ex:aksaraJawa "ꦔꦸꦛꦮꦠꦺꦴꦤ꧀" ;
+    ex:arti "hati" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_6 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_7 a ex:Kata ;
+    ex:latin "gêlêm" ;
+    ex:aksaraJawa "ꦒꦼꦭꦼꦩ꧀" ;
+    ex:arti "mau" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_8 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_9 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+# Paragraf 22
+ex:Paragraf_22 a ex:Paragraf ;
+    ex:isiLatin "Pak Marnó ganti pêkéwúh sabên-sabên diparani pêrangkat kelurahan iku. Sidané bojoné dirêpå-rêpå." ;
+    ex:isiAksaraJawa "ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦒꦤ꧀ꦠꦶ ꦥꦼꦏꦺꦮꦸꦃ ꦱꦧꦼꦤ꧀-ꦱꦧꦼꦤ꧀ ꦢꦶꦥꦫꦤꦶ ꦥꦼꦫꦁꦏꦠ꧀ ꦏꦼꦭꦸꦫꦲꦤ꧀ ꦲꦶꦏꦸ. ꦱꦶꦢꦤꦺ ꦧꦺꦴꦗꦺꦴꦤꦺ ꦢꦶꦫꦼꦥ-ꦫꦼꦥ." ;
+    ex:arti "Pak Marno jadi tidak enak setiap kali didatangi perangkat kelurahan itu. Akhirnya istrinya dibujuk-bujuk." .
+
+ex:Kata_22_0 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_1 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_2 a ex:Kata ;
+    ex:latin "ganti" ;
+    ex:aksaraJawa "ꦒꦤ꧀ꦠꦶ" ;
+    ex:arti "jadi" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_3 a ex:Kata ;
+    ex:latin "pêkéwúh" ;
+    ex:aksaraJawa "ꦥꦼꦏꦺꦮꦸꦃ" ;
+    ex:arti "tidak enak" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_4 a ex:Kata ;
+    ex:latin "sabên-sabên" ;
+    ex:aksaraJawa "ꦱꦧꦼꦤ꧀-ꦱꦧꦼꦤ꧀" ;
+    ex:arti "setiap kali" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_5 a ex:Kata ;
+    ex:latin "diparani" ;
+    ex:aksaraJawa "ꦢꦶꦥꦫꦤꦶ" ;
+    ex:arti "didatangi" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_6 a ex:Kata ;
+    ex:latin "pêrangkat" ;
+    ex:aksaraJawa "ꦥꦼꦫꦁꦏꦠ꧀" ;
+    ex:arti "perangkat" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_7 a ex:Kata ;
+    ex:latin "kelurahan" ;
+    ex:aksaraJawa "ꦏꦼꦭꦸꦫꦲꦤ꧀" ;
+    ex:arti "kelurahan" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_8 a ex:Kata ;
+    ex:latin "iku." ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ." ;
+    ex:arti "itu." ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_9 a ex:Kata ;
+    ex:latin "Sidané" ;
+    ex:aksaraJawa "ꦱꦶꦢꦤꦺ" ;
+    ex:arti "Akhirnya" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_10 a ex:Kata ;
+    ex:latin "bojoné" ;
+    ex:aksaraJawa "ꦧꦺꦴꦗꦺꦴꦤꦺ" ;
+    ex:arti "istrinya" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_11 a ex:Kata ;
+    ex:latin "dirêpå-rêpå." ;
+    ex:aksaraJawa "ꦢꦶꦫꦼꦥ-ꦫꦼꦥ." ;
+    ex:arti "dibujuk-bujuk." ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+# Paragraf 23
+ex:Paragraf_23 a ex:Paragraf ;
+    ex:isiLatin ""Yå manúta pêmêrintah ta Bu, mèluä ka-bé...."" ;
+    ex:isiAksaraJawa "ꦪ ꦩꦤꦸꦠ꧀ꦠ ꦥꦼꦩꦼꦂꦤꦶꦤ꧀ꦠꦃ ꦠ ꦧꦸ, ꦩꦺꦭꦸꦲ ꦏ-ꦧꦺ...." ;
+    ex:arti ""Ikutlah pemerintah Bu, ikut KB...."" .
+
+ex:Kata_23_0 a ex:Kata ;
+    ex:latin "Yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_1 a ex:Kata ;
+    ex:latin "manúta" ;
+    ex:aksaraJawa "ꦩꦤꦸꦠ꧀ꦠ" ;
+    ex:arti "patuhilah" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_2 a ex:Kata ;
+    ex:latin "pêmêrintah" ;
+    ex:aksaraJawa "ꦥꦼꦩꦼꦂꦤꦶꦤ꧀ꦠꦃ" ;
+    ex:arti "pemerintah" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_3 a ex:Kata ;
+    ex:latin "ta" ;
+    ex:aksaraJawa "ꦠ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_4 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_5 a ex:Kata ;
+    ex:latin "mèluä" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸꦲ" ;
+    ex:arti "ikutlah" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_6 a ex:Kata ;
+    ex:latin "ka-bé...." ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ...." ;
+    ex:arti "KB...." ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+# Paragraf 24
+ex:Paragraf_24 a ex:Paragraf ;
+    ex:isiLatin ""Wêgah! Wêgah tênan aku pak! Wóng diaturi aku iki isíh kêpéngín duwé anak lanang, kók dikón ka-bé; pókóké aku gêmang!"" ;
+    ex:isiAksaraJawa "ꦮꦼꦒꦃ! ꦮꦼꦒꦃ ꦠꦼꦤꦤ꧀ ꦲꦏꦸ ꦥꦏ꧀! ꦮꦺꦴꦁ ꦢꦶꦲꦠꦸꦫꦶ ꦲꦏꦸ ꦲꦶꦏꦶ ꦲꦶꦱꦶꦃ ꦏꦼꦥꦺꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ, ꦏꦺꦴꦏ꧀ ꦢꦶꦏꦺꦴꦤ꧀ ꦏ-ꦧꦺ; ꦥꦺꦴꦏꦺꦴꦏꦺ ꦲꦏꦸ ꦒꦼꦩꦁ!"" ;
+    ex:arti ""Tidak mau! Sungguh tidak mau aku Pak! Aku ini masih ingin punya anak laki-laki, kok disuruh KB; pokoknya aku tidak mau!"" .
+
+ex:Kata_24_0 a ex:Kata ;
+    ex:latin "Wêgah!" ;
+    ex:aksaraJawa "ꦮꦼꦒꦃ!" ;
+    ex:arti "Tidak mau!" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_1 a ex:Kata ;
+    ex:latin "Wêgah" ;
+    ex:aksaraJawa "ꦮꦼꦒꦃ" ;
+    ex:arti "Tidak mau" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_2 a ex:Kata ;
+    ex:latin "tênan" ;
+    ex:aksaraJawa "ꦠꦼꦤꦤ꧀" ;
+    ex:arti "sungguh" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_3 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_4 a ex:Kata ;
+    ex:latin "pak!" ;
+    ex:aksaraJawa "ꦥꦏ꧀!" ;
+    ex:arti "Pak!" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_5 a ex:Kata ;
+    ex:latin "Wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "Orang" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_6 a ex:Kata ;
+    ex:latin "diaturi" ;
+    ex:aksaraJawa "ꦢꦶꦲꦠꦸꦫꦶ" ;
+    ex:arti "disuruh" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_7 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_8 a ex:Kata ;
+    ex:latin "iki" ;
+    ex:aksaraJawa "ꦲꦶꦏꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_9 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_10 a ex:Kata ;
+    ex:latin "kêpéngín" ;
+    ex:aksaraJawa "ꦏꦼꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_11 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_12 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_13 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_14 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_15 a ex:Kata ;
+    ex:latin "dikón" ;
+    ex:aksaraJawa "ꦢꦶꦏꦺꦴꦤ꧀" ;
+    ex:arti "disuruh" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_16 a ex:Kata ;
+    ex:latin "ka-bé;" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ;" ;
+    ex:arti "KB;" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_17 a ex:Kata ;
+    ex:latin "pókóké" ;
+    ex:aksaraJawa "ꦥꦺꦴꦏꦺꦴꦏꦺ" ;
+    ex:arti "pokoknya" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_18 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+ex:Kata_24_19 a ex:Kata ;
+    ex:latin "gêmang!"" ;
+    ex:aksaraJawa "ꦒꦼꦩꦁ!"" ;
+    ex:arti "tidak mau!"" ;
+    ex:munculDalamParagraf ex:Paragraf_24 .
+
+# Paragraf 25
+ex:Paragraf_25 a ex:Paragraf ;
+    ex:isiLatin ""Mêngko disík tå, aku iki ora malangi kêkarêpanmu duwé anak lanang, nanging åjå mbangkang dawuhé pêmêrintah ngono kuwi...."" ;
+    ex:isiAksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ ꦢꦶꦱꦶꦏ꧀ ꦠ, ꦲꦏꦸ ꦲꦶꦏꦶ ꦲꦺꦴꦫ ꦩꦭꦁꦔꦶ ꦏꦼꦏꦫꦼꦥ꧀ꦥꦤ꧀ꦩꦸ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ, ꦤꦔꦶꦁ ꦲꦗ ꦩ꧀ꦧꦁꦏꦁ ꦢꦮꦸꦃꦲꦺ ꦥꦼꦩꦼꦂꦤꦶꦤ꧀ꦠꦃ ꦔꦺꦴꦤꦺꦴ ꦏꦸꦮꦶ...." ;
+    ex:arti ""Nanti dulu, aku ini tidak menghalangi keinginanmu punya anak laki-laki, tapi jangan membangkang perintah pemerintah begitu...."" .
+
+ex:Kata_25_0 a ex:Kata ;
+    ex:latin "Mêngko" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ" ;
+    ex:arti "Nanti" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_1 a ex:Kata ;
+    ex:latin "disík" ;
+    ex:aksaraJawa "ꦢꦶꦱꦶꦏ꧀" ;
+    ex:arti "dulu" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_2 a ex:Kata ;
+    ex:latin "tå" ;
+    ex:aksaraJawa "ꦠ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_3 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_4 a ex:Kata ;
+    ex:latin "iki" ;
+    ex:aksaraJawa "ꦲꦶꦏꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_5 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_6 a ex:Kata ;
+    ex:latin "malangi" ;
+    ex:aksaraJawa "ꦩꦭꦁꦔꦶ" ;
+    ex:arti "menghalangi" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_7 a ex:Kata ;
+    ex:latin "kêkarêpanmu" ;
+    ex:aksaraJawa "ꦏꦼꦏꦫꦼꦥ꧀ꦥꦤ꧀ꦩꦸ" ;
+    ex:arti "keinginanmu" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_8 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_9 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_10 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_11 a ex:Kata ;
+    ex:latin "nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_12 a ex:Kata ;
+    ex:latin "åjå" ;
+    ex:aksaraJawa "ꦲꦗ" ;
+    ex:arti "jangan" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_13 a ex:Kata ;
+    ex:latin "mbangkang" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦁꦏꦁ" ;
+    ex:arti "membangkang" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_14 a ex:Kata ;
+    ex:latin "dawuhé" ;
+    ex:aksaraJawa "ꦢꦮꦸꦃꦲꦺ" ;
+    ex:arti "perintah" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_15 a ex:Kata ;
+    ex:latin "pêmêrintah" ;
+    ex:aksaraJawa "ꦥꦼꦩꦼꦂꦤꦶꦤ꧀ꦠꦃ" ;
+    ex:arti "pemerintah" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_16 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_17 a ex:Kata ;
+    ex:latin "kuwi...." ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ...." ;
+    ex:arti "itu...." ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+# Paragraf 26
+ex:Paragraf_26 a ex:Paragraf ;
+    ex:isiLatin ""Lha trús piyé, nek ora oleh mbangkang?"" ;
+    ex:isiAksaraJawa "ꦭꦃ ꦠꦿꦸꦱ꧀ ꦥꦶꦪꦺ, ꦤꦼꦏ꧀ ꦲꦺꦴꦫ ꦲꦺꦴꦭꦺꦃ ꦩ꧀ꦧꦁꦏꦁ?" ;
+    ex:arti ""Lalu bagaimana, kalau tidak boleh membangkang?"" .
+
+ex:Kata_26_0 a ex:Kata ;
+    ex:latin "Lha" ;
+    ex:aksaraJawa "ꦭꦃ" ;
+    ex:arti "Lalu" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_1 a ex:Kata ;
+    ex:latin "trús" ;
+    ex:aksaraJawa "ꦠꦿꦸꦱ꧀" ;
+    ex:arti "kemudian" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_2 a ex:Kata ;
+    ex:latin "piyé" ;
+    ex:aksaraJawa "ꦥꦶꦪꦺ" ;
+    ex:arti "bagaimana" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_3 a ex:Kata ;
+    ex:latin "nek" ;
+    ex:aksaraJawa "ꦤꦼꦏ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_4 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_5 a ex:Kata ;
+    ex:latin "oleh" ;
+    ex:aksaraJawa "ꦲꦺꦴꦭꦺꦃ" ;
+    ex:arti "boleh" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_6 a ex:Kata ;
+    ex:latin "mbangkang?" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦁꦏꦁ?" ;
+    ex:arti "membangkang?" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+# Paragraf 27
+ex:Paragraf_27 a ex:Paragraf ;
+    ex:isiLatin ""Daftarnå ka-bé nyang Bu Bidan, mêngko njupukå pil waé! Mbókpangan pilé yå kênå, ora ya kênå! Níng kétóké rak wís mèlu kabé, ngono lho karêpku!"" ;
+    ex:isiAksaraJawa "ꦢꦥ꧀ꦠꦂꦤ ꦏ-ꦧꦺ ꦚꦁ ꦧꦸ ꦧꦶꦢꦤ꧀, ꦩꦼꦔ꧀ꦏꦺꦴ ꦚ꧀ꦗꦸꦥꦸꦏ ꦥꦶꦭ꧀ ꦮꦲꦺ! ꦩ꧀ꦧꦺꦴꦏ꧀ꦥꦔꦤ꧀ ꦥꦶꦭꦺ ꦪ ꦏꦼꦤ, ꦲꦺꦴꦫ ꦪ ꦏꦼꦤ! ꦤꦶꦁ ꦏꦺꦠꦺꦴꦏꦺ ꦫꦏ꧀ ꦮꦶꦱ꧀ ꦩꦺꦭꦸ ꦏꦧꦺ, ꦔꦺꦴꦤꦺꦴ ꦭꦺꦴ ꦏꦫꦼꦥ꧀ꦏꦸ!"" ;
+    ex:arti ""Daftarkan KB ke Bu Bidan, nanti ambil pil saja! Dimakan pilnya boleh, tidak juga boleh! Tapi kan kelihatannya sudah ikut KB, begitu lho maksudku!"" .
+
+ex:Kata_27_0 a ex:Kata ;
+    ex:latin "Daftarnå" ;
+    ex:aksaraJawa "ꦢꦥ꧀ꦠꦂꦤ" ;
+    ex:arti "Daftarkan" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_1 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_2 a ex:Kata ;
+    ex:latin "nyang" ;
+    ex:aksaraJawa "ꦚꦁ" ;
+    ex:arti "ke" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_4 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_5 a ex:Kata ;
+    ex:latin "mêngko" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ" ;
+    ex:arti "nanti" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_6 a ex:Kata ;
+    ex:latin "njupukå" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦸꦥꦸꦏ" ;
+    ex:arti "ambil" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_7 a ex:Kata ;
+    ex:latin "pil" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_8 a ex:Kata ;
+    ex:latin "waé!" ;
+    ex:aksaraJawa "ꦮꦲꦺ!" ;
+    ex:arti "saja!" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_9 a ex:Kata ;
+    ex:latin "Mbókpangan" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦏ꧀ꦥꦔꦤ꧀" ;
+    ex:arti "Dimakan" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_10 a ex:Kata ;
+    ex:latin "pilé" ;
+    ex:aksaraJawa "ꦥꦶꦭꦺ" ;
+    ex:arti "pilnya" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_11 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "boleh" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_12 a ex:Kata ;
+    ex:latin "kênå" ;
+    ex:aksaraJawa "ꦏꦼꦤ" ;
+    ex:arti "boleh" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_13 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_14 a ex:Kata ;
+    ex:latin "ya" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_15 a ex:Kata ;
+    ex:latin "kênå!" ;
+    ex:aksaraJawa "ꦏꦼꦤ!" ;
+    ex:arti "boleh!" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_16 a ex:Kata ;
+    ex:latin "Níng" ;
+    ex:aksaraJawa "ꦤꦶꦁ" ;
+    ex:arti "Tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_17 a ex:Kata ;
+    ex:latin "kétóké" ;
+    ex:aksaraJawa "ꦏꦺꦠꦺꦴꦏꦺ" ;
+    ex:arti "kelihatannya" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_18 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_19 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_20 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_21 a ex:Kata ;
+    ex:latin "kabé" ;
+    ex:aksaraJawa "ꦏꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_22 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_23 a ex:Kata ;
+    ex:latin "lho" ;
+    ex:aksaraJawa "ꦭꦺꦴ" ;
+    ex:arti "lho" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+ex:Kata_27_24 a ex:Kata ;
+    ex:latin "karêpku!"" ;
+    ex:aksaraJawa "ꦏꦫꦼꦥ꧀ꦏꦸ!"" ;
+    ex:arti "maksudku!"" ;
+    ex:munculDalamParagraf ex:Paragraf_27 .
+
+# Paragraf 28
+ex:Paragraf_28 a ex:Paragraf ;
+    ex:isiLatin ""Dadi sabên sasi mêngko aku nyadóng jatah píl?"" ;
+    ex:isiAksaraJawa "ꦢꦢꦶ ꦱꦧꦼꦤ꧀ ꦱꦱꦶ ꦩꦼꦔ꧀ꦏꦺꦴ ꦲꦏꦸ ꦚꦢꦺꦴꦁ ꦗꦠꦃ ꦥꦶꦭ꧀?" ;
+    ex:arti ""Jadi setiap bulan nanti aku minta jatah pil?"" .
+
+ex:Kata_28_0 a ex:Kata ;
+    ex:latin "Dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "Jadi" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_1 a ex:Kata ;
+    ex:latin "sabên" ;
+    ex:aksaraJawa "ꦱꦧꦼꦤ꧀" ;
+    ex:arti "setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_2 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_3 a ex:Kata ;
+    ex:latin "mêngko" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴ" ;
+    ex:arti "nanti" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_4 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_5 a ex:Kata ;
+    ex:latin "nyadóng" ;
+    ex:aksaraJawa "ꦚꦢꦺꦴꦁ" ;
+    ex:arti "minta" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_6 a ex:Kata ;
+    ex:latin "jatah" ;
+    ex:aksaraJawa "ꦗꦠꦃ" ;
+    ex:arti "jatah" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_7 a ex:Kata ;
+    ex:latin "píl?" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀?" ;
+    ex:arti "pil?" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+# Paragraf 29
+ex:Paragraf_29 a ex:Paragraf ;
+    ex:isiLatin ""Ha iyå! Bu Bidan rak ngira yèn kowé wís mèlu ka-bé tênan."" ;
+    ex:isiAksaraJawa "ꦲ ꦲꦶꦪ! ꦧꦸ ꦧꦶꦢꦤ꧀ ꦫꦏ꧀ ꦔꦶꦫ ꦪꦺꦤ꧀ ꦏꦺꦴꦮꦺ ꦮꦶꦱ꧀ ꦩꦺꦭꦸ ꦏ-ꦧꦺ ꦠꦼꦤꦤ꧀." ;
+    ex:arti ""Ya iyalah! Bu Bidan kan mengira kalau kamu sudah ikut KB sungguhan."" .
+
+ex:Kata_29_0 a ex:Kata ;
+    ex:latin "Ha" ;
+    ex:aksaraJawa "ꦲ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_1 a ex:Kata ;
+    ex:latin "iyå!" ;
+    ex:aksaraJawa "ꦲꦶꦪ!" ;
+    ex:arti "iyalah!" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_2 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_3 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_4 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_5 a ex:Kata ;
+    ex:latin "ngira" ;
+    ex:aksaraJawa "ꦔꦶꦫ" ;
+    ex:arti "mengira" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_6 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_7 a ex:Kata ;
+    ex:latin "kowé" ;
+    ex:aksaraJawa "ꦏꦺꦴꦮꦺ" ;
+    ex:arti "kamu" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_8 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_9 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_10 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_11 a ex:Kata ;
+    ex:latin "tênan." ;
+    ex:aksaraJawa "ꦠꦼꦤꦤ꧀." ;
+    ex:arti "sungguhan." ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+# Paragraf 30
+ex:Paragraf_30 a ex:Paragraf ;
+    ex:isiLatin ""Yå wís, nèk ngono aku ngalah. Níng aku åjå mbókpēkså mèlu ka-bé tênan lho, Pak!"" ;
+    ex:isiAksaraJawa "ꦪ ꦮꦶꦱ꧀, ꦤꦼꦏ꧀ ꦔꦺꦴꦤꦺꦴ ꦲꦏꦸ ꦔꦭꦃ. ꦤꦶꦁ ꦲꦏꦸ ꦲꦗ ꦩ꧀ꦧꦺꦴꦏ꧀ꦥꦼꦏ꧀ꦱ ꦩꦺꦭꦸ ꦏ-ꦧꦺ ꦠꦼꦤꦤ꧀ ꦭꦺꦴ, ꦥꦏ꧀!" ;
+    ex:arti ""Ya sudah, kalau begitu aku mengalah. Tapi aku jangan kamu paksa ikut KB sungguhan lho, Pak!"" .
+
+ex:Kata_30_0 a ex:Kata ;
+    ex:latin "Yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_1 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_2 a ex:Kata ;
+    ex:latin "nèk" ;
+    ex:aksaraJawa "ꦤꦼꦏ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_3 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_4 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_5 a ex:Kata ;
+    ex:latin "ngalah." ;
+    ex:aksaraJawa "ꦔꦭꦃ." ;
+    ex:arti "mengalah." ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_6 a ex:Kata ;
+    ex:latin "Níng" ;
+    ex:aksaraJawa "ꦤꦶꦁ" ;
+    ex:arti "Tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_7 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_8 a ex:Kata ;
+    ex:latin "åjå" ;
+    ex:aksaraJawa "ꦲꦗ" ;
+    ex:arti "jangan" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_9 a ex:Kata ;
+    ex:latin "mbókpēkså" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦏ꧀ꦥꦼꦏ꧀ꦱ" ;
+    ex:arti "kamu paksa" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_10 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_11 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_12 a ex:Kata ;
+    ex:latin "tênan" ;
+    ex:aksaraJawa "ꦠꦼꦤꦤ꧀" ;
+    ex:arti "sungguhan" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_13 a ex:Kata ;
+    ex:latin "lho" ;
+    ex:aksaraJawa "ꦭꦺꦴ" ;
+    ex:arti "lho" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_14 a ex:Kata ;
+    ex:latin "Pak!"" ;
+    ex:aksaraJawa "ꦥꦏ꧀!" ;
+    ex:arti "Pak!"" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+# Paragraf 31
+ex:Paragraf_31 a ex:Paragraf ;
+    ex:isiLatin ""Ora-ora! Aku ora arêp mêksa. Kowé mèlu ka-bé têmênan kanți kêsadaran, aku malah sênêng, ora arêp mêkså...."" ;
+    ex:isiAksaraJawa "ꦲꦺꦴꦫ-ꦲꦺꦴꦫ! ꦲꦏꦸ ꦲꦺꦴꦫ ꦲꦫꦼꦥ꧀ ꦩꦼꦏ꧀ꦱ. ꦏꦺꦴꦮꦺ ꦩꦺꦭꦸ ꦏ-ꦧꦺ ꦠꦼꦩꦼꦤꦤ꧀ ꦏꦤ꧀ꦠꦶ ꦏꦼꦱꦢꦫꦤ꧀, ꦲꦏꦸ ꦩꦭꦃ ꦱꦼꦤꦼꦁ, ꦲꦺꦴꦫ ꦲꦫꦼꦥ꧀ ꦩꦼꦏ꧀ꦱ...." ;
+    ex:arti ""Tidak-tidak! Aku tidak akan memaksa. Kamu ikut KB sungguhan dengan kesadaran, aku malah senang, tidak akan memaksa...."" .
+
+ex:Kata_31_0 a ex:Kata ;
+    ex:latin "Ora-ora!" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ-ꦲꦺꦴꦫ!" ;
+    ex:arti "Tidak-tidak!" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_1 a ex:Kata ;
+    ex:latin "Aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "Aku" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_2 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_3 a ex:Kata ;
+    ex:latin "arêp" ;
+    ex:aksaraJawa "ꦲꦫꦼꦥ꧀" ;
+    ex:arti "akan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_4 a ex:Kata ;
+    ex:latin "mêksa." ;
+    ex:aksaraJawa "ꦩꦼꦏ꧀ꦱ." ;
+    ex:arti "memaksa." ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_5 a ex:Kata ;
+    ex:latin "Kowé" ;
+    ex:aksaraJawa "ꦏꦺꦴꦮꦺ" ;
+    ex:arti "Kamu" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_6 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_7 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_8 a ex:Kata ;
+    ex:latin "têmênan" ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀" ;
+    ex:arti "sungguhan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_9 a ex:Kata ;
+    ex:latin "kanți" ;
+    ex:aksaraJawa "ꦏꦤ꧀ꦠꦶ" ;
+    ex:arti "dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_10 a ex:Kata ;
+    ex:latin "kêsadaran" ;
+    ex:aksaraJawa "ꦏꦼꦱꦢꦫꦤ꧀" ;
+    ex:arti "kesadaran" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_11 a ex:Kata ;
+    ex:latin "aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "aku" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_12 a ex:Kata ;
+    ex:latin "malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "malah" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_13 a ex:Kata ;
+    ex:latin "sênêng" ;
+    ex:aksaraJawa "ꦱꦼꦤꦼꦁ" ;
+    ex:arti "senang" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_14 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_15 a ex:Kata ;
+    ex:latin "arêp" ;
+    ex:aksaraJawa "ꦲꦫꦼꦥ꧀" ;
+    ex:arti "akan" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_16 a ex:Kata ;
+    ex:latin "mêkså...." ;
+    ex:aksaraJawa "ꦩꦼꦏ꧀ꦱ...." ;
+    ex:arti "memaksa...." ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+# Paragraf 32
+ex:Paragraf_32 a ex:Paragraf ;
+    ex:isiLatin "Bu Guru mèncêp krungu têmbúngé síng lanang mêngkono iku.Sidané Bu Guru daftaraké mèlu kabé têmênan." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦒꦸꦫꦸ ꦩꦺꦚ꧀ꦕꦼꦥ꧀ ꦏꦿꦸꦔꦸ ꦠꦼꦩ꧀ꦧꦸꦔꦺ ꦱꦶꦁ ꦭꦤꦁ ꦩꦼꦔ꧀ꦏꦺꦴꦤꦺꦴ ꦲꦶꦏꦸ.ꦱꦶꦢꦤꦺ ꦧꦸ ꦒꦸꦫꦸ ꦢꦥ꧀ꦠꦫꦏꦺ ꦩꦺꦭꦸ ꦏꦧꦺ ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "Bu Guru manyun mendengar perkataan suaminya seperti itu. Akhirnya Bu Guru mendaftarkan diri ikut KB sungguhan." .
+
+ex:Kata_32_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_1 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_2 a ex:Kata ;
+    ex:latin "mèncêp" ;
+    ex:aksaraJawa "ꦩꦺꦚ꧀ꦕꦼꦥ꧀" ;
+    ex:arti "manyun" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_3 a ex:Kata ;
+    ex:latin "krungu" ;
+    ex:aksaraJawa "ꦏꦿꦸꦔꦸ" ;
+    ex:arti "mendengar" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_4 a ex:Kata ;
+    ex:latin "têmbúngé" ;
+    ex:aksaraJawa "ꦠꦼꦩ꧀ꦧꦸꦔꦺ" ;
+    ex:arti "perkataannya" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_5 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_6 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "suami" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_7 a ex:Kata ;
+    ex:latin "mêngkono" ;
+    ex:aksaraJawa "ꦩꦼꦔ꧀ꦏꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_8 a ex:Kata ;
+    ex:latin "iku." ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ." ;
+    ex:arti "itu." ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_9 a ex:Kata ;
+    ex:latin "Sidané" ;
+    ex:aksaraJawa "ꦱꦶꦢꦤꦺ" ;
+    ex:arti "Akhirnya" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_10 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_11 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_12 a ex:Kata ;
+    ex:latin "daftaraké" ;
+    ex:aksaraJawa "ꦢꦥ꧀ꦠꦫꦏꦺ" ;
+    ex:arti "mendaftarkan diri" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_13 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_14 a ex:Kata ;
+    ex:latin "kabé" ;
+    ex:aksaraJawa "ꦏꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_15 a ex:Kata ;
+    ex:latin "têmênan." ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "sungguhan." ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+# Paragraf 33
+ex:Paragraf_33 a ex:Paragraf ;
+    ex:isiLatin "Nangíng múng étók-étókan. Sabên sasi nyadóng jatah píl ka-bé ing omahé Bu Bidan." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦩꦸꦁ ꦲꦺꦠꦺꦴꦏ꧀-ꦲꦺꦠꦺꦴꦏꦤ꧀. ꦱꦧꦼꦤ꧀ ꦱꦱꦶ ꦚꦢꦺꦴꦁ ꦗꦠꦃ ꦥꦶꦭ꧀ ꦏ-ꦧꦺ ꦲꦶꦁ ꦲꦺꦴꦩꦲꦺ ꦧꦸ ꦧꦶꦢꦤ꧀." ;
+    ex:arti "Namun hanya pura-pura. Setiap bulan meminta jatah pil KB di rumah Bu Bidan." .
+
+ex:Kata_33_0 a ex:Kata ;
+    ex:latin "Nangíng" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_1 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_2 a ex:Kata ;
+    ex:latin "étók-étókan." ;
+    ex:aksaraJawa "ꦲꦺꦠꦺꦴꦏ꧀-ꦲꦺꦠꦺꦴꦏꦤ꧀." ;
+    ex:arti "pura-pura." ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_3 a ex:Kata ;
+    ex:latin "Sabên" ;
+    ex:aksaraJawa "ꦱꦧꦼꦤ꧀" ;
+    ex:arti "Setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_4 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_5 a ex:Kata ;
+    ex:latin "nyadóng" ;
+    ex:aksaraJawa "ꦚꦢꦺꦴꦁ" ;
+    ex:arti "meminta" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_6 a ex:Kata ;
+    ex:latin "jatah" ;
+    ex:aksaraJawa "ꦗꦠꦃ" ;
+    ex:arti "jatah" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_7 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_8 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_9 a ex:Kata ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_10 a ex:Kata ;
+    ex:latin "omahé" ;
+    ex:aksaraJawa "ꦲꦺꦴꦩꦲꦺ" ;
+    ex:arti "rumahnya" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_11 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+ex:Kata_33_12 a ex:Kata ;
+    ex:latin "Bidan." ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀." ;
+    ex:arti "Bidan." ;
+    ex:munculDalamParagraf ex:Paragraf_33 .
+
+# Paragraf 34
+ex:Paragraf_34 a ex:Paragraf ;
+    ex:isiLatin "Nanging píl cadóngan iku ora tau dipangan, nanging múng ditumpúk ing laci méjané." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦥꦶꦭ꧀ ꦕꦢꦺꦴꦔꦤ꧀ ꦲꦶꦏꦸ ꦲꦺꦴꦫ ꦠꦲꦸ ꦢꦶꦥꦔꦤ꧀, ꦤꦔꦶꦁ ꦩꦸꦁ ꦢꦶꦠꦸꦩ꧀ꦥꦸꦏ꧀ ꦲꦶꦁ ꦭꦕꦶ ꦩꦺꦗꦤꦺ." ;
+    ex:arti "Namun pil cadangan itu tidak pernah dimakan, melainkan hanya ditumpuk di laci mejanya." .
+
+ex:Kata_34_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_1 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_2 a ex:Kata ;
+    ex:latin "cadóngan" ;
+    ex:aksaraJawa "ꦕꦢꦺꦴꦔꦤ꧀" ;
+    ex:arti "cadangan" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_3 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_4 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_5 a ex:Kata ;
+    ex:latin "tau" ;
+    ex:aksaraJawa "ꦠꦲꦸ" ;
+    ex:arti "pernah" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_6 a ex:Kata ;
+    ex:latin "dipangan" ;
+    ex:aksaraJawa "ꦢꦶꦥꦔꦤ꧀" ;
+    ex:arti "dimakan" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_7 a ex:Kata ;
+    ex:latin "nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "melainkan" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_8 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_9 a ex:Kata ;
+    ex:latin "ditumpúk" ;
+    ex:aksaraJawa "ꦢꦶꦠꦸꦩ꧀ꦥꦸꦏ꧀" ;
+    ex:arti "ditumpuk" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_10 a ex:Kata ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_11 a ex:Kata ;
+    ex:latin "laci" ;
+    ex:aksaraJawa "ꦭꦕꦶ" ;
+    ex:arti "laci" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_12 a ex:Kata ;
+    ex:latin "méjané." ;
+    ex:aksaraJawa "ꦩꦺꦗꦤꦺ." ;
+    ex:arti "mejanya." ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+# Paragraf 35
+ex:Paragraf_35 a ex:Paragraf ;
+    ex:isiLatin "Bu Bidan ngira Bu Guru iku wis mèlu kabé têmênan." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦧꦶꦢꦤ꧀ ꦔꦶꦫ ꦧꦸ ꦒꦸꦫꦸ ꦲꦶꦏꦸ ꦮꦶꦱ꧀ ꦩꦺꦭꦸ ꦏꦧꦺ ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "Bu Bidan mengira Bu Guru itu sudah ikut KB sungguhan." .
+
+ex:Kata_35_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_1 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_2 a ex:Kata ;
+    ex:latin "ngira" ;
+    ex:aksaraJawa "ꦔꦶꦫ" ;
+    ex:arti "mengira" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_4 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_5 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_6 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_7 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_8 a ex:Kata ;
+    ex:latin "kabé" ;
+    ex:aksaraJawa "ꦏꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_9 a ex:Kata ;
+    ex:latin "têmênan." ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "sungguhan." ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+# Paragraf 36
+ex:Paragraf_36 a ex:Paragraf ;
+    ex:isiLatin "Nyatané nganti wêktu nêm sasi Bu Guru durúng katón ngandêg manèh." ;
+    ex:isiAksaraJawa "ꦚꦠꦤꦺ ꦔꦤ꧀ꦠꦶ ꦮꦼꦏ꧀ꦠꦸ ꦤꦼꦩ꧀ ꦱꦱꦶ ꦧꦸ ꦒꦸꦫꦸ ꦢꦸꦫꦸꦁ ꦏꦠꦺꦴꦤ꧀ ꦔꦤ꧀ꦢꦼꦒ꧀ ꦩꦤꦺꦃ." ;
+    ex:arti "Kenyataannya sampai enam bulan Bu Guru belum kelihatan hamil lagi." .
+
+ex:Kata_36_0 a ex:Kata ;
+    ex:latin "Nyatané" ;
+    ex:aksaraJawa "ꦚꦠꦤꦺ" ;
+    ex:arti "Kenyataannya" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_1 a ex:Kata ;
+    ex:latin "nganti" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦠꦶ" ;
+    ex:arti "sampai" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_2 a ex:Kata ;
+    ex:latin "wêktu" ;
+    ex:aksaraJawa "ꦮꦼꦏ꧀ꦠꦸ" ;
+    ex:arti "waktu" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_3 a ex:Kata ;
+    ex:latin "nêm" ;
+    ex:aksaraJawa "ꦤꦼꦩ꧀" ;
+    ex:arti "enam" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_4 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_6 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_7 a ex:Kata ;
+    ex:latin "durúng" ;
+    ex:aksaraJawa "ꦢꦸꦫꦸꦁ" ;
+    ex:arti "belum" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_8 a ex:Kata ;
+    ex:latin "katón" ;
+    ex:aksaraJawa "ꦏꦠꦺꦴꦤ꧀" ;
+    ex:arti "kelihatan" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_9 a ex:Kata ;
+    ex:latin "ngandêg" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "hamil" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_10 a ex:Kata ;
+    ex:latin "manèh." ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ." ;
+    ex:arti "lagi." ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+# Paragraf 37
+ex:Paragraf_37 a ex:Paragraf ;
+    ex:isiLatin "Nanging sakbubaré kuwi, Bu Guru wis ora nyadóng jatahé píl kabé manèh." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦱꦏ꧀ꦧꦸꦧꦂꦫꦺ ꦏꦸꦮꦶ, ꦧꦸ ꦒꦸꦫꦸ ꦮꦶꦱ꧀ ꦲꦺꦴꦫ ꦚꦢꦺꦴꦁ ꦗꦠꦲꦺ ꦥꦶꦭ꧀ ꦏꦧꦺ ꦩꦤꦺꦃ." ;
+    ex:arti "Namun setelah itu, Bu Guru tidak lagi meminta jatah pil KB." .
+
+ex:Kata_37_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_1 a ex:Kata ;
+    ex:latin "sakbubaré" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦧꦸꦧꦂꦫꦺ" ;
+    ex:arti "setelah itu" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_2 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_4 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_5 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "tidak lagi" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_6 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_7 a ex:Kata ;
+    ex:latin "nyadóng" ;
+    ex:aksaraJawa "ꦚꦢꦺꦴꦁ" ;
+    ex:arti "meminta" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_8 a ex:Kata ;
+    ex:latin "jatahé" ;
+    ex:aksaraJawa "ꦗꦠꦲꦺ" ;
+    ex:arti "jatah" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_9 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_10 a ex:Kata ;
+    ex:latin "kabé" ;
+    ex:aksaraJawa "ꦏꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_11 a ex:Kata ;
+    ex:latin "manèh." ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ." ;
+    ex:arti "lagi." ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+# Paragraf 38
+ex:Paragraf_38 a ex:Paragraf ;
+    ex:isiLatin "Malah wís têlúng sasi dèwèké ora ngatón ing omahé Bu Bidan. Mula Bu Bidan mênêng-mênêng mbatín marang Bu Guru." ;
+    ex:isiAksaraJawa "ꦩꦭꦃ ꦮꦶꦱ꧀ ꦠꦼꦭꦸꦁ ꦱꦱꦶ ꦢꦼꦮꦼꦏꦺ ꦲꦺꦴꦫ ꦔꦠꦺꦴꦤ꧀ ꦲꦶꦁ ꦲꦺꦴꦩꦲꦺ ꦧꦸ ꦧꦶꦢꦤ꧀. ꦩꦸꦭ ꦧꦸ ꦧꦶꦢꦤ꧀ ꦩꦼꦤꦼꦁ-ꦩꦼꦤꦼꦁ ꦩ꧀ꦧꦠꦶꦤ꧀ ꦩꦫꦁ ꦧꦸ ꦒꦸꦫꦸ." ;
+    ex:arti "Bahkan sudah tiga bulan dia tidak terlihat di rumah Bu Bidan. Maka Bu Bidan dalam hati bertanya-tanya kepada Bu Guru." .
+
+ex:Kata_38_0 a ex:Kata ;
+    ex:latin "Malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "Bahkan" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_1 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_2 a ex:Kata ;
+    ex:latin "têlúng" ;
+    ex:aksaraJawa "ꦠꦼꦭꦸꦁ" ;
+    ex:arti "tiga" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_3 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_4 a ex:Kata ;
+    ex:latin "dèwèké" ;
+    ex:aksaraJawa "ꦢꦼꦮꦼꦏꦺ" ;
+    ex:arti "dia" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_5 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_6 a ex:Kata ;
+    ex:latin "ngatón" ;
+    ex:aksaraJawa "ꦔꦠꦺꦴꦤ꧀" ;
+    ex:arti "terlihat" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_7 a ex:Kata ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_8 a ex:Kata ;
+    ex:latin "omahé" ;
+    ex:aksaraJawa "ꦲꦺꦴꦩꦲꦺ" ;
+    ex:arti "rumahnya" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_9 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_10 a ex:Kata ;
+    ex:latin "Bidan." ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀." ;
+    ex:arti "Bidan." ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_11 a ex:Kata ;
+    ex:latin "Mula" ;
+    ex:aksaraJawa "ꦩꦸꦭ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_12 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_13 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_14 a ex:Kata ;
+    ex:latin "mênêng-mênêng" ;
+    ex:aksaraJawa "ꦩꦼꦤꦼꦁ-ꦩꦼꦤꦼꦁ" ;
+    ex:arti "dalam hati" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_15 a ex:Kata ;
+    ex:latin "mbatín" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦠꦶꦤ꧀" ;
+    ex:arti "bertanya-tanya" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_16 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_17 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_18 a ex:Kata ;
+    ex:latin "Guru." ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ." ;
+    ex:arti "Guru." ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+# Paragraf 39
+ex:Paragraf_39 a ex:Paragraf ;
+    ex:isiLatin "Yå géné garwané Pak Marnó iku ora njalúk jatah manèh. Mula nalika pêrtêmuan PKK, bab iku ditakókaké marang Bu Guru." ;
+    ex:isiAksaraJawa "ꦪ ꦒꦺꦤꦺ ꦒꦂꦮꦤꦺ ꦥꦏ꧀ ꦩꦂꦤꦺꦴ ꦲꦶꦏꦸ ꦲꦺꦴꦫ ꦚ꧀ꦗꦭꦸꦏ꧀ ꦗꦠꦃ ꦩꦤꦺꦃ. ꦩꦸꦭ ꦤꦭꦶꦏ ꦥꦼꦂꦠꦼꦩꦸꦲꦤ꧀ ꦥꦏꦏ, ꦧꦧ꧀ ꦲꦶꦏꦸ ꦢꦶꦠꦏꦺꦴꦏꦏꦺ ꦩꦫꦁ ꦧꦸ ꦒꦸꦫꦸ." ;
+    ex:arti "Kenapa istri Pak Marno itu tidak meminta jatah lagi. Maka saat pertemuan PKK, hal itu ditanyakan kepada Bu Guru." .
+
+ex:Kata_39_0 a ex:Kata ;
+    ex:latin "Yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Kenapa" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_1 a ex:Kata ;
+    ex:latin "géné" ;
+    ex:aksaraJawa "ꦒꦺꦤꦺ" ;
+    ex:arti "mengapa" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_2 a ex:Kata ;
+    ex:latin "garwané" ;
+    ex:aksaraJawa "ꦒꦂꦮꦤꦺ" ;
+    ex:arti "istri" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_3 a ex:Kata ;
+    ex:latin "Pak" ;
+    ex:aksaraJawa "ꦥꦏ꧀" ;
+    ex:arti "Pak" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_4 a ex:Kata ;
+    ex:latin "Marnó" ;
+    ex:aksaraJawa "ꦩꦂꦤꦺꦴ" ;
+    ex:arti "Marno" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_5 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_6 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_7 a ex:Kata ;
+    ex:latin "njalúk" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦭꦸꦏ꧀" ;
+    ex:arti "meminta" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_8 a ex:Kata ;
+    ex:latin "jatah" ;
+    ex:aksaraJawa "ꦗꦠꦃ" ;
+    ex:arti "jatah" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_9 a ex:Kata ;
+    ex:latin "manèh." ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ." ;
+    ex:arti "lagi." ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_10 a ex:Kata ;
+    ex:latin "Mula" ;
+    ex:aksaraJawa "ꦩꦸꦭ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_11 a ex:Kata ;
+    ex:latin "nalika" ;
+    ex:aksaraJawa "ꦤꦭꦶꦏ" ;
+    ex:arti "saat" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_12 a ex:Kata ;
+    ex:latin "pêrtêmuan" ;
+    ex:aksaraJawa "ꦥꦼꦂꦠꦼꦩꦸꦲꦤ꧀" ;
+    ex:arti "pertemuan" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_13 a ex:Kata ;
+    ex:latin "PKK" ;
+    ex:aksaraJawa "ꦥꦏꦏ" ;
+    ex:arti "PKK" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_14 a ex:Kata ;
+    ex:latin "bab" ;
+    ex:aksaraJawa "ꦧꦧ꧀" ;
+    ex:arti "hal" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_15 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_16 a ex:Kata ;
+    ex:latin "ditakókaké" ;
+    ex:aksaraJawa "ꦢꦶꦠꦏꦺꦴꦏꦏꦺ" ;
+    ex:arti "ditanyakan" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_17 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_18 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_19 a ex:Kata ;
+    ex:latin "Guru." ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ." ;
+    ex:arti "Guru." ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+# Paragraf 40
+ex:Paragraf_40 a ex:Paragraf ;
+    ex:isiLatin ""Bu Guru kók sakmênika mbótên mêndêt jatahipún píl kabé?"" ;
+    ex:isiAksaraJawa "ꦧꦸ ꦒꦸꦫꦸ ꦏꦺꦴꦏ꧀ ꦱꦏ꧀ꦩꦼꦤꦶꦏ ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀ ꦩꦼꦤ꧀ꦢꦼꦠ꧀ ꦗꦠꦲꦶꦥꦸꦤ꧀ ꦥꦶꦭ꧀ ꦏꦧꦺ?" ;
+    ex:arti ""Bu Guru kok sekarang tidak mengambil jatah pil KB?"" .
+
+ex:Kata_40_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_1 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_2 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_3 a ex:Kata ;
+    ex:latin "sakmênika" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦩꦼꦤꦶꦏ" ;
+    ex:arti "sekarang" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_4 a ex:Kata ;
+    ex:latin "mbótên" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_5 a ex:Kata ;
+    ex:latin "mêndêt" ;
+    ex:aksaraJawa "ꦩꦼꦤ꧀ꦢꦼꦠ꧀" ;
+    ex:arti "mengambil" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_6 a ex:Kata ;
+    ex:latin "jatahipún" ;
+    ex:aksaraJawa "ꦗꦠꦲꦶꦥꦸꦤ꧀" ;
+    ex:arti "jatah" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_7 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_8 a ex:Kata ;
+    ex:latin "kabé?" ;
+    ex:aksaraJawa "ꦏꦧꦺ?" ;
+    ex:arti "KB?" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+# Paragraf 41
+ex:Paragraf_41 a ex:Paragraf ;
+    ex:isiLatin "Karo klimputan Bu Guru wangsulan sêtêngah bisik-bisik." ;
+    ex:isiAksaraJawa "ꦏꦫꦺꦴ ꦏ꧀ꦭꦶꦩ꧀ꦥꦸꦠꦤ꧀ ꦧꦸ ꦒꦸꦫꦸ ꦮꦁꦱꦸꦭꦤ꧀ ꦱꦼꦠꦼꦁꦃ ꦧꦶꦱꦶꦏ꧀-ꦧꦶꦱꦶꦏ꧀." ;
+    ex:arti "Dengan malu-malu Bu Guru menjawab setengah berbisik." .
+
+ex:Kata_41_0 a ex:Kata ;
+    ex:latin "Karo" ;
+    ex:aksaraJawa "ꦏꦫꦺꦴ" ;
+    ex:arti "Dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_1 a ex:Kata ;
+    ex:latin "klimputan" ;
+    ex:aksaraJawa "ꦏ꧀ꦭꦶꦩ꧀ꦥꦸꦠꦤ꧀" ;
+    ex:arti "malu-malu" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_2 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_3 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_4 a ex:Kata ;
+    ex:latin "wangsulan" ;
+    ex:aksaraJawa "ꦮꦁꦱꦸꦭꦤ꧀" ;
+    ex:arti "menjawab" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_5 a ex:Kata ;
+    ex:latin "sêtêngah" ;
+    ex:aksaraJawa "ꦱꦼꦠꦼꦁꦃ" ;
+    ex:arti "setengah" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_6 a ex:Kata ;
+    ex:latin "bisik-bisik." ;
+    ex:aksaraJawa "ꦧꦶꦱꦶꦏ꧀-ꦧꦶꦱꦶꦏ꧀." ;
+    ex:arti "berbisik." ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+# Paragraf 42
+ex:Paragraf_42 a ex:Paragraf ;
+    ex:isiLatin "Ngapuntên Bu Bidan, kulā kêbóbólan malíh. Kêsupèn mbótên nêdå píl tigang dintên, lha kók ngandêg malih....." ;
+    ex:isiAksaraJawa "ꦔꦥꦸꦤ꧀ꦠꦼꦤ꧀ ꦧꦸ ꦧꦶꦢꦤ꧀, ꦏꦸꦭ ꦏꦼꦧꦺꦴꦧꦺꦴꦭꦤ꧀ ꦩꦭꦶꦃ. ꦏꦼꦱꦸꦥꦺꦤ꧀ ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀ ꦤꦼꦢ ꦥꦶꦭ꧀ ꦠꦶꦒꦁ ꦢꦶꦤ꧀ꦠꦼꦤ꧀, ꦭꦃ ꦏꦺꦴꦏ꧀ ꦔꦤ꧀ꦢꦼꦒ꧀ ꦩꦭꦶꦃ....." ;
+    ex:arti "Maaf Bu Bidan, saya kebobolan lagi. Lupa tidak minum pil tiga hari, kok hamil lagi....." .
+
+ex:Kata_42_0 a ex:Kata ;
+    ex:latin "Ngapuntên" ;
+    ex:aksaraJawa "ꦔꦥꦸꦤ꧀ꦠꦼꦤ꧀" ;
+    ex:arti "Maaf" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_2 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_3 a ex:Kata ;
+    ex:latin "kulā" ;
+    ex:aksaraJawa "ꦏꦸꦭ" ;
+    ex:arti "saya" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_4 a ex:Kata ;
+    ex:latin "kêbóbólan" ;
+    ex:aksaraJawa "ꦏꦼꦧꦺꦴꦧꦺꦴꦭꦤ꧀" ;
+    ex:arti "kebobolan" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_5 a ex:Kata ;
+    ex:latin "malíh." ;
+    ex:aksaraJawa "ꦩꦭꦶꦃ." ;
+    ex:arti "lagi." ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_6 a ex:Kata ;
+    ex:latin "Kêsupèn" ;
+    ex:aksaraJawa "ꦏꦼꦱꦸꦥꦺꦤ꧀" ;
+    ex:arti "Lupa" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_7 a ex:Kata ;
+    ex:latin "mbótên" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_8 a ex:Kata ;
+    ex:latin "nêdå" ;
+    ex:aksaraJawa "ꦤꦼꦢ" ;
+    ex:arti "minum" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_9 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_10 a ex:Kata ;
+    ex:latin "tigang" ;
+    ex:aksaraJawa "ꦠꦶꦒꦁ" ;
+    ex:arti "tiga" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_11 a ex:Kata ;
+    ex:latin "dintên" ;
+    ex:aksaraJawa "ꦢꦶꦤ꧀ꦠꦼꦤ꧀" ;
+    ex:arti "hari" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_12 a ex:Kata ;
+    ex:latin "lha" ;
+    ex:aksaraJawa "ꦭꦃ" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_13 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_14 a ex:Kata ;
+    ex:latin "ngandêg" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "hamil" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_15 a ex:Kata ;
+    ex:latin "malih....." ;
+    ex:aksaraJawa "ꦩꦭꦶꦃ....." ;
+    ex:arti "lagi....." ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+# Paragraf 43
+ex:Paragraf_43 a ex:Paragraf ;
+    ex:isiLatin ""Wooo...,ngatên tả?" Bu Bidan mlênggóng sêmu maido." ;
+    ex:isiAksaraJawa "ꦮꦺꦴꦮꦺꦴꦮꦺꦴ...,ꦔꦠꦼꦤ꧀ ꦠꦲ꧀?" ꦧꦸ ꦧꦶꦢꦤ꧀ ꦩ꧀ꦭꦼꦁꦒꦺꦴꦁ ꦱꦼꦩꦸ ꦩꦲꦶꦢꦺꦴ." ;
+    ex:arti ""Wooo..., begitu ya?" Bu Bidan terkejut sedikit menyalahkan." .
+
+ex:Kata_43_0 a ex:Kata ;
+    ex:latin "Wooo...," ;
+    ex:aksaraJawa "ꦮꦺꦴꦮꦺꦴꦮꦺꦴ...," ;
+    ex:arti "Wooo...," ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_1 a ex:Kata ;
+    ex:latin "ngatên" ;
+    ex:aksaraJawa "ꦔꦠꦼꦤ꧀" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_2 a ex:Kata ;
+    ex:latin "tả?" ;
+    ex:aksaraJawa "ꦠꦲ꧀?" ;
+    ex:arti "ya?" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_3 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_4 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_5 a ex:Kata ;
+    ex:latin "mlênggóng" ;
+    ex:aksaraJawa "ꦩ꧀ꦭꦼꦁꦒꦺꦴꦁ" ;
+    ex:arti "terkejut" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_6 a ex:Kata ;
+    ex:latin "sêmu" ;
+    ex:aksaraJawa "ꦱꦼꦩꦸ" ;
+    ex:arti "sedikit" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_7 a ex:Kata ;
+    ex:latin "maido." ;
+    ex:aksaraJawa "ꦩꦲꦶꦢꦺꦴ." ;
+    ex:arti "menyalahkan." ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+# Paragraf 44
+ex:Paragraf_44 a ex:Paragraf ;
+    ex:isiLatin ""Kulå rumiyin rak sampún matúr, mênawi kêsupèn mbótên dahar píl ka-bé, pêndak dintênipún dipúndóbêli...."" ;
+    ex:isiAksaraJawa "ꦏꦸꦭ ꦫꦸꦩꦶꦪꦶꦤ꧀ ꦫꦏ꧀ ꦱꦩ꧀ꦥꦸꦤ꧀ ꦩꦠꦸꦂ, ꦩꦼꦤꦮꦶ ꦏꦼꦱꦸꦥꦺꦤ꧀ ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀ ꦢꦲꦂ ꦥꦶꦭ꧀ ꦏ-ꦧꦺ, ꦥꦼꦤ꧀ꦢꦏ꧀ ꦢꦶꦤ꧀ꦠꦼꦤꦶꦥꦸꦤ꧀ ꦢꦶꦥꦸꦤ꧀ꦢꦺꦴꦧꦼꦭꦶ...." ;
+    ex:arti ""Saya dulu kan sudah bilang, kalau lupa tidak minum pil KB, setiap harinya diminum dobel...."" .
+
+ex:Kata_44_0 a ex:Kata ;
+    ex:latin "Kulå" ;
+    ex:aksaraJawa "ꦏꦸꦭ" ;
+    ex:arti "Saya" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_1 a ex:Kata ;
+    ex:latin "rumiyin" ;
+    ex:aksaraJawa "ꦫꦸꦩꦶꦪꦶꦤ꧀" ;
+    ex:arti "dulu" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_2 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_3 a ex:Kata ;
+    ex:latin "sampún" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_4 a ex:Kata ;
+    ex:latin "matúr" ;
+    ex:aksaraJawa "ꦩꦠꦸꦂ" ;
+    ex:arti "bilang" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_5 a ex:Kata ;
+    ex:latin "mênawi" ;
+    ex:aksaraJawa "ꦩꦼꦤꦮꦶ" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_6 a ex:Kata ;
+    ex:latin "kêsupèn" ;
+    ex:aksaraJawa "ꦏꦼꦱꦸꦥꦺꦤ꧀" ;
+    ex:arti "lupa" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_7 a ex:Kata ;
+    ex:latin "mbótên" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_8 a ex:Kata ;
+    ex:latin "dahar" ;
+    ex:aksaraJawa "ꦢꦲꦂ" ;
+    ex:arti "minum" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_9 a ex:Kata ;
+    ex:latin "píl" ;
+    ex:aksaraJawa "ꦥꦶꦭ꧀" ;
+    ex:arti "pil" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_10 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_11 a ex:Kata ;
+    ex:latin "pêndak" ;
+    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦏ꧀" ;
+    ex:arti "setiap" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_12 a ex:Kata ;
+    ex:latin "dintênipún" ;
+    ex:aksaraJawa "ꦢꦶꦤ꧀ꦠꦼꦤꦶꦥꦸꦤ꧀" ;
+    ex:arti "harinya" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_13 a ex:Kata ;
+    ex:latin "dipúndóbêli...." ;
+    ex:aksaraJawa "ꦢꦶꦥꦸꦤ꧀ꦢꦺꦴꦧꦼꦭꦶ...." ;
+    ex:arti "diminum dobel...." ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+# Paragraf 45
+ex:Paragraf_45 a ex:Paragraf ;
+    ex:isiLatin ""Wóng kémutan-kémutan sampún tigang ndintên kók, Bu!"" ;
+    ex:isiAksaraJawa "ꦮꦺꦴꦁ ꦏꦺꦩꦸꦠꦤ꧀-ꦏꦺꦩꦸꦠꦤ꧀ ꦱꦩ꧀ꦥꦸꦤ꧀ ꦠꦶꦒꦁ ꦤ꧀ꦢꦶꦤ꧀ꦠꦼꦤ꧀ ꦏꦺꦴꦏ꧀, ꦧꦸ!" ;
+    ex:arti ""Saya ingat-ingat sudah tiga hari kok, Bu!"" .
+
+ex:Kata_45_0 a ex:Kata ;
+    ex:latin "Wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "Saya" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_1 a ex:Kata ;
+    ex:latin "kémutan-kémutan" ;
+    ex:aksaraJawa "ꦏꦺꦩꦸꦠꦤ꧀-ꦏꦺꦩꦸꦠꦤ꧀" ;
+    ex:arti "ingat-ingat" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_2 a ex:Kata ;
+    ex:latin "sampún" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_3 a ex:Kata ;
+    ex:latin "tigang" ;
+    ex:aksaraJawa "ꦠꦶꦒꦁ" ;
+    ex:arti "tiga" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_4 a ex:Kata ;
+    ex:latin "ndintên" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦶꦤ꧀ꦠꦼꦤ꧀" ;
+    ex:arti "hari" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_5 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_6 a ex:Kata ;
+    ex:latin "Bu!" ;
+    ex:aksaraJawa "ꦧꦸ!" ;
+    ex:arti "Bu!" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+# Paragraf 46
+ex:Paragraf_46 a ex:Paragraf ;
+    ex:isiLatin "Dóspundi malíh?!" ;
+    ex:isiAksaraJawa "ꦢꦺꦴꦱ꧀ꦥꦸꦤ꧀ꦢꦶ ꦩꦭꦶꦃ?!" ;
+    ex:arti "Bagaimana lagi?!" .
+
+ex:Kata_46_0 a ex:Kata ;
+    ex:latin "Dóspundi" ;
+    ex:aksaraJawa "ꦢꦺꦴꦱ꧀ꦥꦸꦤ꧀ꦢꦶ" ;
+    ex:arti "Bagaimana" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_1 a ex:Kata ;
+    ex:latin "malíh?!" ;
+    ex:aksaraJawa "ꦩꦭꦶꦃ?!" ;
+    ex:arti "lagi?!" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+# Paragraf 47
+ex:Paragraf_47 a ex:Paragraf ;
+    ex:isiLatin "Nanging Bu Bidan ora arêp ndêdåwå critå, malah batiné prikså karêpmu, ora mríksakaké yå sakkarêpmu-, akibaté mbóktanggúng déwé." ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦧꦸ ꦧꦶꦢꦤ꧀ ꦲꦺꦴꦫ ꦲꦫꦼꦥ꧀ ꦤ꧀ꦢꦼꦢꦮ ꦕꦿꦶꦠ, ꦩꦭꦃ ꦧꦠꦶꦤꦺ ꦥꦿꦶꦏ꧀ꦱ ꦏꦫꦼꦥ꧀ꦩꦸ, ꦲꦺꦴꦫ ꦩ꧀ꦫꦶꦏ꧀ꦱꦏꦏꦺ ꦪ ꦱꦏ꧀ꦏꦫꦼꦥ꧀ꦩꦸ-, ꦲꦏꦶꦧꦠꦺ ꦩ꧀ꦧꦺꦴꦏ꧀ꦠꦁꦒꦸꦁ ꦢꦺꦮꦺ." ;
+    ex:arti "Namun Bu Bidan tidak mau memperpanjang cerita, malah dalam hatinya berkata, 'Terserah kamu, tidak memeriksakan diri juga terserah kamu, akibatnya kamu tanggung sendiri.'" .
+
+ex:Kata_47_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_2 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_3 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_4 a ex:Kata ;
+    ex:latin "arêp" ;
+    ex:aksaraJawa "ꦲꦫꦼꦥ꧀" ;
+    ex:arti "mau" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_5 a ex:Kata ;
+    ex:latin "ndêdåwå" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦼꦢꦮ" ;
+    ex:arti "memperpanjang" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_6 a ex:Kata ;
+    ex:latin "critå" ;
+    ex:aksaraJawa "ꦕꦿꦶꦠ" ;
+    ex:arti "cerita" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_7 a ex:Kata ;
+    ex:latin "malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "malah" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_8 a ex:Kata ;
+    ex:latin "batiné" ;
+    ex:aksaraJawa "ꦧꦠꦶꦤꦺ" ;
+    ex:arti "dalam hatinya" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_9 a ex:Kata ;
+    ex:latin "prikså" ;
+    ex:aksaraJawa "ꦥꦿꦶꦏ꧀ꦱ" ;
+    ex:arti "berkata" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_10 a ex:Kata ;
+    ex:latin "karêpmu" ;
+    ex:aksaraJawa "ꦏꦫꦼꦥ꧀ꦩꦸ" ;
+    ex:arti "tersereah kamu" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_11 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_12 a ex:Kata ;
+    ex:latin "mríksakaké" ;
+    ex:aksaraJawa "ꦩ꧀ꦫꦶꦏ꧀ꦱꦏꦏꦺ" ;
+    ex:arti "memeriksakan diri" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_13 a ex:Kata ;
+    ex:latin "yå" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_14 a ex:Kata ;
+    ex:latin "sakkarêpmu-" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦏꦫꦼꦥ꧀ꦩꦸ-" ;
+    ex:arti "tersereah kamu-" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_15 a ex:Kata ;
+    ex:latin "akibaté" ;
+    ex:aksaraJawa "ꦲꦏꦶꦧꦠꦺ" ;
+    ex:arti "akibatnya" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_16 a ex:Kata ;
+    ex:latin "mbóktanggúng" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦏ꧀ꦠꦁꦒꦸꦁ" ;
+    ex:arti "kamu tanggung" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_17 a ex:Kata ;
+    ex:latin "déwé." ;
+    ex:aksaraJawa "ꦢꦺꦮꦺ." ;
+    ex:arti "sendiri." ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+# Paragraf 48
+ex:Paragraf_48 a ex:Paragraf ;
+    ex:isiLatin "Nyatané sajêroné ngandêg sangang sasi Bu Guru múng mríksakaké kapíng pindo. Mula ora mokal yên anggóné nglairaké rådå rêkåså." ;
+    ex:isiAksaraJawa "ꦚꦠꦤꦺ ꦱꦗꦼꦫꦺꦴꦤꦺ ꦔꦤ꧀ꦢꦼꦒ꧀ ꦱꦔꦁ ꦱꦱꦶ ꦧꦸ ꦒꦸꦫꦸ ꦩꦸꦁ ꦩ꧀ꦫꦶꦏ꧀ꦱꦏꦏꦺ ꦏꦥꦶꦁ ꦥꦶꦤ꧀ꦢꦺꦴ. ꦩꦸꦭ ꦲꦺꦴꦫ ꦩꦺꦴꦏꦭ꧀ ꦪꦺꦤ꧀ ꦲꦁꦒꦺꦴꦤꦺ ꦔ꧀ꦭꦲꦶꦫꦏꦺ ꦫꦢ ꦫꦼꦏꦱ." ;
+    ex:arti "Kenyataannya selama hamil sembilan bulan Bu Guru hanya memeriksakan diri dua kali. Maka tidak heran jika melahirkannya agak susah." .
+
+ex:Kata_48_0 a ex:Kata ;
+    ex:latin "Nyatané" ;
+    ex:aksaraJawa "ꦚꦠꦤꦺ" ;
+    ex:arti "Kenyataannya" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_1 a ex:Kata ;
+    ex:latin "sajêroné" ;
+    ex:aksaraJawa "ꦱꦗꦼꦫꦺꦴꦤꦺ" ;
+    ex:arti "selama" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_2 a ex:Kata ;
+    ex:latin "ngandêg" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦢꦼꦒ꧀" ;
+    ex:arti "hamil" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_3 a ex:Kata ;
+    ex:latin "sangang" ;
+    ex:aksaraJawa "ꦱꦔꦁ" ;
+    ex:arti "sembilan" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_4 a ex:Kata ;
+    ex:latin "sasi" ;
+    ex:aksaraJawa "ꦱꦱꦶ" ;
+    ex:arti "bulan" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_5 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_6 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_7 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_8 a ex:Kata ;
+    ex:latin "mríksakaké" ;
+    ex:aksaraJawa "ꦩ꧀ꦫꦶꦏ꧀ꦱꦏꦏꦺ" ;
+    ex:arti "memeriksakan diri" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_9 a ex:Kata ;
+    ex:latin "kapíng" ;
+    ex:aksaraJawa "ꦏꦥꦶꦁ" ;
+    ex:arti "kali" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_10 a ex:Kata ;
+    ex:latin "pindo." ;
+    ex:aksaraJawa "ꦥꦶꦤ꧀ꦢꦺꦴ." ;
+    ex:arti "dua." ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_11 a ex:Kata ;
+    ex:latin "Mula" ;
+    ex:aksaraJawa "ꦩꦸꦭ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_12 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_13 a ex:Kata ;
+    ex:latin "mokal" ;
+    ex:aksaraJawa "ꦩꦺꦴꦏꦭ꧀" ;
+    ex:arti "heran" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_14 a ex:Kata ;
+    ex:latin "yên" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "jika" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_15 a ex:Kata ;
+    ex:latin "anggóné" ;
+    ex:aksaraJawa "ꦲꦁꦒꦺꦴꦤꦺ" ;
+    ex:arti "melahirkannya" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_16 a ex:Kata ;
+    ex:latin "nglairaké" ;
+    ex:aksaraJawa "ꦔ꧀ꦭꦲꦶꦫꦏꦺ" ;
+    ex:arti "melahirkan" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_17 a ex:Kata ;
+    ex:latin "rådå" ;
+    ex:aksaraJawa "ꦫꦢ" ;
+    ex:arti "agak" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_18 a ex:Kata ;
+    ex:latin "rêkåså." ;
+    ex:aksaraJawa "ꦫꦼꦏꦱ." ;
+    ex:arti "susah." ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+# Paragraf 49
+ex:Paragraf_49 a ex:Paragraf ;
+    ex:isiLatin "Bu Bidan ora sagúh nangani." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦧꦶꦢꦤ꧀ ꦲꦺꦴꦫ ꦱꦒꦸꦃ ꦤꦔꦤꦶ." ;
+    ex:arti "Bu Bidan tidak sanggup menangani." .
+
+ex:Kata_49_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_1 a ex:Kata ;
+    ex:latin "Bidan" ;
+    ex:aksaraJawa "ꦧꦶꦢꦤ꧀" ;
+    ex:arti "Bidan" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_2 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_3 a ex:Kata ;
+    ex:latin "sagúh" ;
+    ex:aksaraJawa "ꦱꦒꦸꦃ" ;
+    ex:arti "sanggup" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_4 a ex:Kata ;
+    ex:latin "nangani." ;
+    ex:aksaraJawa "ꦤꦔꦤꦶ." ;
+    ex:arti "menangani." ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+# Paragraf 50
+ex:Paragraf_50 a ex:Paragraf ;
+    ex:isiLatin "Sidané Bu Guru digåwå mênyang rumah sakít, amargå múng dóktêr síng kêconggah nangani." ;
+    ex:isiAksaraJawa "ꦱꦶꦢꦤꦺ ꦧꦸ ꦒꦸꦫꦸ ꦢꦶꦒꦮ ꦩꦼꦚꦁ ꦫꦸꦩꦃ ꦱꦏꦶꦠ꧀, ꦲꦩꦂꦒ ꦩꦸꦁ ꦢꦺꦴꦏ꧀ꦠꦼꦂ ꦱꦶꦁ ꦏꦼꦕꦺꦴꦁꦒꦃ ꦤꦔꦤꦶ." ;
+    ex:arti "Akhirnya Bu Guru dibawa ke rumah sakit, karena hanya dokter yang sanggup menangani." .
+
+ex:Kata_50_0 a ex:Kata ;
+    ex:latin "Sidané" ;
+    ex:aksaraJawa "ꦱꦶꦢꦤꦺ" ;
+    ex:arti "Akhirnya" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_1 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_2 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_3 a ex:Kata ;
+    ex:latin "digåwå" ;
+    ex:aksaraJawa "ꦢꦶꦒꦮ" ;
+    ex:arti "dibawa" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_4 a ex:Kata ;
+    ex:latin "mênyang" ;
+    ex:aksaraJawa "ꦩꦼꦚꦁ" ;
+    ex:arti "ke" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_5 a ex:Kata ;
+    ex:latin "rumah" ;
+    ex:aksaraJawa "ꦫꦸꦩꦃ" ;
+    ex:arti "rumah" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_6 a ex:Kata ;
+    ex:latin "sakít" ;
+    ex:aksaraJawa "ꦱꦏꦶꦠ꧀" ;
+    ex:arti "sakit" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_7 a ex:Kata ;
+    ex:latin "amargå" ;
+    ex:aksaraJawa "ꦲꦩꦂꦒ" ;
+    ex:arti "karena" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_8 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_9 a ex:Kata ;
+    ex:latin "dóktêr" ;
+    ex:aksaraJawa "ꦢꦺꦴꦏ꧀ꦠꦼꦂ" ;
+    ex:arti "dokter" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_10 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_11 a ex:Kata ;
+    ex:latin "kêconggah" ;
+    ex:aksaraJawa "ꦏꦼꦕꦺꦴꦁꦒꦃ" ;
+    ex:arti "sanggup" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_12 a ex:Kata ;
+    ex:latin "nangani." ;
+    ex:aksaraJawa "ꦤꦔꦤꦶ." ;
+    ex:arti "menangani." ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+# Paragraf 51
+ex:Paragraf_51 a ex:Paragraf ;
+    ex:isiLatin "Diinfus nganti ngêntèkaké pirangpirang bótól, parandéné bubar nglaíraké mêkså katón nglêntríh tanpå dåyå" ;
+    ex:isiAksaraJawa "ꦢꦶꦲꦶꦤ꧀ꦥꦸꦱ꧀ ꦔꦤ꧀ꦠꦶ ꦔꦼꦤ꧀ꦠꦺꦏꦏꦺ ꦥꦶꦫꦁꦥꦶꦫꦁ ꦧꦺꦴꦠꦺꦴꦭ꧀, ꦥꦫꦤ꧀ꦢꦺꦤꦺ ꦧꦸꦧꦂ ꦔ꧀ꦭꦲꦶꦫꦏꦺ ꦩꦼꦏ꧀ꦱ ꦏꦠꦺꦴꦤ꧀ ꦔ꧀ꦭꦼꦤ꧀ꦠꦿꦶꦃ ꦠꦤ꧀ꦥ ꦢꦪ" ;
+    ex:arti "Diinfus sampai menghabiskan berbotol-botol, meskipun begitu setelah melahirkan tetap terlihat lemas tanpa daya" .
+    ex:sumber[cite: 46].
+
+ex:Kata_51_0 a ex:Kata ;
+    ex:latin "Diinfus" ;
+    ex:aksaraJawa "ꦢꦶꦲꦶꦤ꧀ꦥꦸꦱ꧀" ;
+    ex:arti "Diinfus" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_1 a ex:Kata ;
+    ex:latin "nganti" ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦠꦶ" ;
+    ex:arti "sampai" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_2 a ex:Kata ;
+    ex:latin "ngêntèkaké" ;
+    ex:aksaraJawa "ꦔꦼꦤ꧀ꦠꦺꦏꦏꦺ" ;
+    ex:arti "menghabiskan" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_3 a ex:Kata ;
+    ex:latin "pirangpirang" ;
+    ex:aksaraJawa "ꦥꦶꦫꦁꦥꦶꦫꦁ" ;
+    ex:arti "berbotol-botol" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_4 a ex:Kata ;
+    ex:latin "bótól" ;
+    ex:aksaraJawa "ꦧꦺꦴꦠꦺꦴꦭ꧀" ;
+    ex:arti "botol" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_5 a ex:Kata ;
+    ex:latin "parandéné" ;
+    ex:aksaraJawa "ꦥꦫꦤ꧀ꦢꦺꦤꦺ" ;
+    ex:arti "meskipun begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_6 a ex:Kata ;
+    ex:latin "bubar" ;
+    ex:aksaraJawa "ꦧꦸꦧꦂ" ;
+    ex:arti "setelah" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_7 a ex:Kata ;
+    ex:latin "nglaíraké" ;
+    ex:aksaraJawa "ꦔ꧀ꦭꦲꦶꦫꦏꦺ" ;
+    ex:arti "melahirkan" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_8 a ex:Kata ;
+    ex:latin "mêkså" ;
+    ex:aksaraJawa "ꦩꦼꦏ꧀ꦱ" ;
+    ex:arti "tetap" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_9 a ex:Kata ;
+    ex:latin "katón" ;
+    ex:aksaraJawa "ꦏꦠꦺꦴꦤ꧀" ;
+    ex:arti "terlihat" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_10 a ex:Kata ;
+    ex:latin "nglêntríh" ;
+    ex:aksaraJawa "ꦔ꧀ꦭꦼꦤ꧀ꦠꦿꦶꦃ" ;
+    ex:arti "lemas" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_11 a ex:Kata ;
+    ex:latin "tanpå" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
+    ex:arti "tanpa" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+ex:Kata_51_12 a ex:Kata ;
+    ex:latin "dåyå" ;
+    ex:aksaraJawa "ꦢꦪ" ;
+    ex:arti "daya" ;
+    ex:munculDalamParagraf ex:Paragraf_51[cite: 46].
+
+# Paragraf 52
+ex:Paragraf_52 a ex:Paragraf ;
+    ex:isiLatin "amargå kêntèkan tênågå. Malah kóbêr ora élíng barang. Tujuné isíh biså dislamêtaké. Ya múng rådå akèh wragad síng kudu diwêtókaké." ;
+    ex:isiAksaraJawa "ꦲꦩꦂꦒ ꦏꦼꦤ꧀ꦠꦺꦏꦤ꧀ ꦠꦼꦤꦒ. ꦩꦭꦃ ꦏꦺꦴꦧꦼꦂ ꦲꦺꦴꦫ ꦲꦺꦭꦶꦁ ꦧꦫꦁ. ꦠꦸꦗꦸꦤꦺ ꦲꦶꦱꦶꦃ ꦧꦶꦱ ꦢꦶꦱ꧀ꦭꦩꦼꦠꦏꦺ. ꦪ ꦩꦸꦁ ꦫꦢ ꦲꦏꦺꦃ ꦮꦿꦒꦢ꧀ ꦱꦶꦁ ꦏꦸꦢꦸ ꦢꦶꦮꦼꦛꦺꦴꦏꦏꦺ." ;
+    ex:arti "karena kehabisan tenaga. Bahkan sempat tidak sadar. Untungnya masih bisa diselamatkan. Hanya saja agak banyak biaya yang harus dikeluarkan." .
+    ex:sumber[cite: 47].
+
+ex:Kata_52_0 a ex:Kata ;
+    ex:latin "amargå" ;
+    ex:aksaraJawa "ꦲꦩꦂꦒ" ;
+    ex:arti "karena" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_1 a ex:Kata ;
+    ex:latin "kêntèkan" ;
+    ex:aksaraJawa "ꦏꦼꦤ꧀ꦠꦺꦏꦤ꧀" ;
+    ex:arti "kehabisan" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_2 a ex:Kata ;
+    ex:latin "tênågå." ;
+    ex:aksaraJawa "ꦠꦼꦤꦒ." ;
+    ex:arti "tenaga." ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_3 a ex:Kata ;
+    ex:latin "Malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "Bahkan" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_4 a ex:Kata ;
+    ex:latin "kóbêr" ;
+    ex:aksaraJawa "ꦏꦺꦴꦧꦼꦂ" ;
+    ex:arti "sempat" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_5 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_6 a ex:Kata ;
+    ex:latin "élíng" ;
+    ex:aksaraJawa "ꦲꦺꦭꦶꦁ" ;
+    ex:arti "sadar" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_7 a ex:Kata ;
+    ex:latin "barang." ;
+    ex:aksaraJawa "ꦧꦫꦁ." ;
+    ex:arti "barang." ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_8 a ex:Kata ;
+    ex:latin "Tujuné" ;
+    ex:aksaraJawa "ꦠꦸꦗꦸꦤꦺ" ;
+    ex:arti "Untungnya" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_9 a ex:Kata ;
+    ex:latin "isíh" ;
+    ex:aksaraJawa "ꦲꦶꦱꦶꦃ" ;
+    ex:arti "masih" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_10 a ex:Kata ;
+    ex:latin "biså" ;
+    ex:aksaraJawa "ꦧꦶꦱ" ;
+    ex:arti "bisa" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_11 a ex:Kata ;
+    ex:latin "dislamêtaké." ;
+    ex:aksaraJawa "ꦢꦶꦱ꧀ꦭꦩꦼꦠꦏꦺ." ;
+    ex:arti "diselamatkan." ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_12 a ex:Kata ;
+    ex:latin "Ya" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "Hanya" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_13 a ex:Kata ;
+    ex:latin "múng" ;
+    ex:aksaraJawa "ꦩꦸꦁ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_14 a ex:Kata ;
+    ex:latin "rådå" ;
+    ex:aksaraJawa "ꦫꦢ" ;
+    ex:arti "agak" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_15 a ex:Kata ;
+    ex:latin "akèh" ;
+    ex:aksaraJawa "ꦲꦏꦺꦃ" ;
+    ex:arti "banyak" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_16 a ex:Kata ;
+    ex:latin "wragad" ;
+    ex:aksaraJawa "ꦮꦿꦒꦢ꧀" ;
+    ex:arti "biaya" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_17 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_18 a ex:Kata ;
+    ex:latin "kudu" ;
+    ex:aksaraJawa "ꦏꦸꦢꦸ" ;
+    ex:arti "harus" ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+ex:Kata_52_19 a ex:Kata ;
+    ex:latin "diwêtókaké." ;
+    ex:aksaraJawa "ꦢꦶꦮꦼꦛꦺꦴꦏꦏꦺ." ;
+    ex:arti "dikeluarkan." ;
+    ex:munculDalamParagraf ex:Paragraf_52[cite: 47].
+
+# Paragraf 53
+ex:Paragraf_53 a ex:Paragraf ;
+    ex:isiLatin ""Putra njênêngan èstri," ngêndikané dóktêr ngandani." ;
+    ex:isiAksaraJawa "ꦥꦸꦠꦿ ꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀ ꦲꦺꦱ꧀ꦠꦿꦶ," ꦔꦼꦤ꧀ꦢꦶꦏꦤꦺ ꦢꦺꦴꦏ꧀ꦠꦼꦂ ꦔꦤ꧀ꦢꦤꦶ." ;
+    ex:arti ""Anak Anda perempuan," kata dokter memberitahu." .
+    ex:sumber[cite: 48].
+
+ex:Kata_53_0 a ex:Kata ;
+    ex:latin "Putra" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿ" ;
+    ex:arti "Anak" ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+ex:Kata_53_1 a ex:Kata ;
+    ex:latin "njênêngan" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀" ;
+    ex:arti "Anda" ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+ex:Kata_53_2 a ex:Kata ;
+    ex:latin "èstri," ;
+    ex:aksaraJawa "ꦲꦺꦱ꧀ꦠꦿꦶ," ;
+    ex:arti "perempuan," ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+ex:Kata_53_3 a ex:Kata ;
+    ex:latin "ngêndikané" ;
+    ex:aksaraJawa "ꦔꦼꦤ꧀ꦢꦶꦏꦤꦺ" ;
+    ex:arti "kata" ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+ex:Kata_53_4 a ex:Kata ;
+    ex:latin "dóktêr" ;
+    ex:aksaraJawa "ꦢꦺꦴꦏ꧀ꦠꦼꦂ" ;
+    ex:arti "dokter" ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+ex:Kata_53_5 a ex:Kata ;
+    ex:latin "ngandani." ;
+    ex:aksaraJawa "ꦔꦤ꧀ꦢꦤꦶ." ;
+    ex:arti "memberitahu." ;
+    ex:munculDalamParagraf ex:Paragraf_53[cite: 48].
+
+# Paragraf 54
+ex:Paragraf_54 a ex:Paragraf ;
+    ex:isiLatin "Síng dikandani ora wangsulan. Mripaté kêțap-kêțip." ;
+    ex:isiAksaraJawa "ꦱꦶꦁ ꦢꦶꦏꦤ꧀ꦢꦤꦶ ꦲꦺꦴꦫ ꦮꦁꦱꦸꦭꦤ꧀. ꦩ꧀ꦫꦶꦥꦠꦺ ꦏꦼꦛꦥ꧀-ꦏꦼꦛꦶꦥ꧀." ;
+    ex:arti "Yang diberitahu tidak menjawab. Matanya berkedip-kedip." .
+    ex:sumber[cite: 48].
+
+ex:Kata_54_0 a ex:Kata ;
+    ex:latin "Síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "Yang" ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+ex:Kata_54_1 a ex:Kata ;
+    ex:latin "dikandani" ;
+    ex:aksaraJawa "ꦢꦶꦏꦤ꧀ꦢꦤꦶ" ;
+    ex:arti "diberitahu" ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+ex:Kata_54_2 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+ex:Kata_54_3 a ex:Kata ;
+    ex:latin "wangsulan." ;
+    ex:aksaraJawa "ꦮꦁꦱꦸꦭꦤ꧀." ;
+    ex:arti "menjawab." ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+ex:Kata_54_4 a ex:Kata ;
+    ex:latin "Mripaté" ;
+    ex:aksaraJawa "ꦩ꧀ꦫꦶꦥꦠꦺ" ;
+    ex:arti "Matanya" ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+ex:Kata_54_5 a ex:Kata ;
+    ex:latin "kêțap-kêțip." ;
+    ex:aksaraJawa "ꦏꦼꦛꦥ꧀-ꦏꦼꦛꦶꦥ꧀." ;
+    ex:arti "berkedip-kedip." ;
+    ex:munculDalamParagraf ex:Paragraf_54[cite: 48].
+
+# Paragraf 55
+ex:Paragraf_55 a ex:Paragraf ;
+    ex:isiLatin "Ngêrtiå yèn anaké iku bakal mêtu wadón manèh, ațukå dèwèké rak mèlu ka-bé têmênan, ora étók éțókan kåyå dèk êmbèn." ;
+    ex:isiAksaraJawa "ꦔꦼꦂꦠꦶꦲ ꦪꦺꦤ꧀ ꦲꦤꦏꦺ ꦲꦶꦏꦸ ꦧꦏꦭ꧀ ꦩꦼꦠꦸ ꦮꦢꦺꦴꦤ꧀ ꦩꦤꦺꦃ, ꦲꦛꦸꦏ ꦢꦼꦮꦼꦏꦺ ꦫꦏ꧀ ꦩꦺꦭꦸ ꦏ-ꦧꦺ ꦠꦼꦩꦼꦤꦤ꧀, ꦲꦺꦴꦫ ꦲꦺꦠꦺꦴꦏ꧀ ꦲꦺꦠꦺꦴꦏꦤ꧀ ꦏꦪ ꦢꦼꦏ꧀ ꦲꦼꦩ꧀ꦧꦺꦤ꧀." ;
+    ex:arti "Seandainya dia tahu bahwa anaknya itu akan lahir perempuan lagi, pasti dia ikut KB sungguhan, tidak pura-pura seperti dulu." .
+    ex:sumber[cite: 49].
+
+ex:Kata_55_0 a ex:Kata ;
+    ex:latin "Ngêrtiå" ;
+    ex:aksaraJawa "ꦔꦼꦂꦠꦶꦲ" ;
+    ex:arti "Seandainya dia tahu" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_1 a ex:Kata ;
+    ex:latin "yèn" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "bahwa" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_2 a ex:Kata ;
+    ex:latin "anaké" ;
+    ex:aksaraJawa "ꦲꦤꦏꦺ" ;
+    ex:arti "anaknya" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_3 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_4 a ex:Kata ;
+    ex:latin "bakal" ;
+    ex:aksaraJawa "ꦧꦏꦭ꧀" ;
+    ex:arti "akan" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_5 a ex:Kata ;
+    ex:latin "mêtu" ;
+    ex:aksaraJawa "ꦩꦼꦠꦸ" ;
+    ex:arti "lahir" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_6 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_7 a ex:Kata ;
+    ex:latin "manèh" ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ" ;
+    ex:arti "lagi" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_8 a ex:Kata ;
+    ex:latin "ațukå" ;
+    ex:aksaraJawa "ꦲꦛꦸꦏ" ;
+    ex:arti "pasti" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_9 a ex:Kata ;
+    ex:latin "dèwèké" ;
+    ex:aksaraJawa "ꦢꦼꦮꦼꦏꦺ" ;
+    ex:arti "dia" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_10 a ex:Kata ;
+    ex:latin "rak" ;
+    ex:aksaraJawa "ꦫꦏ꧀" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_11 a ex:Kata ;
+    ex:latin "mèlu" ;
+    ex:aksaraJawa "ꦩꦺꦭꦸ" ;
+    ex:arti "ikut" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_12 a ex:Kata ;
+    ex:latin "ka-bé" ;
+    ex:aksaraJawa "ꦏ-ꦧꦺ" ;
+    ex:arti "KB" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_13 a ex:Kata ;
+    ex:latin "têmênan" ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀" ;
+    ex:arti "sungguhan" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_14 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_15 a ex:Kata ;
+    ex:latin "étók" ;
+    ex:aksaraJawa "ꦲꦺꦠꦺꦴꦏ꧀" ;
+    ex:arti "pura-pura" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_16 a ex:Kata ;
+    ex:latin "éțókan" ;
+    ex:aksaraJawa "ꦲꦺꦠꦺꦴꦏꦤ꧀" ;
+    ex:arti "pura-pura" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_17 a ex:Kata ;
+    ex:latin "kåyå" ;
+    ex:aksaraJawa "ꦏꦪ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_18 a ex:Kata ;
+    ex:latin "dèk" ;
+    ex:aksaraJawa "ꦢꦼꦏ꧀" ;
+    ex:arti "dulu" ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+ex:Kata_55_19 a ex:Kata ;
+    ex:latin "êmbèn." ;
+    ex:aksaraJawa "ꦲꦼꦩ꧀ꦧꦺꦤ꧀." ;
+    ex:arti "dulu." ;
+    ex:munculDalamParagraf ex:Paragraf_55[cite: 49].
+
+# Paragraf 56
+ex:Paragraf_56 a ex:Paragraf ;
+    ex:isiLatin "Bu Guru gêgêtún, nanging wís kêbacút. Sidané kanți kêsadaran dèwèké njalúk distéríl pisan." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦒꦸꦫꦸ ꦒꦼꦒꦼꦠꦸꦤ꧀, ꦤꦔꦶꦁ ꦮꦶꦱ꧀ ꦏꦼꦧꦕꦸꦠ꧀. ꦱꦶꦢꦤꦺ ꦏꦤ꧀ꦠꦶ ꦏꦼꦱꦢꦫꦤ꧀ ꦢꦼꦮꦼꦏꦺ ꦚ꧀ꦗꦭꦸꦏ꧀ ꦢꦶꦱ꧀ꦠꦺꦫꦶꦭ꧀ ꦥꦶꦱꦤ꧀." ;
+    ex:arti "Bu Guru menyesal, tapi sudah terlambat. Akhirnya dengan kesadaran dia meminta untuk disteril saja." .
+    ex:sumber[cite: 50].
+
+ex:Kata_56_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_1 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_2 a ex:Kata ;
+    ex:latin "gêgêtún" ;
+    ex:aksaraJawa "ꦒꦼꦒꦼꦠꦸꦤ꧀" ;
+    ex:arti "menyesal" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_3 a ex:Kata ;
+    ex:latin "nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_4 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_5 a ex:Kata ;
+    ex:latin "kêbacút." ;
+    ex:aksaraJawa "ꦏꦼꦧꦕꦸꦠ꧀." ;
+    ex:arti "terlambat." ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_6 a ex:Kata ;
+    ex:latin "Sidané" ;
+    ex:aksaraJawa "ꦱꦶꦢꦤꦺ" ;
+    ex:arti "Akhirnya" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_7 a ex:Kata ;
+    ex:latin "kanți" ;
+    ex:aksaraJawa "ꦏꦤ꧀ꦠꦶ" ;
+    ex:arti "dengan" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_8 a ex:Kata ;
+    ex:latin "kêsadaran" ;
+    ex:aksaraJawa "ꦏꦼꦱꦢꦫꦤ꧀" ;
+    ex:arti "kesadaran" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_9 a ex:Kata ;
+    ex:latin "dèwèké" ;
+    ex:aksaraJawa "ꦢꦼꦮꦼꦏꦺ" ;
+    ex:arti "dia" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_10 a ex:Kata ;
+    ex:latin "njalúk" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦭꦸꦏ꧀" ;
+    ex:arti "meminta" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_11 a ex:Kata ;
+    ex:latin "distéríl" ;
+    ex:aksaraJawa "ꦢꦶꦱ꧀ꦠꦺꦫꦶꦭ꧀" ;
+    ex:arti "disteril" ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+ex:Kata_56_12 a ex:Kata ;
+    ex:latin "pisan." ;
+    ex:aksaraJawa "ꦥꦶꦱꦤ꧀." ;
+    ex:arti "saja." ;
+    ex:munculDalamParagraf ex:Paragraf_56[cite: 50].
+
+# Paragraf 57
+ex:Paragraf_57 a ex:Paragraf ;
+    ex:isiLatin "Bu Guru lagi pasrah marang panguåsåné Síng Måhå Kuwåså síng nakdiraké dèwèké ora duwé anak lanang." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦒꦸꦫꦸ ꦭꦒꦶ ꦥꦱꦿꦃ ꦩꦫꦁ ꦥꦔꦸꦮꦱꦤꦺ ꦱꦶꦁ ꦩꦲ ꦏꦸꦮꦱ ꦱꦶꦁ ꦤꦏ꧀ꦢꦶꦫꦏꦺ ꦢꦼꦮꦼꦏꦺ ꦲꦺꦴꦫ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ." ;
+    ex:arti "Bu Guru pasrah kepada kekuasaan Yang Maha Kuasa yang menakdirkan dia tidak punya anak laki-laki." .
+    ex:sumber[cite: 51].
+
+ex:Kata_57_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_1 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_2 a ex:Kata ;
+    ex:latin "lagi" ;
+    ex:aksaraJawa "ꦭꦒꦶ" ;
+    ex:arti "lagi" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_3 a ex:Kata ;
+    ex:latin "pasrah" ;
+    ex:aksaraJawa "ꦥꦱꦿꦃ" ;
+    ex:arti "pasrah" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_4 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_5 a ex:Kata ;
+    ex:latin "panguåsåné" ;
+    ex:aksaraJawa "ꦥꦔꦸꦮꦱꦤꦺ" ;
+    ex:arti "kekuasaan" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_6 a ex:Kata ;
+    ex:latin "Síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "Yang" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_7 a ex:Kata ;
+    ex:latin "Måhå" ;
+    ex:aksaraJawa "ꦩꦲ" ;
+    ex:arti "Maha" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_8 a ex:Kata ;
+    ex:latin "Kuwåså" ;
+    ex:aksaraJawa "ꦏꦸꦮꦱ" ;
+    ex:arti "Kuasa" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_9 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_10 a ex:Kata ;
+    ex:latin "nakdiraké" ;
+    ex:aksaraJawa "ꦤꦏ꧀ꦢꦶꦫꦏꦺ" ;
+    ex:arti "menakdirkan" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_11 a ex:Kata ;
+    ex:latin "dèwèké" ;
+    ex:aksaraJawa "ꦢꦼꦮꦼꦏꦺ" ;
+    ex:arti "dia" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_12 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_13 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_14 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+ex:Kata_57_15 a ex:Kata ;
+    ex:latin "lanang." ;
+    ex:aksaraJawa "ꦭꦤꦁ." ;
+    ex:arti "laki-laki." ;
+    ex:munculDalamParagraf ex:Paragraf_57[cite: 51].
+
+# Paragraf 58
+ex:Paragraf_58 a ex:Paragraf ;
+    ex:isiLatin "Bu Guru wís biså mupús." ;
+    ex:isiAksaraJawa "ꦧꦸ ꦒꦸꦫꦸ ꦮꦶꦱ꧀ ꦧꦶꦱ ꦩꦸꦥꦸꦱ꧀." ;
+    ex:arti "Bu Guru sudah bisa ikhlas." .
+    ex:sumber[cite: 52].
+
+ex:Kata_58_0 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_58[cite: 52].
+
+ex:Kata_58_1 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_58[cite: 52].
+
+ex:Kata_58_2 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_58[cite: 52].
+
+ex:Kata_58_3 a ex:Kata ;
+    ex:latin "biså" ;
+    ex:aksaraJawa "ꦧꦶꦱ" ;
+    ex:arti "bisa" ;
+    ex:munculDalamParagraf ex:Paragraf_58[cite: 52].
+
+ex:Kata_58_4 a ex:Kata ;
+    ex:latin "mupús." ;
+    ex:aksaraJawa "ꦩꦸꦥꦸꦱ꧀." ;
+    ex:arti "ikhlas." ;
+    ex:munculDalamParagraf ex:Paragraf_58[cite: 52].
+
+# Paragraf 59
+ex:Paragraf_59 a ex:Paragraf ;
+    ex:isiLatin "Saiki pêpénginané duwé anak lanang gênti malíh dadi képéngín duwé putu lanang, amargå anaké mbarêp wis omah-omah taún kêpungkúr." ;
+    ex:isiAksaraJawa "ꦱꦲꦶꦏꦶ ꦥꦼꦥꦺꦔꦶꦤꦤꦺ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ ꦒꦼꦤ꧀ꦠꦶ ꦩꦭꦶꦃ ꦢꦢꦶ ꦏꦺꦥꦺꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦥꦸꦠꦸ ꦭꦤꦁ, ꦲꦩꦂꦒ ꦲꦤꦏꦺ ꦩ꧀ꦧꦫꦼꦥ꧀ ꦮꦶꦱ꧀ ꦲꦺꦴꦩꦃ-ꦲꦺꦴꦩꦃ ꦠꦲꦸꦤ꧀ ꦏꦼꦥꦸꦁꦏꦸꦂ." ;
+    ex:arti "Sekarang keinginannya punya anak laki-laki berganti menjadi ingin punya cucu laki-laki, karena anak sulungnya sudah menikah tahun lalu." .
+    ex:sumber[cite: 53].
+
+ex:Kata_59_0 a ex:Kata ;
+    ex:latin "Saiki" ;
+    ex:aksaraJawa "ꦱꦲꦶꦏꦶ" ;
+    ex:arti "Sekarang" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_1 a ex:Kata ;
+    ex:latin "pêpénginané" ;
+    ex:aksaraJawa "ꦥꦼꦥꦺꦔꦶꦤꦤꦺ" ;
+    ex:arti "keinginannya" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_2 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_3 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_4 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_5 a ex:Kata ;
+    ex:latin "gênti" ;
+    ex:aksaraJawa "ꦒꦼꦤ꧀ꦠꦶ" ;
+    ex:arti "berganti" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_6 a ex:Kata ;
+    ex:latin "malíh" ;
+    ex:aksaraJawa "ꦩꦭꦶꦃ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_7 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "jadi" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_8 a ex:Kata ;
+    ex:latin "képéngín" ;
+    ex:aksaraJawa "ꦏꦺꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_9 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_10 a ex:Kata ;
+    ex:latin "putu" ;
+    ex:aksaraJawa "ꦥꦸꦠꦸ" ;
+    ex:arti "cucu" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_11 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_12 a ex:Kata ;
+    ex:latin "amargå" ;
+    ex:aksaraJawa "ꦲꦩꦂꦒ" ;
+    ex:arti "karena" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_13 a ex:Kata ;
+    ex:latin "anaké" ;
+    ex:aksaraJawa "ꦲꦤꦏꦺ" ;
+    ex:arti "anaknya" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_14 a ex:Kata ;
+    ex:latin "mbarêp" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦫꦼꦥ꧀" ;
+    ex:arti "sulung" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_15 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_16 a ex:Kata ;
+    ex:latin "omah-omah" ;
+    ex:aksaraJawa "ꦲꦺꦴꦩꦃ-ꦲꦺꦴꦩꦃ" ;
+    ex:arti "menikah" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_17 a ex:Kata ;
+    ex:latin "taún" ;
+    ex:aksaraJawa "ꦠꦲꦸꦤ꧀" ;
+    ex:arti "tahun" ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+ex:Kata_59_18 a ex:Kata ;
+    ex:latin "kêpungkúr." ;
+    ex:aksaraJawa "ꦏꦼꦥꦸꦁꦏꦸꦂ." ;
+    ex:arti "lalu." ;
+    ex:munculDalamParagraf ex:Paragraf_59[cite: 53].
+
+# Paragraf 60
+ex:Paragraf_60 a ex:Paragraf ;
+    ex:isiLatin "Mula pêpénginané iku dikandakaké marang Ndari síng cêkêl gawé dadi guru SD." ;
+    ex:isiAksaraJawa "ꦩꦸꦭ ꦥꦼꦥꦺꦔꦶꦤꦤꦺ ꦲꦶꦏꦸ ꦢꦶꦏꦤ꧀ꦢꦏꦏꦺ ꦩꦫꦁ ꦤ꧀ꦢꦫꦶ ꦱꦶꦁ ꦕꦼꦏꦼꦭ꧀ ꦒꦮꦺ ꦢꦢꦶ ꦒꦸꦫꦸ ꦱꦢꦶ." ;
+    ex:arti "Maka keinginannya itu diberitahukan kepada Ndari yang bekerja sebagai guru SD." .
+    ex:sumber[cite: 53].
+
+ex:Kata_60_0 a ex:Kata ;
+    ex:latin "Mula" ;
+    ex:aksaraJawa "ꦩꦸꦭ" ;
+    ex:arti "Maka" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_1 a ex:Kata ;
+    ex:latin "pêpénginané" ;
+    ex:aksaraJawa "ꦥꦼꦥꦺꦔꦶꦤꦤꦺ" ;
+    ex:arti "keinginannya" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_2 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_3 a ex:Kata ;
+    ex:latin "dikandakaké" ;
+    ex:aksaraJawa "ꦢꦶꦏꦤ꧀ꦢꦏꦏꦺ" ;
+    ex:arti "diberitahukan" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_4 a ex:Kata ;
+    ex:latin "marang" ;
+    ex:aksaraJawa "ꦩꦫꦁ" ;
+    ex:arti "kepada" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_5 a ex:Kata ;
+    ex:latin "Ndari" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦫꦶ" ;
+    ex:arti "Ndari" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_6 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_7 a ex:Kata ;
+    ex:latin "cêkêl" ;
+    ex:aksaraJawa "ꦕꦼꦏꦼꦭ꧀" ;
+    ex:arti "bekerja" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_8 a ex:Kata ;
+    ex:latin "gawé" ;
+    ex:aksaraJawa "ꦒꦮꦺ" ;
+    ex:arti "sebagai" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_9 a ex:Kata ;
+    ex:latin "dadi" ;
+    ex:aksaraJawa "ꦢꦢꦶ" ;
+    ex:arti "menjadi" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_10 a ex:Kata ;
+    ex:latin "guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "guru" ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+ex:Kata_60_11 a ex:Kata ;
+    ex:latin "SD." ;
+    ex:aksaraJawa "ꦱꦢꦶ." ;
+    ex:arti "SD." ;
+    ex:munculDalamParagraf ex:Paragraf_60[cite: 53].
+
+# Paragraf 61
+ex:Paragraf_61 a ex:Paragraf ;
+    ex:isiLatin ""Aku wis trimå kók Ndúk ora diparingi anak lanang! Ning mugåmugå waé anakmu mbarêp iki mbésúk mêtu lanang..."" ;
+    ex:isiAksaraJawa "ꦲꦏꦸ ꦮꦶꦱ꧀ ꦠꦿꦶꦩ ꦏꦺꦴꦏ꧀ ꦤ꧀ꦢꦸꦏ꧀ ꦲꦺꦴꦫ ꦢꦶꦥꦫꦶꦁꦔꦶ ꦲꦤꦏ꧀ ꦭꦤꦁ! ꦤꦶꦁ ꦩꦸꦒ ꦩꦸꦒ ꦮꦲꦺ ꦲꦤꦏ꧀ꦩꦸ ꦩ꧀ꦧꦫꦼꦥ꧀ ꦲꦶꦏꦶ ꦩ꧀ꦧꦺꦱꦸꦏ꧀ ꦩꦼꦠꦸ ꦭꦤꦁ..." ;
+    ex:arti ""Aku sudah menerima kok, Nak, tidak diberi anak laki-laki! Tapi semoga saja anak sulungmu ini besok lahir laki-laki..."" .
+
+ex:Kata_61_0 a ex:Kata ;
+    ex:latin "Aku" ;
+    ex:aksaraJawa "ꦲꦏꦸ" ;
+    ex:arti "Aku" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_1 a ex:Kata ;
+    ex:latin "wis" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_2 a ex:Kata ;
+    ex:latin "trimå" ;
+    ex:aksaraJawa "ꦠꦿꦶꦩ" ;
+    ex:arti "menerima" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_3 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_4 a ex:Kata ;
+    ex:latin "Ndúk" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦸꦏ꧀" ;
+    ex:arti "Nak" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_5 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_6 a ex:Kata ;
+    ex:latin "diparingi" ;
+    ex:aksaraJawa "ꦢꦶꦥꦫꦶꦁꦔꦶ" ;
+    ex:arti "diberi" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_7 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_8 a ex:Kata ;
+    ex:latin "lanang!" ;
+    ex:aksaraJawa "ꦭꦤꦁ!" ;
+    ex:arti "laki-laki!" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_9 a ex:Kata ;
+    ex:latin "Ning" ;
+    ex:aksaraJawa "ꦤꦶꦁ" ;
+    ex:arti "Tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_10 a ex:Kata ;
+    ex:latin "mugåmugå" ;
+    ex:aksaraJawa "ꦩꦸꦒ ꦩꦸꦒ" ;
+    ex:arti "semoga" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_11 a ex:Kata ;
+    ex:latin "waé" ;
+    ex:aksaraJawa "ꦮꦲꦺ" ;
+    ex:arti "saja" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_12 a ex:Kata ;
+    ex:latin "anakmu" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦩꦸ" ;
+    ex:arti "anakmu" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_13 a ex:Kata ;
+    ex:latin "mbarêp" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦫꦼꦥ꧀" ;
+    ex:arti "sulung" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_14 a ex:Kata ;
+    ex:latin "iki" ;
+    ex:aksaraJawa "ꦲꦶꦏꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_15 a ex:Kata ;
+    ex:latin "mbésúk" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦱꦸꦏ꧀" ;
+    ex:arti "besok" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_16 a ex:Kata ;
+    ex:latin "mêtu" ;
+    ex:aksaraJawa "ꦩꦼꦠꦸ" ;
+    ex:arti "lahir" ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+ex:Kata_61_17 a ex:Kata ;
+    ex:latin "lanang..." ;
+    ex:aksaraJawa "ꦭꦤꦁ..." ;
+    ex:arti "laki-laki..." ;
+    ex:munculDalamParagraf ex:Paragraf_61 .
+
+# Paragraf 62
+ex:Paragraf_62 a ex:Paragraf ;
+    ex:isiLatin ""Ah, Ibuu....' wóng kula képénginé anak èstri kók!"" ;
+    ex:isiAksaraJawa "ꦲꦃ, ꦲꦶꦧꦸꦮꦸ....' ꦮꦺꦴꦁ ꦏꦸꦭ ꦏꦺꦥꦺꦔꦶꦤꦺ ꦲꦤꦏ꧀ ꦲꦺꦱ꧀ꦠꦿꦶ ꦏꦺꦴꦏ꧀!" ;
+    ex:arti ""Ah, Ibu....' padahal saya inginnya anak perempuan kok!"" .
+
+ex:Kata_62_0 a ex:Kata ;
+    ex:latin "Ah" ;
+    ex:aksaraJawa "ꦲꦃ" ;
+    ex:arti "Ah" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_1 a ex:Kata ;
+    ex:latin "Ibuu....'" ;
+    ex:aksaraJawa "ꦲꦶꦧꦸꦮꦸ....'" ;
+    ex:arti "Ibu....'" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_2 a ex:Kata ;
+    ex:latin "wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "padahal" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_3 a ex:Kata ;
+    ex:latin "kula" ;
+    ex:aksaraJawa "ꦏꦸꦭ" ;
+    ex:arti "saya" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_4 a ex:Kata ;
+    ex:latin "képénginé" ;
+    ex:aksaraJawa "ꦏꦺꦥꦺꦔꦶꦤꦺ" ;
+    ex:arti "inginya" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_5 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_6 a ex:Kata ;
+    ex:latin "èstri" ;
+    ex:aksaraJawa "ꦲꦺꦱ꧀ꦠꦿꦶ" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+ex:Kata_62_7 a ex:Kata ;
+    ex:latin "kók!"" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀!" ;
+    ex:arti "kok!"" ;
+    ex:munculDalamParagraf ex:Paragraf_62 .
+
+# Paragraf 63
+ex:Paragraf_63 a ex:Paragraf ;
+    ex:isiLatin ""Sêbabé?"" ;
+    ex:isiAksaraJawa "ꦱꦼꦧꦧꦺ?" ;
+    ex:arti ""Sebabnya?"" .
+
+ex:Kata_63_0 a ex:Kata ;
+    ex:latin "Sêbabé?" ;
+    ex:aksaraJawa "ꦱꦼꦧꦧꦺ?" ;
+    ex:arti "Sebabnya?" ;
+    ex:munculDalamParagraf ex:Paragraf_63 .
+
+# Paragraf 64
+ex:Paragraf_64 a ex:Paragraf ;
+    ex:isiLatin ""Ha inggih, anak èstri mênikå umumipun mbótên nakal. Umúr nêm taún sampún sagêd dipúnkèngkèn... Yên anak lanang?"" ;
+    ex:isiAksaraJawa "ꦲ ꦲꦶꦁꦒꦶꦃ, ꦲꦤꦏ꧀ ꦲꦺꦱ꧀ꦠꦿꦶ ꦩꦼꦤꦶꦏ ꦲꦸꦩꦸꦩꦶꦥꦸꦤ꧀ ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀ ꦤꦏꦭ꧀. ꦲꦸꦩꦸꦂ ꦤꦼꦩ꧀ ꦠꦲꦸꦤ꧀ ꦱꦩ꧀ꦥꦸꦤ꧀ ꦱꦒꦼꦢ꧀ ꦢꦶꦥꦸꦤ꧀ꦏꦺꦁꦏꦺꦤ꧀... ꦪꦺꦤ꧀ ꦲꦤꦏ꧀ ꦭꦤꦁ?" ;
+    ex:arti ""Ya, anak perempuan itu umumnya tidak nakal. Umur enam tahun sudah bisa disuruh... Kalau anak laki-laki?"" .
+
+ex:Kata_64_0 a ex:Kata ;
+    ex:latin "Ha" ;
+    ex:aksaraJawa "ꦲ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_1 a ex:Kata ;
+    ex:latin "inggih" ;
+    ex:aksaraJawa "ꦲꦶꦁꦒꦶꦃ" ;
+    ex:arti "ya" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_2 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_3 a ex:Kata ;
+    ex:latin "èstri" ;
+    ex:aksaraJawa "ꦲꦺꦱ꧀ꦠꦿꦶ" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_4 a ex:Kata ;
+    ex:latin "mênikå" ;
+    ex:aksaraJawa "ꦩꦼꦤꦶꦏ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_5 a ex:Kata ;
+    ex:latin "umumipun" ;
+    ex:aksaraJawa "ꦲꦸꦩꦸꦩꦶꦥꦸꦤ꧀" ;
+    ex:arti "umumnya" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_6 a ex:Kata ;
+    ex:latin "mbótên" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦺꦴꦠꦼꦤ꧀" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_7 a ex:Kata ;
+    ex:latin "nakal." ;
+    ex:aksaraJawa "ꦤꦏꦭ꧀." ;
+    ex:arti "nakal." ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_8 a ex:Kata ;
+    ex:latin "Umúr" ;
+    ex:aksaraJawa "ꦲꦸꦩꦸꦂ" ;
+    ex:arti "Umur" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_9 a ex:Kata ;
+    ex:latin "nêm" ;
+    ex:aksaraJawa "ꦤꦼꦩ꧀" ;
+    ex:arti "enam" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_10 a ex:Kata ;
+    ex:latin "taún" ;
+    ex:aksaraJawa "ꦠꦲꦸꦤ꧀" ;
+    ex:arti "tahun" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_11 a ex:Kata ;
+    ex:latin "sampún" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_12 a ex:Kata ;
+    ex:latin "sagêd" ;
+    ex:aksaraJawa "ꦱꦒꦼꦢ꧀" ;
+    ex:arti "bisa" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_13 a ex:Kata ;
+    ex:latin "dipúnkèngkèn..." ;
+    ex:aksaraJawa "ꦢꦶꦥꦸꦤ꧀ꦏꦺꦁꦏꦺꦤ꧀..." ;
+    ex:arti "disuruh..." ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_14 a ex:Kata ;
+    ex:latin "Yên" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀" ;
+    ex:arti "Kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_15 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+ex:Kata_64_16 a ex:Kata ;
+    ex:latin "lanang?" ;
+    ex:aksaraJawa "ꦭꦤꦁ?" ;
+    ex:arti "laki-laki?" ;
+    ex:munculDalamParagraf ex:Paragraf_64 .
+
+# Paragraf 65
+ex:Paragraf_65 a ex:Paragraf ;
+    ex:isiLatin ""Nanging ora kåyå nèk anak wadón duwé, anak lanang ya duwé. Gandèng anakku nênêm wís wadón kabèh, sírku anakmu kuwi tak suwún mêtua lanang; ngono lho!"" ;
+    ex:isiAksaraJawa "ꦤꦔꦶꦁ ꦲꦺꦴꦫ ꦏꦪ ꦤꦼꦏ꧀ ꦲꦤꦏ꧀ ꦮꦢꦺꦴꦤ꧀ ꦢꦸꦮꦺ, ꦲꦤꦏ꧀ ꦭꦤꦁ ꦪ ꦢꦸꦮꦺ. ꦒꦤ꧀ꦢꦺꦁ ꦲꦤꦏ꧀ꦏꦸ ꦤꦼꦤꦼꦩ꧀ ꦮꦶꦱ꧀ ꦮꦢꦺꦴꦤ꧀ ꦏꦧꦺꦃ, ꦱꦶꦂꦏꦸ ꦲꦤꦏ꧀ꦩꦸ ꦏꦸꦮꦶ ꦠꦏ꧀ ꦱꦸꦮꦸꦤ꧀ ꦩꦼꦠꦸꦮ ꦭꦤꦁ; ꦔꦺꦴꦤꦺꦴ ꦭꦺꦴ!" ;
+    ex:arti ""Tapi tidak seperti kalau punya anak perempuan, anak laki-laki juga punya. Berhubung anakku enam sudah perempuan semua, keinginanku anakmu itu kumohon lahir laki-laki; begitu lho!"" .
+
+ex:Kata_65_0 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Tapi" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_1 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_2 a ex:Kata ;
+    ex:latin "kåyå" ;
+    ex:aksaraJawa "ꦏꦪ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_3 a ex:Kata ;
+    ex:latin "nèk" ;
+    ex:aksaraJawa "ꦤꦼꦏ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_4 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_5 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_6 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_7 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_8 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_9 a ex:Kata ;
+    ex:latin "ya" ;
+    ex:aksaraJawa "ꦪ" ;
+    ex:arti "juga" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_10 a ex:Kata ;
+    ex:latin "duwé." ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ." ;
+    ex:arti "punya." ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_11 a ex:Kata ;
+    ex:latin "Gandèng" ;
+    ex:aksaraJawa "ꦒꦤ꧀ꦢꦺꦁ" ;
+    ex:arti "Berhubung" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_12 a ex:Kata ;
+    ex:latin "anakku" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦏꦸ" ;
+    ex:arti "anakku" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_13 a ex:Kata ;
+    ex:latin "nênêm" ;
+    ex:aksaraJawa "ꦤꦼꦤꦼꦩ꧀" ;
+    ex:arti "enam" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_14 a ex:Kata ;
+    ex:latin "wís" ;
+    ex:aksaraJawa "ꦮꦶꦱ꧀" ;
+    ex:arti "sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_15 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_16 a ex:Kata ;
+    ex:latin "kabèh" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_17 a ex:Kata ;
+    ex:latin "sírku" ;
+    ex:aksaraJawa "ꦱꦶꦂꦏꦸ" ;
+    ex:arti "keinginanku" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_18 a ex:Kata ;
+    ex:latin "anakmu" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀ꦩꦸ" ;
+    ex:arti "anakmu" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_19 a ex:Kata ;
+    ex:latin "kuwi" ;
+    ex:aksaraJawa "ꦏꦸꦮꦶ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_20 a ex:Kata ;
+    ex:latin "tak" ;
+    ex:aksaraJawa "ꦠꦏ꧀" ;
+    ex:arti "ku" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_21 a ex:Kata ;
+    ex:latin "suwún" ;
+    ex:aksaraJawa "ꦱꦸꦮꦸꦤ꧀" ;
+    ex:arti "mohon" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_22 a ex:Kata ;
+    ex:latin "mêtua" ;
+    ex:aksaraJawa "ꦩꦼꦠꦸꦮ" ;
+    ex:arti "lahir" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_23 a ex:Kata ;
+    ex:latin "lanang;" ;
+    ex:aksaraJawa "ꦭꦤꦁ;" ;
+    ex:arti "laki-laki;" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_24 a ex:Kata ;
+    ex:latin "ngono" ;
+    ex:aksaraJawa "ꦔꦺꦴꦤꦺꦴ" ;
+    ex:arti "begitu" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+ex:Kata_65_25 a ex:Kata ;
+    ex:latin "lho!"" ;
+    ex:aksaraJawa "ꦭꦺꦴ!" ;
+    ex:arti "lho!"" ;
+    ex:munculDalamParagraf ex:Paragraf_65 .
+
+# Paragraf 66
+ex:Paragraf_66 a ex:Paragraf ;
+    ex:isiLatin ""Ha-ha-haa, Ibu ki anèh! Wóng kula síng arệp diparingi mómóngan, kók njênêngan síng nyuwún!"" ;
+    ex:isiAksaraJawa "ꦲ-ꦲ-ꦲ, ꦲꦶꦧꦸ ꦏꦶ ꦲꦤꦺꦃ! ꦮꦺꦴꦁ ꦏꦸꦭ ꦱꦶꦁ ꦲꦫꦼꦥ꧀ ꦢꦶꦥꦫꦶꦁꦔꦶ ꦩꦺꦴꦩꦺꦴꦔꦤ꧀, ꦏꦺꦴꦏ꧀ ꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀ ꦱꦶꦁ ꦚꦸꦮꦸꦤ꧀!" ;
+    ex:arti ""Ha-ha-haa, Ibu ini aneh! Padahal saya yang akan diberi momongan, kok Anda yang meminta!"" .
+
+ex:Kata_66_0 a ex:Kata ;
+    ex:latin "Ha-ha-haa," ;
+    ex:aksaraJawa "ꦲ-ꦲ-ꦲ," ;
+    ex:arti "Ha-ha-haa," ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_1 a ex:Kata ;
+    ex:latin "Ibu" ;
+    ex:aksaraJawa "ꦲꦶꦧꦸ" ;
+    ex:arti "Ibu" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_2 a ex:Kata ;
+    ex:latin "ki" ;
+    ex:aksaraJawa "ꦏꦶ" ;
+    ex:arti "ini" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_3 a ex:Kata ;
+    ex:latin "anèh!" ;
+    ex:aksaraJawa "ꦲꦤꦺꦃ!" ;
+    ex:arti "aneh!" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_4 a ex:Kata ;
+    ex:latin "Wóng" ;
+    ex:aksaraJawa "ꦮꦺꦴꦁ" ;
+    ex:arti "Padahal" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_5 a ex:Kata ;
+    ex:latin "kula" ;
+    ex:aksaraJawa "ꦏꦸꦭ" ;
+    ex:arti "saya" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_6 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_7 a ex:Kata ;
+    ex:latin "arệp" ;
+    ex:aksaraJawa "ꦲꦫꦼꦥ꧀" ;
+    ex:arti "akan" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_8 a ex:Kata ;
+    ex:latin "diparingi" ;
+    ex:aksaraJawa "ꦢꦶꦥꦫꦶꦁꦔꦶ" ;
+    ex:arti "diberi" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_9 a ex:Kata ;
+    ex:latin "mómóngan" ;
+    ex:aksaraJawa "ꦩꦺꦴꦩꦺꦴꦔꦤ꧀" ;
+    ex:arti "momongan" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_10 a ex:Kata ;
+    ex:latin "kók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦏ꧀" ;
+    ex:arti "kok" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_11 a ex:Kata ;
+    ex:latin "njênêngan" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀" ;
+    ex:arti "Anda" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_12 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+ex:Kata_66_13 a ex:Kata ;
+    ex:latin "nyuwún!"" ;
+    ex:aksaraJawa "ꦚꦸꦮꦸꦤ꧀!" ;
+    ex:arti "meminta!"" ;
+    ex:munculDalamParagraf ex:Paragraf_66 .
+
+# Paragraf 67
+ex:Paragraf_67 a ex:Paragraf ;
+    ex:isiLatin ""Witiknå, anak nênêm wadón kabèh, lumrah ta nèk njúr képéngín putu lanang?"" ;
+    ex:isiAksaraJawa "ꦮꦶꦠꦶꦏ꧀ꦤ ꦲꦤꦏ꧀ ꦤꦼꦤꦼꦩ꧀ ꦮꦢꦺꦴꦤ꧀ ꦏꦧꦺꦃ, ꦭꦸꦩꦿꦃ ꦠ ꦤꦼꦏ꧀ ꦚ꧀ꦗꦸꦂ ꦏꦺꦥꦺꦔꦶꦤ꧀ ꦥꦸꦠꦸ ꦭꦤꦁ?" ;
+    ex:arti ""Tidakkah aneh, anak enam perempuan semua, wajar kan kalau kemudian ingin cucu laki-laki?"" .
+
+ex:Kata_67_0 a ex:Kata ;
+    ex:latin "Witiknå," ;
+    ex:aksaraJawa "ꦮꦶꦠꦶꦏ꧀ꦤ" ;
+    ex:arti "Tidakkah aneh," ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_1 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_2 a ex:Kata ;
+    ex:latin "nênêm" ;
+    ex:aksaraJawa "ꦤꦼꦤꦼꦩ꧀" ;
+    ex:arti "enam" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_3 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_4 a ex:Kata ;
+    ex:latin "kabèh" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_5 a ex:Kata ;
+    ex:latin "lumrah" ;
+    ex:aksaraJawa "ꦭꦸꦩꦿꦃ" ;
+    ex:arti "wajar" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_6 a ex:Kata ;
+    ex:latin "ta" ;
+    ex:aksaraJawa "ꦠ" ;
+    ex:arti "kan" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_7 a ex:Kata ;
+    ex:latin "nèk" ;
+    ex:aksaraJawa "ꦤꦼꦏ꧀" ;
+    ex:arti "kalau" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_8 a ex:Kata ;
+    ex:latin "njúr" ;
+    ex:aksaraJawa "ꦚ꧀ꦗꦸꦂ" ;
+    ex:arti "kemudian" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_9 a ex:Kata ;
+    ex:latin "képéngín" ;
+    ex:aksaraJawa "ꦏꦺꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_10 a ex:Kata ;
+    ex:latin "putu" ;
+    ex:aksaraJawa "ꦥꦸꦠꦸ" ;
+    ex:arti "cucu" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+ex:Kata_67_11 a ex:Kata ;
+    ex:latin "lanang?" ;
+    ex:aksaraJawa "ꦭꦤꦁ?" ;
+    ex:arti "laki-laki?" ;
+    ex:munculDalamParagraf ex:Paragraf_67 .
+
+# Paragraf 68
+ex:Paragraf_68 a ex:Paragraf ;
+    ex:isiLatin ""Nggih mugi-mugi kadumugèn kêpéngín panjênêngan, Bu!"" ;
+    ex:isiAksaraJawa "ꦔ꧀ꦒꦶꦃ ꦩꦸꦒꦶ-ꦩꦸꦒꦶ ꦏꦢꦸꦩꦸꦒꦺꦤ꧀ ꦏꦼꦥꦺꦔꦶꦤ꧀ ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀, ꦧꦸ!" ;
+    ex:arti ""Ya semoga tercapai keinginan Anda, Bu!"" .
+
+ex:Kata_68_0 a ex:Kata ;
+    ex:latin "Nggih" ;
+    ex:aksaraJawa "ꦔ꧀ꦒꦶꦃ" ;
+    ex:arti "Ya" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+ex:Kata_68_1 a ex:Kata ;
+    ex:latin "mugi-mugi" ;
+    ex:aksaraJawa "ꦩꦸꦒꦶ-ꦩꦸꦒꦶ" ;
+    ex:arti "semoga" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+ex:Kata_68_2 a ex:Kata ;
+    ex:latin "kadumugèn" ;
+    ex:aksaraJawa "ꦏꦢꦸꦩꦸꦒꦺꦤ꧀" ;
+    ex:arti "tercapai" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+ex:Kata_68_3 a ex:Kata ;
+    ex:latin "kêpéngín" ;
+    ex:aksaraJawa "ꦏꦼꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "keinginan" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+ex:Kata_68_4 a ex:Kata ;
+    ex:latin "panjênêngan" ;
+    ex:aksaraJawa "ꦥꦚ꧀ꦗꦼꦤꦼꦁꦔꦤ꧀" ;
+    ex:arti "Anda" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+ex:Kata_68_5 a ex:Kata ;
+    ex:latin "Bu!"" ;
+    ex:aksaraJawa "ꦧꦸ!" ;
+    ex:arti "Bu!"" ;
+    ex:munculDalamParagraf ex:Paragraf_68 .
+
+# Paragraf 69
+ex:Paragraf_69 a ex:Paragraf ;
+    ex:isiLatin "Ndari mbarepe Bu Guru iku ngalahi rembug. Nanging batine tetep kepingin duwe anak wadon." ;
+    ex:isiAksaraJawa "ꦤ꧀ꦢꦫꦶ ꦩ꧀ꦧꦫꦼꦥꦺ ꦧꦸ ꦒꦸꦫꦸ ꦲꦶꦏꦸ ꦔꦭꦲꦶ ꦫꦼꦩ꧀ꦧꦸꦒ꧀. ꦤꦔꦶꦁ ꦧꦠꦶꦤꦺ ꦠꦼꦠꦼꦥ꧀ ꦏꦼꦥꦶꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦮꦢꦺꦴꦤ꧀." ;
+    ex:arti "Ndari anak sulung Bu Guru itu mengalah dalam pembicaraan. Namun dalam hatinya tetap ingin punya anak perempuan." .
+
+ex:Kata_69_0 a ex:Kata ;
+    ex:latin "Ndari" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦫꦶ" ;
+    ex:arti "Ndari" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_1 a ex:Kata ;
+    ex:latin "mbarepe" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦫꦼꦥꦺ" ;
+    ex:arti "anak sulung" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_2 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_3 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_4 a ex:Kata ;
+    ex:latin "iku" ;
+    ex:aksaraJawa "ꦲꦶꦏꦸ" ;
+    ex:arti "itu" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_5 a ex:Kata ;
+    ex:latin "ngalahi" ;
+    ex:aksaraJawa "ꦔꦭꦲꦶ" ;
+    ex:arti "mengalah" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_6 a ex:Kata ;
+    ex:latin "rembug." ;
+    ex:aksaraJawa "ꦫꦼꦩ꧀ꦧꦸꦒ꧀." ;
+    ex:arti "pembicaraan." ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_7 a ex:Kata ;
+    ex:latin "Nanging" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁ" ;
+    ex:arti "Namun" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_8 a ex:Kata ;
+    ex:latin "batine" ;
+    ex:aksaraJawa "ꦧꦠꦶꦤꦺ" ;
+    ex:arti "dalam hatinya" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_9 a ex:Kata ;
+    ex:latin "tetep" ;
+    ex:aksaraJawa "ꦠꦼꦠꦼꦥ꧀" ;
+    ex:arti "tetap" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_10 a ex:Kata ;
+    ex:latin "kepingin" ;
+    ex:aksaraJawa "ꦏꦼꦥꦶꦔꦶꦤ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_11 a ex:Kata ;
+    ex:latin "duwe" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_12 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+ex:Kata_69_13 a ex:Kata ;
+    ex:latin "wadon." ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀." ;
+    ex:arti "perempuan." ;
+    ex:munculDalamParagraf ex:Paragraf_69 .
+
+# Paragraf 70
+ex:Paragraf_70 a ex:Paragraf ;
+    ex:isiLatin "Têmênan. Barêng jabang bayi laír, jêbúl mêtu wadón. Ndari rumangsa lêga déné anaké mbarêp mêtu wadón têmênan." ;
+    ex:isiAksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀. ꦧꦫꦼꦁ ꦗꦧꦁ ꦧꦪꦶ ꦭꦲꦶꦂ, ꦗꦼꦧꦸꦭ꧀ ꦩꦼꦠꦸ ꦮꦢꦺꦴꦤ꧀. ꦤ꧀ꦢꦫꦶ ꦫꦸꦩꦁꦱ ꦭꦼꦒ ꦢꦺꦤꦺ ꦲꦤꦏꦺ ꦩ꧀ꦧꦫꦼꦥ꧀ ꦩꦼꦠꦸ ꦮꦢꦺꦴꦤ꧀ ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "Sungguh. Ketika bayi lahir, ternyata keluar perempuan. Ndari merasa lega karena anak sulungnya lahir perempuan sungguhan." .
+
+ex:Kata_70_0 a ex:Kata ;
+    ex:latin "Têmênan." ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "Sungguh." ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_1 a ex:Kata ;
+    ex:latin "Barêng" ;
+    ex:aksaraJawa "ꦧꦫꦼꦁ" ;
+    ex:arti "Ketika" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_2 a ex:Kata ;
+    ex:latin "jabang" ;
+    ex:aksaraJawa "ꦗꦧꦁ" ;
+    ex:arti "bayi" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_3 a ex:Kata ;
+    ex:latin "bayi" ;
+    ex:aksaraJawa "ꦧꦪꦶ" ;
+    ex:arti "bayi" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_4 a ex:Kata ;
+    ex:latin "laír" ;
+    ex:aksaraJawa "ꦭꦲꦶꦂ" ;
+    ex:arti "lahir" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_5 a ex:Kata ;
+    ex:latin "jêbúl" ;
+    ex:aksaraJawa "ꦗꦼꦧꦸꦭ꧀" ;
+    ex:arti "ternyata" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_6 a ex:Kata ;
+    ex:latin "mêtu" ;
+    ex:aksaraJawa "ꦩꦼꦠꦸ" ;
+    ex:arti "keluar" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_7 a ex:Kata ;
+    ex:latin "wadón." ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀." ;
+    ex:arti "perempuan." ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_8 a ex:Kata ;
+    ex:latin "Ndari" ;
+    ex:aksaraJawa "ꦤ꧀ꦢꦫꦶ" ;
+    ex:arti "Ndari" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_9 a ex:Kata ;
+    ex:latin "rumangsa" ;
+    ex:aksaraJawa "ꦫꦸꦩꦁꦱ" ;
+    ex:arti "merasa" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_10 a ex:Kata ;
+    ex:latin "lêga" ;
+    ex:aksaraJawa "ꦭꦼꦒ" ;
+    ex:arti "lega" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_11 a ex:Kata ;
+    ex:latin "déné" ;
+    ex:aksaraJawa "ꦢꦺꦤꦺ" ;
+    ex:arti "karena" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_12 a ex:Kata ;
+    ex:latin "anaké" ;
+    ex:aksaraJawa "ꦲꦤꦏꦺ" ;
+    ex:arti "anaknya" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_13 a ex:Kata ;
+    ex:latin "mbarêp" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦫꦼꦥ꧀" ;
+    ex:arti "sulung" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_14 a ex:Kata ;
+    ex:latin "mêtu" ;
+    ex:aksaraJawa "ꦩꦼꦠꦸ" ;
+    ex:arti "lahir" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_15 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+ex:Kata_70_16 a ex:Kata ;
+    ex:latin "têmênan." ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤꦤ꧀." ;
+    ex:arti "sungguhan." ;
+    ex:munculDalamParagraf ex:Paragraf_70 .
+
+# Paragraf 71
+ex:Paragraf_71 a ex:Paragraf ;
+    ex:isiLatin "Kósók baliné Bu Guru síng mbrabak arêp nangis. Kaningåyå têmên urípku! Kêpéngin duwé anak lanang ora klakón, ngarep-arêp putu lanang, jêbúl malah wadón manèh." ;
+    ex:isiAksaraJawa "ꦏꦺꦴꦱꦺꦴꦏ꧀ ꦧꦭꦶꦤꦺ ꦧꦸ ꦒꦸꦫꦸ ꦱꦶꦁ ꦩ꧀ꦧꦿꦧꦏ꧀ ꦲꦫꦼꦥ꧀ ꦤꦔꦶꦱ꧀. ꦏꦤꦶꦔꦪ ꦠꦼꦩꦼꦤ꧀ ꦲꦸꦫꦶꦥ꧀ꦏꦸ! ꦏꦼꦥꦺꦔꦶꦤ꧀ ꦢꦸꦮꦺ ꦲꦤꦏ꧀ ꦭꦤꦁ ꦲꦺꦴꦫ ꦏ꧀ꦭꦏꦺꦴꦤ꧀, ꦔꦫꦼꦥ꧀-ꦲꦫꦼꦥ꧀ ꦥꦸꦠꦸ ꦭꦤꦁ, ꦗꦼꦧꦸꦭ꧀ ꦩꦭꦃ ꦮꦢꦺꦴꦤ꧀ ꦩꦤꦺꦃ." ;
+    ex:arti "Sebaliknya Bu Guru yang merah padam ingin menangis. Sungguh malang hidupku! Ingin punya anak laki-laki tidak kesampaian, berharap cucu laki-laki, ternyata malah perempuan lagi." .
+
+ex:Kata_71_0 a ex:Kata ;
+    ex:latin "Kósók" ;
+    ex:aksaraJawa "ꦏꦺꦴꦱꦺꦴꦏ꧀" ;
+    ex:arti "Sebaliknya" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_1 a ex:Kata ;
+    ex:latin "baliné" ;
+    ex:aksaraJawa "ꦧꦭꦶꦤꦺ" ;
+    ex:arti "terbaliknya" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_2 a ex:Kata ;
+    ex:latin "Bu" ;
+    ex:aksaraJawa "ꦧꦸ" ;
+    ex:arti "Bu" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_3 a ex:Kata ;
+    ex:latin "Guru" ;
+    ex:aksaraJawa "ꦒꦸꦫꦸ" ;
+    ex:arti "Guru" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_4 a ex:Kata ;
+    ex:latin "síng" ;
+    ex:aksaraJawa "ꦱꦶꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_5 a ex:Kata ;
+    ex:latin "mbrabak" ;
+    ex:aksaraJawa "ꦩ꧀ꦧꦿꦧꦏ꧀" ;
+    ex:arti "merah padam" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_6 a ex:Kata ;
+    ex:latin "arêp" ;
+    ex:aksaraJawa "ꦲꦫꦼꦥ꧀" ;
+    ex:arti "ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_7 a ex:Kata ;
+    ex:latin "nangis." ;
+    ex:aksaraJawa "ꦤꦔꦶꦱ꧀." ;
+    ex:arti "menangis." ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_8 a ex:Kata ;
+    ex:latin "Kaningåyå" ;
+    ex:aksaraJawa "ꦏꦤꦶꦔꦪ" ;
+    ex:arti "Sungguh malang" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_9 a ex:Kata ;
+    ex:latin "têmên" ;
+    ex:aksaraJawa "ꦠꦼꦩꦼꦤ꧀" ;
+    ex:arti "sungguh" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_10 a ex:Kata ;
+    ex:latin "urípku!" ;
+    ex:aksaraJawa "ꦲꦸꦫꦶꦥ꧀ꦏꦸ!" ;
+    ex:arti "hidupku!" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_11 a ex:Kata ;
+    ex:latin "Kêpéngin" ;
+    ex:aksaraJawa "ꦏꦼꦥꦺꦔꦶꦤ꧀" ;
+    ex:arti "Ingin" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_12 a ex:Kata ;
+    ex:latin "duwé" ;
+    ex:aksaraJawa "ꦢꦸꦮꦺ" ;
+    ex:arti "punya" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_13 a ex:Kata ;
+    ex:latin "anak" ;
+    ex:aksaraJawa "ꦲꦤꦏ꧀" ;
+    ex:arti "anak" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_14 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_15 a ex:Kata ;
+    ex:latin "ora" ;
+    ex:aksaraJawa "ꦲꦺꦴꦫ" ;
+    ex:arti "tidak" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_16 a ex:Kata ;
+    ex:latin "klakón" ;
+    ex:aksaraJawa "ꦏ꧀ꦭꦏꦺꦴꦤ꧀" ;
+    ex:arti "kesampaian" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_17 a ex:Kata ;
+    ex:latin "ngarep-arêp" ;
+    ex:aksaraJawa "ꦔꦫꦼꦥ꧀-ꦲꦫꦼꦥ꧀" ;
+    ex:arti "berharap" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_18 a ex:Kata ;
+    ex:latin "putu" ;
+    ex:aksaraJawa "ꦥꦸꦠꦸ" ;
+    ex:arti "cucu" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_19 a ex:Kata ;
+    ex:latin "lanang" ;
+    ex:aksaraJawa "ꦭꦤꦁ" ;
+    ex:arti "laki-laki" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_20 a ex:Kata ;
+    ex:latin "jêbúl" ;
+    ex:aksaraJawa "ꦗꦼꦧꦸꦭ꧀" ;
+    ex:arti "ternyata" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_21 a ex:Kata ;
+    ex:latin "malah" ;
+    ex:aksaraJawa "ꦩꦭꦃ" ;
+    ex:arti "malah" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_22 a ex:Kata ;
+    ex:latin "wadón" ;
+    ex:aksaraJawa "ꦮꦢꦺꦴꦤ꧀" ;
+    ex:arti "perempuan" ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
+
+ex:Kata_71_23 a ex:Kata ;
+    ex:latin "manèh." ;
+    ex:aksaraJawa "ꦩꦤꦺꦃ." ;
+    ex:arti "lagi." ;
+    ex:munculDalamParagraf ex:Paragraf_71 .
