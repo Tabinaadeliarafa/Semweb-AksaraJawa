@@ -1,0 +1,385 @@
+/* Enhanced Styles for Javanese Manuscript Search */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+/* Global Styles */
+.stApp {
+    background: linear-gradient(135deg, #ffff, #d5ecf6 100%);
+    min-height: 100vh;
+}
+/* Header */
+.header-container {
+    text-align: center;
+    margin-bottom: 2rem;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #822a52 0%, #ad6183 50%, #822a52 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(255, 154, 158, 0.3);
+}
+
+.header-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-subtitle {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #e0dfde;
+    margin: 0.5rem 0 0 0;
+    font-weight: 400;
+}
+
+/* Statistics */
+.stats-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.stat-card {
+    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0 10px 20px rgba(116, 185, 255, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-number {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.stat-label {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+/* Search Container */
+.search-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Javanese Keyboard */
+.javanese-keyboard {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1.5rem;
+    border-radius: 15px;
+    margin: 1rem 0;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.keyboard-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.keyboard-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 0.5rem;
+}
+
+/* Javanese Text Styling */
+.javanese-text {
+    font-family: 'Noto Sans Javanese', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.6;
+    color: #2c3e50;
+    background: rgba(255, 248, 220, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #f39c12;
+    margin: 0.5rem 0;
+}
+
+.latin-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #34495e;
+    background: rgba(236, 240, 241, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #3498db;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+.translation-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #2c3e50;
+    background: rgba(230, 247, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10px;
+    border-left: 4px solid #2ecc71;
+    margin: 0.5rem 0;
+}
+
+/* Enhanced Context Labels */
+.context-label-enhanced {
+    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 15px rgba(108, 92, 231, 0.3);
+}
+
+.context-type {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+}
+
+.context-reference {
+    font-size: 0.9rem;
+    opacity: 0.9;
+    margin-bottom: 0.2rem;
+}
+
+.context-source {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    font-style: italic;
+}
+
+/* Sentence Context */
+.sentence-context {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #2c3e50;
+    background: rgba(255, 245, 157, 0.3);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px dashed #f39c12;
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+/* Grouped Results */
+.grouped-result {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.grouped-result:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.result-header {
+    background: linear-gradient(135deg, #fd79a8 0%, #fdcb6e 100%);
+    color: white;
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.result-header:hover {
+    background: linear-gradient(135deg, #e84393 0%, #f39c12 100%);
+}
+
+.result-header-main {
+    flex: 1;
+}
+
+.result-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.result-subtitle {
+    font-family: 'Noto Sans Javanese', sans-serif;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.result-count {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+/* Highlighted Text */
+.highlighted-text {
+    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
+    color: #2d3436;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* No Results */
+.no-results {
+    text-align: center;
+    padding: 3rem;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px;
+    margin: 2rem 0;
+}
+
+.no-results-icon {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.no-results-text {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #74b9ff;
+    margin-bottom: 0.5rem;
+}
+
+.no-results-subtext {
+    color: #636e72;
+    font-size: 1rem;
+}
+
+/* Context Label (Legacy) */
+.context-label {
+    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 1rem;
+    box-shadow: 0 3px 10px rgba(116, 185, 255, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-title {
+        font-size: 2rem;
+    }
+    
+    .header-subtitle {
+        font-size: 1rem;
+    }
+    
+    .stats-container {
+        flex-direction: column;
+    }
+    
+    .result-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+    
+    .javanese-text {
+        font-size: 1.5rem;
+    }
+    
+    .keyboard-grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.grouped-result {
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Button Styling */
+.stButton > button {
+    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 0.7rem 1.5rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
+}
+
+.stButton > button:hover {
+    background: linear-gradient(135deg, #0984e3 0%, #74b9ff 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(116, 185, 255, 0.4);
+}
+
+/* Streamlit Input Styling */
+.stTextInput > div > div > input {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    padding: 0.8rem;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+.stTextInput > div > div > input:focus {
+    border-color: #74b9ff;
+    box-shadow: 0 0 0 3px rgba(116, 185, 255, 0.1);
+}
+
+.stSelectbox > div > div > div {
+    border-radius: 10px;
+    border: 2px solid #ddd;
+}
+
+/* Loading Spinner */
+.stSpinner > div {
+    border-top-color: #74b9ff !important;
+}
+
+/* Expander Styling */
+.streamlit-expanderHeader {
+    background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.streamlit-expanderContent {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0 0 10px 10px;
+}
