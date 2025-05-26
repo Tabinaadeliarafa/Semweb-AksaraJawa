@@ -68,24 +68,6 @@
     opacity: 0.9;
 }
 
-/* Search Container */
-.search-container {
-    background: rgba(255, 255, 255, 0.8);
-    padding: 2rem;
-    border-radius: 15px;
-    margin-bottom: 2rem;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-}
-
-/* Javanese Keyboard */
-.javanese-keyboard {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 1.5rem;
-    border-radius: 15px;
-    margin: 1rem 0;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-}
-
 .keyboard-title {
     font-size: 1.2rem;
     font-weight: 600;
@@ -140,8 +122,8 @@
 
 /* Enhanced Context Labels */
 .context-label-enhanced {
-    background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
-    color: white;
+    background: linear-gradient(135deg, #d1b19b 0%, #a78770 100%);
+    color: black;
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 1rem;
@@ -203,11 +185,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: all 0.3s ease;
 }
 
 .result-header:hover {
-    background: linear-gradient(135deg, #d46b9e);
+    background: #a2446e;
 }
 
 .result-header-main {
@@ -331,18 +312,18 @@
 
 /* Button Styling */
 .stButton > button {
-    background: linear-gradient(135deg, #74b9ff 0%, #0984e3 100%);
-    color: white;
+    background: linear-gradient(135deg, #4fa4e5 0%, #0984e3 100%);
+    color: white !important;
     border: none;
     border-radius: 10px;
     padding: 0.7rem 1.5rem;
     font-weight: 600;
-    transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
 }
 
 .stButton > button:hover {
-    background: linear-gradient(135deg, #0984e3 0%, #74b9ff 100%);
+    background: #084777 100%;
+    color: white !important;
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(116, 185, 255, 0.4);
 }
@@ -373,7 +354,7 @@
 
 /* Expander Styling */
 .streamlit-expanderHeader {
-    background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+    background: linear-gradient(135deg, #fe9bc8 0%, #e75c8d 100%);
     color: white;
     border-radius: 10px;
     font-weight: 600;

@@ -407,7 +407,6 @@ def create_javanese_keyboard(df):
                         st.rerun()
     
     # Tampilkan contoh penggunaan
-    st.markdown('<div style="margin-top: 1rem; padding: 1rem; background: #f8fafc; border-radius: 0.5rem; border-left: 4px solid #3b82f6;">', unsafe_allow_html=True)
     st.markdown('<h6 style="margin: 0 0 0.5rem 0; color: #1e40af;">Contoh Pencarian:</h6>', unsafe_allow_html=True)
     example_words = ["ꦠꦠ꧀ꦏꦭ", "ꦤꦼꦒꦫꦶ", "ꦱꦸꦫꦥꦿꦶꦁꦒ", "ꦲꦶꦁ"]
     
