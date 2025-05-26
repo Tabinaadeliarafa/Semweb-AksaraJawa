@@ -1,11 +1,11 @@
 id,type,isiLatin,isiAksaraJawa,arti,munculDalamParagraf,sumber
-Paragraf_1,Paragraf,"tatkala wiwit tinulis ing ditên ngahad punika pukul sapta ing wayahe, kawanlikur ing kang tanggal nênggih ing śaśi sapar, tahun nalip duk tinurun jêjêging mongsa katiga","ꦠꦠ꧀ꦏꦭ​ꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ","Ketika mulai ditulis pada hari Ngahad pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga",,1
+Paragraf_1,Paragraf,"tatkala wiwit tinulis ing ditên ngahad punika pukul sapta ing wayahe, kawanlikur ing kang tanggal nênggih ing śaśi sapar, tahun nalip duk tinurun jêjêging mongsa katiga","ꦠꦠ꧀ꦏꦭ​ꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ","Ketika mulai ditulis pada hari Minggu pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga",,1
 Kata_1_0,Kata,"tatkala","ꦠꦠ꧀ꦏꦭ","Ketika",ex:Paragraf_1,1
 Kata_1_1,Kata,"wiwit","ꦮꦶꦮꦶꦠ꧀","mulai",ex:Paragraf_1,1
 Kata_1_2,Kata,"tinulis","ꦠꦶꦤꦸꦭꦶꦱ꧀","ditulis",ex:Paragraf_1,1
 Kata_1_3,Kata,"ing","ꦲꦶꦁ","pada",ex:Paragraf_1,1
 Kata_1_4,Kata,"ditên","ꦢꦶꦠꦼꦤ꧀","hari",ex:Paragraf_1,1
-Kata_1_5,Kata,"ngahad","ꦔꦲꦢ꧀","Ngahad",ex:Paragraf_1,1
+Kata_1_5,Kata,"ngahad","ꦔꦲꦢ꧀","Minggu",ex:Paragraf_1,1
 Kata_1_6,Kata,"punika","ꦥꦸꦤꦶꦏ","itu",ex:Paragraf_1,1
 Kata_1_7,Kata,"pukul","ꦥꦸꦏꦸꦭ꧀","pukul",ex:Paragraf_1,1
 Kata_1_8,Kata,"sapta","ꦱꦥ꧀ꦠ","tujuh",ex:Paragraf_1,1

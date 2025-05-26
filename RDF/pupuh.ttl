@@ -42,7 +42,7 @@ ex:munculDalamParagraf a rdf:Property ;
 ex:Paragraf_1 a ex:Paragraf ;
     ex:isiLatin "tatkala wiwit tinulis ing ditên ngahad punika pukul sapta ing wayahe, kawanlikur ing kang tanggal nênggih ing śaśi sapar, tahun nalip duk tinurun jêjêging mongsa katiga" ;
     ex:isiAksaraJawa "ꦠꦠ꧀ꦏꦭ​ꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ" ;
-    ex:arti "Ketika mulai ditulis pada hari Ngahad pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga" .
+    ex:arti "Ketika mulai ditulis pada hari Minggu pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga" .
 
 ex:Kata_1_0 a ex:Kata ;
     ex:latin "tatkala" ;
@@ -77,7 +77,7 @@ ex:Kata_1_4 a ex:Kata ;
 ex:Kata_1_5 a ex:Kata ;
     ex:latin "ngahad" ;
     ex:aksaraJawa "ꦔꦲꦢ꧀" ;
-    ex:arti "Ngahad" ;
+    ex:arti "Minggu" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_6 a ex:Kata ;

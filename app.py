@@ -568,7 +568,7 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #64748b; font-size: 0.9rem; padding: 2rem;'>
-        <p>Aplikasi Pencarian Naskah Jawa | Dibuat dengan Streamlit</p>
+        <p>Aplikasi Pencarian Naskah Jawa | Dibuat mahasiswa Teknik</p>
         <p>Gunakan keyboard aksara Jawa di atas untuk pencarian dengan aksara asli</p>
     </div>
     """, unsafe_allow_html=True)
