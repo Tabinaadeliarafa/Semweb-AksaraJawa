@@ -38,7 +38,18 @@ def load_data():
 def get_unique_javanese_chars(df):
     """Ekstrak karakter aksara Jawa unik dari dataset"""
     if df.empty or 'isiAksaraJawa' not in df.columns:
-        return []
+        # Fallback ke karakter dari contoh yang diberikan user
+        sample_text = """꧋ꦥꦸꦤꦶꦏ‌ꦱꦼꦂꦫꦠ꧀‌ꦏꦒꦸꦁꦔꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦚꦚꦃ​ꦱꦏꦺꦧꦼꦂ‌​ꦲꦶꦁ​ꦱꦸꦫꦥꦿꦶꦁꦒ꧋
+꧁ꦥꦸꦃꦠꦼꦩ꧀ꦧꦁ​ꦲꦱ꧀ꦩꦫꦢꦺꦴꦤ꧂
+꧃ꦠꦠ꧀ꦏꦭꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁ​ꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ꧉"""
+        
+        all_chars = set()
+        for char in sample_text:
+            # Filter hanya karakter aksara Jawa (Unicode range: U+A980-U+A9DF)
+            if '\ua980' <= char <= '\ua9df':
+                all_chars.add(char)
+        
+        return sorted(list(all_chars))
     
     # Kumpulkan semua karakter dari kolom aksara Jawa
     all_chars = set()
@@ -73,11 +84,17 @@ def search_text(df, query, search_type="all"):
         results = pd.concat([results, translation_matches], ignore_index=True)
     
     if search_type in ["all", "javanese"]:
-        # Pencarian presisi dalam kolom isiAksaraJawa
-        # Untuk aksara Jawa, kita perlu pencarian yang lebih hati-hati
-        javanese_matches = df[df['isiAksaraJawa'].str.contains(rf'(?<!\S){re.escape(query)}(?!\S)', 
-                                                              na=False, regex=True)]
-        results = pd.concat([results, javanese_matches], ignore_index=True)
+        # Pencarian dalam kolom isiAksaraJawa dengan metode yang lebih fleksibel
+        # Cari exact match terlebih dahulu
+        exact_matches = df[df['isiAksaraJawa'].str.contains(re.escape(query), na=False, regex=True)]
+        results = pd.concat([results, exact_matches], ignore_index=True)
+        
+        # Jika tidak ada exact match, coba pencarian dengan word boundary yang lebih longgar
+        if exact_matches.empty:
+            # Cari dengan pola yang mempertimbangkan spasi dan tanda baca aksara Jawa
+            pattern = rf'{re.escape(query)}'
+            loose_matches = df[df['isiAksaraJawa'].str.contains(pattern, na=False, regex=True)]
+            results = pd.concat([results, loose_matches], ignore_index=True)
     
     # Hapus duplikat
     results = results.drop_duplicates().reset_index(drop=True)
@@ -297,20 +314,111 @@ def create_javanese_keyboard(df):
     # Tampilkan jumlah karakter yang tersedia
     st.markdown(f'<p style="text-align: center; color: #64748b; font-size: 0.9rem;">Tersedia {len(javanese_chars)} karakter unik dari dataset</p>', unsafe_allow_html=True)
     
-    # Membuat grid keyboard dengan karakter dari dataset
-    chars_per_row = 10
-    rows = [javanese_chars[i:i + chars_per_row] for i in range(0, len(javanese_chars), chars_per_row)]
+    # Kelompokkan karakter berdasarkan fungsi
+    # Aksara dasar, sandhangan, tanda baca, dll
+    consonants = []
+    vowel_marks = []
+    punctuation = []
+    others = []
     
-    for row_idx, char_row in enumerate(rows):
-        cols = st.columns(len(char_row))
-        for col_idx, char in enumerate(char_row):
-            with cols[col_idx]:
-                if st.button(char, key=f"jav_key_{row_idx}_{col_idx}", help=f"Klik untuk menambahkan {char}"):
-                    if 'search_query' not in st.session_state:
-                        st.session_state.search_query = ""
-                    st.session_state.search_query += char
-                    st.rerun()
+    for char in javanese_chars:
+        char_code = ord(char)
+        if 0xA980 <= char_code <= 0xA9B2:  # Aksara dasar
+            consonants.append(char)
+        elif 0xA9B3 <= char_code <= 0xA9C0:  # Sandhangan vokal
+            vowel_marks.append(char)
+        elif char_code in [0xA9C1, 0xA9C2, 0xA9C3, 0xA9C4, 0xA9C5, 0xA9C6, 0xA9C7, 0xA9C8, 0xA9C9, 0xA9CA, 0xA9CB, 0xA9CC, 0xA9CD, 0xA9DE, 0xA9DF]:  # Tanda baca
+            punctuation.append(char)
+        else:
+            others.append(char)
     
+    # Tampilkan tombol clear dan space
+    col_clear, col_space = st.columns([1, 1])
+    with col_clear:
+        if st.button("🗑 Hapus", key="clear_search", help="Hapus semua teks pencarian"):
+            st.session_state.search_query = ""
+            st.rerun()
+    with col_space:
+        if st.button("⎵ Spasi", key="add_space", help="Tambahkan spasi"):
+            if 'search_query' not in st.session_state:
+                st.session_state.search_query = ""
+            st.session_state.search_query += " "
+            st.rerun()
+    
+    # Tampilkan grup karakter
+    if consonants:
+        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Aksara Dasar</h5>', unsafe_allow_html=True)
+        chars_per_row = 12
+        rows = [consonants[i:i + chars_per_row] for i in range(0, len(consonants), chars_per_row)]
+        
+        for row_idx, char_row in enumerate(rows):
+            cols = st.columns(len(char_row))
+            for col_idx, char in enumerate(char_row):
+                with cols[col_idx]:
+                    if st.button(char, key=f"cons_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                        if 'search_query' not in st.session_state:
+                            st.session_state.search_query = ""
+                        st.session_state.search_query += char
+                        st.rerun()
+    
+    if vowel_marks:
+        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Sandhangan Vokal</h5>', unsafe_allow_html=True)
+        chars_per_row = 10
+        rows = [vowel_marks[i:i + chars_per_row] for i in range(0, len(vowel_marks), chars_per_row)]
+        
+        for row_idx, char_row in enumerate(rows):
+            cols = st.columns(len(char_row))
+            for col_idx, char in enumerate(char_row):
+                with cols[col_idx]:
+                    if st.button(char, key=f"vowel_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                        if 'search_query' not in st.session_state:
+                            st.session_state.search_query = ""
+                        st.session_state.search_query += char
+                        st.rerun()
+    
+    if punctuation:
+        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Tanda Baca & Simbol</h5>', unsafe_allow_html=True)
+        chars_per_row = 8
+        rows = [punctuation[i:i + chars_per_row] for i in range(0, len(punctuation), chars_per_row)]
+        
+        for row_idx, char_row in enumerate(rows):
+            cols = st.columns(len(char_row))
+            for col_idx, char in enumerate(char_row):
+                with cols[col_idx]:
+                    if st.button(char, key=f"punct_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                        if 'search_query' not in st.session_state:
+                            st.session_state.search_query = ""
+                        st.session_state.search_query += char
+                        st.rerun()
+    
+    if others:
+        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Karakter Lainnya</h5>', unsafe_allow_html=True)
+        chars_per_row = 10
+        rows = [others[i:i + chars_per_row] for i in range(0, len(others), chars_per_row)]
+        
+        for row_idx, char_row in enumerate(rows):
+            cols = st.columns(len(char_row))
+            for col_idx, char in enumerate(char_row):
+                with cols[col_idx]:
+                    if st.button(char, key=f"other_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                        if 'search_query' not in st.session_state:
+                            st.session_state.search_query = ""
+                        st.session_state.search_query += char
+                        st.rerun()
+    
+    # Tampilkan contoh penggunaan
+    st.markdown('<div style="margin-top: 1rem; padding: 1rem; background: #f8fafc; border-radius: 0.5rem; border-left: 4px solid #3b82f6;">', unsafe_allow_html=True)
+    st.markdown('<h6 style="margin: 0 0 0.5rem 0; color: #1e40af;">Contoh Pencarian:</h6>', unsafe_allow_html=True)
+    example_words = ["ꦠꦠ꧀ꦏꦭ", "ꦤꦼꦒꦫꦶ", "ꦱꦸꦫꦥꦿꦶꦁꦒ", "ꦲꦶꦁ"]
+    
+    cols = st.columns(len(example_words))
+    for i, word in enumerate(example_words):
+        with cols[i]:
+            if st.button(f"📝 {word}", key=f"example_{i}", help=f"Coba cari: {word}"):
+                st.session_state.search_query = word
+                st.rerun()
+    
+    st.markdown('</div>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Fungsi untuk menampilkan statistik
@@ -356,7 +464,7 @@ def display_statistics(df):
 def display_grouped_results(grouped_results, query):
     if not grouped_results:
         st.markdown('''
-        <div class="no-results">
+        <div class="no-results-icon">🔍</div>
             <div class="no-results-text">Tidak ada hasil ditemukan</div>
             <div class="no-results-subtext">Coba gunakan kata kunci yang berbeda</div>
         </div>
@@ -418,16 +526,16 @@ def display_grouped_results(grouped_results, query):
                     col1, col2 = st.columns([1, 1])
                     
                     with col1:
-                        st.markdown("**Aksara Jawa:**")
+                        st.markdown("*Aksara Jawa:*")
                         highlighted_javanese = highlight_text(occurrence['javanese'], query) if occurrence['found_in']['javanese'] else occurrence['javanese']
                         st.markdown(f'<div class="javanese-text">{highlighted_javanese}</div>', unsafe_allow_html=True)
                         
-                        st.markdown("**Transliterasi:**")
+                        st.markdown("*Transliterasi:*")
                         highlighted_latin = highlight_text(occurrence['latin'], query) if occurrence['found_in']['latin'] else occurrence['latin']
                         st.markdown(f'<div class="latin-text">{highlighted_latin}</div>', unsafe_allow_html=True)
                     
                     with col2:
-                        st.markdown("**Terjemahan:**")
+                        st.markdown("*Terjemahan:*")
                         highlighted_translation = highlight_text(occurrence['translation'], query) if occurrence['found_in']['translation'] else occurrence['translation']
                         st.markdown(f'<div class="translation-text">{highlighted_translation}</div>', unsafe_allow_html=True)
                         
@@ -441,11 +549,11 @@ def display_grouped_results(grouped_results, query):
                             found_locations.append("Terjemahan")
                         
                         if found_locations:
-                            st.markdown(f"**Ditemukan dalam:** {', '.join(found_locations)}")
+                            st.markdown(f"*Ditemukan dalam:* {', '.join(found_locations)}")
                     
                     # Show full sentence context if available
                     if occurrence['full_sentence'] and occurrence['full_sentence'] != "Konteks tidak tersedia":
-                        st.markdown("**Konteks Kalimat Lengkap:**")
+                        st.markdown("*Konteks Kalimat Lengkap:*")
                         highlighted_sentence = highlight_text(occurrence['full_sentence'], query)
                         st.markdown(f'<div class="sentence-context">{highlighted_sentence}</div>', unsafe_allow_html=True)
                     
@@ -522,14 +630,14 @@ def main():
         )
     
     # Clear search button
-    if st.button("🗑️ Bersihkan", help="Bersihkan kotak pencarian"):
+    if st.button("🗑 Bersihkan", help="Bersihkan kotak pencarian"):
         st.session_state.search_query = ""
         st.rerun()
     
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Javanese keyboard
-    with st.expander(" ⌨️ Keyboard Aksara Jawa", expanded=False):
+    with st.expander("⌨ Keyboard Aksara Jawa", expanded=False):
         create_javanese_keyboard(df)
     
     # Search and display results
@@ -568,7 +676,7 @@ def main():
     st.markdown("---")
     st.markdown("""
     <div style='text-align: center; color: #64748b; font-size: 0.9rem; padding: 2rem;'>
-        <p>Aplikasi Pencarian Naskah Jawa | Dibuat mahasiswa Teknik</p>
+        <p>Aplikasi Pencarian Naskah Jawa | Mahasiswa TI UNPAD</p>
         <p>Gunakan keyboard aksara Jawa di atas untuk pencarian dengan aksara asli</p>
     </div>
     """, unsafe_allow_html=True)
