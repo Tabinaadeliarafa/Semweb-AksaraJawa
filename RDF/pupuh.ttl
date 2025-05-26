@@ -4,2887 +4,3180 @@
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+# Definisi Ontologi (Classes)
+ex:Paragraf a owl:Class ;
+    rdfs:label "Paragraf"@id ;
+    rdfs:comment "Representasi dari satu paragraf dalam Pupuh."@id .
+
+ex:Kata a owl:Class ;
+    rdfs:label "Kata"@id ;
+    rdfs:comment "Representasi dari satu kata dalam Pupuh."@id .
+
+# Definisi Ontologi (Properties)
+ex:isiLatin a rdf:Property ;
+    rdfs:label "isi Latin"@id ;
+    rdfs:comment "Isi paragraf atau kata dalam aksara Latin Jawa."@id ;
+    rdfs:domain ex:Paragraf, ex:Kata ;
+    rdfs:range xsd:string .
+
+ex:isiAksaraJawa a rdf:Property ;
+    rdfs:label "isi Aksara Jawa"@id ;
+    rdfs:comment "Isi paragraf atau kata dalam aksara Jawa."@id ;
+    rdfs:domain ex:Paragraf, ex:Kata ;
+    rdfs:range xsd:string .
+
+ex:arti a rdf:Property ;
+    rdfs:label "Arti"@id ;
+    rdfs:comment "Terjemahan atau makna dari paragraf atau kata."@id ;
+    rdfs:domain ex:Paragraf, ex:Kata ;
+    rdfs:range xsd:string .
+
+ex:munculDalamParagraf a rdf:Property ;
+    rdfs:label "muncul dalam paragraf"@id ;
+    rdfs:comment "Menunjukkan paragraf di mana sebuah kata muncul."@id ;
+    rdfs:domain ex:Kata ;
+    rdfs:range ex:Paragraf .
+
 # Paragraf 1
 ex:Paragraf_1 a ex:Paragraf ;
-    ex:isiLatin "Ketika mulai ditulis pada hari Ngahad pukul tujuh pada waktu tanggal dua puluh di bulan Sapar tahun Alip turun masa ketiga" ;
-    ex:isiAksaraJawa "ꦠꦏꦶꦏꦩꦸꦭꦶ ꦢꦶꦠꦸꦭꦶꦱ ꦥꦤ꧀ꦝ ꦲꦶꦫꦶ ꦔꦃꦢ ꦥꦸꦏꦸꦭ ꦠꦸꦗꦸ ꦥꦤ꧀ꦝ ꦠꦠꦸꦁ ꦢꦶ ꦧꦸꦭꦸꦤ꧀ ꦱꦥꦫ ꦠꦲꦸꦤ ꦄꦭꦶꦥ ꦠꦸꦤꦸꦂ ꦩꦱ ꦏꦠꦶꦒ" ;
+    ex:isiLatin "tatkala wiwit tinulis ing ditên ngahad punika pukul sapta ing wayahe, kawanlikur ing kang tanggal nênggih ing śaśi sapar, tahun nalip duk tinurun jêjêging mongsa katiga" ;
+    ex:isiAksaraJawa "ꦠꦠ꧀ꦏꦭ​ꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ" ;
     ex:arti "Ketika mulai ditulis pada hari Ngahad pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga" .
 
 ex:Kata_1_0 a ex:Kata ;
-    ex:latin "Ketika" ;
-    ex:aksaraJawa "ꦠꦏꦶꦏ" ;
+    ex:latin "tatkala" ;
+    ex:aksaraJawa "ꦠꦠ꧀ꦏꦭ" ;
     ex:arti "Ketika" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_1 a ex:Kata ;
-    ex:latin "mulai" ;
-    ex:aksaraJawa "ꦩꦸꦭꦶ" ;
+    ex:latin "wiwit" ;
+    ex:aksaraJawa "ꦮꦶꦮꦶꦠ꧀" ;
     ex:arti "mulai" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_2 a ex:Kata ;
-    ex:latin "ditulis" ;
-    ex:aksaraJawa "ꦢꦶꦠꦸꦭꦶꦱ" ;
+    ex:latin "tinulis" ;
+    ex:aksaraJawa "ꦠꦶꦤꦸꦭꦶꦱ꧀" ;
     ex:arti "ditulis" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_3 a ex:Kata ;
-    ex:latin "pada" ;
-    ex:aksaraJawa "ꦥꦤ꧀ꦝ" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
     ex:arti "pada" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_4 a ex:Kata ;
-    ex:latin "hari" ;
-    ex:aksaraJawa "ꦲꦶꦫꦶ" ;
+    ex:latin "ditên" ;
+    ex:aksaraJawa "ꦢꦶꦠꦼꦤ꧀" ;
     ex:arti "hari" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_5 a ex:Kata ;
-    ex:latin "Ngahad" ;
-    ex:aksaraJawa "ꦔꦃꦢ" ;
+    ex:latin "ngahad" ;
+    ex:aksaraJawa "ꦔꦲꦢ꧀" ;
     ex:arti "Ngahad" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_6 a ex:Kata ;
-    ex:latin "pukul" ;
-    ex:aksaraJawa "ꦥꦸꦏꦸꦭ" ;
-    ex:arti "pukul" ;
+    ex:latin "punika" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏ" ;
+    ex:arti "itu" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_7 a ex:Kata ;
-    ex:latin "tujuh" ;
-    ex:aksaraJawa "ꦠꦸꦗꦸ" ;
-    ex:arti "tujuh" ;
+    ex:latin "pukul" ;
+    ex:aksaraJawa "ꦥꦸꦏꦸꦭ꧀" ;
+    ex:arti "pukul" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_8 a ex:Kata ;
-    ex:latin "pada" ;
-    ex:aksaraJawa "ꦥꦤ꧀ꦝ" ;
-    ex:arti "pada" ;
+    ex:latin "sapta" ;
+    ex:aksaraJawa "ꦱꦥ꧀ꦠ" ;
+    ex:arti "tujuh" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_9 a ex:Kata ;
-    ex:latin "tanggal" ;
-    ex:aksaraJawa "ꦠꦠꦸꦁ" ;
-    ex:arti "tanggal" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "pada" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_10 a ex:Kata ;
-    ex:latin "dua" ;
-    ex:aksaraJawa "ꦢꦶ" ;
-    ex:arti "dua" ;
+    ex:latin "wayahe" ;
+    ex:aksaraJawa "ꦮꦪꦃꦲꦺ" ;
+    ex:arti "waktunya" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_11 a ex:Kata ;
-    ex:latin "puluh" ;
-    ex:aksaraJawa "ꦧꦸꦭꦸꦤ꧀" ;
-    ex:arti "puluh" ;
+    ex:latin "kawanlikur" ;
+    ex:aksaraJawa "ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ" ;
+    ex:arti "dua puluh empat" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_12 a ex:Kata ;
-    ex:latin "di" ;
-    ex:aksaraJawa "ꦱꦥꦫ" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
     ex:arti "di" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_13 a ex:Kata ;
-    ex:latin "bulan" ;
-    ex:aksaraJawa "ꦠꦲꦸꦤ" ;
-    ex:arti "bulan" ;
+    ex:latin "kang" ;
+    ex:aksaraJawa "ꦏꦁ" ;
+    ex:arti "yang" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_14 a ex:Kata ;
-    ex:latin "Sapar" ;
-    ex:aksaraJawa "ꦄꦭꦶꦥ" ;
-    ex:arti "Sapar" ;
+    ex:latin "tanggal" ;
+    ex:aksaraJawa "ꦠꦁ​ꦒꦭ꧀" ;
+    ex:arti "tanggal" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_15 a ex:Kata ;
-    ex:latin "tahun" ;
-    ex:aksaraJawa "ꦠꦸꦤꦸꦂ" ;
-    ex:arti "tahun" ;
+    ex:latin "nênggih" ;
+    ex:aksaraJawa "ꦤꦼꦁꦒꦶꦃ" ;
+    ex:arti "yaitu" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_16 a ex:Kata ;
-    ex:latin "Alip" ;
-    ex:aksaraJawa "ꦄꦭꦶꦥ" ;
-    ex:arti "Alip" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_17 a ex:Kata ;
-    ex:latin "turun" ;
-    ex:aksaraJawa "ꦠꦸꦫꦸꦤ꧀" ;
-    ex:arti "turun" ;
+    ex:latin "śaśi" ;
+    ex:aksaraJawa "ꦯꦯꦶ" ;
+    ex:arti "bulan" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_18 a ex:Kata ;
-    ex:latin "masa" ;
-    ex:aksaraJawa "ꦩꦱ" ;
-    ex:arti "masa" ;
+    ex:latin "sapar" ;
+    ex:aksaraJawa "ꦱꦥꦂ" ;
+    ex:arti "Sapar" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 ex:Kata_1_19 a ex:Kata ;
-    ex:latin "ketiga" ;
-    ex:aksaraJawa "ꦏꦼꦠꦶꦒ" ;
+    ex:latin "tahun" ;
+    ex:aksaraJawa "ꦠꦲꦸꦤ꧀" ;
+    ex:arti "tahun" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_20 a ex:Kata ;
+    ex:latin "nalip" ;
+    ex:aksaraJawa "ꦤꦭꦶꦥ꧀" ;
+    ex:arti "Alip" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_21 a ex:Kata ;
+    ex:latin "duk" ;
+    ex:aksaraJawa "ꦢꦸꦏ꧀" ;
+    ex:arti "ketika" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_22 a ex:Kata ;
+    ex:latin "tinurun" ;
+    ex:aksaraJawa "ꦠꦶꦤꦸꦫꦸꦤ꧀" ;
+    ex:arti "diturunkan" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_23 a ex:Kata ;
+    ex:latin "jêjêging" ;
+    ex:aksaraJawa "ꦗꦼꦗꦼꦒꦶꦁ" ;
+    ex:arti "berlakunya" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_24 a ex:Kata ;
+    ex:latin "mongsa" ;
+    ex:aksaraJawa "ꦩꦺꦴꦁ​ꦱ" ;
+    ex:arti "masa" ;
+    ex:munculDalamParagraf ex:Paragraf_1 .
+
+ex:Kata_1_25 a ex:Kata ;
+    ex:latin "katiga" ;
+    ex:aksaraJawa "ꦏꦠꦶꦒ" ;
     ex:arti "ketiga" ;
     ex:munculDalamParagraf ex:Paragraf_1 .
 
 # Paragraf 2
 ex:Paragraf_2 a ex:Paragraf ;
-    ex:isiLatin "Dalam tengah masa itu para ulama berdiskusi tentang hukum dan adat Jawa" ;
-    ex:isiAksaraJawa "ꦢꦭꦩ꧀ ꦠꦼꦁꦃ ꦩꦱ ꦠꦸ ꦥꦫ ꦲꦸꦭꦩ ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦺꦴꦩ꧀ꦧꦠꦸꦁ ꦲꦶꦤ ꦲꦢꦠ ꦗꦮ" ;
-    ex:arti "Dalam tengah masa itu para ulama berdiskusi tentang hukum dan adat Jawa" .
+    ex:isiLatin "sinêngkalan duk tinulis anuju ing zamannira, sewu pitung ngatus kehe, tigang dasa lan satunggal samya den engngêttana, waspada aja kaliru, ingêrre tahun lan jamman" ;
+    ex:isiAksaraJawa "꧃ꦱꦶꦤꦼꦁ​ꦏꦭꦤ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦤꦸꦗꦸ​ꦲꦶꦁ​ꦗ꦳ꦩꦤ꧀ꦤꦶꦫ꧈​ꦱꦺꦮꦸ​ꦥꦶꦠꦸꦁ​ꦔꦠꦸꦱ꧀ꦏꦺꦃꦲꦺ꧈​ꦠꦶꦒꦁ​ꦢꦱ​ꦭꦤ꧀ꦱꦠꦸꦁ​ꦒꦭ꧀​ꦱꦩꦾ​ꦢꦺꦤ꧀ꦲꦺꦁꦔꦼꦠ꧀ꦠꦤ꧀ꦤꦤ꧈​ꦮꦱ꧀ꦥꦢ​ꦲꦗ​ꦏꦭꦶꦫꦸ꧈​ꦲꦶꦔꦼꦂ​ꦫꦺ​ꦠꦲꦸꦤ꧀ꦭꦤ꧀ꦗꦩ꧀ꦩꦤ" ;
+    ex:arti "Tertulis dengan sinengkalan dalam zamannya, seribu tujuh ratus, tiga puluh satu, semua diingat baik, hati-hati jangan salah, di dalam tahun dan zaman" .
 
 ex:Kata_2_0 a ex:Kata ;
-    ex:latin "Dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
-    ex:arti "Dalam" ;
+    ex:latin "sinêngkalan" ;
+    ex:aksaraJawa "ꦱꦶꦤꦼꦁ​ꦏꦭꦤ꧀" ;
+    ex:arti "sinengkalan" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_1 a ex:Kata ;
-    ex:latin "tengah" ;
-    ex:aksaraJawa "ꦠꦼꦁꦃ" ;
-    ex:arti "tengah" ;
+    ex:latin "duk" ;
+    ex:aksaraJawa "ꦢꦸꦏ꧀" ;
+    ex:arti "ketika" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_2 a ex:Kata ;
-    ex:latin "masa" ;
-    ex:aksaraJawa "ꦩꦱ" ;
-    ex:arti "masa" ;
+    ex:latin "tinulis" ;
+    ex:aksaraJawa "ꦠꦶꦤꦸꦭꦶꦱ꧀" ;
+    ex:arti "ditulis" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_3 a ex:Kata ;
-    ex:latin "itu" ;
-    ex:aksaraJawa "ꦠꦸ" ;
-    ex:arti "itu" ;
+    ex:latin "anuju" ;
+    ex:aksaraJawa "ꦲꦤꦸꦗꦸ" ;
+    ex:arti "menuju" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_4 a ex:Kata ;
-    ex:latin "para" ;
-    ex:aksaraJawa "ꦥꦫ" ;
-    ex:arti "para" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_5 a ex:Kata ;
-    ex:latin "ulama" ;
-    ex:aksaraJawa "ꦲꦸꦭꦩ" ;
-    ex:arti "ulama" ;
+    ex:latin "zamannira" ;
+    ex:aksaraJawa "ꦗ꦳ꦩꦤ꧀ꦤꦶꦫ" ;
+    ex:arti "zamannya" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_6 a ex:Kata ;
-    ex:latin "berdiskusi" ;
-    ex:aksaraJawa "ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
-    ex:arti "berdiskusi" ;
+    ex:latin "sewu" ;
+    ex:aksaraJawa "ꦱꦺꦮꦸ" ;
+    ex:arti "seribu" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_7 a ex:Kata ;
-    ex:latin "tentang" ;
-    ex:aksaraJawa "ꦠꦺꦴꦩ꧀ꦧꦠꦸꦁ" ;
-    ex:arti "tentang" ;
+    ex:latin "pitung" ;
+    ex:aksaraJawa "ꦥꦶꦠꦸꦁ" ;
+    ex:arti "tujuh" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_8 a ex:Kata ;
-    ex:latin "hukum" ;
-    ex:aksaraJawa "ꦲꦶꦤ" ;
-    ex:arti "hukum" ;
+    ex:latin "ngatus" ;
+    ex:aksaraJawa "ꦔꦠꦸꦱ꧀" ;
+    ex:arti "ratus" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_9 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "dan" ;
+    ex:latin "kehe" ;
+    ex:aksaraJawa "ꦏꦺꦃꦲꦺ" ;
+    ex:arti "banyaknya" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 ex:Kata_2_10 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦗꦮ" ;
-    ex:arti "adat" ;
+    ex:latin "tigang" ;
+    ex:aksaraJawa "ꦠꦶꦒꦁ" ;
+    ex:arti "tiga" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_11 a ex:Kata ;
+    ex:latin "dasa" ;
+    ex:aksaraJawa "ꦢꦱ" ;
+    ex:arti "puluh" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_12 a ex:Kata ;
+    ex:latin "lan" ;
+    ex:aksaraJawa "ꦭꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_13 a ex:Kata ;
+    ex:latin "satunggal" ;
+    ex:aksaraJawa "ꦱꦠꦸꦁ​ꦒꦭ꧀" ;
+    ex:arti "satu" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_14 a ex:Kata ;
+    ex:latin "samya" ;
+    ex:aksaraJawa "ꦱꦩꦾ" ;
+    ex:arti "semua" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_15 a ex:Kata ;
+    ex:latin "den" ;
+    ex:aksaraJawa "ꦢꦺꦤ꧀" ;
+    ex:arti "oleh" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_16 a ex:Kata ;
+    ex:latin "engngêttana" ;
+    ex:aksaraJawa "ꦲꦺꦁꦔꦼꦠ꧀ꦠꦤ꧀ꦤꦤ" ;
+    ex:arti "diingat" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_17 a ex:Kata ;
+    ex:latin "waspada" ;
+    ex:aksaraJawa "ꦮꦱ꧀ꦥꦢ" ;
+    ex:arti "hati-hati" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_18 a ex:Kata ;
+    ex:latin "aja" ;
+    ex:aksaraJawa "ꦲꦗ" ;
+    ex:arti "jangan" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_19 a ex:Kata ;
+    ex:latin "kaliru" ;
+    ex:aksaraJawa "ꦏꦭꦶꦫꦸ" ;
+    ex:arti "salah" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_20 a ex:Kata ;
+    ex:latin "ingêrre" ;
+    ex:aksaraJawa "ꦲꦶꦔꦼꦂ​ꦫꦺ" ;
+    ex:arti "diingat" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_21 a ex:Kata ;
+    ex:latin "tahun" ;
+    ex:aksaraJawa "ꦠꦲꦸꦤ꧀" ;
+    ex:arti "tahun" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_22 a ex:Kata ;
+    ex:latin "lan" ;
+    ex:aksaraJawa "ꦭꦤ꧀" ;
+    ex:arti "dan" ;
+    ex:munculDalamParagraf ex:Paragraf_2 .
+
+ex:Kata_2_23 a ex:Kata ;
+    ex:latin "jamman" ;
+    ex:aksaraJawa "ꦗꦩ꧀ꦩꦤ" ;
+    ex:arti "zaman" ;
     ex:munculDalamParagraf ex:Paragraf_2 .
 
 # Paragraf 3
 ex:Paragraf_3 a ex:Paragraf ;
-    ex:isiLatin "Hasil diskusi tersebut menjadi pedoman dalam menjalankan adat dan hukum masyarakat Jawa" ;
-    ex:isiAksaraJawa "ꦲꦱꦶꦭ ꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦼꦩꦸꦤ꧀ ꦩꦼꦢꦶ ꦥꦼꦢꦺꦴꦩꦤ ꦢꦭꦩ꧀ ꦩꦗꦭꦤ꧀ꦏꦤ ꦲꦢꦠ ꦲꦶꦤ ꦲꦸꦏꦸꦩ ꦩꦱꦿꦗꦠ ꦗꦮ" ;
-    ex:arti "Hasil diskusi tersebut menjadi pedoman dalam menjalankan adat dan hukum masyarakat Jawa" .
+    ex:isiLatin "anêdheng pangaksamaning, kang nêrat jalma amudha, kang kinudang ing sêstrane, tumrapping dêlancang kertas, ala nênggih abongga, tan​dukking kathah kang singguk ukaran​nya, tuna liwat" ;
+    ex:isiAksaraJawa "꧃​ꦲꦤꦼꦝꦺꦁ​ꦥꦔꦏ꧀ꦱꦩꦤꦶꦁ꧈​ꦏꦁ​ꦤꦼꦫꦠ꧀ꦗꦭ꧀ꦩ​ꦲꦩꦸꦝ꧈​ꦏꦁ​ꦏꦶꦤꦸꦢꦁ​ꦲꦶꦁ​ꦱꦼꦱ꧀ꦠꦿꦤꦺ꧈​ꦠꦸꦩꦿꦥ꧀ꦥꦶꦁ​ꦢꦼꦭꦤ꧀ꦕꦁ​ꦏꦼꦂꦠꦱ꧀꧈​ꦲꦭ​ꦤꦼꦁꦒꦶꦃ​ꦲꦧꦺꦴꦁꦒ꧈​ꦠꦤ꧀ꦢꦸꦏ꧀ꦏꦶꦁ​ꦏꦛꦃ​ꦏꦁ​ꦱꦶꦁꦒꦸꦏ꧀​ꦲꦸꦏꦫꦤ꧀ꦚ꧈​ꦠꦸꦤꦭꦶꦮꦠ꧀" ;
+    ex:arti "Ada sebuah pengingat yang menimpa manusia muda, yang dipanggil dalam kitab, untuk menulis di kertas, tentang hal yang buruk, tanduk banyak yang menonjol, ucapannya adalah ketidaksenangan" .
 
 ex:Kata_3_0 a ex:Kata ;
-    ex:latin "Hasil" ;
-    ex:aksaraJawa "ꦲꦱꦶꦭ" ;
-    ex:arti "Hasil" ;
+    ex:latin "anêdheng" ;
+    ex:aksaraJawa "ꦲꦤꦼꦝꦺꦁ" ;
+    ex:arti "Ada sebuah" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_1 a ex:Kata ;
-    ex:latin "diskusi" ;
-    ex:aksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
-    ex:arti "diskusi" ;
+    ex:latin "pangaksamaning" ;
+    ex:aksaraJawa "ꦥꦔꦏ꧀ꦱꦩꦤꦶꦁ" ;
+    ex:arti "pengingat" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_2 a ex:Kata ;
-    ex:latin "tersebut" ;
-    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
-    ex:arti "tersebut" ;
+    ex:latin "kang" ;
+    ex:aksaraJawa "ꦏꦁ" ;
+    ex:arti "yang" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_3 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "nêrat" ;
+    ex:aksaraJawa "ꦤꦼꦫꦠ꧀" ;
+    ex:arti "menimpa" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_4 a ex:Kata ;
-    ex:latin "pedoman" ;
-    ex:aksaraJawa "ꦥꦼꦢꦺꦴꦩꦤ" ;
-    ex:arti "pedoman" ;
+    ex:latin "jalma" ;
+    ex:aksaraJawa "ꦗꦭ꧀ꦩ" ;
+    ex:arti "manusia" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_5 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
-    ex:arti "dalam" ;
+    ex:latin "amudha" ;
+    ex:aksaraJawa "ꦲꦩꦸꦝ" ;
+    ex:arti "muda" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_6 a ex:Kata ;
-    ex:latin "menjalankan" ;
-    ex:aksaraJawa "ꦩꦗꦭꦤ꧀ꦏꦤ" ;
-    ex:arti "menjalankan" ;
+    ex:latin "kang" ;
+    ex:aksaraJawa "ꦏꦁ" ;
+    ex:arti "yang" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_7 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
+    ex:latin "kinudang" ;
+    ex:aksaraJawa "ꦏꦶꦤꦸꦢꦁ" ;
+    ex:arti "dipanggil" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_8 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦲꦶꦤ" ;
-    ex:arti "dan" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "dalam" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_9 a ex:Kata ;
-    ex:latin "hukum" ;
-    ex:aksaraJawa "ꦲꦸꦏꦸꦩ" ;
-    ex:arti "hukum" ;
+    ex:latin "sêstrane" ;
+    ex:aksaraJawa "ꦱꦼꦱ꧀ꦠꦿꦤꦺ" ;
+    ex:arti "kitabnya" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_10 a ex:Kata ;
-    ex:latin "masyarakat" ;
-    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
-    ex:arti "masyarakat" ;
+    ex:latin "tumrapping" ;
+    ex:aksaraJawa "ꦠꦸꦩꦿꦥ꧀ꦥꦶꦁ" ;
+    ex:arti "untuk" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 ex:Kata_3_11 a ex:Kata ;
-    ex:latin "Jawa" ;
-    ex:aksaraJawa "ꦗꦮ" ;
-    ex:arti "Jawa" ;
+    ex:latin "dêlancang" ;
+    ex:aksaraJawa "ꦢꦼꦭꦤ꧀ꦕꦁ" ;
+    ex:arti "menulis" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_12 a ex:Kata ;
+    ex:latin "kêrtas" ;
+    ex:aksaraJawa "ꦏꦼꦂꦠꦱ꧀" ;
+    ex:arti "kertas" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_13 a ex:Kata ;
+    ex:latin "ala" ;
+    ex:aksaraJawa "ꦲꦭ" ;
+    ex:arti "buruk" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_14 a ex:Kata ;
+    ex:latin "nênggih" ;
+    ex:aksaraJawa "ꦤꦼꦁꦒꦶꦃ" ;
+    ex:arti "yaitu" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_15 a ex:Kata ;
+    ex:latin "abongga" ;
+    ex:aksaraJawa "ꦲꦧꦺꦴꦁꦒ" ;
+    ex:arti "buruk" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_16 a ex:Kata ;
+    ex:latin "tandukking" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦢꦸꦏ꧀ꦏꦶꦁ" ;
+    ex:arti "tanduknya" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_17 a ex:Kata ;
+    ex:latin "kathah" ;
+    ex:aksaraJawa "ꦏꦛꦃ" ;
+    ex:arti "banyak" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_18 a ex:Kata ;
+    ex:latin "kang" ;
+    ex:aksaraJawa "ꦏꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_19 a ex:Kata ;
+    ex:latin "singguk" ;
+    ex:aksaraJawa "ꦱꦶꦁꦒꦸꦏ꧀" ;
+    ex:arti "menonjol" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_20 a ex:Kata ;
+    ex:latin "ukarannya" ;
+    ex:aksaraJawa "ꦲꦸꦏꦫꦤ꧀ꦚ" ;
+    ex:arti "ucapannya" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_21 a ex:Kata ;
+    ex:latin "tuna" ;
+    ex:aksaraJawa "ꦠꦸꦤ" ;
+    ex:arti "rugi" ;
+    ex:munculDalamParagraf ex:Paragraf_3 .
+
+ex:Kata_3_22 a ex:Kata ;
+    ex:latin "liwat" ;
+    ex:aksaraJawa "ꦭꦶꦮꦠ꧀" ;
+    ex:arti "lewat" ;
     ex:munculDalamParagraf ex:Paragraf_3 .
 
 # Paragraf 4
 ex:Paragraf_4 a ex:Paragraf ;
-    ex:isiLatin "Para raja juga memperhatikan berbagai aturan dalam kerajaan" ;
-    ex:isiAksaraJawa "ꦥꦫ ꦫꦗ ꦗꦸꦒ ꦩꦥꦼꦫꦠꦶꦤ꧀ ꦧꦫꦒꦺꦴꦲꦶ ꦲꦠꦸꦫꦤ ꦢꦭꦩ꧀ ꦏꦫꦗꦤ" ;
-    ex:arti "Para raja juga memperhatikan berbagai aturan dalam kerajaan" .
+    ex:isiLatin "kangsudya amahosṭauwin sampunwalgita ing nala, ing tembang miwahtêbungnge,hakaku tan​pa têkênnan lila denwancen​nana, kang luwihsudabyeng kidung deningwang kadya kunjana" ;
+    ex:isiAksaraJawa "꧄ꦏꦁꦱꦸꦢꦾ​ꦲꦩꦲꦺꦴꦱ꧀ꦡꦸꦮꦶꦤ꧀​ꦱꦩ꧀ꦥꦸꦤ꧀ꦮꦭ꧀ꦒꦶꦠ​ꦲꦶꦁ​ꦤꦭ꧈​ꦲꦶꦁ​ꦠꦼꦩ꧀ꦧꦁ​ꦩꦶꦮꦃꦠꦼꦧꦸꦁꦔꦺ꧈ꦲꦏꦏꦸ​ꦠꦤ꧀ꦥ​ꦠꦼꦏꦼꦤ꧀ꦤꦤ꧀​ꦭꦶꦭ​ꦢꦺꦤ꧀ꦮꦤ꧀ꦕꦺꦤ꧀ꦤꦤ꧈​ꦏꦁ​ꦭꦸꦮꦶꦃꦱꦸꦢꦧꦾꦺꦁ​ꦏꦶꦢꦸꦁ​ꦢꦺꦤꦶꦁꦮꦁ​ꦏꦢꦾ​ꦏꦸꦤ꧀ꦗꦤ" ;
+    ex:arti "Yang sudah dibaca dan dihafal sudah lelah dalam penderitaan, dalam tembang dan kata-kata, aku mengakui tanpa paksaan, lama waktunya, yang lebih suci, seperti kunjana" .
 
 ex:Kata_4_0 a ex:Kata ;
-    ex:latin "Para" ;
-    ex:aksaraJawa "ꦥꦫ" ;
-    ex:arti "Para" ;
+    ex:latin "kangsudya" ;
+    ex:aksaraJawa "ꦏꦁꦱꦸꦢꦾ" ;
+    ex:arti "Yang sudah" ;
     ex:munculDalamParagraf ex:Paragraf_4 .
 
 ex:Kata_4_1 a ex:Kata ;
-    ex:latin "raja" ;
-    ex:aksaraJawa "ꦫꦗ" ;
-    ex:arti "raja" ;
+    ex:latin "amahosṭauwin" ;
+    ex:aksaraJawa "ꦩꦲꦺꦴꦱ꧀ꦡꦸꦮꦶꦤ꧀" ;
+    ex:arti "dibaca dan dihafal" ;
     ex:munculDalamParagraf ex:Paragraf_4 .
 
 ex:Kata_4_2 a ex:Kata ;
-    ex:latin "juga" ;
-    ex:aksaraJawa "ꦗꦸꦒ" ;
-    ex:arti "juga" ;
+    ex:latin "sampunwalgita" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀ꦮꦭ꧀ꦒꦶꦠ" ;
+    ex:arti "sudah lelah" ;
     ex:munculDalamParagraf ex:Paragraf_4 .
 
 ex:Kata_4_3 a ex:Kata ;
-    ex:latin "memperhatikan" ;
-    ex:aksaraJawa "ꦩꦥꦼꦫꦠꦶꦤ꧀" ;
-    ex:arti "memperhatikan" ;
-    ex:munculDalamParagraf ex:Paragraf_4 .
-
-ex:Kata_4_4 a ex:Kata ;
-    ex:latin "berbagai" ;
-    ex:aksaraJawa "ꦧꦫꦒꦺꦴꦲꦶ" ;
-    ex:arti "berbagai" ;
-    ex:munculDalamParagraf ex:Paragraf_4 .
-
-ex:Kata_4_5 a ex:Kata ;
-    ex:latin "aturan" ;
-    ex:aksaraJawa "ꦲꦠꦸꦫꦤ" ;
-    ex:arti "aturan" ;
-    ex:munculDalamParagraf ex:Paragraf_4 .
-
-ex:Kata_4_6 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
     ex:arti "dalam" ;
     ex:munculDalamParagraf ex:Paragraf_4 .
 
+ex:Kata_4_4 a ex:Kata ;
+    ex:latin "nala" ;
+    ex:aksaraJawa "ꦤꦭ" ;
+    ex:arti "hati" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_5 a ex:Kata ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "dalam" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_6 a ex:Kata ;
+    ex:latin "tembang" ;
+    ex:aksaraJawa "ꦠꦼꦩ꧀ꦧꦁ" ;
+    ex:arti "tembang" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
 ex:Kata_4_7 a ex:Kata ;
-    ex:latin "kerajaan" ;
-    ex:aksaraJawa "ꦏꦫꦗꦤ" ;
-    ex:arti "kerajaan" ;
+    ex:latin "miwahtêbungnge" ;
+    ex:aksaraJawa "ꦩꦶꦮꦃꦠꦼꦧꦸꦁꦔꦺ" ;
+    ex:arti "dan kata-kata" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_8 a ex:Kata ;
+    ex:latin "hakaku" ;
+    ex:aksaraJawa "ꦲꦏꦏꦸ" ;
+    ex:arti "aku mengakui" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_9 a ex:Kata ;
+    ex:latin "tanpa" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
+    ex:arti "tanpa" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_10 a ex:Kata ;
+    ex:latin "têkênnan" ;
+    ex:aksaraJawa "ꦠꦼꦏꦼꦤ꧀ꦤꦤ꧀" ;
+    ex:arti "paksaan" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_11 a ex:Kata ;
+    ex:latin "lila" ;
+    ex:aksaraJawa "ꦭꦶꦭ" ;
+    ex:arti "rela" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_12 a ex:Kata ;
+    ex:latin "denwancennana" ;
+    ex:aksaraJawa "ꦢꦺꦤ꧀ꦮꦤ꧀ꦕꦺꦤ꧀ꦤꦤ" ;
+    ex:arti "diatur" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_13 a ex:Kata ;
+    ex:latin "kang" ;
+    ex:aksaraJawa "ꦏꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_14 a ex:Kata ;
+    ex:latin "luwihsudabyeng" ;
+    ex:aksaraJawa "ꦭꦸꦮꦶꦃꦱꦸꦢꦧꦾꦺꦁ" ;
+    ex:arti "lebih suci" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_15 a ex:Kata ;
+    ex:latin "kidung" ;
+    ex:aksaraJawa "ꦏꦶꦢꦸꦁ" ;
+    ex:arti "kidung" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_16 a ex:Kata ;
+    ex:latin "deningwang" ;
+    ex:aksaraJawa "ꦢꦺꦤꦶꦁꦮꦁ" ;
+    ex:arti "oleh orang" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_17 a ex:Kata ;
+    ex:latin "kadya" ;
+    ex:aksaraJawa "ꦏꦢꦾ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_4 .
+
+ex:Kata_4_18 a ex:Kata ;
+    ex:latin "kunjana" ;
+    ex:aksaraJawa "ꦏꦸꦤ꧀ꦗꦤ" ;
+    ex:arti "kunjana" ;
     ex:munculDalamParagraf ex:Paragraf_4 .
 
 # Paragraf 5
 ex:Paragraf_5 a ex:Paragraf ;
-    ex:isiLatin "Kehidupan rakyat berjalan damai dan sejahtera" ;
-    ex:isiAksaraJawa "ꦏꦺꦲꦶꦢꦶꦥꦤ꧀ ꦫꦪꦏ꧀ ꦧꦼꦫꦗꦭꦤ꧀ ꦢꦩꦲꦶ ꦢꦤ꧀ ꦱꦗꦺꦲꦠꦿ" ;
-    ex:arti "Kehidupan rakyat berjalan damai dan sejahtera" .
+    ex:isiLatin "rumênggêp umagêmringgit nisthane raga tanketang, lir sasawi upamine, ngukuli punang ing ngawan, pankadya sang kukila, ngucaptanwringtêgêssipun pasthi ngesemansujana" ;
+    ex:isiAksaraJawa "꧄ꦫꦸꦩꦼꦁꦒꦼꦥ꧀ꦲꦸꦩꦒꦼꦩ꧀ꦩꦿꦶꦁꦒꦶꦠ꧀​ꦤꦶꦱ꧀ꦛꦤꦺ​ꦫꦒ​ꦠꦤ꧀ꦏꦺꦠꦁ꧈​ꦭꦶꦂ​ꦱꦱꦮꦶ​ꦲꦸꦥꦩꦶꦤꦺ꧈ꦔꦸꦏꦸꦭꦶ​ꦥꦸꦤꦁ​ꦲꦶꦁ​ꦔꦮꦤ꧀​ꦥꦤ꧀ꦏꦢꦾ​ꦱꦁ​ꦏꦸꦏꦶꦭ꧈​ꦔꦸꦕꦥ꧀ꦠꦤ꧀ꦮꦿꦶꦤ꧀ꦠꦼꦒꦼꦱ꧀ꦱꦶꦥꦸꦤ꧀​ꦥꦱ꧀ꦛꦶ​ꦔꦺꦱꦼꦩꦤ꧀ꦱꦸꦗꦤ" ;
+    ex:arti "Terdengar ringgit suara nafas tubuh tak terhitung, seperti ibarat upamine, melawan di siang hari, seperti burung kukila, berkata tanpa makna, pasti menggelisahkan hati" .
 
 ex:Kata_5_0 a ex:Kata ;
-    ex:latin "Kehidupan" ;
-    ex:aksaraJawa "ꦏꦺꦲꦶꦢꦶꦥꦤ꧀" ;
-    ex:arti "Kehidupan" ;
+    ex:latin "rumênggêp" ;
+    ex:aksaraJawa "ꦫꦸꦩꦼꦁꦒꦼꦥ꧀" ;
+    ex:arti "Terdengar" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 ex:Kata_5_1 a ex:Kata ;
-    ex:latin "rakyat" ;
-    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
-    ex:arti "rakyat" ;
+    ex:latin "umagêmringgit" ;
+    ex:aksaraJawa "ꦲꦸꦩꦒꦼꦩ꧀ꦩꦿꦶꦁꦒꦶꦠ꧀" ;
+    ex:arti "ringgit suara" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 ex:Kata_5_2 a ex:Kata ;
-    ex:latin "berjalan" ;
-    ex:aksaraJawa "ꦧꦼꦫꦗꦭꦤ꧀" ;
-    ex:arti "berjalan" ;
+    ex:latin "nisthane" ;
+    ex:aksaraJawa "ꦤꦶꦱ꧀ꦛꦤꦺ" ;
+    ex:arti "nafas" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 ex:Kata_5_3 a ex:Kata ;
-    ex:latin "damai" ;
-    ex:aksaraJawa "ꦢꦩꦲꦶ" ;
-    ex:arti "damai" ;
+    ex:latin "raga" ;
+    ex:aksaraJawa "ꦫꦒ" ;
+    ex:arti "tubuh" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 ex:Kata_5_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ꧀" ;
-    ex:arti "dan" ;
+    ex:latin "tanketang" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦏꦺꦠꦁ" ;
+    ex:arti "tak terhitung" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 ex:Kata_5_5 a ex:Kata ;
-    ex:latin "sejahtera" ;
-    ex:aksaraJawa "ꦱꦗꦺꦲꦠꦿ" ;
-    ex:arti "sejahtera" ;
+    ex:latin "lir" ;
+    ex:aksaraJawa "ꦭꦶꦂ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_6 a ex:Kata ;
+    ex:latin "sasawi" ;
+    ex:aksaraJawa "ꦱꦱꦮꦶ" ;
+    ex:arti "ibarat" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_7 a ex:Kata ;
+    ex:latin "upamine" ;
+    ex:aksaraJawa "ꦲꦸꦥꦩꦶꦤꦺ" ;
+    ex:arti "contohnya" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_8 a ex:Kata ;
+    ex:latin "ngukuli" ;
+    ex:aksaraJawa "ꦔꦸꦏꦸꦭꦶ" ;
+    ex:arti "melawan" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_9 a ex:Kata ;
+    ex:latin "punang" ;
+    ex:aksaraJawa "ꦥꦸꦤꦁ" ;
+    ex:arti "yang" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_10 a ex:Kata ;
+    ex:latin "ing" ;
+    ex:aksaraJawa "ꦲꦶꦁ" ;
+    ex:arti "di" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_11 a ex:Kata ;
+    ex:latin "ngawan" ;
+    ex:aksaraJawa "ꦔꦮꦤ꧀" ;
+    ex:arti "siang" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_12 a ex:Kata ;
+    ex:latin "pankadya" ;
+    ex:aksaraJawa "ꦥꦤ꧀ꦏꦢꦾ" ;
+    ex:arti "seperti" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_13 a ex:Kata ;
+    ex:latin "sang" ;
+    ex:aksaraJawa "ꦱꦁ" ;
+    ex:arti "sang" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_14 a ex:Kata ;
+    ex:latin "kukila" ;
+    ex:aksaraJawa "ꦏꦸꦏꦶꦭ꧀" ;
+    ex:arti "burung" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_15 a ex:Kata ;
+    ex:latin "ngucaptanwringtêgêssipun" ;
+    ex:aksaraJawa "ꦔꦸꦕꦥ꧀ꦠꦤ꧀ꦮꦿꦶꦤ꧀ꦠꦼꦒꦼꦱ꧀ꦱꦶꦥꦸꦤ꧀" ;
+    ex:arti "berkata tanpa makna" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_16 a ex:Kata ;
+    ex:latin "pasthi" ;
+    ex:aksaraJawa "ꦥꦱ꧀ꦛꦶ" ;
+    ex:arti "pasti" ;
+    ex:munculDalamParagraf ex:Paragraf_5 .
+
+ex:Kata_5_17 a ex:Kata ;
+    ex:latin "ngesemansujana" ;
+    ex:aksaraJawa "ꦔꦺꦱꦼꦩꦤ꧀ꦱꦸꦗꦤ" ;
+    ex:arti "menggelisahkan hati" ;
     ex:munculDalamParagraf ex:Paragraf_5 .
 
 # Paragraf 6
 ex:Paragraf_6 a ex:Paragraf ;
-    ex:isiLatin "Raja beserta pembesar kerajaan sering berdiskusi tentang kepentingan rakyat" ;
-    ex:isiAksaraJawa "ꦫꦗ ꦧꦼꦱꦼꦫ ꦥꦼꦩ꧀ꦧꦼꦱꦂ ꦏꦫꦗꦤ ꦱꦼꦂꦒꦶꦁ ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦠꦺꦴꦩ꧀ꦧꦶꦔ꧀ꦠꦺꦤ ꦫꦪꦏ꧀" ;
-    ex:arti "Raja beserta pembesar kerajaan sering berdiskusi tentang kepentingan rakyat" .
+    ex:isiLatin "purwaningwasitaluwih, sujalmadi amangkurat, marmacitraneratune, sangkaneśaśipurnama, sidiktanpatan​dhingngan, bagus sesusunaningsun, kadyasukmahonengdunya" ;
+    ex:isiAksaraJawa "꧄ꦥꦸꦂꦮꦤꦶꦁꦮꦱꦶꦠꦭꦸꦮꦶꦃ꧈ ꦱꦸꦗꦭ꧀ꦩꦢꦶꦲꦩꦁꦏꦸꦫꦠ꧀ ꦩꦂꦩꦕꦶꦠꦿꦤꦺꦫꦠꦸꦤꦺ꧈ ꦱꦁꦏꦤꦺꦯꦯꦶꦥꦸꦂꦤꦩ꧈ ꦱꦶꦢꦶꦏ꧀ꦠꦤ꧀ꦥꦠꦤ꧀ꦝꦶꦁꦔꦤ꧀ ꦧꦒꦸꦱ꧀ꦱꦺꦱꦸꦱꦸꦤꦤꦶꦁꦱꦸꦤ꧀ ꦏꦢꦾꦱꦸꦏ꧀ꦩꦲꦺꦴꦤꦺꦁꦢꦸꦤ꧀ꦚ꧉" ;
+    ex:arti "Asal muasal wasiat lebih, dari manusia dimurkai, karena citra rajanya, pada purnama, unik tak tertandingi, baik susunanku, seperti roh di dunia." .
 
 ex:Kata_6_0 a ex:Kata ;
-    ex:latin "Raja" ;
-    ex:aksaraJawa "ꦫꦗ" ;
-    ex:arti "Raja" ;
+    ex:latin "purwaningwasitaluwih" ;
+    ex:aksaraJawa "ꦥꦸꦂꦮꦤꦶꦁꦮꦱꦶꦠꦭꦸꦮꦶꦃ" ;
+    ex:arti "Asal muasal wasiat lebih" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_1 a ex:Kata ;
-    ex:latin "beserta" ;
-    ex:aksaraJawa "ꦧꦼꦱꦼꦫ" ;
-    ex:arti "beserta" ;
+    ex:latin "sujalmadi" ;
+    ex:aksaraJawa "ꦱꦸꦗꦭ꧀ꦩꦢꦶ" ;
+    ex:arti "dari manusia" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_2 a ex:Kata ;
-    ex:latin "pembesar" ;
-    ex:aksaraJawa "ꦥꦼꦩ꧀ꦧꦼꦱꦂ" ;
-    ex:arti "pembesar" ;
+    ex:latin "amangkurat" ;
+    ex:aksaraJawa "ꦲꦩꦁꦏꦸꦫꦠ꧀" ;
+    ex:arti "dimurkai" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_3 a ex:Kata ;
-    ex:latin "kerajaan" ;
-    ex:aksaraJawa "ꦏꦫꦗꦤ" ;
-    ex:arti "kerajaan" ;
+    ex:latin "marmacitraneratune" ;
+    ex:aksaraJawa "ꦩꦂꦩꦕꦶꦠꦿꦤꦺꦫꦠꦸꦤꦺ" ;
+    ex:arti "karena citra rajanya" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_4 a ex:Kata ;
-    ex:latin "sering" ;
-    ex:aksaraJawa "ꦱꦼꦂꦒꦶꦁ" ;
-    ex:arti "sering" ;
+    ex:latin "sangkaneśaśipurnama" ;
+    ex:aksaraJawa "ꦱꦁꦏꦤꦺꦯꦯꦶꦥꦸꦂꦤꦩ꧈" ;
+    ex:arti "pada purnama" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_5 a ex:Kata ;
-    ex:latin "berdiskusi" ;
-    ex:aksaraJawa "ꦧꦼꦂꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
-    ex:arti "berdiskusi" ;
+    ex:latin "sidiktanpatandhingngan" ;
+    ex:aksaraJawa "ꦱꦶꦢꦶꦏ꧀ꦠꦤ꧀ꦥꦠꦤ꧀ꦝꦶꦁꦔꦤ꧀" ;
+    ex:arti "unik tak tertandingi" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_6 a ex:Kata ;
-    ex:latin "tentang" ;
-    ex:aksaraJawa "ꦠꦺꦴꦩ꧀ꦧꦶꦔ꧀ꦠꦺꦤ" ;
-    ex:arti "tentang" ;
+    ex:latin "bagus sesusunaningsun" ;
+    ex:aksaraJawa "ꦧꦒꦸꦱ꧀ꦱꦺꦱꦸꦱꦸꦤꦤꦶꦁꦱꦸꦤ꧀" ;
+    ex:arti "baik susunanku" ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 ex:Kata_6_7 a ex:Kata ;
-    ex:latin "kepentingan" ;
-    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
-    ex:arti "kepentingan" ;
-    ex:munculDalamParagraf ex:Paragraf_6 .
-
-ex:Kata_6_8 a ex:Kata ;
-    ex:latin "rakyat" ;
-    ex:aksaraJawa "ꦫꦪꦏ꧀" ;
-    ex:arti "rakyat" ;
+    ex:latin "kadyasukmahonengdunya" ;
+    ex:aksaraJawa "ꦏꦢꦾꦱꦸꦏ꧀ꦩꦲꦺꦴꦤꦺꦁꦢꦸꦤ꧀ꦚ꧉" ;
+    ex:arti "seperti roh di dunia." ;
     ex:munculDalamParagraf ex:Paragraf_6 .
 
 # Paragraf 7
 ex:Paragraf_7 a ex:Paragraf ;
-    ex:isiLatin "Diskusi ini penting untuk menentukan kebijakan yang adil" ;
-    ex:isiAksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ ꦲꦶꦤꦶ ꦥꦶꦁꦠꦶꦁ ꦲꦸꦤ꧀ꦠꦸꦁ ꦠꦼꦩꦸꦤ꧀ꦠꦸꦤ꧀ ꦏꦼꦧꦏꦶꦪꦤ ꦪꦁ ꦲꦢꦶꦭ꧀" ;
-    ex:arti "Diskusi ini penting untuk menentukan kebijakan yang adil" .
+    ex:isiLatin "kadikumalahingngukir, susunannêgrihingcem​pa, lirnabiyusup​citrane, kadyaratusakingswarga, tu_uyenpintuningyang, pangngan​dikasêpêtmadu, kangngasukapahitkilang" ;
+    ex:isiAksaraJawa "꧄ꦏꦢꦶꦏꦸꦩꦭꦲꦶꦁꦔꦸꦏꦶꦂ꧈ ꦱꦸꦱꦸꦤ꧀ꦤꦤ꧀ꦤꦼꦒꦿꦶꦲꦶꦁꦲꦶꦁꦕꦺꦩ꧀ꦥ꧈ ꦭꦶꦂꦤꦧꦶꦪꦸꦱꦸꦥ꧀ꦕꦶꦠꦿꦤꦺ꧈ ꦏꦢꦾꦫꦠꦸꦱꦏꦶꦁꦱ꧀ꦮꦂꦒ꧈ ꦠꦸꦲꦸꦪꦺꦤ꧀ꦥꦶꦤ꧀ꦠꦸꦤꦶꦁꦪꦁ꧈ ꦥꦁꦔꦤ꧀ꦢꦶꦏꦱꦼꦥꦼꦠ꧀ꦩꦢꦸ꧈ ꦏꦁꦔꦱꦸꦏꦥꦲꦶꦠ꧀ꦏꦶꦭꦁ꧈" ;
+    ex:arti "Seperti permata terukir, susunan negeri di Champa, seperti Nabi Yusuf bentuknya, seperti ratu dari surga, benar jika pintu Yang, ucapannya manis seperti madu, tapi ada rasa pahit di dalamnya." .
 
 ex:Kata_7_0 a ex:Kata ;
-    ex:latin "Diskusi" ;
-    ex:aksaraJawa "ꦢꦶꦱ꧀ꦏꦸꦱꦶ" ;
-    ex:arti "Diskusi" ;
+    ex:latin "kadikumalahingngukir" ;
+    ex:aksaraJawa "ꦏꦢꦶꦏꦸꦩꦭꦲꦶꦁꦔꦸꦏꦶꦂ" ;
+    ex:arti "Seperti permata terukir" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_1 a ex:Kata ;
-    ex:latin "ini" ;
-    ex:aksaraJawa "ꦲꦶꦤꦶ" ;
-    ex:arti "ini" ;
+    ex:latin "susunannêgrihingcempa" ;
+    ex:aksaraJawa "ꦱꦸꦱꦸꦤ꧀ꦤꦤ꧀ꦤꦼꦒꦿꦶꦲꦶꦁꦲꦶꦁꦕꦺꦩ꧀ꦥ" ;
+    ex:arti "susunan negeri di Champa" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_2 a ex:Kata ;
-    ex:latin "penting" ;
-    ex:aksaraJawa "ꦥꦶꦁꦠꦶꦁ" ;
-    ex:arti "penting" ;
+    ex:latin "lirnabiyusupcitrane" ;
+    ex:aksaraJawa "ꦭꦶꦂꦤꦧꦶꦪꦸꦱꦸꦥ꧀ꦕꦶꦠꦿꦤꦺ" ;
+    ex:arti "seperti Nabi Yusuf bentuknya" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_3 a ex:Kata ;
-    ex:latin "untuk" ;
-    ex:aksaraJawa "ꦲꦸꦤ꧀ꦠꦸꦁ" ;
-    ex:arti "untuk" ;
+    ex:latin "kadyaratusakingswarga" ;
+    ex:aksaraJawa "ꦏꦢꦾꦫꦠꦸꦱꦏꦶꦁꦱ꧀ꦮꦂꦒ" ;
+    ex:arti "seperti ratu dari surga" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_4 a ex:Kata ;
-    ex:latin "menentukan" ;
-    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀ꦠꦸꦤ꧀" ;
-    ex:arti "menentukan" ;
+    ex:latin "tuuyenpintuningyang" ;
+    ex:aksaraJawa "ꦠꦸꦲꦸꦪꦺꦤ꧀ꦥꦶꦤ꧀ꦠꦸꦤꦶꦁꦪꦁ" ;
+    ex:arti "benar jika pintu Yang" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_5 a ex:Kata ;
-    ex:latin "kebijakan" ;
-    ex:aksaraJawa "ꦏꦼꦧꦏꦶꦪꦤ" ;
-    ex:arti "kebijakan" ;
+    ex:latin "pangngan​dikasêpêtmadu" ;
+    ex:aksaraJawa "ꦥꦁꦔꦤ꧀ꦢꦶꦏꦱꦼꦥꦼꦠ꧀ꦩꦢꦸ" ;
+    ex:arti "ucapannya manis seperti madu" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 ex:Kata_7_6 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
-    ex:munculDalamParagraf ex:Paragraf_7 .
-
-ex:Kata_7_7 a ex:Kata ;
-    ex:latin "adil" ;
-    ex:aksaraJawa "ꦲꦢꦶꦭ꧀" ;
-    ex:arti "adil" ;
+    ex:latin "kangngasukapahitkilang" ;
+    ex:aksaraJawa "ꦏꦁꦔꦱꦸꦏꦥꦲꦶꦠ꧀ꦏꦶꦭꦁ" ;
+    ex:arti "tapi ada rasa pahit di dalamnya" ;
     ex:munculDalamParagraf ex:Paragraf_7 .
 
 # Paragraf 8
 ex:Paragraf_8 a ex:Paragraf ;
-    ex:isiLatin "Ulama berperan besar dalam menjaga keharmonisan sosial" ;
-    ex:isiAksaraJawa "ꦲꦸꦭꦩ ꦧꦼꦂꦥꦺꦫꦤ ꦧꦼꦱꦂ ꦢꦭꦩ꧀ ꦗꦔ꧀ꦗꦃ ꦏꦺꦲꦫꦩꦺꦴꦤꦶꦱꦤ ꦱꦺꦴꦱꦶꦭ" ;
-    ex:arti "Ulama berperan besar dalam menjaga keharmonisan sosial" .
+    ex:isiLatin "nêgaricêm​pawinarni, nêgarinirasangnata, selabêretbisikkane, putranekijangtisyara, sabakdanelêlana, selabêretjênêngratu, anyakrawatiingcempa" ;
+    ex:isiAksaraJawa "꧄ꦤꦼꦒꦫꦶꦕꦼꦩ꧀ꦥꦮꦶꦤꦂꦤꦶ꧈ ꦤꦼꦒꦫꦶꦤꦶꦫꦱꦁꦤꦠ꧈ ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦧꦶꦱꦶꦏ꧀ꦏꦤꦺ꧈ ꦥꦸꦠꦿꦤꦺꦏꦶꦗꦁꦠꦶꦱꦾꦫ꧈ ꦱꦧꦏ꧀ꦢꦤꦺꦊꦭꦤ꧈ ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦗꦺꦼꦤꦼꦁꦫꦠꦸ꧈ ꦲꦚꦏꦿꦮꦠꦶꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈" ;
+    ex:arti "Negeri Champa diterangi, pemerintahnya Sang Raja, Selaberet anak Ki Jangtisyara, sejak perjalanan, Selaberet bernama ratu, wanita utama di Champa." .
 
 ex:Kata_8_0 a ex:Kata ;
-    ex:latin "Ulama" ;
-    ex:aksaraJawa "ꦲꦸꦭꦩ" ;
-    ex:arti "Ulama" ;
+    ex:latin "nêgaricêm​pawinarni" ;
+    ex:aksaraJawa "ꦤꦼꦒꦫꦶꦕꦼꦩ꧀ꦥꦮꦶꦤꦂꦤꦶ" ;
+    ex:arti "Negeri Champa diterangi" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_1 a ex:Kata ;
-    ex:latin "berperan" ;
-    ex:aksaraJawa "ꦧꦼꦂꦥꦺꦫꦤ" ;
-    ex:arti "berperan" ;
+    ex:latin "nêgarinirasangnata" ;
+    ex:aksaraJawa "ꦤꦼꦒꦫꦶꦤꦶꦫꦱꦁꦤꦠ" ;
+    ex:arti "pemerintahnya Sang Raja" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_2 a ex:Kata ;
-    ex:latin "besar" ;
-    ex:aksaraJawa "ꦧꦼꦱꦂ" ;
-    ex:arti "besar" ;
+    ex:latin "selabêretbisikkane" ;
+    ex:aksaraJawa "ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦧꦶꦱꦶꦏ꧀ꦏꦤꦺ" ;
+    ex:arti "Selaberet anak Ki Jangtisyara" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_3 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
-    ex:arti "dalam" ;
+    ex:latin "putranekijangtisyara" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦤꦺꦏꦶꦗꦁꦠꦶꦱꦾꦫ" ;
+    ex:arti "anak Ki Jangtisyara" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_4 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
+    ex:latin "sabakdanelêlana" ;
+    ex:aksaraJawa "ꦱꦧꦏ꧀ꦢꦤꦺꦊꦭꦤ" ;
+    ex:arti "sejak perjalanan" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_5 a ex:Kata ;
-    ex:latin "keharmonisan" ;
-    ex:aksaraJawa "ꦏꦺꦲꦫꦩꦺꦴꦤꦶꦱꦤ" ;
-    ex:arti "keharmonisan" ;
+    ex:latin "selabêretjênêngratu" ;
+    ex:aksaraJawa "ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦗꦺꦼꦤꦼꦁꦫꦠꦸ" ;
+    ex:arti "Selaberet bernama ratu" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 ex:Kata_8_6 a ex:Kata ;
-    ex:latin "sosial" ;
-    ex:aksaraJawa "ꦱꦺꦴꦱꦶꦭ" ;
-    ex:arti "sosial" ;
+    ex:latin "anyakrawatiingcempa" ;
+    ex:aksaraJawa "ꦲꦚꦏꦿꦮꦠꦶꦲꦶꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "wanita utama di Champa" ;
     ex:munculDalamParagraf ex:Paragraf_8 .
 
 # Paragraf 9
 ex:Paragraf_9 a ex:Paragraf ;
-    ex:isiLatin "Mereka juga menjadi panutan dalam masyarakat" ;
-    ex:isiAksaraJawa "ꦩꦼꦫꦏ ꦗꦸꦒ ꦩꦼꦢꦶ ꦥꦤꦸꦠꦤ ꦢꦭꦩ꧀ ꦩꦱꦿꦗꦠ" ;
-    ex:arti "Mereka juga menjadi panutan dalam masyarakat" .
+    ex:isiLatin "tankawarnasakal​aning, sehbêretjumênêngnata, kêlangkungdenirakahot, ambêkbudikalamarta, ngibadattetanpêgat, baktineḍataêng yyangwagung, tu_uyenkalipat​tolah" ;
+    ex:isiAksaraJawa "꧄ꦠꦤ꧀ꦏꦮꦂꦤꦱꦏꦭꦤꦶꦁ꧈ ꦱꦺꦃꦧꦼꦫꦺꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦤꦠ꧈ ꦏꦼꦭꦁꦏꦸꦁꦢꦺꦤꦶꦫꦏꦲꦺꦴꦠ꧀ ꦲꦩ꧀ꦧꦼꦏ꧀ꦧꦸꦢꦶꦏꦭꦩꦂꦠ꧈ ꦔꦶꦧꦢꦠ꧀ꦠꦺꦠꦤ꧀ꦥꦼꦒꦠ꧀ ꦧꦏ꧀ꦡꦶꦤꦺꦣꦠꦼꦁ​ꦪꦾꦁꦮꦒꦸꦁ꧈ ꦠꦸꦲꦸꦪꦺꦤ꧀ꦏꦭꦶꦥꦠ꧀ꦠꦺꦴꦭꦃ꧈" ;
+    ex:arti "Tak terlukis oleh mata, Sèh Bêrèt memerintah, sangat keras hatinya, ambek budi kalamarta, ibadah tak henti, baktinya pada Yang Maha Agung, benar jika diredakan." .
 
 ex:Kata_9_0 a ex:Kata ;
-    ex:latin "Mereka" ;
-    ex:aksaraJawa "ꦩꦼꦫꦏ" ;
-    ex:arti "Mereka" ;
+    ex:latin "tankawarnasakal​aning" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦏꦮꦂꦤꦱꦏꦭꦤꦶꦁ" ;
+    ex:arti "Tak terlukis oleh mata" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 ex:Kata_9_1 a ex:Kata ;
-    ex:latin "juga" ;
-    ex:aksaraJawa "ꦗꦸꦒ" ;
-    ex:arti "juga" ;
+    ex:latin "sehbêretjumênêngnata" ;
+    ex:aksaraJawa "ꦱꦺꦃꦧꦼꦫꦺꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦤꦠ" ;
+    ex:arti "Sèh Bêrèt memerintah" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 ex:Kata_9_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "kêlangkungdenirakahot" ;
+    ex:aksaraJawa "ꦏꦼꦭꦁꦏꦸꦁꦢꦺꦤꦶꦫꦏꦲꦺꦴꦠ꧀" ;
+    ex:arti "sangat keras hatinya" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 ex:Kata_9_3 a ex:Kata ;
-    ex:latin "panutan" ;
-    ex:aksaraJawa "ꦥꦤꦸꦠꦤ" ;
-    ex:arti "panutan" ;
+    ex:latin "ambêkbudikalamarta" ;
+    ex:aksaraJawa "ꦲꦩ꧀ꦧꦼꦏ꧀ꦧꦸꦢꦶꦏꦭꦩꦂꦠ" ;
+    ex:arti "ambek budi kalamarta" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 ex:Kata_9_4 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ꧀" ;
-    ex:arti "dalam" ;
+    ex:latin "ngibadattetanpêgat" ;
+    ex:aksaraJawa "ꦔꦶꦧꦢꦠ꧀ꦠꦺꦠꦤ꧀ꦥꦼꦒꦠ꧀" ;
+    ex:arti "ibadah tak henti" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 ex:Kata_9_5 a ex:Kata ;
-    ex:latin "masyarakat" ;
-    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
-    ex:arti "masyarakat" ;
+    ex:latin "baktineḍataêng yyangwagung" ;
+    ex:aksaraJawa "ꦧꦏ꧀ꦡꦶꦤꦺꦣꦠꦼꦁ​ꦪꦾꦁꦮꦒꦸꦁ" ;
+    ex:arti "baktinya pada Yang Maha Agung" ;
+    ex:munculDalamParagraf ex:Paragraf_9 .
+
+ex:Kata_9_6 a ex:Kata ;
+    ex:latin "tu_uyenkalipat​tolah" ;
+    ex:aksaraJawa "ꦠꦸꦲꦸꦪꦺꦤ꧀ꦏꦭꦶꦥꦠ꧀ꦠꦺꦴꦭꦃ" ;
+    ex:arti "benar jika diredakan" ;
     ex:munculDalamParagraf ex:Paragraf_9 .
 
 # Paragraf 10
 ex:Paragraf_10 a ex:Paragraf ;
-    ex:isiLatin "Maka dari itu penting sekali untuk menjaga adat dan tradisi" ;
-    ex:isiAksaraJawa "ꦩꦏ ꦢꦫꦶ ꦠꦸ ꦥꦶꦁꦠꦶꦁ ꦱꦺꦭꦏꦶ ꦲꦸꦤ꧀ꦠꦸꦁ ꦗꦔ꧀ꦗꦃ ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "Maka dari itu penting sekali untuk menjaga adat dan tradisi" .
+    ex:isiLatin "sigêgên ingkangkawarni sehbêretsampunsumallah, nêgrihingcêm​pakan​dhane, wuskasrahḍataêngkangputra, apantilarwawêka, kangkacatursamijalu, kunêngkêkasi_eputra" ;
+    ex:isiAksaraJawa "꧄ꦱꦶꦒꦼꦒꦼꦤ꧀ꦲꦶꦁꦏꦁꦏꦮꦂꦤꦶ ꦱꦺꦃꦧꦼꦂꦫꦺꦠ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦸꦩꦭ꧀ꦭꦃ꧈ꦤꦼꦒꦿꦶꦲꦶꦁꦕꦼꦩ꧀ꦥꦏꦤ꧀ꦝꦤꦺ꧈ ꦮꦸꦱ꧀ꦏꦱꦿꦃꦣꦠꦼꦁꦏꦁꦥꦸꦠꦿ꧈ ꦲꦥꦤ꧀ꦠꦶꦭꦂꦮꦮꦼꦏ꧈ ꦏꦁꦏꦕꦠꦸꦂꦱꦩꦶꦗꦭꦸ꧈ ꦏꦸꦤꦼꦁꦏꦼꦏꦱꦶꦲꦺꦥꦸꦠꦿ꧈" ;
+    ex:arti "Tak terhitung yang memerintah, Sèh Bêrèt sudah wafat, negeri Champa dikabarkan, sudah diserahkan pada putra, sudah meninggalkan tanda, yang tertulis semua pria, dan kasihan pada putranya." .
 
 ex:Kata_10_0 a ex:Kata ;
-    ex:latin "Maka" ;
-    ex:aksaraJawa "ꦩꦏ" ;
-    ex:arti "Maka" ;
+    ex:latin "sigêgên" ;
+    ex:aksaraJawa "ꦱꦶꦒꦼꦒꦼꦤ꧀" ;
+    ex:arti "Tak terhitung" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_1 a ex:Kata ;
-    ex:latin "dari" ;
-    ex:aksaraJawa "ꦢꦫꦶ" ;
-    ex:arti "dari" ;
+    ex:latin "ingkangkawarni" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦏꦮꦂꦤꦶ" ;
+    ex:arti "yang memerintah" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_2 a ex:Kata ;
-    ex:latin "itu" ;
-    ex:aksaraJawa "ꦠꦸ" ;
-    ex:arti "itu" ;
+    ex:latin "sehbêretsampunsumallah" ;
+    ex:aksaraJawa "ꦱꦺꦃꦧꦼꦂꦫꦺꦠ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦸꦩꦭ꧀ꦭꦃ" ;
+    ex:arti "Sèh Bêrèt sudah wafat" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_3 a ex:Kata ;
-    ex:latin "penting" ;
-    ex:aksaraJawa "ꦥꦶꦁꦠꦶꦁ" ;
-    ex:arti "penting" ;
+    ex:latin "nêgrihingcêmpakandhane" ;
+    ex:aksaraJawa "ꦤꦼꦒꦿꦶꦲꦶꦁꦕꦼꦩ꧀ꦥꦏꦤ꧀ꦝꦤꦺ" ;
+    ex:arti "negeri Champa dikabarkan" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_4 a ex:Kata ;
-    ex:latin "sekali" ;
-    ex:aksaraJawa "ꦱꦺꦭꦏꦶ" ;
-    ex:arti "sekali" ;
+    ex:latin "wuskasrahḍataêngkangputra" ;
+    ex:aksaraJawa "ꦮꦸꦱ꧀ꦏꦱꦿꦃꦣꦠꦼꦁꦏꦁꦥꦸꦠꦿ" ;
+    ex:arti "sudah diserahkan pada putra" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_5 a ex:Kata ;
-    ex:latin "untuk" ;
-    ex:aksaraJawa "ꦲꦸꦤ꧀ꦠꦸꦁ" ;
-    ex:arti "untuk" ;
+    ex:latin "apantilarwawêka" ;
+    ex:aksaraJawa "ꦲꦥꦤ꧀ꦠꦶꦭꦂꦮꦮꦼꦏ" ;
+    ex:arti "sudah meninggalkan tanda" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_6 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
+    ex:latin "kangkacatursamijalu" ;
+    ex:aksaraJawa "ꦏꦁꦏꦕꦠꦸꦂꦱꦩꦶꦗꦭꦸ" ;
+    ex:arti "yang tertulis semua pria" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
 ex:Kata_10_7 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
+    ex:latin "kunêngkêkasi_eputra" ;
+    ex:aksaraJawa "ꦏꦸꦤꦼꦁꦏꦼꦏꦱꦶꦲꦺꦥꦸꦠꦿ" ;
+    ex:arti "dan kasihan pada putranya" ;
     ex:munculDalamParagraf ex:Paragraf_10 .
 
-ex:Kata_10_8 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦲꦤ꧀" ;
-    ex:arti "dan" ;
-    ex:munculDalamParagraf ex:Paragraf_10 .
-
-ex:Kata_10_9 a ex:Kata ;
-    ex:latin "tradisi" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "tradisi" ;
-    ex:munculDalamParagraf ex:Paragraf_10 .
 # Paragraf 11
 ex:Paragraf_11 a ex:Paragraf ;
-    ex:isiLatin "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" ;
-    ex:isiAksaraJawa "ꦲꦢꦠ ꦆꦱꦶꦢꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦒꦤ꧀ ꦢꦭꦩ ꦭꦶꦗꦶꦬꦤ꧀ ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
-    ex:arti "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" .
+    ex:isiLatin "raden​selangkaranênggih, kêkasihirakangwêrdah, selasyarapanênggêkke, kangsumên​dhiselagon​da, pamuragilepisan, selarasyajênêngngipun, sangangtahunhingkangyusya" ;
+    ex:isiAksaraJawa "꧄ꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫꦤꦼꦁꦒꦶꦃ꧈ꦏꦼꦏꦱꦶꦃꦲꦶꦫꦏꦁꦮꦼꦂꦢꦃ꧈ ꦱꦺꦭꦱꦾꦫꦥꦤꦼꦁꦒꦼꦏ꧀ꦏꦺ꧈ ꦏꦁꦱꦸꦩꦼꦤ꧀ꦝꦶꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ꧈ ꦥꦩꦸꦫꦒꦶꦭꦺꦥꦶꦱꦤ꧀ ꦱꦺꦭꦫꦱꦾꦗꦼꦤꦼꦁꦔꦶꦥꦸꦤ꧀ ꦱꦔꦁꦠꦲꦸꦤ꧀ꦲꦶꦁꦏꦁꦪꦸꦱꦾ꧈" ;
+    ex:arti "Radèn Selangkara adalah, kesayangannya yang putih, Selasyara yang menjaga, yang bersembunyi Selagănda, pengikutnya pertama, namanya Selarasya, berumur sembilan tahun." .
 
 ex:Kata_11_0 a ex:Kata ;
-    ex:latin "Adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "Adat" ;
+    ex:latin "raden​selangkaranênggih" ;
+    ex:aksaraJawa "ꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫꦤꦼꦁꦒꦶꦃ" ;
+    ex:arti "Radèn Selangkara adalah" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_1 a ex:Kata ;
-    ex:latin "istiadat" ;
-    ex:aksaraJawa "ꦆꦱꦶꦢꦢꦠ" ;
-    ex:arti "istiadat" ;
+    ex:latin "kêkasihirakangwêrdah" ;
+    ex:aksaraJawa "ꦏꦼꦏꦱꦶꦃꦲꦶꦫꦏꦁꦮꦼꦂꦢꦃ" ;
+    ex:arti "kesayangannya yang putih" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "selasyarapanênggêkke" ;
+    ex:aksaraJawa "ꦱꦺꦭꦱꦾꦫꦥꦤꦼꦁꦒꦼꦏ꧀ꦏꦺ" ;
+    ex:arti "Selasyara yang menjaga" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_3 a ex:Kata ;
-    ex:latin "pegangan" ;
-    ex:aksaraJawa "ꦥꦼꦒꦤ꧀" ;
-    ex:arti "pegangan" ;
+    ex:latin "kangsumên​dhiselagon​da" ;
+    ex:aksaraJawa "ꦏꦁꦱꦸꦩꦼꦤ꧀ꦝꦶꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ" ;
+    ex:arti "yang bersembunyi Selagănda" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_4 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ" ;
-    ex:arti "dalam" ;
+    ex:latin "pamuragilepisan" ;
+    ex:aksaraJawa "ꦥꦩꦸꦫꦒꦶꦭꦺꦥꦶꦱꦤ꧀" ;
+    ex:arti "pengikutnya pertama" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_5 a ex:Kata ;
-    ex:latin "kehidupan" ;
-    ex:aksaraJawa "ꦭꦶꦗꦶꦬꦤ꧀" ;
-    ex:arti "kehidupan" ;
+    ex:latin "selarasyajênêngngipun" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦾꦗꦼꦤꦼꦁꦔꦶꦥꦸꦤ꧀" ;
+    ex:arti "namanya Selarasya" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 ex:Kata_11_6 a ex:Kata ;
-    ex:latin "sehari-hari" ;
-    ex:aksaraJawa "ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
-    ex:arti "sehari-hari" ;
+    ex:latin "sangangtahunhingkangyusya" ;
+    ex:aksaraJawa "ꦱꦔꦁꦠꦲꦸꦤ꧀ꦲꦶꦁꦏꦁꦪꦸꦱꦾ꧈" ;
+    ex:arti "berumur sembilan tahun" ;
     ex:munculDalamParagraf ex:Paragraf_11 .
 
 # Paragraf 12
 ex:Paragraf_12 a ex:Paragraf ;
-    ex:isiLatin "Penghormatan kepada leluhur sangat dijunjung tinggi" ;
-    ex:isiAksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ ꦏꦺꦴꦥꦢ ꦭꦺꦭꦸꦫ ꦱꦒꦠ꧀ ꦢꦶꦗꦸꦁꦗꦸꦁ ꦠꦲꦶ" ;
-    ex:arti "Penghormatan kepada leluhur sangat dijunjung tinggi" .
+    ex:isiLatin "sasedanesribupati, awêtawis gan​tiwêrsa, ngêmas​siprameswari_ne, tumuturḍataêngkangraka, sampunniramangkana, selangkarajênêngratu, kêlangkunghingmurkanira" ;
+    ex:isiAksaraJawa "꧄ꦱꦱꦺꦢꦤꦺꦱꦿꦶꦧꦸꦥꦠꦶ꧈ ꦲꦮꦼꦠꦮꦶꦱ꧀​ꦒꦤ꧀ꦠꦶꦮꦼꦂꦱ꧈ ꦔꦼꦩꦱ꧀ꦱꦶꦥꦿꦩꦺꦱ꧀ꦮꦫꦶꦤꦺ꧈ ꦠꦸꦩꦸꦠꦸꦂꦣꦠꦼꦁꦏꦁꦫꦏ꧈ ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦫꦩꦁꦏꦤ꧈ ꦱꦺꦭꦁꦏꦫꦗꦼꦤꦼꦁꦫꦠꦸ꧈ ꦏꦼꦭꦁꦏꦸꦁꦲꦶꦁꦩꦸꦂꦏꦤꦶꦫ꧈" ;
+    ex:arti "Sekitar bupati, kurang lebih pergantian tahun, mengurusi urusannya, memberi tahu pada yang muda, sudah begitulah, Selangkara bernama ratu, sangat marah." .
 
 ex:Kata_12_0 a ex:Kata ;
-    ex:latin "Penghormatan" ;
-    ex:aksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ" ;
-    ex:arti "Penghormatan" ;
+    ex:latin "sasedanesribupati" ;
+    ex:aksaraJawa "ꦱꦱꦺꦢꦤꦺꦱꦿꦶꦧꦸꦥꦠꦶ" ;
+    ex:arti "Sekitar bupati" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 ex:Kata_12_1 a ex:Kata ;
-    ex:latin "kepada" ;
-    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
-    ex:arti "kepada" ;
+    ex:latin "awêtawis gan​tiwêrsa" ;
+    ex:aksaraJawa "ꦲꦮꦼꦠꦮꦶꦱ꧀​ꦒꦤ꧀ꦠꦶꦮꦼꦂꦱ" ;
+    ex:arti "kurang lebih pergantian tahun" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 ex:Kata_12_2 a ex:Kata ;
-    ex:latin "leluhur" ;
-    ex:aksaraJawa "ꦭꦺꦭꦸꦫ" ;
-    ex:arti "leluhur" ;
+    ex:latin "ngêmas​siprameswari_ne" ;
+    ex:aksaraJawa "ꦔꦼꦩꦱ꧀ꦱꦶꦥꦿꦩꦺꦱ꧀ꦮꦫꦶꦤꦺ" ;
+    ex:arti "mengurusi urusannya" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 ex:Kata_12_3 a ex:Kata ;
-    ex:latin "sangat" ;
-    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
-    ex:arti "sangat" ;
+    ex:latin "tumuturḍataêngkangraka" ;
+    ex:aksaraJawa "ꦠꦸꦩꦸꦠꦸꦂꦣꦠꦼꦁꦏꦁꦫꦏ" ;
+    ex:arti "memberi tahu pada yang muda" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 ex:Kata_12_4 a ex:Kata ;
-    ex:latin "dijunjung" ;
-    ex:aksaraJawa "ꦢꦶꦗꦸꦁꦗꦸꦁ" ;
-    ex:arti "dijunjung" ;
+    ex:latin "sampunniramangkana" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦫꦩꦁꦏꦤ" ;
+    ex:arti "sudah begitulah" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 ex:Kata_12_5 a ex:Kata ;
-    ex:latin "tinggi" ;
-    ex:aksaraJawa "ꦠꦲꦶ" ;
-    ex:arti "tinggi" ;
+    ex:latin "selangkarajênêngratu" ;
+    ex:aksaraJawa "ꦱꦺꦭꦁꦏꦫꦗꦼꦤꦼꦁꦫꦠꦸ" ;
+    ex:arti "Selangkara bernama ratu" ;
+    ex:munculDalamParagraf ex:Paragraf_12 .
+
+ex:Kata_12_6 a ex:Kata ;
+    ex:latin "kêlangkunghingmurkanira" ;
+    ex:aksaraJawa "ꦏꦼꦭꦁꦏꦸꦁꦲꦶꦁꦩꦸꦂꦏꦤꦶꦫ" ;
+    ex:arti "sangat marah" ;
     ex:munculDalamParagraf ex:Paragraf_12 .
 
 # Paragraf 13
 ex:Paragraf_13 a ex:Paragraf ;
-    ex:isiLatin "Adat dan tradisi dilestarikan secara turun temurun" ;
-    ex:isiAksaraJawa "ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦱꦕꦫ ꦠꦸꦫꦤ ꦠꦼꦩꦸꦤ꧀" ;
-    ex:arti "Adat dan tradisi dilestarikan secara turun temurun" .
+    ex:isiLatin "sahisinekangnêgari, titiyangmiwahbêrana, mapankinukutankabeh, kangrayimiwahtitiga, tan​sinungngan​warissan, mangkanapangngêkanipun, maharajasilangkara" ;
+    ex:isiAksaraJawa "꧄ꦱꦲꦶꦱꦶꦤꦺꦏꦁꦤꦼꦒꦫꦶ꧈ ꦠꦶꦠꦶꦪꦁꦩꦶꦮꦃꦧꦼꦂꦫꦤ꧈ ꦩꦥꦤ꧀ꦏꦶꦤꦸꦏꦸꦠꦤ꧀ꦏꦧꦺꦃ꧈ ꦏꦁꦫꦪꦶꦩꦶꦮꦃꦠꦶꦠꦶꦒ꧈ ꦠꦤ꧀ꦱꦶꦤꦸꦁꦔꦤ꧀ꦮꦫꦶꦱ꧀ꦱꦤ꧀ ꦩꦁꦏꦤꦥꦁꦔꦺꦏꦤꦶꦥꦸꦤ꧀ ꦩꦲꦫꦗꦱꦶꦭꦁꦏꦫ꧈" ;
+    ex:arti "Isi negeri, orang dan binatang, sudah tunduk semua, raja dan tiga orang, tak diwariskan, demikian keadaannya, Maharaja Silangkara." .
 
 ex:Kata_13_0 a ex:Kata ;
-    ex:latin "Adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "Adat" ;
+    ex:latin "sahisinekangnêgari" ;
+    ex:aksaraJawa "ꦱꦲꦶꦱꦶꦤꦺꦏꦁꦤꦼꦒꦫꦶ" ;
+    ex:arti "Isi negeri" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_1 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦲꦤ꧀" ;
-    ex:arti "dan" ;
+    ex:latin "titiyangmiwahbêrana" ;
+    ex:aksaraJawa "ꦠꦶꦠꦶꦪꦁꦩꦶꦮꦃꦧꦼꦂꦫꦤ" ;
+    ex:arti "orang dan binatang" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_2 a ex:Kata ;
-    ex:latin "tradisi" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "tradisi" ;
+    ex:latin "mapankinukutankabeh" ;
+    ex:aksaraJawa "ꦩꦥꦤ꧀ꦏꦶꦤꦸꦏꦸꦠꦤ꧀ꦏꦧꦺꦃ" ;
+    ex:arti "sudah tunduk semua" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_3 a ex:Kata ;
-    ex:latin "dilestarikan" ;
-    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
-    ex:arti "dilestarikan" ;
+    ex:latin "kangrayimiwahtitiga" ;
+    ex:aksaraJawa "ꦏꦁꦫꦪꦶꦩꦶꦮꦃꦠꦶꦠꦶꦒ" ;
+    ex:arti "raja dan tiga orang" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_4 a ex:Kata ;
-    ex:latin "secara" ;
-    ex:aksaraJawa "ꦱꦕꦫ" ;
-    ex:arti "secara" ;
+    ex:latin "tan​sinungngan​warissan" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦱꦶꦤꦸꦁꦔꦤ꧀ꦮꦫꦶꦱ꧀ꦱꦤ꧀" ;
+    ex:arti "tak diwariskan" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_5 a ex:Kata ;
-    ex:latin "turun" ;
-    ex:aksaraJawa "ꦠꦸꦫꦤ" ;
-    ex:arti "turun" ;
+    ex:latin "mangkanapangngêkanipun" ;
+    ex:aksaraJawa "ꦩꦁꦏꦤꦥꦁꦔꦺꦏꦤꦶꦥꦸꦤ꧀" ;
+    ex:arti "demikian keadaannya" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 ex:Kata_13_6 a ex:Kata ;
-    ex:latin "temurun" ;
-    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
-    ex:arti "temurun" ;
+    ex:latin "maharajasilangkara" ;
+    ex:aksaraJawa "ꦩꦲꦫꦗꦱꦶꦭꦁꦏꦫ" ;
+    ex:arti "Maharaja Silangkara" ;
     ex:munculDalamParagraf ex:Paragraf_13 .
 
 # Paragraf 14
 ex:Paragraf_14 a ex:Paragraf ;
-    ex:isiLatin "Setiap generasi wajib mempertahankan warisan budaya" ;
-    ex:isiAksaraJawa "ꦱꦼꦠꦶꦪꦥ ꦒꦼꦤꦼꦫꦱꦶ ꦮꦗꦶꦧ ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀ ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "Setiap generasi wajib mempertahankan warisan budaya" .
+    ex:isiLatin "yen​den​wehanawêwaris, sadulursêdaya, donyabêranalan​wongnge, yen​nangngrasaduwebala, utawiyen​sugiha, bok​angngên​dhihjênênghingsin, mongsasun​taulus​wibawa" ;
+    ex:isiAksaraJawa "꧄ꦪꦺꦤ꧀ꦢꦺꦤ꧀ꦮꦺꦃꦲꦤꦮꦼꦮꦫꦶꦱ꧀꧈ꦱꦢꦸꦭꦸꦂꦱꦼꦢꦪ꧈ꦢꦺꦴꦤ꧀ꦚꦧꦼꦂꦫꦤꦭꦤ꧀ꦮꦺꦴꦁꦔꦺ꧈ ꦪꦺꦤ꧀ꦤꦁꦔꦿꦱꦢꦸꦮꦺꦧꦭ꧈ ꦲꦸꦠꦮꦶꦪꦺꦤ꧀ꦱꦸꦒꦶꦃꦲ꧈ ꦧꦺꦴꦏ꧀ꦲꦁꦔꦼꦤ꧀ꦝꦶꦃꦗꦼꦤꦼꦁꦲꦶꦁꦱꦶꦤ꧀ ꦩꦺꦴꦁꦱꦱꦸꦤ꧀ꦡꦸꦭꦸꦱ꧀ꦮꦶꦧꦮ꧈" ;
+    ex:arti "Jika diwariskan, semua saudara, dunia dan manusia, jika merasa punya tentara, atau harta, namaku akan kukatakan, pada masa yang tulus berwibawa." .
 
 ex:Kata_14_0 a ex:Kata ;
-    ex:latin "Setiap" ;
-    ex:aksaraJawa "ꦱꦼꦠꦶꦪꦥ" ;
-    ex:arti "Setiap" ;
+    ex:latin "yen​den​wehanawêwaris" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦢꦺꦤ꧀ꦮꦺꦃꦲꦤꦮꦼꦮꦫꦶꦱ꧀" ;
+    ex:arti "Jika diwariskan" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 ex:Kata_14_1 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
+    ex:latin "sadulursêdaya" ;
+    ex:aksaraJawa "ꦱꦢꦸꦭꦸꦂꦱꦼꦢꦪ" ;
+    ex:arti "semua saudara" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 ex:Kata_14_2 a ex:Kata ;
-    ex:latin "wajib" ;
-    ex:aksaraJawa "ꦮꦗꦶꦧ" ;
-    ex:arti "wajib" ;
+    ex:latin "donyabêranalan​wongnge" ;
+    ex:aksaraJawa "ꦢꦺꦴꦤ꧀ꦚꦧꦼꦂꦫꦤꦭꦤ꧀ꦮꦺꦴꦁꦔꦺ" ;
+    ex:arti "dunia dan manusia" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 ex:Kata_14_3 a ex:Kata ;
-    ex:latin "mempertahankan" ;
-    ex:aksaraJawa "ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀" ;
-    ex:arti "mempertahankan" ;
+    ex:latin "yen​nangngrasaduwebala" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦤꦁꦔꦿꦱꦢꦸꦮꦺꦧꦭ" ;
+    ex:arti "jika merasa punya tentara" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 ex:Kata_14_4 a ex:Kata ;
-    ex:latin "warisan" ;
-    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
-    ex:arti "warisan" ;
+    ex:latin "utawiyen​sugiha" ;
+    ex:aksaraJawa "ꦲꦸꦠꦮꦶꦪꦺꦤ꧀ꦱꦸꦒꦶꦃꦲ" ;
+    ex:arti "atau harta" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 ex:Kata_14_5 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "bok​angngên​dhihjênênghingsin" ;
+    ex:aksaraJawa "ꦧꦺꦴꦏ꧀ꦲꦁꦔꦼꦤ꧀ꦝꦶꦃꦗꦼꦤꦼꦁꦲꦶꦁꦱꦶꦤ꧀" ;
+    ex:arti "namaku akan kukatakan" ;
+    ex:munculDalamParagraf ex:Paragraf_14 .
+
+ex:Kata_14_6 a ex:Kata ;
+    ex:latin "mongsasun​taulus​wibawa" ;
+    ex:aksaraJawa "ꦩꦺꦴꦁ​ꦱ​ꦱꦸꦤ꧀ꦡꦸꦭꦸꦱ꧀ꦮꦶꦧꦮ" ;
+    ex:arti "pada masa yang tulus berwibawa" ;
     ex:munculDalamParagraf ex:Paragraf_14 .
 
 # Paragraf 15
 ex:Paragraf_15 a ex:Paragraf ;
-    ex:isiLatin "Warisan budaya adalah identitas bangsa yang harus dijaga" ;
-    ex:isiAksaraJawa "ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ ꦲꦢꦭꦃ ꦲꦶꦢꦺꦤꦶꦠꦱ ꦧꦔ꧀ꦱ ꦪꦁ ꦲꦲꦸꦱ ꦢꦶꦗꦒ" ;
-    ex:arti "Warisan budaya adalah identitas bangsa yang harus dijaga" .
+    ex:isiLatin "mangkanasajroningngati, siraraden​selangkara, tan​sahjinagawangsane, bilihangukihnêgara, malahrayikatiga, pinisahpanggen​nan​nipun, pinêrnahjawiningkitha" ;
+    ex:isiAksaraJawa "꧄ ꦩꦁꦏꦤꦱꦗꦿꦺꦴꦤꦶꦁꦔꦠꦶ꧈ ꦱꦶꦫꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫ꧈ ꦠꦤ꧀ꦱꦃꦗꦶꦤꦒꦮꦁꦱꦤꦺ꧈ ꦧꦶꦭꦶꦃꦲꦔꦸꦏꦶꦃꦤꦼꦒꦫ꧈ ꦩꦭꦃꦫꦪꦶꦏꦠꦶꦒ꧈ ꦥꦶꦤꦶꦱꦃꦥꦁꦒꦺꦤ꧀ꦤꦤ꧀ꦤꦶꦥꦸꦤ꧀ ꦥꦶꦤꦼꦂꦤꦃꦗꦮꦶꦤꦶꦁꦏꦶꦛ꧈" ;
+    ex:arti "Demikian dalam hati, Radèn Selangkara, selalu menjaga kediaman, bila menjaga negara, malah raja ketiga, memisah tempatnya, menduduki pusat kota." .
 
 ex:Kata_15_0 a ex:Kata ;
-    ex:latin "Warisan" ;
-    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
-    ex:arti "Warisan" ;
+    ex:latin "mangkanasajroningngati" ;
+    ex:aksaraJawa "ꦩꦁꦏꦤꦱꦗꦿꦺꦴꦤꦶꦁꦔꦠꦶ" ;
+    ex:arti "Demikian dalam hati" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "siraraden​selangkara" ;
+    ex:aksaraJawa "ꦱꦶꦫꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫ" ;
+    ex:arti "Radèn Selangkara" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_2 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦢꦭꦃ" ;
-    ex:arti "adalah" ;
+    ex:latin "tan​sahjinagawangsane" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦱꦃꦗꦶꦤꦒꦮꦁꦱꦤꦺ" ;
+    ex:arti "selalu menjaga kediaman" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_3 a ex:Kata ;
-    ex:latin "identitas" ;
-    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦶꦠꦱ" ;
-    ex:arti "identitas" ;
+    ex:latin "bilihangukihnêgara" ;
+    ex:aksaraJawa "ꦧꦶꦭꦶꦃꦲꦔꦸꦏꦶꦃꦤꦼꦒꦫ" ;
+    ex:arti "bila menjaga negara" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_4 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+    ex:latin "malahrayikatiga" ;
+    ex:aksaraJawa "ꦩꦭꦃꦫꦪꦶꦏꦠꦶꦒ" ;
+    ex:arti "malah raja ketiga" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_5 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
+    ex:latin "pinisahpanggen​nan​nipun" ;
+    ex:aksaraJawa "ꦥꦶꦤꦶꦱꦃꦥꦁꦒꦺꦤ꧀ꦤꦤ꧀ꦤꦶꦥꦸꦤ꧀" ;
+    ex:arti "memisah tempatnya" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 ex:Kata_15_6 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_7 a ex:Kata ;
-    ex:latin "dijaga" ;
-    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
-    ex:arti "dijaga" ;
+    ex:latin "pinêrnahjawiningkitha" ;
+    ex:aksaraJawa "ꦥꦶꦤꦼꦂꦤꦃꦗꦮꦶꦤꦶꦁꦏꦶꦛ" ;
+    ex:arti "menduduki pusat kota" ;
     ex:munculDalamParagraf ex:Paragraf_15 .
 
 # Paragraf 16
 ex:Paragraf_16 a ex:Paragraf ;
-    ex:isiLatin "Kebudayaan lokal memperkaya wawasan dan kreativitas" ;
-    ex:isiAksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦥꦂꦏꦾ ꦮꦮꦱꦤ ꦢꦤ ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
-    ex:arti "Kebudayaan lokal memperkaya wawasan dan kreativitas" .
+    ex:isiLatin "san​dhangpangan​den​baton​ni, tan​sinungkiranglangkungnga, kêlangkungbutarêppanne, sirarajaselangkara, wuwussên​duksino_an, sahupacarasupênuh, _ulubalanglan​panglima" ;
+    ex:isiAksaraJawa "꧄ꦱꦤ꧀ꦝꦁꦥꦔꦤ꧀ꦢꦺꦤ꧀ꦧꦠꦺꦴꦤ꧀ꦤꦶ꧈ ꦠꦤ꧀ꦱꦶꦤꦸꦁꦏꦶꦫꦁꦭꦁꦏꦸꦁꦔ꧈ ꦏꦼꦭꦁꦏꦸꦁꦧꦸꦠꦉꦥ꧀ꦥꦤ꧀ꦤꦺ꧈ ꦱꦶꦫꦫꦗꦱꦺꦭꦁꦏꦫ꧈ ꦮꦸꦮꦸꦱ꧀ꦱꦼꦤ꧀ꦢꦸꦏ꧀ꦱꦶꦤꦺꦴꦲꦤ꧀ ꦱꦲꦸꦥꦕꦫꦱꦸꦥꦼꦤꦸꦃ꧈ ꦲꦸꦭꦸꦧꦭꦁꦭꦤ꧀ꦥꦁꦭꦶꦩ꧈" ;
+    ex:arti "Sandang dan pangan tak kurang, tak ada yang kurang, sangat makmur, Raja Selangkara, berkata pada tamu, sopan santun lengkap, ulubalang dan panglima." .
 
 ex:Kata_16_0 a ex:Kata ;
-    ex:latin "Kebudayaan" ;
-    ex:aksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ" ;
-    ex:arti "Kebudayaan" ;
+    ex:latin "san​dhangpangan​den​baton​ni" ;
+    ex:aksaraJawa "ꦱꦤ꧀ꦝꦁꦥꦔꦤ꧀ꦢꦺꦤ꧀ꦧꦠꦺꦴꦤ꧀ꦤꦶ" ;
+    ex:arti "Sandang dan pangan tak kurang" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 ex:Kata_16_1 a ex:Kata ;
-    ex:latin "lokal" ;
-    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
-    ex:arti "lokal" ;
+    ex:latin "tan​sinungkiranglangkungnga" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦱꦶꦤꦸꦁꦏꦶꦫꦁꦭꦁꦏꦸꦁꦔ" ;
+    ex:arti "tak ada yang kurang" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 ex:Kata_16_2 a ex:Kata ;
-    ex:latin "memperkaya" ;
-    ex:aksaraJawa "ꦩꦼꦥꦂꦏꦾ" ;
-    ex:arti "memperkaya" ;
+    ex:latin "kêlangkungbutarêppanne" ;
+    ex:aksaraJawa "ꦏꦼꦭꦁꦏꦸꦁꦧꦸꦠꦉꦥ꧀ꦥꦤ꧀ꦤꦺ" ;
+    ex:arti "sangat makmur" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 ex:Kata_16_3 a ex:Kata ;
-    ex:latin "wawasan" ;
-    ex:aksaraJawa "ꦮꦮꦱꦤ" ;
-    ex:arti "wawasan" ;
+    ex:latin "sirarajaselangkara" ;
+    ex:aksaraJawa "ꦱꦶꦫꦫꦗꦱꦺꦭꦁꦏꦫ" ;
+    ex:arti "Raja Selangkara" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 ex:Kata_16_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ" ;
-    ex:arti "dan" ;
+    ex:latin "wuwussên​duksino_an" ;
+    ex:aksaraJawa "ꦮꦸꦮꦸꦱ꧀ꦱꦼꦤ꧀ꦢꦸꦏ꧀ꦱꦶꦤꦺꦴꦲꦤ꧀" ;
+    ex:arti "berkata pada tamu" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 ex:Kata_16_5 a ex:Kata ;
-    ex:latin "kreativitas" ;
-    ex:aksaraJawa "ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
-    ex:arti "kreativitas" ;
+    ex:latin "sahupacarasupênuh" ;
+    ex:aksaraJawa "ꦱꦲꦸꦥꦕꦫꦱꦸꦥꦼꦤꦸꦃ" ;
+    ex:arti "sopan santun lengkap" ;
+    ex:munculDalamParagraf ex:Paragraf_16 .
+
+ex:Kata_16_6 a ex:Kata ;
+    ex:latin "_ulubalanglan​panglima" ;
+    ex:aksaraJawa "ꦲꦸꦭꦸꦧꦭꦁꦭꦤ꧀ꦥꦁꦭꦶꦩ" ;
+    ex:arti "ulubalang dan panglima" ;
     ex:munculDalamParagraf ex:Paragraf_16 .
 
 # Paragraf 17
 ex:Paragraf_17 a ex:Paragraf ;
-    ex:isiLatin "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" ;
-    ex:isiAksaraJawa "ꦢꦺꦔꦺꦩ꧀ ꦧꦸꦛꦸꦭꦪ ꦪꦁ ꦏꦸꦠꦏ꧀ ꦩꦱꦿꦗꦠ ꦩꦼꦤꦶꦢꦶ ꦭꦶꦪꦃ ꦧꦼꦂꦱꦸꦠ" ;
-    ex:arti "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" .
+    ex:isiLatin "miwahkangsên​tanaman​tri, prajurit​kangginongsongngan, kinen​angngubêngsangkaton, sinangkêppan​ṭaubak​pêdang, kaehewongtupangsila, sinêlan​tawok​lan​ṭaulup, tinitihlawan​prayat​na" ;
+    ex:isiAksaraJawa "꧄ꦩꦶꦮꦃꦏꦁꦱꦼꦤ꧀ꦠꦤꦩꦤ꧀ꦠꦿꦶ꧈ ꦥꦿꦗꦸꦫꦶꦠ꧀ꦏꦁꦒꦶꦤꦺꦴꦁꦱꦺꦴꦁꦔꦤ꧀ ꦏꦶꦤꦺꦤ꧀ꦲꦁꦔꦸꦧꦼꦁꦱꦁꦏꦠꦺꦴꦤ꧀ ꦱꦶꦤꦁꦏꦼꦥ꧀ꦥꦤ꧀ꦡꦸꦧꦏ꧀ꦥꦼꦣꦁ꧈ ꦏꦺꦃꦲꦺꦮꦺꦴꦁꦠꦸꦥꦁꦱꦶꦭ꧈ ꦱꦶꦤꦼꦭꦤ꧀ꦠꦮꦺꦴꦏ꧀ꦭꦤ꧀ꦡꦸꦭꦸꦥ꧀ ꦠꦶꦤꦶꦠꦶꦃꦭꦮꦤ꧀ꦥꦿꦪꦠ꧀ꦤ꧈" ;
+    ex:arti "Dan anak-anak menteri, prajurit lengkap bersenjata, dilengkapi tombak, pedang, banyak orang pelayan, berbaris dengan sigap, memakai tombak dan perisai, menunggang kuda dengan rajin." .
 
 ex:Kata_17_0 a ex:Kata ;
-    ex:latin "Dengan" ;
-    ex:aksaraJawa "ꦢꦺꦔꦺꦩ꧀" ;
-    ex:arti "Dengan" ;
+    ex:latin "miwahkangsên​tanaman​tri" ;
+    ex:aksaraJawa "ꦩꦶꦮꦃꦏꦁꦱꦼꦤ꧀ꦠꦤꦩꦤ꧀ꦠꦿꦶ" ;
+    ex:arti "Dan anak-anak menteri" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "prajurit​kangginongsongngan" ;
+    ex:aksaraJawa "ꦥꦿꦗꦸꦫꦶꦠ꧀ꦏꦁꦒꦶꦤꦺꦴꦁꦱꦺꦴꦁꦔꦤ꧀" ;
+    ex:arti "prajurit lengkap bersenjata" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_2 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
+    ex:latin "kinen​angngubêngsangkaton" ;
+    ex:aksaraJawa "ꦏꦶꦤꦺꦤ꧀ꦲꦁꦔꦸꦧꦼꦁꦱꦁꦏꦠꦺꦴꦤ꧀" ;
+    ex:arti "dilengkapi tombak, pedang" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_3 a ex:Kata ;
-    ex:latin "kuat" ;
-    ex:aksaraJawa "ꦏꦸꦠꦏ꧀" ;
-    ex:arti "kuat" ;
+    ex:latin "sinangkêppan​ṭaubak​pêdang" ;
+    ex:aksaraJawa "ꦱꦶꦤꦁꦏꦼꦥ꧀ꦥꦤ꧀ꦡꦸꦧꦏ꧀ꦥꦼꦣꦁ" ;
+    ex:arti "dilengkapi tombak, pedang" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_4 a ex:Kata ;
-    ex:latin "masyarakat" ;
-    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
-    ex:arti "masyarakat" ;
+    ex:latin "kaehewongtupangsila" ;
+    ex:aksaraJawa "ꦏꦺꦃꦲꦺꦮꦺꦴꦁꦠꦸꦥꦁꦱꦶꦭ" ;
+    ex:arti "banyak orang pelayan" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_5 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "sinêlan​tawok​lan​ṭaulup" ;
+    ex:aksaraJawa "ꦱꦶꦤꦼꦭꦤ꧀ꦠꦮꦺꦴꦏ꧀ꦭꦤ꧀ꦡꦸꦭꦸꦥ꧀" ;
+    ex:arti "memakai tombak dan perisai" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 ex:Kata_17_6 a ex:Kata ;
-    ex:latin "lebih" ;
-    ex:aksaraJawa "ꦭꦶꦪꦃ" ;
-    ex:arti "lebih" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_7 a ex:Kata ;
-    ex:latin "bersatu" ;
-    ex:aksaraJawa "ꦧꦼꦂꦱꦸꦠ" ;
-    ex:arti "bersatu" ;
+    ex:latin "tinitihlawan​prayat​na" ;
+    ex:aksaraJawa "ꦠꦶꦤꦶꦠꦶꦃꦭꦮꦤ꧀ꦥꦿꦪꦠ꧀ꦤ" ;
+    ex:arti "menunggang kuda dengan rajin" ;
     ex:munculDalamParagraf ex:Paragraf_17 .
 
 # Paragraf 18
 ex:Paragraf_18 a ex:Paragraf ;
-    ex:isiLatin "Tradisi turun-temurun menjaga nilai dan moral bangsa" ;
-    ex:isiAksaraJawa "ꦠꦿꦢꦶꦱꦶ ꦠꦸꦫꦤ-ꦠꦸꦫꦤ ꦗꦔ꧀ꦗꦃ ꦤꦶꦭꦶ ꦢꦤ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Tradisi turun-temurun menjaga nilai dan moral bangsa" .
+    ex:isiLatin "sajawiningwot​ rêrawi, man​ṭari_ingkangcawis​ṭum​bak, samilinigagaman​ne, sangnatasikêp​pan​nira, bêdail​pêsatol​tinatah, tigangcêngkangpahos​sipun, _ingngapit​pêdangmalaela" ;
+    ex:isiAksaraJawa "꧄ꦱꦗꦮꦶꦤꦶꦁꦮꦺꦴꦠ꧀​ꦫꦼꦫꦮꦶ꧈ ꦩꦤ꧀ꦡꦿꦶꦲꦶꦁꦏꦁꦕꦮꦶꦱ꧀ꦡꦸꦩ꧀ꦧꦏ꧀ ꦱꦩꦶꦭꦶꦤꦶꦒꦒꦩꦤ꧀ꦤꦺ꧈ ꦱꦁꦤꦠꦱꦶꦏꦼꦥ꧀ꦥꦤ꧀ꦤꦶꦫ꧈ ꦧꦼꦣꦶꦭ꧀ꦥꦼꦱꦠꦺꦴꦭ꧀ꦠꦶꦤꦠꦃ꧈ ꦠꦶꦒꦁꦕꦼꦁꦏꦁꦥꦲꦺꦴꦱ꧀ꦱꦶꦥꦸꦤ꧀ ꦲꦶꦁꦔꦥꦶꦠ꧀ꦥꦼꦣꦁꦩꦭꦺꦭ꧈" ;
+    ex:arti "Saat pagi menjelang, para menteri siap tombak, membawa senjata, sang raja memberi isyarat, membawa senapan dan pistol, tiga laras panjang, ditemani pedang." .
 
 ex:Kata_18_0 a ex:Kata ;
-    ex:latin "Tradisi" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "Tradisi" ;
+    ex:latin "sajawiningwot​ rêrawi" ;
+    ex:aksaraJawa "ꦱꦗꦮꦶꦤꦶꦁꦮꦺꦴꦠ꧀​ꦫꦼꦫꦮꦶ" ;
+    ex:arti "Saat pagi menjelang" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_1 a ex:Kata ;
-    ex:latin "turun-temurun" ;
-    ex:aksaraJawa "ꦠꦸꦫꦤ-ꦠꦸꦫꦤ" ;
-    ex:arti "turun-temurun" ;
+    ex:latin "man​ṭari_ingkangcawis​ṭum​bak" ;
+    ex:aksaraJawa "ꦩꦤ꧀ꦡꦿꦶꦲꦶꦁꦏꦁꦕꦮꦶꦱ꧀ꦡꦸꦩ꧀ꦧꦏ꧀" ;
+    ex:arti "para menteri siap tombak" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_2 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
+    ex:latin "samilinigagaman​ne" ;
+    ex:aksaraJawa "ꦱꦩꦶꦭꦶꦤꦶꦒꦒꦩꦤ꧀ꦤꦺ" ;
+    ex:arti "membawa senjata" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_3 a ex:Kata ;
-    ex:latin "nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "nilai" ;
+    ex:latin "sangnatasikêppannira" ;
+    ex:aksaraJawa "ꦱꦁꦤꦠꦱꦶꦏꦼꦥ꧀ꦥꦤ꧀ꦤꦶꦫ" ;
+    ex:arti "sang raja memberi isyarat" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ" ;
-    ex:arti "dan" ;
+    ex:latin "bêdail​pêsatol​tinatah" ;
+    ex:aksaraJawa "ꦧꦼꦣꦶꦭ꧀ꦥꦼꦱꦠꦺꦴꦭ꧀ꦠꦶꦤꦠꦃ" ;
+    ex:arti "membawa senapan dan pistol" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_5 a ex:Kata ;
-    ex:latin "moral" ;
-    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
-    ex:arti "moral" ;
+    ex:latin "tigangcêngkangpahos​sipun" ;
+    ex:aksaraJawa "ꦠꦶꦒꦁꦕꦼꦁꦏꦁꦥꦲꦺꦴꦱ꧀ꦱꦶꦥꦸꦤ꧀" ;
+    ex:arti "tiga laras panjang" ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 ex:Kata_18_6 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+    ex:latin "_ingngapit​pêdangmalaela" ;
+    ex:aksaraJawa "ꦲꦶꦁꦔꦥꦶꦠ꧀ꦥꦼꦣꦁꦩꦭꦺꦭ꧈" ;
+    ex:arti "ditemani pedang." ;
     ex:munculDalamParagraf ex:Paragraf_18 .
 
 # Paragraf 19
 ex:Paragraf_19 a ex:Paragraf ;
-    ex:isiLatin "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" ;
-    ex:isiAksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀ ꦲꦢꦠ ꦩꦼꦔꦗꦏꦂꦤ ꦤꦶꦭꦶ ꦭꦸꦲꦸꦂ ꦏꦺꦴꦥꦢ ꦒꦼꦤꦼꦫꦱꦶ ꦩꦸꦢ" ;
-    ex:arti "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" .
+    ex:isiLatin "hin​jingmangsanetinangkil, maharajaselangkara, miwahtigangḍawuhdereng, bubaresak​sanahapyak, _ingngalun​alun​sigra, kangrayikatigan​nipun, _arsasowan​ningkangraka" ;
+    ex:isiAksaraJawa "꧄ꦲꦶꦤ꧀ꦗꦶꦁꦩꦁꦱꦤꦺꦠꦶꦤꦁꦏꦶꦭ꧀ ꦩꦃꦲꦫꦗꦱꦺꦭꦁꦏꦫ꧈ ꦩꦶꦮꦃꦠꦶꦒꦁꦣꦮꦸꦃꦢꦺꦫꦺꦁ꧈ ꦧꦸꦧꦂꦫꦺꦱꦏ꧀ꦱꦤꦲꦥꦾꦏ꧀ ꦲꦶꦁꦔꦭꦸꦤ꧀ꦲꦭꦸꦤ꧀ꦱꦶꦒꦿ꧈ ꦏꦁꦫꦪꦶꦏꦠꦶꦒꦤ꧀ꦤꦶꦥꦸꦤ꧀ ꦲꦂꦱꦱꦺꦴꦮꦤ꧀ꦤꦶꦁꦏꦁꦫꦏ꧈" ;
+    ex:arti "Esoknya raja bersiap, Maharaja Selangkara, bersama tiga perintah, segera bubar, di alun-alun cepat, para raja ketiga, hendak menemui putranya." .
 
 ex:Kata_19_0 a ex:Kata ;
-    ex:latin "Pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀" ;
-    ex:arti "Pendidikan" ;
+    ex:latin "hin​jingmangsanetinangkil" ;
+    ex:aksaraJawa "ꦲꦶꦤ꧀ꦗꦶꦁꦩꦁꦱꦤꦺꦠꦶꦤꦁꦏꦶꦭ꧀" ;
+    ex:arti "Esoknya raja bersiap" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_1 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
+    ex:latin "maharajaselangkara" ;
+    ex:aksaraJawa "ꦩꦃꦲꦫꦗꦱꦺꦭꦁꦏꦫ" ;
+    ex:arti "Maharaja Selangkara" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_2 a ex:Kata ;
-    ex:latin "mengajarkan" ;
-    ex:aksaraJawa "ꦩꦼꦔꦗꦏꦂꦤ" ;
-    ex:arti "mengajarkan" ;
+    ex:latin "miwahtigangḍawuhdereng" ;
+    ex:aksaraJawa "ꦩꦶꦮꦃꦠꦶꦒꦁꦣꦮꦸꦃꦢꦺꦫꦺꦁ" ;
+    ex:arti "bersama tiga perintah" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_3 a ex:Kata ;
-    ex:latin "nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "nilai" ;
+    ex:latin "bubaresak​sanahapyak" ;
+    ex:aksaraJawa "ꦧꦸꦧꦂꦫꦺꦱꦏ꧀ꦱꦤꦲꦥꦾꦏ꧀" ;
+    ex:arti "segera bubar" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_4 a ex:Kata ;
-    ex:latin "luhur" ;
-    ex:aksaraJawa "ꦭꦸꦲꦸꦂ" ;
-    ex:arti "luhur" ;
+    ex:latin "_ingngalun​alun​sigra" ;
+    ex:aksaraJawa "ꦲꦶꦁꦔꦭꦸꦤ꧀ꦲꦭꦸꦤ꧀ꦱꦶꦒꦿ" ;
+    ex:arti "di alun-alun cepat" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_5 a ex:Kata ;
-    ex:latin "kepada" ;
-    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
-    ex:arti "kepada" ;
+    ex:latin "kangrayikatigan​nipun" ;
+    ex:aksaraJawa "ꦏꦁꦫꦪꦶꦏꦠꦶꦒꦤ꧀ꦤꦶꦥꦸꦤ꧀" ;
+    ex:arti "para raja ketiga" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 ex:Kata_19_6 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_7 a ex:Kata ;
-    ex:latin "muda" ;
-    ex:aksaraJawa "ꦩꦸꦢ" ;
-    ex:arti "muda" ;
+    ex:latin "_arsasowan​ningkangraka" ;
+    ex:aksaraJawa "ꦲꦂꦱꦱꦺꦴꦮꦤ꧀ꦤꦶꦁꦏꦁꦫꦏ꧈" ;
+    ex:arti "hendak menemui putranya" ;
     ex:munculDalamParagraf ex:Paragraf_19 .
 
 # Paragraf 20
 ex:Paragraf_20 a ex:Paragraf ;
-    ex:isiLatin "Nilai-nilai adat menjadi pondasi moral bangsa" ;
-    ex:isiAksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ ꦲꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦺꦴꦤ꧀ꦝꦶ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Nilai-nilai adat menjadi pondasi moral bangsa" .
+    ex:isiLatin "samisanggit​man​tribaris, pêpêk​tan​nanasungmarga, selagon​daris​wuwus​sing, _ehman​triparapanglim​ma, piyak​kajaluk​lawang, _ingsun​pan​narsahangun​jung, _ingpadan​nekangjêngraka" ;
+    ex:isiAksaraJawa "꧄ꦱꦩꦶꦱꦁꦒꦶꦠ꧀ꦩꦤ꧀ꦠꦿꦶꦧꦫꦶꦱ꧀ ꦥꦼꦥꦼꦏ꧀ꦠꦤ꧀ꦤꦤꦱꦸꦁꦩꦂꦒ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦫꦶꦱ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦶꦁ꧈ ꦲꦺꦃꦩꦤ꧀ꦠꦿꦶꦥꦫꦥꦁꦭꦶꦩ꧀ꦩ꧈ ꦥꦶꦪꦏ꧀ꦏꦗꦭꦸꦏ꧀ꦭꦮꦁ꧈ ꦲꦶꦁꦱꦸꦤ꧀ꦥꦤ꧀ꦤꦂꦱꦲꦔꦸꦤꦸꦚ꧀ꦗꦸꦁ꧈ ꦲꦶꦁꦥꦢꦤ꧀ꦤꦺꦏꦁꦗꦼꦁꦫꦏ꧈" ;
+    ex:arti "Semua menteri berjajar, barisan rapih, Selagănda berkata, Hei para menteri dan panglima, ada yang meminta pintu, aku hendak mengunjungi, tempat yang mulia" .
 
 ex:Kata_20_0 a ex:Kata ;
-    ex:latin "Nilai-nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ" ;
-    ex:arti "Nilai-nilai" ;
+    ex:latin "samisanggit​man​tribaris" ;
+    ex:aksaraJawa "ꦱꦩꦶꦱꦁꦒꦶꦠ꧀ꦩꦤ꧀ꦠꦿꦶꦧꦫꦶꦱ꧀" ;
+    ex:arti "Semua menteri berjajar" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 ex:Kata_20_1 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
+    ex:latin "pêpêk​tan​nanasungmarga" ;
+    ex:aksaraJawa "ꦥꦼꦥꦼꦏ꧀ꦠꦤ꧀ꦤꦤꦱꦸꦁꦩꦂꦒ" ;
+    ex:arti "barisan rapih" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 ex:Kata_20_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "selagon​daris​wuwus​sing" ;
+    ex:aksaraJawa "ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦫꦶꦱ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦶꦁ" ;
+    ex:arti "Selagănda berkata" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 ex:Kata_20_3 a ex:Kata ;
-    ex:latin "pondasi" ;
-    ex:aksaraJawa "ꦥꦺꦴꦤ꧀ꦝꦶ" ;
-    ex:arti "pondasi" ;
+    ex:latin "_ehman​triparapanglim​ma" ;
+    ex:aksaraJawa "ꦲꦺꦃꦩꦤ꧀ꦠꦿꦶꦥꦫꦥꦁꦭꦶꦩ꧀ꦩ" ;
+    ex:arti "Hei para menteri dan panglima" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 ex:Kata_20_4 a ex:Kata ;
-    ex:latin "moral" ;
-    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
-    ex:arti "moral" ;
+    ex:latin "piyak​kajaluk​lawang" ;
+    ex:aksaraJawa "ꦥꦶꦪꦏ꧀ꦏꦗꦭꦸꦏ꧀ꦭꦮꦁ" ;
+    ex:arti "ada yang meminta pintu" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 ex:Kata_20_5 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+    ex:latin "_ingsun​pan​narsahangun​jung" ;
+    ex:aksaraJawa "ꦲꦶꦁꦱꦸꦤ꧀ꦥꦤ꧀ꦤꦂꦱꦲꦔꦸꦤꦸꦚ꧀ꦗꦸꦁ" ;
+    ex:arti "aku hendak mengunjungi" ;
     ex:munculDalamParagraf ex:Paragraf_20 .
 
-# Paragraf 11
-ex:Paragraf_11 a ex:Paragraf ;
-    ex:isiLatin "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" ;
-    ex:isiAksaraJawa "ꦲꦢꦠ ꦆꦱꦶꦢꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦒꦤ꧀ ꦢꦭꦩ ꦭꦶꦗꦶꦬꦤ꧀ ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
-    ex:arti "Adat istiadat menjadi pegangan dalam kehidupan sehari-hari" .
-
-ex:Kata_11_0 a ex:Kata ;
-    ex:latin "Adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "Adat" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_1 a ex:Kata ;
-    ex:latin "istiadat" ;
-    ex:aksaraJawa "ꦆꦱꦶꦢꦢꦠ" ;
-    ex:arti "istiadat" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_3 a ex:Kata ;
-    ex:latin "pegangan" ;
-    ex:aksaraJawa "ꦥꦼꦒꦤ꧀" ;
-    ex:arti "pegangan" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_4 a ex:Kata ;
-    ex:latin "dalam" ;
-    ex:aksaraJawa "ꦢꦭꦩ" ;
-    ex:arti "dalam" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_5 a ex:Kata ;
-    ex:latin "kehidupan" ;
-    ex:aksaraJawa "ꦭꦶꦗꦶꦬꦤ꧀" ;
-    ex:arti "kehidupan" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-ex:Kata_11_6 a ex:Kata ;
-    ex:latin "sehari-hari" ;
-    ex:aksaraJawa "ꦱꦲꦼꦫꦶꦃ-ꦝꦪ" ;
-    ex:arti "sehari-hari" ;
-    ex:munculDalamParagraf ex:Paragraf_11 .
-
-# Paragraf 12
-ex:Paragraf_12 a ex:Paragraf ;
-    ex:isiLatin "Penghormatan kepada leluhur sangat dijunjung tinggi" ;
-    ex:isiAksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ ꦏꦺꦴꦥꦢ ꦭꦺꦭꦸꦫ ꦱꦒꦠ꧀ ꦢꦶꦗꦸꦁꦗꦸꦁ ꦠꦲꦶ" ;
-    ex:arti "Penghormatan kepada leluhur sangat dijunjung tinggi" .
-
-ex:Kata_12_0 a ex:Kata ;
-    ex:latin "Penghormatan" ;
-    ex:aksaraJawa "ꦥꦼꦔꦲꦺꦴꦫꦩꦠꦤ" ;
-    ex:arti "Penghormatan" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-ex:Kata_12_1 a ex:Kata ;
-    ex:latin "kepada" ;
-    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
-    ex:arti "kepada" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-ex:Kata_12_2 a ex:Kata ;
-    ex:latin "leluhur" ;
-    ex:aksaraJawa "ꦭꦺꦭꦸꦫ" ;
-    ex:arti "leluhur" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-ex:Kata_12_3 a ex:Kata ;
-    ex:latin "sangat" ;
-    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
-    ex:arti "sangat" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-ex:Kata_12_4 a ex:Kata ;
-    ex:latin "dijunjung" ;
-    ex:aksaraJawa "ꦢꦶꦗꦸꦁꦗꦸꦁ" ;
-    ex:arti "dijunjung" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-ex:Kata_12_5 a ex:Kata ;
-    ex:latin "tinggi" ;
-    ex:aksaraJawa "ꦠꦲꦶ" ;
-    ex:arti "tinggi" ;
-    ex:munculDalamParagraf ex:Paragraf_12 .
-
-# Paragraf 13
-ex:Paragraf_13 a ex:Paragraf ;
-    ex:isiLatin "Adat dan tradisi dilestarikan secara turun temurun" ;
-    ex:isiAksaraJawa "ꦲꦢꦠ ꦲꦤ꧀ ꦠꦿꦢꦶꦱꦶ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦱꦕꦫ ꦠꦸꦫꦤ ꦠꦼꦩꦸꦤ꧀" ;
-    ex:arti "Adat dan tradisi dilestarikan secara turun temurun" .
-
-ex:Kata_13_0 a ex:Kata ;
-    ex:latin "Adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "Adat" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_1 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦲꦤ꧀" ;
-    ex:arti "dan" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_2 a ex:Kata ;
-    ex:latin "tradisi" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "tradisi" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_3 a ex:Kata ;
-    ex:latin "dilestarikan" ;
-    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
-    ex:arti "dilestarikan" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_4 a ex:Kata ;
-    ex:latin "secara" ;
-    ex:aksaraJawa "ꦱꦕꦫ" ;
-    ex:arti "secara" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_5 a ex:Kata ;
-    ex:latin "turun" ;
-    ex:aksaraJawa "ꦠꦸꦫꦤ" ;
-    ex:arti "turun" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-ex:Kata_13_6 a ex:Kata ;
-    ex:latin "temurun" ;
-    ex:aksaraJawa "ꦠꦼꦩꦸꦤ꧀" ;
-    ex:arti "temurun" ;
-    ex:munculDalamParagraf ex:Paragraf_13 .
-
-# Paragraf 14
-ex:Paragraf_14 a ex:Paragraf ;
-    ex:isiLatin "Setiap generasi wajib mempertahankan warisan budaya" ;
-    ex:isiAksaraJawa "ꦱꦼꦠꦶꦪꦥ ꦒꦼꦤꦼꦫꦱꦶ ꦮꦗꦶꦧ ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀ ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "Setiap generasi wajib mempertahankan warisan budaya" .
-
-ex:Kata_14_0 a ex:Kata ;
-    ex:latin "Setiap" ;
-    ex:aksaraJawa "ꦱꦼꦠꦶꦪꦥ" ;
-    ex:arti "Setiap" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-ex:Kata_14_1 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-ex:Kata_14_2 a ex:Kata ;
-    ex:latin "wajib" ;
-    ex:aksaraJawa "ꦮꦗꦶꦧ" ;
-    ex:arti "wajib" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-ex:Kata_14_3 a ex:Kata ;
-    ex:latin "mempertahankan" ;
-    ex:aksaraJawa "ꦩꦼꦥꦂꦠꦲꦤ꧀ꦠꦤ꧀" ;
-    ex:arti "mempertahankan" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-ex:Kata_14_4 a ex:Kata ;
-    ex:latin "warisan" ;
-    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
-    ex:arti "warisan" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-ex:Kata_14_5 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
-    ex:munculDalamParagraf ex:Paragraf_14 .
-
-# Paragraf 15
-ex:Paragraf_15 a ex:Paragraf ;
-    ex:isiLatin "Warisan budaya adalah identitas bangsa yang harus dijaga" ;
-    ex:isiAksaraJawa "ꦮꦫꦶꦱꦤ ꦧꦸꦛꦸꦭꦪ ꦲꦢꦭꦃ ꦲꦶꦢꦺꦤꦶꦠꦱ ꦧꦔ꧀ꦱ ꦪꦁ ꦲꦲꦸꦱ ꦢꦶꦗꦒ" ;
-    ex:arti "Warisan budaya adalah identitas bangsa yang harus dijaga" .
-
-ex:Kata_15_0 a ex:Kata ;
-    ex:latin "Warisan" ;
-    ex:aksaraJawa "ꦮꦫꦶꦱꦤ" ;
-    ex:arti "Warisan" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_2 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦢꦭꦃ" ;
-    ex:arti "adalah" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_3 a ex:Kata ;
-    ex:latin "identitas" ;
-    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦶꦠꦱ" ;
-    ex:arti "identitas" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_4 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_5 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_6 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-ex:Kata_15_7 a ex:Kata ;
-    ex:latin "dijaga" ;
-    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
-    ex:arti "dijaga" ;
-    ex:munculDalamParagraf ex:Paragraf_15 .
-
-# Paragraf 16
-ex:Paragraf_16 a ex:Paragraf ;
-    ex:isiLatin "Kebudayaan lokal memperkaya wawasan dan kreativitas" ;
-    ex:isiAksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦥꦂꦏꦾ ꦮꦮꦱꦤ ꦢꦤ ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
-    ex:arti "Kebudayaan lokal memperkaya wawasan dan kreativitas" .
-
-ex:Kata_16_0 a ex:Kata ;
-    ex:latin "Kebudayaan" ;
-    ex:aksaraJawa "ꦏꦼꦧꦸꦢꦪꦤ" ;
-    ex:arti "Kebudayaan" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-ex:Kata_16_1 a ex:Kata ;
-    ex:latin "lokal" ;
-    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
-    ex:arti "lokal" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-ex:Kata_16_2 a ex:Kata ;
-    ex:latin "memperkaya" ;
-    ex:aksaraJawa "ꦩꦼꦥꦂꦏꦾ" ;
-    ex:arti "memperkaya" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-ex:Kata_16_3 a ex:Kata ;
-    ex:latin "wawasan" ;
-    ex:aksaraJawa "ꦮꦮꦱꦤ" ;
-    ex:arti "wawasan" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-ex:Kata_16_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ" ;
-    ex:arti "dan" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-ex:Kata_16_5 a ex:Kata ;
-    ex:latin "kreativitas" ;
-    ex:aksaraJawa "ꦏꦿꦶꦠꦶꦮꦶꦠꦱ" ;
-    ex:arti "kreativitas" ;
-    ex:munculDalamParagraf ex:Paragraf_16 .
-
-# Paragraf 17
-ex:Paragraf_17 a ex:Paragraf ;
-    ex:isiLatin "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" ;
-    ex:isiAksaraJawa "ꦢꦺꦔꦺꦩ꧀ ꦧꦸꦛꦸꦭꦪ ꦪꦁ ꦏꦸꦠꦏ꧀ ꦩꦱꦿꦗꦠ ꦩꦼꦤꦶꦢꦶ ꦭꦶꦪꦃ ꦧꦼꦂꦱꦸꦠ" ;
-    ex:arti "Dengan budaya yang kuat, masyarakat menjadi lebih bersatu" .
-
-ex:Kata_17_0 a ex:Kata ;
-    ex:latin "Dengan" ;
-    ex:aksaraJawa "ꦢꦺꦔꦺꦩ꧀" ;
-    ex:arti "Dengan" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_2 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_3 a ex:Kata ;
-    ex:latin "kuat" ;
-    ex:aksaraJawa "ꦏꦸꦠꦏ꧀" ;
-    ex:arti "kuat" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_4 a ex:Kata ;
-    ex:latin "masyarakat" ;
-    ex:aksaraJawa "ꦩꦱꦿꦗꦠ" ;
-    ex:arti "masyarakat" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_5 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_6 a ex:Kata ;
-    ex:latin "lebih" ;
-    ex:aksaraJawa "ꦭꦶꦪꦃ" ;
-    ex:arti "lebih" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-ex:Kata_17_7 a ex:Kata ;
-    ex:latin "bersatu" ;
-    ex:aksaraJawa "ꦧꦼꦂꦱꦸꦠ" ;
-    ex:arti "bersatu" ;
-    ex:munculDalamParagraf ex:Paragraf_17 .
-
-# Paragraf 18
-ex:Paragraf_18 a ex:Paragraf ;
-    ex:isiLatin "Tradisi turun-temurun menjaga nilai dan moral bangsa" ;
-    ex:isiAksaraJawa "ꦠꦿꦢꦶꦱꦶ ꦠꦸꦫꦤ-ꦠꦸꦫꦤ ꦗꦔ꧀ꦗꦃ ꦤꦶꦭꦶ ꦢꦤ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Tradisi turun-temurun menjaga nilai dan moral bangsa" .
-
-ex:Kata_18_0 a ex:Kata ;
-    ex:latin "Tradisi" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶ" ;
-    ex:arti "Tradisi" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_1 a ex:Kata ;
-    ex:latin "turun-temurun" ;
-    ex:aksaraJawa "ꦠꦸꦫꦤ-ꦠꦸꦫꦤ" ;
-    ex:arti "turun-temurun" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_2 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_3 a ex:Kata ;
-    ex:latin "nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "nilai" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ" ;
-    ex:arti "dan" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_5 a ex:Kata ;
-    ex:latin "moral" ;
-    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
-    ex:arti "moral" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-ex:Kata_18_6 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
-    ex:munculDalamParagraf ex:Paragraf_18 .
-
-# Paragraf 19
-ex:Paragraf_19 a ex:Paragraf ;
-    ex:isiLatin "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" ;
-    ex:isiAksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀ ꦲꦢꦠ ꦩꦼꦔꦗꦏꦂꦤ ꦤꦶꦭꦶ ꦭꦸꦲꦸꦂ ꦏꦺꦴꦥꦢ ꦒꦼꦤꦼꦫꦱꦶ ꦩꦸꦢ" ;
-    ex:arti "Pendidikan adat mengajarkan nilai luhur kepada generasi muda" .
-
-ex:Kata_19_0 a ex:Kata ;
-    ex:latin "Pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤꦸꦝꦶꦏꦟ꧀" ;
-    ex:arti "Pendidikan" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_1 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_2 a ex:Kata ;
-    ex:latin "mengajarkan" ;
-    ex:aksaraJawa "ꦩꦼꦔꦗꦏꦂꦤ" ;
-    ex:arti "mengajarkan" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_3 a ex:Kata ;
-    ex:latin "nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "nilai" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_4 a ex:Kata ;
-    ex:latin "luhur" ;
-    ex:aksaraJawa "ꦭꦸꦲꦸꦂ" ;
-    ex:arti "luhur" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_5 a ex:Kata ;
-    ex:latin "kepada" ;
-    ex:aksaraJawa "ꦏꦺꦴꦥꦢ" ;
-    ex:arti "kepada" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_6 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-ex:Kata_19_7 a ex:Kata ;
-    ex:latin "muda" ;
-    ex:aksaraJawa "ꦩꦸꦢ" ;
-    ex:arti "muda" ;
-    ex:munculDalamParagraf ex:Paragraf_19 .
-
-# Paragraf 20
-ex:Paragraf_20 a ex:Paragraf ;
-    ex:isiLatin "Nilai-nilai adat menjadi pondasi moral bangsa" ;
-    ex:isiAksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ ꦲꦢꦠ ꦩꦼꦤꦶꦢꦶ ꦥꦺꦴꦤ꧀ꦝꦶ ꦩꦺꦴꦫꦭ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Nilai-nilai adat menjadi pondasi moral bangsa" .
-
-ex:Kata_20_0 a ex:Kata ;
-    ex:latin "Nilai-nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ-ꦤꦶꦭꦶ" ;
-    ex:arti "Nilai-nilai" ;
-    ex:munculDalamParagraf ex:Paragraf_20 .
-
-ex:Kata_20_1 a ex:Kata ;
-    ex:latin "adat" ;
-    ex:aksaraJawa "ꦲꦢꦠ" ;
-    ex:arti "adat" ;
-    ex:munculDalamParagraf ex:Paragraf_20 .
-
-ex:Kata_20_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
-    ex:munculDalamParagraf ex:Paragraf_20 .
-
-ex:Kata_20_3 a ex:Kata ;
-    ex:latin "pondasi" ;
-    ex:aksaraJawa "ꦥꦺꦴꦤ꧀ꦝꦶ" ;
-    ex:arti "pondasi" ;
-    ex:munculDalamParagraf ex:Paragraf_20 .
-
-ex:Kata_20_4 a ex:Kata ;
-    ex:latin "moral" ;
-    ex:aksaraJawa "ꦩꦺꦴꦫꦭ" ;
-    ex:arti "moral" ;
-    ex:munculDalamParagraf ex:Paragraf_20 .
-
-ex:Kata_20_5 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+ex:Kata_20_6 a ex:Kata ;
+    ex:latin "_ingpadan​nekangjêngraka" ;
+    ex:aksaraJawa "ꦲꦶꦁꦥꦢꦤ꧀ꦤꦺꦏꦁꦗꦼꦤꦼꦁꦫꦏ꧈" ;
+    ex:arti "tempat yang mulia.";
     ex:munculDalamParagraf ex:Paragraf_20 .
 
 # Paragraf 21
 ex:Paragraf_21 a ex:Paragraf ;
-    ex:isiLatin "Pentingnya menjaga kelestarian lingkungan hidup" ;
-    ex:isiAksaraJawa "ꦥꦼꦤꦠꦶꦁꦔꦾ ꦗꦔ꧀ꦗꦃ ꦏꦺꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦶꦧꦸꦥ" ;
-    ex:arti "Pentingnya menjaga kelestarian lingkungan hidup" .
+    ex:isiLatin "panglim​mahasahurpêk​si, gus​tidunungngan​kawula, mangkegus​tiradingan​tos​pan​lagi_aturhuninga, _ingkangjêngrakatuwan, padukalerehrumu_un, sampun​nraginêrangwatang" ;
+    ex:isiAksaraJawa "꧄ꦥꦁꦭꦶꦩ꧀ꦩꦲꦱꦲꦸꦂꦥꦼꦏ꧀ꦱꦶ꧈ ꦒꦸꦱ꧀ꦠꦶꦢꦸꦤꦸꦁꦔꦤ꧀ꦏꦮꦸꦭ꧈ ꦩꦁꦏꦺꦒꦸꦱ꧀ꦠꦶꦫꦢꦶꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦥꦤ꧀ꦭꦒꦶꦲꦠꦸꦂꦲꦸꦤꦶꦔ꧈ ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦏꦠꦸꦮꦤ꧀ ꦥꦢꦸꦏꦭꦺꦫꦺꦃꦫꦸꦩꦸꦲꦸꦤ꧀ ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦿꦒꦶꦤꦼꦫꦁꦮꦠꦁ꧈" ;
+    ex:arti "Panglima pembawa tombak, tuan pemilikku, nanti tuan akan menunggu, aku hendak melaporkan, kepada yang tua, saudara leluhur, sudah tiba waktunya." .
 
 ex:Kata_21_0 a ex:Kata ;
-    ex:latin "Pentingnya" ;
-    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁꦔꦾ" ;
-    ex:arti "Pentingnya" ;
+    ex:latin "panglim​mahasahurpêk​si" ;
+    ex:aksaraJawa "ꦥꦁꦭꦶꦩ꧀ꦩꦲꦱꦲꦸꦂꦥꦼꦏ꧀ꦱꦶ" ;
+    ex:arti "Panglima pembawa tombak" ;
     ex:munculDalamParagraf ex:Paragraf_21 .
 
 ex:Kata_21_1 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
+    ex:latin "gus​tidunungngan​kawula" ;
+    ex:aksaraJawa "ꦒꦸꦱ꧀ꦠꦶꦢꦸꦤꦸꦁꦔꦤ꧀ꦏꦮꦸꦭ" ;
+    ex:arti "tuan pemilikku" ;
     ex:munculDalamParagraf ex:Paragraf_21 .
 
 ex:Kata_21_2 a ex:Kata ;
-    ex:latin "kelestarian" ;
-    ex:aksaraJawa "ꦏꦺꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
-    ex:arti "kelestarian" ;
+    ex:latin "mangkegus​tiradingan​tos​pan​lagi_aturhuninga" ;
+    ex:aksaraJawa "ꦩꦁꦏꦺꦒꦸꦱ꧀ꦠꦶꦫꦢꦶꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦥꦤ꧀ꦭꦒꦶꦲꦠꦸꦂꦲꦸꦤꦶꦔ" ;
+    ex:arti "nanti tuan akan menunggu" ;
     ex:munculDalamParagraf ex:Paragraf_21 .
 
 ex:Kata_21_3 a ex:Kata ;
-    ex:latin "lingkungan" ;
-    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
-    ex:arti "lingkungan" ;
+    ex:latin "_ingkangjêngrakatuwan" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦏꦠꦸꦮꦤ꧀" ;
+    ex:arti "kepada yang tua" ;
     ex:munculDalamParagraf ex:Paragraf_21 .
 
 ex:Kata_21_4 a ex:Kata ;
-    ex:latin "hidup" ;
-    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
-    ex:arti "hidup" ;
+    ex:latin "padukalerehrumu_un" ;
+    ex:aksaraJawa "ꦥꦢꦸꦏꦭꦺꦫꦺꦃꦫꦸꦩꦸꦲꦸꦤ꧀" ;
+    ex:arti "saudara leluhur" ;
+    ex:munculDalamParagraf ex:Paragraf_21 .
+
+ex:Kata_21_5 a ex:Kata ;
+    ex:latin "sampun​nraginêrangwatang" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦿꦒꦶꦤꦼꦫꦁꦮꦠꦁ" ;
+    ex:arti "sudah tiba waktunya" ;
     ex:munculDalamParagraf ex:Paragraf_21 .
 
 # Paragraf 22
 ex:Paragraf_22 a ex:Paragraf ;
-    ex:isiLatin "Lingkungan yang sehat mendukung kualitas hidup" ;
-    ex:isiAksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ ꦪꦁ ꦱꦲꦺꦠ꧀ ꦩꦼꦤ꧀ꦢꦸꦁꦏꦁ ꦏꦸꦭꦶꦠꦱ ꦲꦶꦧꦸꦥ" ;
-    ex:arti "Lingkungan yang sehat mendukung kualitas hidup" .
+    ex:isiLatin "kam​pahsatriyakatrini, selasyaraselagon​da, selarasyakatigan​ne, saksanahutus​san​mêdal, prajurit​ganggangsinang, awêtawis​kawan​puluh, prap​taneangng​ligap​dhang" ;
+    ex:isiAksaraJawa "꧄ꦏꦩ꧀ꦥꦃꦱꦠꦿꦶꦪꦏꦠꦿꦶꦤꦶ꧈ꦱꦺꦭꦱꦾꦫꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ꧈ ꦱꦺꦭꦫꦱꦾꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦱꦏ꧀ꦱꦤꦲꦸꦠꦸꦱ꧀ꦱꦤ꧀ꦩꦼꦢꦭ꧀ ꦥꦿꦗꦸꦫꦶꦠ꧀ꦒꦁꦒꦁꦱꦶꦤꦁ꧈ ꦲꦮꦼꦠꦮꦶꦱ꧀ꦏꦮꦤ꧀ꦥꦸꦭꦸꦃ꧈ ꦥꦿꦥ꧀ꦠꦤꦺꦲꦁꦔ꧀ꦭꦶꦒꦥ꧀ꦝꦁ꧈" ;
+    ex:arti "Pasukan satria katrini, Selasyara Selagănda, Selarasya ketiganya, utusan dengan pedang, berjumlah sekitar empat puluh, datang membawa pedang." .
 
 ex:Kata_22_0 a ex:Kata ;
-    ex:latin "Lingkungan" ;
-    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
-    ex:arti "Lingkungan" ;
+    ex:latin "kam​pahsatriyakatrini" ;
+    ex:aksaraJawa "ꦏꦩ꧀ꦥꦃꦱꦠꦿꦶꦪꦏꦠꦿꦶꦤꦶ" ;
+    ex:arti "Pasukan satria katrini" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 ex:Kata_22_1 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
+    ex:latin "selasyaraselagon​da" ;
+    ex:aksaraJawa "ꦱꦺꦭꦱꦾꦫꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ" ;
+    ex:arti "Selasyara Selagănda" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 ex:Kata_22_2 a ex:Kata ;
-    ex:latin "sehat" ;
-    ex:aksaraJawa "ꦱꦲꦺꦠ꧀" ;
-    ex:arti "sehat" ;
+    ex:latin "selarasyakatigan​ne" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦾꦏꦠꦶꦒꦤ꧀ꦤꦺ" ;
+    ex:arti "Selarasya ketiganya" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 ex:Kata_22_3 a ex:Kata ;
-    ex:latin "mendukung" ;
-    ex:aksaraJawa "ꦩꦼꦤ꧀ꦢꦸꦁꦏꦁ" ;
-    ex:arti "mendukung" ;
+    ex:latin "saksanahutus​san​mêdal" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦱꦤꦲꦸꦠꦸꦱ꧀ꦱꦤ꧀ꦩꦼꦢꦭ꧀" ;
+    ex:arti "utusan dengan pedang" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 ex:Kata_22_4 a ex:Kata ;
-    ex:latin "kualitas" ;
-    ex:aksaraJawa "ꦏꦸꦭꦶꦠꦱ" ;
-    ex:arti "kualitas" ;
+    ex:latin "prajurit​ganggangsinang" ;
+    ex:aksaraJawa "ꦥꦿꦗꦸꦫꦶꦠ꧀ꦒꦁꦒꦁꦱꦶꦤꦁ" ;
+    ex:arti "prajurit dengan pedang" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 ex:Kata_22_5 a ex:Kata ;
-    ex:latin "hidup" ;
-    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
-    ex:arti "hidup" ;
+    ex:latin "awêtawis​kawan​puluh" ;
+    ex:aksaraJawa "ꦲꦮꦼꦠꦮꦶꦱ꧀ꦏꦮꦤ꧀ꦥꦸꦭꦸꦃ" ;
+    ex:arti "berjumlah sekitar empat puluh" ;
+    ex:munculDalamParagraf ex:Paragraf_22 .
+
+ex:Kata_22_6 a ex:Kata ;
+    ex:latin "prap​taneangng​ligap​dhang" ;
+    ex:aksaraJawa "ꦥꦿꦥ꧀ꦠꦤꦺꦲꦁꦔ꧀ꦭꦶꦒꦥ꧀ꦝꦁ" ;
+    ex:arti "datang membawa pedang" ;
     ex:munculDalamParagraf ex:Paragraf_22 .
 
 # Paragraf 23
 ex:Paragraf_23 a ex:Paragraf ;
-    ex:isiLatin "Kita harus menjaga sumber daya alam" ;
-    ex:isiAksaraJawa "ꦏꦶꦠ ꦲꦲꦸꦱ ꦗꦔ꧀ꦗꦃ ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ" ;
-    ex:arti "Kita harus menjaga sumber daya alam" .
+    ex:isiLatin "hingkangnganem​anderbeni, hingdun​nyan​nipun​pinaḍa, sawangsawangdaudum​mane, nangngingkasrahkangnêgara, mêngkatên​ukum​sarak, punikapêm​manggihulun, kawulahanu_un​duka" ;
+    ex:isiAksaraJawa "꧄ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ꧈ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ꧈ ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ꧈ ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ꧈ ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀ ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀ ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈" ;
+    ex:arti "Yang menjadi pemilik, dunia yang diselimuti, mengawasi kehidupan dunia, tapi menyerahkan negeri, menaikkan hukum adat, itulah pendapatku, aku berterima kasih." .
 
 ex:Kata_23_0 a ex:Kata ;
-    ex:latin "Kita" ;
-    ex:aksaraJawa "ꦏꦶꦠ" ;
-    ex:arti "Kita" ;
+    ex:latin "hingkangnganem​anderbeni" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ" ;
+    ex:arti "Yang menjadi pemilik" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 ex:Kata_23_1 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
+    ex:latin "hingdun​nyan​nipun​pinaḍa" ;
+    ex:aksaraJawa "ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ" ;
+    ex:arti "dunia yang diselimuti" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 ex:Kata_23_2 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦗꦔ꧀ꦗꦃ" ;
-    ex:arti "menjaga" ;
+    ex:latin "sawangsawangdaudum​mane" ;
+    ex:aksaraJawa "ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ" ;
+    ex:arti "mengawasi kehidupan dunia" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 ex:Kata_23_3 a ex:Kata ;
-    ex:latin "sumber" ;
-    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
-    ex:arti "sumber" ;
+    ex:latin "nangngingkasrahkangnêgara" ;
+    ex:aksaraJawa "ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ" ;
+    ex:arti "tapi menyerahkan negeri" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 ex:Kata_23_4 a ex:Kata ;
-    ex:latin "daya" ;
-    ex:aksaraJawa "ꦢꦪ" ;
-    ex:arti "daya" ;
+    ex:latin "mêngkatên​ukum​sarak" ;
+    ex:aksaraJawa "ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀" ;
+    ex:arti "menaikkan hukum adat" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 ex:Kata_23_5 a ex:Kata ;
-    ex:latin "alam" ;
-    ex:aksaraJawa "ꦲꦭꦩ" ;
-    ex:arti "alam" ;
+    ex:latin "punikapêm​manggihulun" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀" ;
+    ex:arti "itulah pendapatku" ;
+    ex:munculDalamParagraf ex:Paragraf_23 .
+
+ex:Kata_23_6 a ex:Kata ;
+    ex:latin "kawulahanu_un​duka" ;
+    ex:aksaraJawa "ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈" ;
+    ex:arti "aku berterima kasih" ;
     ex:munculDalamParagraf ex:Paragraf_23 .
 
 # Paragraf 24
 ex:Paragraf_24 a ex:Paragraf ;
-    ex:isiLatin "Pengelolaan sumber daya alam yang bijak sangat penting" ;
-    ex:isiAksaraJawa "ꦥꦼꦔꦭꦺꦴꦭꦲꦤ ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ ꦪꦁ ꦧꦶꦗꦏ ꦱꦒꦠ꧀ ꦥꦼꦤꦠꦶꦁ" ;
-    ex:arti "Pengelolaan sumber daya alam yang bijak sangat penting" .
+    ex:isiLatin "karan​tên​nulya_awaris, sasampun​ningmaris​dunya, ramapadukakangdêrbe, nêgarimulya_ingcêm​pa, _iyangpadupêjah, tan​dangngunulyakinubur, ramatuwan​dados​nata" ;
+    ex:isiAksaraJawa "꧄ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀ ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ꧈ ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ꧈ ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈ ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ꧈ ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ꧈ ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ꧈" ;
+    ex:arti "Setelah ayah meninggal, setelah wafat dunia, ayah leluhur yang tadi, negeri mulia di Champa, sudah lama meninggal, segera dikubur, ayah leluhur jadi raja." .
 
 ex:Kata_24_0 a ex:Kata ;
-    ex:latin "Pengelolaan" ;
-    ex:aksaraJawa "ꦥꦼꦔꦭꦺꦴꦭꦲꦤ" ;
-    ex:arti "Pengelolaan" ;
+    ex:latin "karan​tên​nulya_awaris" ;
+    ex:aksaraJawa "ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀" ;
+    ex:arti "Setelah ayah meninggal" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_1 a ex:Kata ;
-    ex:latin "sumber" ;
-    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
-    ex:arti "sumber" ;
+    ex:latin "sasampun​ningmaris​dunya" ;
+    ex:aksaraJawa "ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ" ;
+    ex:arti "setelah wafat dunia" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_2 a ex:Kata ;
-    ex:latin "daya" ;
-    ex:aksaraJawa "ꦢꦪ" ;
-    ex:arti "daya" ;
+    ex:latin "ramapadukakangdêrbe" ;
+    ex:aksaraJawa "ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ" ;
+    ex:arti "ayah leluhur yang tadi" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_3 a ex:Kata ;
-    ex:latin "alam" ;
-    ex:aksaraJawa "ꦲꦭꦩ" ;
-    ex:arti "alam" ;
+    ex:latin "nêgarimulya_ingcêm​pa" ;
+    ex:aksaraJawa "ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "negeri mulia di Champa" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_4 a ex:Kata ;
-    ex:latin "yang" ;
-    ex:aksaraJawa "ꦪꦁ" ;
-    ex:arti "yang" ;
+    ex:latin "_iyangpadupêjah" ;
+    ex:aksaraJawa "ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ" ;
+    ex:arti "sudah lama meninggal" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_5 a ex:Kata ;
-    ex:latin "bijak" ;
-    ex:aksaraJawa "ꦧꦶꦗꦏ" ;
-    ex:arti "bijak" ;
+    ex:latin "tan​dangngunulyakinubur" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ" ;
+    ex:arti "segera dikubur" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 ex:Kata_24_6 a ex:Kata ;
-    ex:latin "sangat" ;
-    ex:aksaraJawa "ꦱꦒꦠ꧀" ;
-    ex:arti "sangat" ;
-    ex:munculDalamParagraf ex:Paragraf_24 .
-
-ex:Kata_24_7 a ex:Kata ;
-    ex:latin "penting" ;
-    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
-    ex:arti "penting" ;
+    ex:latin "ramatuwan​dados​nata" ;
+    ex:aksaraJawa "ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ" ;
+    ex:arti "ayah leluhur jadi raja" ;
     ex:munculDalamParagraf ex:Paragraf_24 .
 
 # Paragraf 25
 ex:Paragraf_25 a ex:Paragraf ;
-    ex:isiLatin "Pemanfaatan teknologi ramah lingkungan harus dioptimalkan" ;
-    ex:isiAksaraJawa "ꦥꦼꦩꦤ꧀ꦥꦠꦶꦠꦤ ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦫꦩꦃ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦲꦸꦱ ꦢꦶꦲꦺꦴꦥ꧀ꦠꦶꦏꦭꦤ" ;
-    ex:arti "Pemanfaatan teknologi ramah lingkungan harus dioptimalkan" .
+    ex:isiLatin "mêngkatên​aturingdasih, nan​dhês​aturingkipatya, kangrayisakatigan​ne, miyarsamerangkalin​tang, _arsa mêdal​pasilan, tan​amit​malihingratu, kangkatigasam​mimêdal" ;
+    ex:isiAksaraJawa "꧄ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ꧈ ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ꧈ ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ꧈ ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀ ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ꧈ ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀" ;
+    ex:arti "Menaikkan kasih sayang, menegaskan patih, yang memerintah ketiga raja, menyampaikan berita yang hebat, akan keluar peristiwa, tak akan kembali lagi di raja, yang ketiga akan pergi." .
 
 ex:Kata_25_0 a ex:Kata ;
-    ex:latin "Pemanfaatan" ;
-    ex:aksaraJawa "ꦥꦼꦩꦤ꧀ꦥꦠꦶꦠꦤ" ;
-    ex:arti "Pemanfaatan" ;
+    ex:latin "mêngkatên​aturingdasih" ;
+    ex:aksaraJawa "ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ" ;
+    ex:arti "Menaikkan kasih sayang" ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 ex:Kata_25_1 a ex:Kata ;
-    ex:latin "teknologi" ;
-    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
-    ex:arti "teknologi" ;
+    ex:latin "nan​dhês​aturingkipatya" ;
+    ex:aksaraJawa "ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ" ;
+    ex:arti "menegaskan patih" ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 ex:Kata_25_2 a ex:Kata ;
-    ex:latin "ramah" ;
-    ex:aksaraJawa "ꦫꦩꦃ" ;
-    ex:arti "ramah" ;
+    ex:latin "kangrayisakatigan​ne" ;
+    ex:aksaraJawa "ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ" ;
+    ex:arti "yang memerintah ketiga raja" ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 ex:Kata_25_3 a ex:Kata ;
-    ex:latin "lingkungan" ;
-    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
-    ex:arti "lingkungan" ;
+    ex:latin "miyarsamerangkalin​tang" ;
+    ex:aksaraJawa "ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ" ;
+    ex:arti "menyampaikan berita yang hebat" ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 ex:Kata_25_4 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
+    ex:latin "_arsa mêdal​pasilan" ;
+    ex:aksaraJawa "ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀" ;
+    ex:arti "akan keluar peristiwa" ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 ex:Kata_25_5 a ex:Kata ;
-    ex:latin "dioptimalkan" ;
-    ex:aksaraJawa "ꦢꦶꦲꦺꦴꦥ꧀ꦠꦶꦏꦭꦤ" ;
-    ex:arti "dioptimalkan" ;
+    ex:latin "tan​amit​malihingratu" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ" ;
+    ex:arti "tak akan kembali lagi di raja" ;
+    ex:munculDalamParagraf ex:Paragraf_25 .
+
+ex:Kata_25_6 a ex:Kata ;
+    ex:latin "kangkatigasam​mimêdal" ;
+    ex:aksaraJawa "ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀" ;
+    ex:arti "yang ketiga akan pergi." ;
     ex:munculDalamParagraf ex:Paragraf_25 .
 
 # Paragraf 26
 ex:Paragraf_26 a ex:Paragraf ;
-    ex:isiLatin "Kearifan lokal harus dilestarikan dan dijaga" ;
-    ex:isiAksaraJawa "ꦏꦺꦫꦶꦥꦤ ꦭꦺꦴꦏꦭ ꦲꦲꦸꦱ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ ꦢꦤ ꦢꦶꦗꦒ" ;
-    ex:arti "Kearifan lokal harus dilestarikan dan dijaga" .
+    ex:isiLatin "sangnatabubartinangkil, tumulyaaglisngaḍattyan, paramantribubarkabeh, saksanasurup, yyangngarka, tankawarnasangnata, putratitigawinuwus, kumpul​anengwis​mannira" ;
+    ex:isiAksaraJawa "꧄ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀ ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀ ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ꧈ ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀ ꦪꦾꦁꦔꦂꦏ꧈ ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ꧈ ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀ ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "Raja bubar pergi, dengan hormat menghadap, para menteri bubar semua, seperti senja menghilang, tak terlihat raja, ketiga putra telah berkumpul, di wisma." .
 
 ex:Kata_26_0 a ex:Kata ;
-    ex:latin "Kearifan" ;
-    ex:aksaraJawa "ꦏꦺꦫꦶꦥꦤ" ;
-    ex:arti "Kearifan" ;
+    ex:latin "sangnatabubartinangkil" ;
+    ex:aksaraJawa "ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀" ;
+    ex:arti "Raja bubar pergi" ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 ex:Kata_26_1 a ex:Kata ;
-    ex:latin "lokal" ;
-    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
-    ex:arti "lokal" ;
+    ex:latin "tumulyaaglisngaḍattyan" ;
+    ex:aksaraJawa "ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀" ;
+    ex:arti "dengan hormat menghadap" ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 ex:Kata_26_2 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
+    ex:latin "paramantribubarkabeh" ;
+    ex:aksaraJawa "ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ" ;
+    ex:arti "para menteri bubar semua" ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 ex:Kata_26_3 a ex:Kata ;
-    ex:latin "dilestarikan" ;
-    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
-    ex:arti "dilestarikan" ;
+    ex:latin "saksanasurup" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀" ;
+    ex:arti "seperti senja menghilang" ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 ex:Kata_26_4 a ex:Kata ;
-    ex:latin "dan" ;
-    ex:aksaraJawa "ꦢꦤ" ;
-    ex:arti "dan" ;
+    ex:latin "yyangngarka" ;
+    ex:aksaraJawa "ꦪꦾꦁꦔꦂꦏ" ;
+    ex:arti "senja menghilang" ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 ex:Kata_26_5 a ex:Kata ;
-    ex:latin "dijaga" ;
-    ex:aksaraJawa "ꦢꦶꦗꦒ" ;
-    ex:arti "dijaga" ;
+    ex:latin "tankawarnasangnata" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ" ;
+    ex:arti "tak terlihat raja" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_6 a ex:Kata ;
+    ex:latin "putratitigawinuwus" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀" ;
+    ex:arti "ketiga putra telah berkumpul" ;
+    ex:munculDalamParagraf ex:Paragraf_26 .
+
+ex:Kata_26_7 a ex:Kata ;
+    ex:latin "kumpul​anengwis​mannira" ;
+    ex:aksaraJawa "ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "di wisma." ;
     ex:munculDalamParagraf ex:Paragraf_26 .
 
 # Paragraf 27
 ex:Paragraf_27 a ex:Paragraf ;
-    ex:isiLatin "Nilai budaya diwariskan dari generasi ke generasi" ;
-    ex:isiAksaraJawa "ꦤꦶꦭꦶ ꦧꦸꦛꦸꦭꦪ ꦢꦶꦮꦫꦶꦱꦏꦤ ꦢꦿꦶꦥꦸꦤ ꦒꦼꦤꦼꦫꦱꦶ ꦏ ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "Nilai budaya diwariskan dari generasi ke generasi" .
+    ex:isiLatin "têngngahdaluwêt​taran​ning, raresamyapagunêm​man, selarasahingwuwus​se, rakadawêk​samikesah, apapin​nrihingcêpa, mongsajumênêngngaratu, angngurkesahanglêllana" ;
+    ex:isiAksaraJawa "꧄ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ꧈ ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀ ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ꧈ ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ꧈ ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦁꦔꦫꦠꦸ꧈ ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈" ;
+    ex:arti "Tengah malam di luar, para gadis sedang berbincang, Selarasa di dalam, para putra semuanya, apa keinginan di Champa, pada masa pemerintahan raja, mengurus negeri." .
 
 ex:Kata_27_0 a ex:Kata ;
-    ex:latin "Nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "Nilai" ;
+    ex:latin "têngngahdaluwêt​taran​ning" ;
+    ex:aksaraJawa "ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ" ;
+    ex:arti "Tengah malam di luar" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "raresamyapagunêm​man" ;
+    ex:aksaraJawa "ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀" ;
+    ex:arti "para gadis sedang berbincang" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_2 a ex:Kata ;
-    ex:latin "diwariskan" ;
-    ex:aksaraJawa "ꦢꦶꦮꦫꦶꦱꦏꦤ" ;
-    ex:arti "diwariskan" ;
+    ex:latin "selarasahingwuwus​se" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ" ;
+    ex:arti "Selarasa di dalam" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_3 a ex:Kata ;
-    ex:latin "dari" ;
-    ex:aksaraJawa "ꦢꦿꦶꦥꦸꦤ" ;
-    ex:arti "dari" ;
+    ex:latin "rakadawêk​samikesah" ;
+    ex:aksaraJawa "ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ" ;
+    ex:arti "para putra semuanya" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_4 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
+    ex:latin "apapin​nrihingcêpa" ;
+    ex:aksaraJawa "ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ" ;
+    ex:arti "apa keinginan di Champa" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_5 a ex:Kata ;
-    ex:latin "ke" ;
-    ex:aksaraJawa "ꦏ" ;
-    ex:arti "ke" ;
+    ex:latin "mongsajumênêngngaratu" ;
+    ex:aksaraJawa "ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ" ;
+    ex:arti "pada masa pemerintahan raja" ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 ex:Kata_27_6 a ex:Kata ;
-    ex:latin "generasi" ;
-    ex:aksaraJawa "ꦒꦼꦤꦼꦫꦱꦶ" ;
-    ex:arti "generasi" ;
+    ex:latin "angngurkesahanglêllana" ;
+    ex:aksaraJawa "ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ" ;
+    ex:arti "mengurus negeri." ;
     ex:munculDalamParagraf ex:Paragraf_27 .
 
 # Paragraf 28
 ex:Paragraf_28 a ex:Paragraf ;
-    ex:isiLatin "Kearifan lokal menjadi pedoman hidup" ;
-    ex:isiAksaraJawa "ꦏꦺꦫꦶꦥꦤ ꦭꦺꦴꦏꦭ ꦩꦼꦤꦶꦢꦶ ꦥꦼꦢꦺꦴꦩꦤ ꦲꦶꦧꦸꦥ" ;
-    ex:arti "Kearifan lokal menjadi pedoman hidup" .
+    ex:isiLatin "lan​malihwatêk​kingngaji, ingkangsamisugihwongsa, samidados​kawulan​ne, punikakawulasungkan, ngawulakathahilang, samisaminak​kingratu, têk​kahan​dikangawula" ;
+    ex:isiAksaraJawa "꧄ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ꧈ ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ꧈ ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ꧈ ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀ ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ꧈ ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈" ;
+    ex:arti "Dan lagi saat senja, yang kaya dan berkuasa, menjadi hamba, aku sungkan, banyak yang hilang, sama-sama dari raja, datang untuk mengabdi." .
 
 ex:Kata_28_0 a ex:Kata ;
-    ex:latin "Kearifan" ;
-    ex:aksaraJawa "ꦏꦺꦫꦶꦥꦤ" ;
-    ex:arti "Kearifan" ;
+    ex:latin "lan​malihwatêk​kingngaji" ;
+    ex:aksaraJawa "ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ" ;
+    ex:arti "Dan lagi saat senja" ;
     ex:munculDalamParagraf ex:Paragraf_28 .
 
 ex:Kata_28_1 a ex:Kata ;
-    ex:latin "lokal" ;
-    ex:aksaraJawa "ꦭꦺꦴꦏꦭ" ;
-    ex:arti "lokal" ;
+    ex:latin "ingkangsamisugihwongsa" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ" ;
+    ex:arti "yang kaya dan berkuasa" ;
     ex:munculDalamParagraf ex:Paragraf_28 .
 
 ex:Kata_28_2 a ex:Kata ;
-    ex:latin "menjadi" ;
-    ex:aksaraJawa "ꦩꦼꦤꦶꦢꦶ" ;
-    ex:arti "menjadi" ;
+    ex:latin "samidados​kawulan​ne" ;
+    ex:aksaraJawa "ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ" ;
+    ex:arti "menjadi hamba" ;
     ex:munculDalamParagraf ex:Paragraf_28 .
 
 ex:Kata_28_3 a ex:Kata ;
-    ex:latin "pedoman" ;
-    ex:aksaraJawa "ꦥꦼꦢꦺꦴꦩꦤ" ;
-    ex:arti "pedoman" ;
+    ex:latin "punikakawulasungkan" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀" ;
+    ex:arti "aku sungkan" ;
     ex:munculDalamParagraf ex:Paragraf_28 .
 
 ex:Kata_28_4 a ex:Kata ;
-    ex:latin "hidup" ;
-    ex:aksaraJawa "ꦲꦶꦧꦸꦥ" ;
-    ex:arti "hidup" ;
+    ex:latin "ngawulakathahilang" ;
+    ex:aksaraJawa "ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ" ;
+    ex:arti "banyak yang hilang" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_5 a ex:Kata ;
+    ex:latin "samisaminak​kingratu" ;
+    ex:aksaraJawa "ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ" ;
+    ex:arti "sama-sama dari raja" ;
+    ex:munculDalamParagraf ex:Paragraf_28 .
+
+ex:Kata_28_6 a ex:Kata ;
+    ex:latin "têk​kahan​dikangawula" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈" ;
+    ex:arti "datang untuk mengabdi." ;
     ex:munculDalamParagraf ex:Paragraf_28 .
 
 # Paragraf 29
 ex:Paragraf_29 a ex:Paragraf ;
-    ex:isiLatin "Pelestarian budaya memperkuat identitas bangsa" ;
-    ex:isiAksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦥꦼꦂꦏꦸꦠꦂ ꦲꦶꦢꦺꦤꦠꦶꦱ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Pelestarian budaya memperkuat identitas bangsa" .
+    ex:isiLatin "selanggon​dahangng​lingharis, lungasihapaden​sêdya, selarasaden​wuwus​se, tuwisihanengnêgara, yen​maksihanengcêm​pa, kakang langkungwiranghingsun, aningaliwonghingcêpa" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ꧈ ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ꧈ ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ꧈ ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀ ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈" ;
+    ex:arti "Selanggănda hendak pergi, memberi sayang atau tidak, Selarasa di dalam negeri, kalau masih di Champa, aku lebih prihatin, melihat keadaan orang Champa." .
 
 ex:Kata_29_0 a ex:Kata ;
-    ex:latin "Pelestarian" ;
-    ex:aksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
-    ex:arti "Pelestarian" ;
+    ex:latin "selanggon​dahangng​lingharis" ;
+    ex:aksaraJawa "ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀" ;
+    ex:arti "Selanggănda hendak pergi" ;
     ex:munculDalamParagraf ex:Paragraf_29 .
 
 ex:Kata_29_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "lungasihapaden​sêdya" ;
+    ex:aksaraJawa "ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ" ;
+    ex:arti "memberi sayang atau tidak" ;
     ex:munculDalamParagraf ex:Paragraf_29 .
 
 ex:Kata_29_2 a ex:Kata ;
-    ex:latin "memperkuat" ;
-    ex:aksaraJawa "ꦩꦼꦥꦼꦂꦏꦸꦠꦂ" ;
-    ex:arti "memperkuat" ;
+    ex:latin "selarasaden​wuwus​se" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ" ;
+    ex:arti "Selarasa di dalam negeri" ;
     ex:munculDalamParagraf ex:Paragraf_29 .
 
 ex:Kata_29_3 a ex:Kata ;
-    ex:latin "identitas" ;
-    ex:aksaraJawa "ꦲꦶꦢꦺꦤꦠꦶꦱ" ;
-    ex:arti "identitas" ;
+    ex:latin "tuwisihanengnêgara" ;
+    ex:aksaraJawa "ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ" ;
+    ex:arti "di dalam negeri" ;
     ex:munculDalamParagraf ex:Paragraf_29 .
 
 ex:Kata_29_4 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+    ex:latin "yen​maksihanengcêm​pa" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "kalau masih di Champa" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_5 a ex:Kata ;
+    ex:latin "kakang langkungwiranghingsun" ;
+    ex:aksaraJawa "ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀" ;
+    ex:arti "aku lebih prihatin" ;
+    ex:munculDalamParagraf ex:Paragraf_29 .
+
+ex:Kata_29_6 a ex:Kata ;
+    ex:latin "aningaliwonghingcêpa" ;
+    ex:aksaraJawa "ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈" ;
+    ex:arti "melihat keadaan orang Champa." ;
     ex:munculDalamParagraf ex:Paragraf_29 .
 
 # Paragraf 30
 ex:Paragraf_30 a ex:Paragraf ;
-    ex:isiLatin "Pelestarian lingkungan adalah tanggung jawab bersama" ;
-    ex:isiAksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ ꦭꦶꦁꦒꦸꦔꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦠꦁꦒꦸꦁ ꦫꦪꦧ ꦧꦼꦂꦱ" ;
-    ex:arti "Pelestarian lingkungan adalah tanggung jawab bersama" .
+    ex:isiLatin "selarasyamaturaris, yen​padukanurut​karsa, saparen​tahingwonggêḍae, kakangbotên​kêlam​pahan, wirangtêm​mên​kawula, paḍapaḍanaka​kaingratu, têkapadukakan​dhap​pan" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ꧈ ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ꧈ ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀ ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ꧈ ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀" ;
+    ex:arti "Selarasya berkata, jika paduka setuju, seluruh orang besar, kakang tak dilaksanakan, sangat prihatin aku, sama-sama dari raja, datang paduka ke tempatmu." .
 
 ex:Kata_30_0 a ex:Kata ;
-    ex:latin "Pelestarian" ;
-    ex:aksaraJawa "ꦥꦼꦭꦺꦱ꧀ꦠꦫꦶꦪꦤ" ;
-    ex:arti "Pelestarian" ;
+    ex:latin "selarasyamaturaris" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀" ;
+    ex:arti "Selarasya berkata" ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 ex:Kata_30_1 a ex:Kata ;
-    ex:latin "lingkungan" ;
-    ex:aksaraJawa "ꦭꦶꦁꦒꦸꦔꦤ" ;
-    ex:arti "lingkungan" ;
+    ex:latin "yen​padukanurut​karsa" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ" ;
+    ex:arti "jika paduka setuju" ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 ex:Kata_30_2 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
-    ex:arti "adalah" ;
+    ex:latin "saparen​tahingwonggêḍae" ;
+    ex:aksaraJawa "ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ" ;
+    ex:arti "seluruh orang besar" ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 ex:Kata_30_3 a ex:Kata ;
-    ex:latin "tanggung" ;
-    ex:aksaraJawa "ꦠꦁꦒꦸꦁ" ;
-    ex:arti "tanggung" ;
+    ex:latin "kakangbotên​kêlam​pahan" ;
+    ex:aksaraJawa "ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀" ;
+    ex:arti "kakang tak dilaksanakan" ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 ex:Kata_30_4 a ex:Kata ;
-    ex:latin "jawab" ;
-    ex:aksaraJawa "ꦫꦪꦧ" ;
-    ex:arti "jawab" ;
+    ex:latin "wirangtêm​mên​kawula" ;
+    ex:aksaraJawa "ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ" ;
+    ex:arti "sangat prihatin aku" ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 ex:Kata_30_5 a ex:Kata ;
-    ex:latin "bersama" ;
-    ex:aksaraJawa "ꦧꦼꦂꦱ" ;
-    ex:arti "bersama" ;
+    ex:latin "paḍapaḍanaka​kaingratu" ;
+    ex:aksaraJawa "ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ" ;
+    ex:arti "sama-sama dari raja" ;
+    ex:munculDalamParagraf ex:Paragraf_30 .
+
+ex:Kata_30_6 a ex:Kata ;
+    ex:latin "têkapadukakan​dhap​pan" ;
+    ex:aksaraJawa "ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀" ;
+    ex:arti "datang paduka ke tempatmu." ;
     ex:munculDalamParagraf ex:Paragraf_30 .
 
 # Paragraf 31
 ex:Paragraf_31 a ex:Paragraf ;
-    ex:isiLatin "Pendidikan adalah kunci kemajuan bangsa" ;
-    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦏꦸꦏꦶ ꦏꦼꦩꦲꦸꦁ ꦧꦔ꧀ꦱ" ;
-    ex:arti "Pendidikan adalah kunci kemajuan bangsa" .
+    ex:isiLatin "kawulahanyêgahkingking, ben​jangyen​dhatênghingparan, ḍataêngyangkulapin​tane, padukadados​sanata, selagon​dalingngira, inggihrakakulamahkul, aturerayisam​peyan" ;
+    ex:isiAksaraJawa "꧄ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ꧈ ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀ ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ꧈ ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ꧈ ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀ ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀" ;
+    ex:arti "Aku berpendapat, kalau besok ke tempat, pada Yang aku tuju, paduka menjadi raja, Selagănda disampingku, ya itu saudaraku, aku sampaikan kabar paduka." .
 
 ex:Kata_31_0 a ex:Kata ;
-    ex:latin "Pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
-    ex:arti "Pendidikan" ;
+    ex:latin "kawulahanyêgahkingking" ;
+    ex:aksaraJawa "ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ" ;
+    ex:arti "Aku berpendapat" ;
     ex:munculDalamParagraf ex:Paragraf_31 .
 
 ex:Kata_31_1 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
-    ex:arti "adalah" ;
+    ex:latin "ben​jangyen​dhatênghingparan" ;
+    ex:aksaraJawa "ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀" ;
+    ex:arti "kalau besok ke tempat" ;
     ex:munculDalamParagraf ex:Paragraf_31 .
 
 ex:Kata_31_2 a ex:Kata ;
-    ex:latin "kunci" ;
-    ex:aksaraJawa "ꦏꦸꦏꦶ" ;
-    ex:arti "kunci" ;
+    ex:latin "ḍataêngyangkulapin​tane" ;
+    ex:aksaraJawa "ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ" ;
+    ex:arti "pada Yang aku tuju" ;
     ex:munculDalamParagraf ex:Paragraf_31 .
 
 ex:Kata_31_3 a ex:Kata ;
-    ex:latin "kemajuan" ;
-    ex:aksaraJawa "ꦏꦼꦩꦲꦸꦁ" ;
-    ex:arti "kemajuan" ;
+    ex:latin "padukadados​sanata" ;
+    ex:aksaraJawa "ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ" ;
+    ex:arti "paduka menjadi raja" ;
     ex:munculDalamParagraf ex:Paragraf_31 .
 
 ex:Kata_31_4 a ex:Kata ;
-    ex:latin "bangsa" ;
-    ex:aksaraJawa "ꦧꦔ꧀ꦱ" ;
-    ex:arti "bangsa" ;
+    ex:latin "selagon​dalingngira" ;
+    ex:aksaraJawa "ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ" ;
+    ex:arti "Selagănda disampingku" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_5 a ex:Kata ;
+    ex:latin "inggihrakakulamahkul" ;
+    ex:aksaraJawa "ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀" ;
+    ex:arti "ya itu saudaraku" ;
+    ex:munculDalamParagraf ex:Paragraf_31 .
+
+ex:Kata_31_6 a ex:Kata ;
+    ex:latin "aturerayisam​peyan" ;
+    ex:aksaraJawa "ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀" ;
+    ex:arti "aku sampaikan kabar paduka." ;
     ex:munculDalamParagraf ex:Paragraf_31 .
 
 # Paragraf 32
 ex:Paragraf_32 a ex:Paragraf ;
-    ex:isiLatin "Teknologi berkembang pesat di era digital" ;
-    ex:isiAksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦧꦼꦂꦏꦭꦁꦒ ꦥꦺꦱꦠ ꦢꦶ ꦲꦺꦫ ꦢꦶꦒꦶꦠꦭ꧀" ;
-    ex:arti "Teknologi berkembang pesat di era digital" .
+    ex:isiLatin "selasyarahangng​lingharis, yen​mangkanakarêppira, _iyakapriyebêcikke, lungahajakawênangngan, yayideningwongcêm​pa, selarasanêm​bahmatur, mangkeminggahingbahitra" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ꧈ ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ꧈ ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀ ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ꧈ ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ꧈ ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈" ;
+    ex:arti "Selasyara berkata, kalau begitu keinginanmu, bagaimana yang baik, pergilah jangan terlena, oleh orang Champa, Selarasa mohon, nanti naik ke baitra." .
 
 ex:Kata_32_0 a ex:Kata ;
-    ex:latin "Teknologi" ;
-    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
-    ex:arti "Teknologi" ;
+    ex:latin "selasyarahangng​lingharis" ;
+    ex:aksaraJawa "ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀" ;
+    ex:arti "Selasyara berkata" ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 ex:Kata_32_1 a ex:Kata ;
-    ex:latin "berkembang" ;
-    ex:aksaraJawa "ꦧꦼꦂꦏꦭꦁꦒ" ;
-    ex:arti "berkembang" ;
+    ex:latin "yen​mangkanakarêppira" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ" ;
+    ex:arti "kalau begitu keinginanmu" ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 ex:Kata_32_2 a ex:Kata ;
-    ex:latin "pesat" ;
-    ex:aksaraJawa "ꦥꦺꦱꦠ" ;
-    ex:arti "pesat" ;
+    ex:latin "_iyakapriyebêcikke" ;
+    ex:aksaraJawa "ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ" ;
+    ex:arti "bagaimana yang baik" ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 ex:Kata_32_3 a ex:Kata ;
-    ex:latin "di" ;
-    ex:aksaraJawa "ꦢꦶ" ;
-    ex:arti "di" ;
+    ex:latin "lungahajakawênangngan" ;
+    ex:aksaraJawa "ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀" ;
+    ex:arti "pergilah jangan terlena" ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 ex:Kata_32_4 a ex:Kata ;
-    ex:latin "era" ;
-    ex:aksaraJawa "ꦲꦺꦫ" ;
-    ex:arti "era" ;
+    ex:latin "yayideningwongcêm​pa" ;
+    ex:aksaraJawa "ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "oleh orang Champa" ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 ex:Kata_32_5 a ex:Kata ;
-    ex:latin "digital" ;
-    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ꧀" ;
-    ex:arti "digital" ;
+    ex:latin "selarasanêm​bahmatur" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ" ;
+    ex:arti "Selarasa mohon" ;
+    ex:munculDalamParagraf ex:Paragraf_32 .
+
+ex:Kata_32_6 a ex:Kata ;
+    ex:latin "mangkeminggahingbahitra" ;
+    ex:aksaraJawa "ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈" ;
+    ex:arti "nanti naik ke baitra." ;
     ex:munculDalamParagraf ex:Paragraf_32 .
 
 # Paragraf 33
 ex:Paragraf_33 a ex:Paragraf ;
-    ex:isiLatin "Kesehatan mental perlu mendapat perhatian serius" ;
-    ex:isiAksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ ꦩꦼꦤ꧀ꦠꦭ ꦥꦼꦭꦸ ꦩꦼꦤ꧀ꦒꦢꦠ꧀ ꦥꦠꦸꦫꦤ ꦱꦺꦫꦶꦱ" ;
-    ex:arti "Kesehatan mental perlu mendapat perhatian serius" .
+    ex:isiLatin "kesahmangkedalu_ikisupayahajanawikan, samyamin​tarkatigane, punangwonghabahurêksa, datan​won​tên​uningnga, kesahwan​citêngngahdalu, mringpasisirkangsinadya" ;
+    ex:isiAksaraJawa "꧄ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀ ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ꧈ ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ꧈ ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ꧈ ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ꧈ ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ꧈" ;
+    ex:arti "Pergilah malam ini, agar tidak ketahuan, mereka menunggu ketiga, para pelindung, tak ada yang tahu, pergilah tengah malam, ke pesisir yang disiapkan." .
 
 ex:Kata_33_0 a ex:Kata ;
-    ex:latin "Kesehatan" ;
-    ex:aksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ" ;
-    ex:arti "Kesehatan" ;
+    ex:latin "kesahmangkedalu_ikisupayahajanawikan" ;
+    ex:aksaraJawa "ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀" ;
+    ex:arti "Pergilah malam ini, agar tidak ketahuan" ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 ex:Kata_33_1 a ex:Kata ;
-    ex:latin "mental" ;
-    ex:aksaraJawa "ꦩꦼꦤ꧀ꦠꦭ" ;
-    ex:arti "mental" ;
+    ex:latin "samyamin​tarkatigane" ;
+    ex:aksaraJawa "ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ" ;
+    ex:arti "mereka menunggu ketiga" ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 ex:Kata_33_2 a ex:Kata ;
-    ex:latin "perlu" ;
-    ex:aksaraJawa "ꦥꦼꦭꦸ" ;
-    ex:arti "perlu" ;
+    ex:latin "punangwonghabahurêksa" ;
+    ex:aksaraJawa "ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ" ;
+    ex:arti "para pelindung" ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 ex:Kata_33_3 a ex:Kata ;
-    ex:latin "mendapat" ;
-    ex:aksaraJawa "ꦩꦼꦤ꧀ꦒꦢꦠ꧀" ;
-    ex:arti "mendapat" ;
+    ex:latin "datan​won​tên​uningnga" ;
+    ex:aksaraJawa "ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ" ;
+    ex:arti "tak ada yang tahu" ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 ex:Kata_33_4 a ex:Kata ;
-    ex:latin "perhatian" ;
-    ex:aksaraJawa "ꦥꦠꦸꦫꦤ" ;
-    ex:arti "perhatian" ;
+    ex:latin "kesahwan​citêngngahdalu" ;
+    ex:aksaraJawa "ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ" ;
+    ex:arti "pergilah tengah malam" ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 ex:Kata_33_5 a ex:Kata ;
-    ex:latin "serius" ;
-    ex:aksaraJawa "ꦱꦺꦫꦶꦱ" ;
-    ex:arti "serius" ;
+    ex:latin "mringpasisirkangsinadya" ;
+    ex:aksaraJawa "ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ" ;
+    ex:arti "ke pesisir yang disiapkan." ;
     ex:munculDalamParagraf ex:Paragraf_33 .
 
 # Paragraf 34
 ex:Paragraf_34 a ex:Paragraf ;
-    ex:isiLatin "Ekonomi digital semakin berkembang pesat" ;
-    ex:isiAksaraJawa "ꦲꦺꦏꦺꦴꦤꦺꦩꦶ ꦢꦶꦒꦶꦠꦭ ꦱꦼꦩꦶꦏꦤ ꦧꦼꦂꦏꦭꦁꦒ ꦥꦺꦱꦠ" ;
-    ex:arti "Ekonomi digital semakin berkembang pesat" .
+    ex:isiLatin "saprap​tane_ingpasisir, akathahpunangbahitra, jukungkun​thinglan​kecine, pêran​tiyen​ngam​bil​ulam, jajarsêkongmayangngan, atem​bak​anenghinglahut, arsakesahamisaya" ;
+    ex:isiAksaraJawa "꧄ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ꧈ ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ꧈ ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ꧈ ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀ ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀ ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀ ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈" ;
+    ex:arti "Di pesisir, banyak yang menjaga baitra, perahu kuning dan kecil, alat menangkap ikan, berjajar sebaris, menembak di laut, hendak pergi menangkap ikan." .
 
 ex:Kata_34_0 a ex:Kata ;
-    ex:latin "Ekonomi" ;
-    ex:aksaraJawa "ꦲꦺꦏꦺꦴꦤꦺꦩꦶ" ;
-    ex:arti "Ekonomi" ;
+    ex:latin "saprap​tane_ingpasisir" ;
+    ex:aksaraJawa "ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ" ;
+    ex:arti "Di pesisir" ;
     ex:munculDalamParagraf ex:Paragraf_34 .
 
 ex:Kata_34_1 a ex:Kata ;
-    ex:latin "digital" ;
-    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ" ;
-    ex:arti "digital" ;
+    ex:latin "akathahpunangbahitra" ;
+    ex:aksaraJawa "ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ" ;
+    ex:arti "banyak yang menjaga baitra" ;
     ex:munculDalamParagraf ex:Paragraf_34 .
 
 ex:Kata_34_2 a ex:Kata ;
-    ex:latin "semakin" ;
-    ex:aksaraJawa "ꦱꦼꦩꦶꦏꦤ" ;
-    ex:arti "semakin" ;
+    ex:latin "jukungkun​thinglan​kecine" ;
+    ex:aksaraJawa "ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ" ;
+    ex:arti "perahu kuning dan kecil" ;
     ex:munculDalamParagraf ex:Paragraf_34 .
 
 ex:Kata_34_3 a ex:Kata ;
-    ex:latin "berkembang" ;
-    ex:aksaraJawa "ꦧꦼꦂꦏꦭꦁꦒ" ;
-    ex:arti "berkembang" ;
+    ex:latin "pêran​tiyen​ngam​bil​ulam" ;
+    ex:aksaraJawa "ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀" ;
+    ex:arti "alat menangkap ikan" ;
     ex:munculDalamParagraf ex:Paragraf_34 .
 
 ex:Kata_34_4 a ex:Kata ;
-    ex:latin "pesat" ;
-    ex:aksaraJawa "ꦥꦺꦱꦠ" ;
-    ex:arti "pesat" ;
+    ex:latin "jajarsêkongmayangngan" ;
+    ex:aksaraJawa "ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀" ;
+    ex:arti "berjejer sebaris" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_5 a ex:Kata ;
+    ex:latin "atem​bak​anenghinglahut" ;
+    ex:aksaraJawa "ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀" ;
+    ex:arti "menembak di laut" ;
+    ex:munculDalamParagraf ex:Paragraf_34 .
+
+ex:Kata_34_6 a ex:Kata ;
+    ex:latin "arsakesahamisaya" ;
+    ex:aksaraJawa "ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈" ;
+    ex:arti "hendak pergi menangkap ikan." ;
     ex:munculDalamParagraf ex:Paragraf_34 .
 
 # Paragraf 35
 ex:Paragraf_35 a ex:Paragraf ;
-    ex:isiLatin "Seni budaya memperkaya kehidupan manusia" ;
-    ex:isiAksaraJawa "ꦱꦼꦤꦶ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦥꦼꦂꦏꦾ ꦭꦶꦧꦸꦩꦤ ꦩꦤꦸꦱ" ;
-    ex:arti "Seni budaya memperkaya kehidupan manusia" .
+    ex:isiLatin "sadayapan​dipun​pilih, pêrahukangnengpinggiran, won​tên​pamisayan​ningwong, samak​taḍayaunglan​layar, kamun​dhinipun​pisan, adan​tinitiyan​sampun, wus​ nêngngahḍataêngsamodra" ;
+    ex:isiAksaraJawa "꧄ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ꧈ ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀ ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ꧈ ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ꧈ ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀ ꦲꦢꦤ꧀ꦠꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈" ;
+    ex:arti "Semua dipilih, perahu yang di pinggir, ada pemisah orang, bersama dayung dan layar, sudah dituntun, menunggang sudah, sudah menuju samudra." .
 
 ex:Kata_35_0 a ex:Kata ;
-    ex:latin "Seni" ;
-    ex:aksaraJawa "ꦱꦼꦤꦶ" ;
-    ex:arti "Seni" ;
+    ex:latin "sadayapan​dipun​pilih" ;
+    ex:aksaraJawa "ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ" ;
+    ex:arti "Semua dipilih" ;
     ex:munculDalamParagraf ex:Paragraf_35 .
 
 ex:Kata_35_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "pêrahukangnengpinggiran" ;
+    ex:aksaraJawa "ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀" ;
+    ex:arti "perahu yang di pinggir" ;
     ex:munculDalamParagraf ex:Paragraf_35 .
 
 ex:Kata_35_2 a ex:Kata ;
-    ex:latin "memperkaya" ;
-    ex:aksaraJawa "ꦩꦼꦥꦼꦂꦏꦾ" ;
-    ex:arti "memperkaya" ;
+    ex:latin "won​tên​pamisayan​ningwong" ;
+    ex:aksaraJawa "ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ" ;
+    ex:arti "ada pemisah orang" ;
     ex:munculDalamParagraf ex:Paragraf_35 .
 
 ex:Kata_35_3 a ex:Kata ;
-    ex:latin "kehidupan" ;
-    ex:aksaraJawa "ꦭꦶꦧꦸꦩꦤ" ;
-    ex:arti "kehidupan" ;
+    ex:latin "samak​taḍayaunglan​layar" ;
+    ex:aksaraJawa "ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ" ;
+    ex:arti "bersama dayung dan layar" ;
     ex:munculDalamParagraf ex:Paragraf_35 .
 
 ex:Kata_35_4 a ex:Kata ;
-    ex:latin "manusia" ;
-    ex:aksaraJawa "ꦩꦤꦸꦱ" ;
-    ex:arti "manusia" ;
+    ex:latin "kamun​dhinipun​pisan" ;
+    ex:aksaraJawa "ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀" ;
+    ex:arti "sudah dituntun" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_5 a ex:Kata ;
+    ex:latin "adan​tinitiyan​sampun" ;
+    ex:aksaraJawa "ꦲꦢꦤ꧀ꦠꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀" ;
+    ex:arti "menunggang sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_35 .
+
+ex:Kata_35_6 a ex:Kata ;
+    ex:latin "wus​ nêngngahḍataêngsamodra" ;
+    ex:aksaraJawa "ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈" ;
+    ex:arti "sudah menuju samudra." ;
     ex:munculDalamParagraf ex:Paragraf_35 .
 
 # Paragraf 36
 ex:Paragraf_36 a ex:Paragraf ;
-    ex:isiLatin "Olahraga penting untuk kesehatan tubuh" ;
-    ex:isiAksaraJawa "ꦎꦭꦿꦲꦸꦒ ꦥꦼꦤꦠꦶꦁ ꦲꦸꦤꦠꦸꦏ ꦏꦼꦱꦺꦲꦠꦤ ꦠꦸꦧꦸꦃ" ;
-    ex:arti "Olahraga penting untuk kesehatan tubuh" .
+    ex:isiLatin "ingwaktuneajênglalis, paraputrahingngaturan, miwahparawargakabeh, samyakêmpêlhingngajêngngan, ingkangwongsasêdaya, pêpêkalinggihingngayun, putrasakingpêriprap​ta" ;
+    ex:isiAksaraJawa "꧄ꦲꦶꦁꦮꦏ꧀ꦡꦸꦤꦺꦲꦗꦼꦁꦭꦭꦶꦱ꧀꧈ꦥꦫꦥꦸꦠꦿꦲꦶꦁꦔꦠꦸꦫꦤ꧀ ꦩꦶꦮꦃꦥꦫꦮꦂꦒꦏꦧꦺꦃ꧈ ꦱꦩꦾꦏꦼꦩ꧀ꦥꦼꦭ꧀ꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀ ꦲꦶꦁꦏꦁꦮꦺꦴꦁꦱꦱꦼꦢꦪ꧈ ꦥꦼꦥꦼꦏ꧀ꦲꦭꦶꦁꦒꦶꦃꦲꦶꦁꦔꦪꦸꦤ꧀ ꦥꦸꦠꦿꦱꦏꦶꦁꦥꦼꦂꦫꦶꦥꦿꦥ꧀ꦠ꧈" ;
+    ex:arti "Pada waktu yang akan datang, para putra diatur, dan seluruh rakyat, semua dikumpulkan, yang berkuasa semuanya, duduk mengayun, putra dari leluhur turun." .
 
 ex:Kata_36_0 a ex:Kata ;
-    ex:latin "Olahraga" ;
-    ex:aksaraJawa "ꦎꦭꦿꦲꦸꦒ" ;
-    ex:arti "Olahraga" ;
+    ex:latin "ingwaktuneajênglalis" ;
+    ex:aksaraJawa "ꦲꦶꦁꦮꦏ꧀ꦡꦸꦤꦺꦲꦗꦼꦁꦭꦭꦶꦱ꧀" ;
+    ex:arti "Pada waktu yang akan datang" ;
     ex:munculDalamParagraf ex:Paragraf_36 .
 
 ex:Kata_36_1 a ex:Kata ;
-    ex:latin "penting" ;
-    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
-    ex:arti "penting" ;
+    ex:latin "paraputrahingngaturan" ;
+    ex:aksaraJawa "ꦥꦫꦥꦸꦠꦿꦲꦶꦁꦔꦠꦸꦫꦤ꧀" ;
+    ex:arti "para putra diatur" ;
     ex:munculDalamParagraf ex:Paragraf_36 .
 
 ex:Kata_36_2 a ex:Kata ;
-    ex:latin "untuk" ;
-    ex:aksaraJawa "ꦲꦸꦤꦠꦸꦏ" ;
-    ex:arti "untuk" ;
+    ex:latin "miwahparawargakabeh" ;
+    ex:aksaraJawa "ꦩꦶꦮꦃꦥꦫꦮꦂꦒꦏꦧꦺꦃ" ;
+    ex:arti "dan seluruh rakyat" ;
     ex:munculDalamParagraf ex:Paragraf_36 .
 
 ex:Kata_36_3 a ex:Kata ;
-    ex:latin "kesehatan" ;
-    ex:aksaraJawa "ꦏꦼꦱꦺꦲꦠꦤ" ;
-    ex:arti "kesehatan" ;
+    ex:latin "samyakêmpêlhingngajêngngan" ;
+    ex:aksaraJawa "ꦱꦩꦾꦏꦼꦩ꧀ꦥꦼꦭ꧀ꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀" ;
+    ex:arti "semua dikumpulkan" ;
     ex:munculDalamParagraf ex:Paragraf_36 .
 
 ex:Kata_36_4 a ex:Kata ;
-    ex:latin "tubuh" ;
-    ex:aksaraJawa "ꦠꦸꦧꦸꦃ" ;
-    ex:arti "tubuh" ;
+    ex:latin "ingkangwongsasêdaya" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦮꦺꦴꦁꦱꦱꦼꦢꦪ" ;
+    ex:arti "yang berkuasa semuanya" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_5 a ex:Kata ;
+    ex:latin "pêpêkalinggihingngayun" ;
+    ex:aksaraJawa "ꦥꦼꦥꦼꦏ꧀ꦲꦭꦶꦁꦒꦶꦃꦲꦶꦁꦔꦪꦸꦤ꧀" ;
+    ex:arti "duduk mengayun" ;
+    ex:munculDalamParagraf ex:Paragraf_36 .
+
+ex:Kata_36_6 a ex:Kata ;
+    ex:latin "putrasakingpêriprap​ta" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦱꦏꦶꦁꦥꦼꦂꦫꦶꦥꦿꦥ꧀ꦠ꧈" ;
+    ex:arti "putra dari leluhur turun." ;
     ex:munculDalamParagraf ex:Paragraf_36 .
 
 # Paragraf 37
 ex:Paragraf_37 a ex:Paragraf ;
-    ex:isiLatin "Sumber daya alam harus dilestarikan" ;
-    ex:isiAksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ ꦢꦪ ꦲꦭꦩ ꦲꦲꦸꦱ ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
-    ex:arti "Sumber daya alam harus dilestarikan" .
+    ex:isiLatin "gangsalsêdayakangsiwi, eyangpadukasurga, patut​tanaingpêriangger, amungkangsakingmanusya, sawargiramatuwan, punikakapêrnahsêpuh, sêdayapêrnahtaruna" ;
+    ex:isiAksaraJawa "꧄ꦒꦁꦱꦭ꧀ꦱꦼꦢꦪꦏꦁꦱꦶꦮꦶ꧈ ꦲꦺꦪꦾꦁꦥꦢꦸꦏꦱꦸꦂꦒ꧈ ꦥꦠꦸꦠ꧀ꦡꦤ꧀ꦲꦶꦁꦥꦼꦂꦫꦶꦲꦁꦒꦺꦂ꧈ ꦲꦩꦸꦁꦏꦁꦱꦏꦶꦁꦩꦤꦸꦱꦾ꧈ ꦱꦮꦂꦒꦶꦫꦩꦠꦸꦮꦤ꧀ ꦥꦸꦤꦶꦏꦏꦥꦼꦂꦤꦃꦱꦼꦥꦸꦃ꧈ ꦱꦼꦢꦪꦥꦼꦂꦤꦃꦠꦫꦸꦤ꧈" ;
+    ex:arti "Lima semuanya yang dimiliki, leluhur surga, sesuai masa turun, hanya yang dari manusia, bersama ayah leluhur, itulah para leluhur, semua pernah muda." .
 
 ex:Kata_37_0 a ex:Kata ;
-    ex:latin "Sumber" ;
-    ex:aksaraJawa "ꦱꦸꦩ꧀ꦧꦼꦂ" ;
-    ex:arti "Sumber" ;
+    ex:latin "gangsalsêdayakangsiwi" ;
+    ex:aksaraJawa "ꦒꦁꦱꦭ꧀ꦱꦼꦢꦪꦏꦁꦱꦶꦮꦶ" ;
+    ex:arti "Lima semuanya yang dimiliki" ;
     ex:munculDalamParagraf ex:Paragraf_37 .
 
 ex:Kata_37_1 a ex:Kata ;
-    ex:latin "daya" ;
-    ex:aksaraJawa "ꦢꦪ" ;
-    ex:arti "daya" ;
+    ex:latin "eyangpadukasurga" ;
+    ex:aksaraJawa "ꦲꦺꦪꦾꦁꦥꦢꦸꦏꦱꦸꦂꦒ" ;
+    ex:arti "leluhur surga" ;
     ex:munculDalamParagraf ex:Paragraf_37 .
 
 ex:Kata_37_2 a ex:Kata ;
-    ex:latin "alam" ;
-    ex:aksaraJawa "ꦲꦭꦩ" ;
-    ex:arti "alam" ;
+    ex:latin "patut​tanaingpêriangger" ;
+    ex:aksaraJawa "ꦥꦠꦸꦠ꧀ꦡꦤ꧀ꦲꦶꦁꦥꦼꦂꦫꦶꦲꦁꦒꦺꦂ" ;
+    ex:arti "sesuai masa turun" ;
     ex:munculDalamParagraf ex:Paragraf_37 .
 
 ex:Kata_37_3 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
+    ex:latin "amungkangsakingmanusya" ;
+    ex:aksaraJawa "ꦲꦩꦸꦁꦏꦁꦱꦏꦶꦁꦩꦤꦸꦱꦾ" ;
+    ex:arti "hanya yang dari manusia" ;
     ex:munculDalamParagraf ex:Paragraf_37 .
 
 ex:Kata_37_4 a ex:Kata ;
-    ex:latin "dilestarikan" ;
-    ex:aksaraJawa "ꦢꦶꦭꦺꦱ꧀ꦠꦫꦶꦏꦤ" ;
-    ex:arti "dilestarikan" ;
+    ex:latin "sawargiramatuwan" ;
+    ex:aksaraJawa "ꦱꦮꦂꦒꦶꦫꦩꦠꦸꦮꦤ꧀" ;
+    ex:arti "bersama ayah leluhur" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_5 a ex:Kata ;
+    ex:latin "punikakapêrnahsêpuh" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏꦏꦥꦼꦂꦤꦃꦱꦼꦥꦸꦃ" ;
+    ex:arti "itulah para leluhur" ;
+    ex:munculDalamParagraf ex:Paragraf_37 .
+
+ex:Kata_37_6 a ex:Kata ;
+    ex:latin "sêdayapêrnahtaruna" ;
+    ex:aksaraJawa "ꦱꦼꦢꦪꦥꦼꦂꦤꦃꦠꦫꦸꦤ꧈" ;
+    ex:arti "semua pernah muda." ;
     ex:munculDalamParagraf ex:Paragraf_37 .
 
 # Paragraf 38
 ex:Paragraf_38 a ex:Paragraf ;
-    ex:isiLatin "Hutan adalah paru-paru dunia" ;
-    ex:isiAksaraJawa "ꦲꦸꦠꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦥꦫꦸ-ꦥꦫꦸ ꦢꦸꦤꦶꦪ" ;
-    ex:arti "Hutan adalah paru-paru dunia" .
+    ex:isiLatin "pêpêkkang​putraalinggih, iyatuwan​angan​dika, ḍataêngputrasêdayane, kabehanakkingsunpaḍa, ajahanapaitênah, den​natutsanak​sadulur, bisuk​ingsapungkurhingwang" ;
+    ex:isiAksaraJawa "꧄ꦥꦼꦥꦼꦏ꧀ꦏꦁ​ꦥꦸꦠꦿꦲꦭꦶꦁꦒꦶꦃ꧈ ꦲꦶꦪꦠꦸꦮꦤ꧀ꦲꦔꦤ꧀ꦢꦶꦏ꧈ ꦣꦠꦼꦁꦥꦸꦠꦿꦱꦼꦢꦪꦤꦺ꧈ ꦏꦧꦺꦃꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦥꦣ꧈ ꦲꦗꦲꦤꦥꦶꦠꦼꦤꦃ꧈ ꦢꦺꦤ꧀ꦤꦠꦸꦠ꧀ꦱꦤꦏ꧀ꦱꦢꦸꦭꦸꦂ ꦧꦶꦱꦸꦏ꧀​ꦲꦶꦁꦱꦥꦸꦁꦏꦸꦂꦲꦶꦁꦮꦁ꧈" ;
+    ex:arti "Anak-anak semua duduk, begitu ayah berkata, pada semua putranya, jangan ada pertengkaran, agar persaudaraan tetap, jangan jadi musuh saudara, besok jadi dosa." .
 
 ex:Kata_38_0 a ex:Kata ;
-    ex:latin "Hutan" ;
-    ex:aksaraJawa "ꦲꦸꦠꦤ" ;
-    ex:arti "Hutan" ;
+    ex:latin "pêpêkkang​putraalinggih" ;
+    ex:aksaraJawa "ꦥꦼꦥꦼꦏ꧀ꦏꦁ​ꦥꦸꦠꦿꦲꦭꦶꦁꦒꦶꦃ" ;
+    ex:arti "Anak-anak semua duduk" ;
     ex:munculDalamParagraf ex:Paragraf_38 .
 
 ex:Kata_38_1 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
-    ex:arti "adalah" ;
+    ex:latin "iyatuwan​angan​dika" ;
+    ex:aksaraJawa "ꦲꦶꦪꦠꦸꦮꦤ꧀ꦲꦔꦤ꧀ꦢꦶꦏ" ;
+    ex:arti "begitu ayah berkata" ;
     ex:munculDalamParagraf ex:Paragraf_38 .
 
 ex:Kata_38_2 a ex:Kata ;
-    ex:latin "paru-paru" ;
-    ex:aksaraJawa "ꦥꦫꦸ-ꦥꦫꦸ" ;
-    ex:arti "paru-paru" ;
+    ex:latin "ḍataêngputrasêdayane" ;
+    ex:aksaraJawa "ꦣꦠꦼꦁꦥꦸꦠꦿꦱꦼꦢꦪꦤꦺ" ;
+    ex:arti "pada semua putranya" ;
     ex:munculDalamParagraf ex:Paragraf_38 .
 
 ex:Kata_38_3 a ex:Kata ;
-    ex:latin "dunia" ;
-    ex:aksaraJawa "ꦢꦸꦤꦶꦪ" ;
-    ex:arti "dunia" ;
+    ex:latin "kabehanakkingsunpaḍa" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦥꦣ" ;
+    ex:arti "jangan ada pertengkaran" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_4 a ex:Kata ;
+    ex:latin "ajahanapaitênah" ;
+    ex:aksaraJawa "ꦲꦗꦲꦤꦥꦶꦠꦼꦤꦃ" ;
+    ex:arti "jangan ada pertengkaran" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_5 a ex:Kata ;
+    ex:latin "den​natutsanak​sadulur" ;
+    ex:aksaraJawa "ꦢꦺꦤ꧀ꦤꦠꦸꦠ꧀ꦱꦤꦏ꧀ꦱꦢꦸꦭꦸꦂ" ;
+    ex:arti "agar persaudaraan tetap" ;
+    ex:munculDalamParagraf ex:Paragraf_38 .
+
+ex:Kata_38_6 a ex:Kata ;
+    ex:latin "bisuk​ingsapungkurhingwang" ;
+    ex:aksaraJawa "ꦧꦶꦱꦸꦏ꧀​ꦲꦶꦁꦱꦥꦸꦁꦏꦸꦂꦲꦶꦁꦮꦁ꧈" ;
+    ex:arti "besok jadi dosa." ;
     ex:munculDalamParagraf ex:Paragraf_38 .
 
 # Paragraf 39
 ex:Paragraf_39 a ex:Paragraf ;
-    ex:isiLatin "Energi terbarukan adalah masa depan" ;
-    ex:isiAksaraJawa "ꦲꦼꦤꦼꦫꦗꦶ ꦠꦼꦂꦧꦫꦸꦤꦤ ꦲꦭꦺꦴꦲꦶꦠꦤ ꦩꦱ ꦢꦺꦥꦤ" ;
-    ex:arti "Energi terbarukan adalah masa depan" .
+    ex:isiLatin "angnginghanakkingsun​siji, bisuk​jumênêngnalen​dra, nêgarahikikaduwe, amunghanakkingsunwongsa, kabehpaḍahataut​ta, panawuspatut​lawan​ukum, sirahajanalênggana" ;
+    ex:isiAksaraJawa "꧄ꦲꦁꦔꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦱꦶꦗꦶ꧈ ꦧꦶꦱꦸꦏ꧀ꦗꦸꦩꦼꦤꦼꦤ꧀ꦤꦭꦺꦤ꧀ꦢꦿ꧈ ꦤꦼꦒꦫꦲꦶꦏꦶꦏꦢꦸꦮꦺ꧈ ꦲꦩꦸꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦮꦺꦴꦁꦱ꧈ ꦏꦧꦺꦃꦥꦣꦲꦠꦸꦠ꧀ꦡ꧈ ꦥꦤ꧀ꦮꦸꦱ꧀ꦥꦠꦸꦠ꧀ꦭꦮꦤ꧀ꦲꦸꦏꦸꦩ꧀ ꦱꦶꦫꦲꦗꦤꦊꦁꦒꦤ꧈" ;
+    ex:arti "Tapi anakku satu, yang menjadi bintang terang, negeri ini punya dua, hanya anakku yang berkuasa, semua bertengkar, sudah pantas dengan aturan, jangan sampai berperang." .
 
 ex:Kata_39_0 a ex:Kata ;
-    ex:latin "Energi" ;
-    ex:aksaraJawa "ꦲꦼꦤꦼꦫꦗꦶ" ;
-    ex:arti "Energi" ;
+    ex:latin "angnginghanakkingsun​siji" ;
+    ex:aksaraJawa "ꦲꦁꦔꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦱꦶꦗꦶ" ;
+    ex:arti "Tapi anakku satu" ;
     ex:munculDalamParagraf ex:Paragraf_39 .
 
 ex:Kata_39_1 a ex:Kata ;
-    ex:latin "terbarukan" ;
-    ex:aksaraJawa "ꦠꦼꦂꦧꦫꦸꦤꦤ" ;
-    ex:arti "terbarukan" ;
+    ex:latin "bisuk​jumênêngnalen​dra" ;
+    ex:aksaraJawa "ꦧꦶꦱꦸꦏ꧀ꦗꦸꦩꦼꦤꦼꦤ꧀ꦤꦭꦺꦤ꧀ꦢꦿ" ;
+    ex:arti "yang menjadi bintang terang" ;
     ex:munculDalamParagraf ex:Paragraf_39 .
 
 ex:Kata_39_2 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦭꦺꦴꦲꦶꦠꦤ" ;
-    ex:arti "adalah" ;
+    ex:latin "nêgarahikikaduwe" ;
+    ex:aksaraJawa "ꦤꦼꦒꦫꦲꦶꦏꦶꦏꦢꦸꦮꦺ" ;
+    ex:arti "negeri ini punya dua" ;
     ex:munculDalamParagraf ex:Paragraf_39 .
 
 ex:Kata_39_3 a ex:Kata ;
-    ex:latin "masa" ;
-    ex:aksaraJawa "ꦩꦱ" ;
-    ex:arti "masa" ;
+    ex:latin "amunghanakkingsunwongsa" ;
+    ex:aksaraJawa "ꦲꦩꦸꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦮꦺꦴꦁꦱ" ;
+    ex:arti "hanya anakku yang berkuasa" ;
     ex:munculDalamParagraf ex:Paragraf_39 .
 
 ex:Kata_39_4 a ex:Kata ;
-    ex:latin "depan" ;
-    ex:aksaraJawa "ꦢꦺꦥꦤ" ;
-    ex:arti "depan" ;
+    ex:latin "kabehpaḍahataut​ta" ;
+    ex:aksaraJawa "ꦏꦧꦺꦃꦥꦣꦲꦠꦸꦠ꧀ꦡ" ;
+    ex:arti "semua bertengkar" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_5 a ex:Kata ;
+    ex:latin "panawuspatut​lawan​ukum" ;
+    ex:aksaraJawa "ꦥꦤ꧀ꦮꦸꦱ꧀ꦥꦠꦸꦠ꧀ꦭꦮꦤ꧀ꦲꦸꦏꦸꦩ꧀" ;
+    ex:arti "sudah pantas dengan aturan" ;
+    ex:munculDalamParagraf ex:Paragraf_39 .
+
+ex:Kata_39_6 a ex:Kata ;
+    ex:latin "sirahajanalênggana" ;
+    ex:aksaraJawa "ꦱꦶꦫꦲꦗꦤꦊꦁꦒꦤ꧈" ;
+    ex:arti "jangan sampai berperang." ;
     ex:munculDalamParagraf ex:Paragraf_39 .
 
 # Paragraf 40
 ex:Paragraf_40 a ex:Paragraf ;
-    ex:isiLatin "Inovasi mendorong kemajuan teknologi" ;
-    ex:isiAksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ ꦩꦢꦺꦴꦫꦸꦁ ꦏꦼꦩꦲꦸꦁ ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
-    ex:arti "Inovasi mendorong kemajuan teknologi" .
+    ex:isiLatin "putrasêdayawot​sari, kawulasêdyasumongga, ingkangjêngramakarsane, ḍataêngwongsahingkangwêrdah, pan​dunungnganesêm​bah, kangpatut​jumênêngratu, amêngkuwahingnêgara" ;
+    ex:isiAksaraJawa "꧄ꦥꦸꦠꦿꦱꦼꦢꦪꦮꦺꦴꦠ꧀ꦱꦫꦶ꧈ꦏꦮꦸꦭꦱꦼꦢꦾꦱꦸꦩꦺꦴꦁꦒ꧈ ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦩꦏꦂꦱꦤꦺ꧈ ꦣꦠꦼꦁꦮꦺꦴꦁꦱꦲꦶꦁꦏꦁꦮꦼꦂꦢꦃ꧈ ꦥꦤ꧀ꦢꦸꦤꦸꦁꦔꦤꦺꦱꦼꦩ꧀ꦧꦃ꧈ ꦏꦁꦥꦠꦸꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦫꦠꦸ꧈ ꦲꦩꦼꦁꦏꦸꦮꦲꦶꦁꦤꦼꦒꦫ꧈" ;
+    ex:arti "Anak-anak sudah dewasa, aku siap mendukung, pada keinginan ayah, kepada keturunan yang baik, tempatnya mulia, yang layak jadi raja, menjadi pemimpin negara." .
 
 ex:Kata_40_0 a ex:Kata ;
-    ex:latin "Inovasi" ;
-    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
-    ex:arti "Inovasi" ;
+    ex:latin "putrasêdayawot​sari" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦱꦼꦢꦪꦮꦺꦴꦠ꧀ꦱꦫꦶ" ;
+    ex:arti "Anak-anak sudah dewasa" ;
     ex:munculDalamParagraf ex:Paragraf_40 .
 
 ex:Kata_40_1 a ex:Kata ;
-    ex:latin "mendorong" ;
-    ex:aksaraJawa "ꦩꦢꦺꦴꦫꦸꦁ" ;
-    ex:arti "mendorong" ;
+    ex:latin "kawulasêdyasumongga" ;
+    ex:aksaraJawa "ꦏꦮꦸꦭꦱꦼꦢꦾꦱꦸꦩꦺꦴꦁꦒ" ;
+    ex:arti "aku siap mendukung" ;
     ex:munculDalamParagraf ex:Paragraf_40 .
 
 ex:Kata_40_2 a ex:Kata ;
-    ex:latin "kemajuan" ;
-    ex:aksaraJawa "ꦏꦼꦩꦲꦸꦁ" ;
-    ex:arti "kemajuan" ;
+    ex:latin "ingkangjêngramakarsane" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦩꦏꦂꦱꦤꦺ" ;
+    ex:arti "pada keinginan ayah" ;
     ex:munculDalamParagraf ex:Paragraf_40 .
 
 ex:Kata_40_3 a ex:Kata ;
-    ex:latin "teknologi" ;
-    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
-    ex:arti "teknologi" ;
+    ex:latin "ḍataêngwongsahingkangwêrdah" ;
+    ex:aksaraJawa "ꦣꦠꦼꦁꦮꦺꦴꦁꦱꦲꦶꦁꦏꦁꦮꦼꦂꦢꦃ" ;
+    ex:arti "kepada keturunan yang baik" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_4 a ex:Kata ;
+    ex:latin "pan​dunungnganesêm​bah" ;
+    ex:aksaraJawa "ꦥꦤ꧀ꦢꦸꦤꦸꦁꦔꦤꦺꦱꦼꦩ꧀ꦧꦃ" ;
+    ex:arti "tempatnya mulia" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_5 a ex:Kata ;
+    ex:latin "kangpatut​jumênêngratu" ;
+    ex:aksaraJawa "ꦏꦁꦥꦠꦸꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦫꦠꦸ" ;
+    ex:arti "yang layak jadi raja" ;
+    ex:munculDalamParagraf ex:Paragraf_40 .
+
+ex:Kata_40_6 a ex:Kata ;
+    ex:latin "amêngkuwahingnêgara" ;
+    ex:aksaraJawa "ꦲꦩꦼꦁꦏꦸꦮꦲꦶꦁꦤꦼꦒꦫ꧈" ;
+    ex:arti "menjadi pemimpin negara." ;
     ex:munculDalamParagraf ex:Paragraf_40 .
 
 # Paragraf 41
 ex:Paragraf_41 a ex:Paragraf ;
-    ex:isiLatin "Literasi digital penting di era modern" ;
-    ex:isiAksaraJawa "ꦭꦶꦠꦺꦫꦶꦱꦶ ꦢꦶꦒꦶꦠꦭ ꦥꦼꦤꦠꦶꦁ ꦢꦶ ꦲꦺꦫ ꦩꦺꦴꦢꦼꦤ" ;
-    ex:arti "Literasi digital penting di era modern" .
+    ex:isiLatin "sampuningmangkanamalih, iyangtuwanangngêndika, pangulungan​dikan​kabeh, saprap​taneingngajêngngan, iyangtuwanngandika, sêkathahedon​nyanipun, pangnguluingkarsannira" ;
+    ex:isiAksaraJawa "꧄ꦱꦩ꧀ꦥꦸꦤꦶꦁꦩꦁꦏꦤꦩꦭꦶꦃ꧈ ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦲꦁꦔꦼꦤ꧀ꦢꦶꦏ꧈ ꦥꦔꦸꦭꦸꦔꦤ꧀ꦢꦶꦏꦤ꧀ꦏꦧꦺꦃ꧈ ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀ ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦔꦤ꧀ꦢꦶꦏ꧈ ꦱꦼꦏꦛꦃꦲꦺꦢꦺꦴꦤ꧀ꦚꦤꦶꦥꦸꦤ꧀ ꦥꦁꦔꦸꦭꦸꦲꦶꦁꦏꦂꦱꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "Setelah itu lagi, ayah leluhur berkata, kepala berkata semuanya, sudah di depan, ayah leluhur berkata, seluruh dunia, kepala sesuai keinginannya." .
 
 ex:Kata_41_0 a ex:Kata ;
-    ex:latin "Literasi" ;
-    ex:aksaraJawa "ꦭꦶꦠꦺꦫꦶꦱꦶ" ;
-    ex:arti "Literasi" ;
+    ex:latin "sampuningmangkanamalih" ;
+    ex:aksaraJawa "ꦱꦩ꧀ꦥꦸꦤꦶꦁꦩꦁꦏꦤꦩꦭꦶꦃ" ;
+    ex:arti "Setelah itu lagi" ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 ex:Kata_41_1 a ex:Kata ;
-    ex:latin "digital" ;
-    ex:aksaraJawa "ꦢꦶꦒꦶꦠꦭ" ;
-    ex:arti "digital" ;
+    ex:latin "iyangtuwanangngêndika" ;
+    ex:aksaraJawa "ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦲꦁꦔꦼꦤ꧀ꦢꦶꦏ" ;
+    ex:arti "ayah leluhur berkata" ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 ex:Kata_41_2 a ex:Kata ;
-    ex:latin "penting" ;
-    ex:aksaraJawa "ꦥꦼꦤꦠꦶꦁ" ;
-    ex:arti "penting" ;
+    ex:latin "pangulungandikankabeh" ;
+    ex:aksaraJawa "ꦥꦔꦸꦭꦸꦔꦤ꧀ꦢꦶꦏꦤ꧀ꦏꦧꦺꦃ" ;
+    ex:arti "kepala berkata semuanya" ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 ex:Kata_41_3 a ex:Kata ;
-    ex:latin "di" ;
-    ex:aksaraJawa "ꦢꦶ" ;
-    ex:arti "di" ;
+    ex:latin "saprap​taneingngajêngngan" ;
+    ex:aksaraJawa "ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀" ;
+    ex:arti "sudah di depan" ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 ex:Kata_41_4 a ex:Kata ;
-    ex:latin "era" ;
-    ex:aksaraJawa "ꦲꦺꦫ" ;
-    ex:arti "era" ;
+    ex:latin "iyangtuwanngandika" ;
+    ex:aksaraJawa "ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦔꦤ꧀ꦢꦶꦏ" ;
+    ex:arti "ayah leluhur berkata" ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 ex:Kata_41_5 a ex:Kata ;
-    ex:latin "modern" ;
-    ex:aksaraJawa "ꦩꦺꦴꦢꦼꦤ" ;
-    ex:arti "modern" ;
+    ex:latin "sêkathahedon​nyanipun" ;
+    ex:aksaraJawa "ꦱꦼꦏꦛꦃꦲꦺꦢꦺꦴꦤ꧀ꦚꦤꦶꦥꦸꦤ꧀" ;
+    ex:arti "seluruh dunia" ;
+    ex:munculDalamParagraf ex:Paragraf_41 .
+
+ex:Kata_41_6 a ex:Kata ;
+    ex:latin "pangnguluingkarsannira" ;
+    ex:aksaraJawa "ꦥꦁꦔꦸꦭꦸꦲꦶꦁꦏꦂꦱꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "kepala sesuai keinginannya." ;
     ex:munculDalamParagraf ex:Paragraf_41 .
 
 # Paragraf 42
 ex:Paragraf_42 a ex:Paragraf ;
-    ex:isiLatin "Wisata budaya mengenalkan sejarah lokal" ;
-    ex:isiAksaraJawa "ꦮꦶꦱꦠ ꦧꦸꦛꦸꦭꦪ ꦩꦼꦔꦼꦤ꧀ꦭꦤ꧀ꦏꦤ ꦱꦺꦗꦫꦃ ꦭꦺꦴꦏꦭ꧀" ;
-    ex:arti "Wisata budaya mengenalkan sejarah lokal" .
+    ex:isiLatin "sabên​nêrbên​nêreiki, deninghanakkingsun​iya, kapriyewêwarissan​ne, pun​pangnguluatursêm​bah, putratuwan​punika, kangwêdahjumênêngngratu, nangingsampunsinungdun​nya" ;
+    ex:isiAksaraJawa "꧄ꦱꦧꦼꦤ꧀ꦤꦼꦂꦧꦼꦤ꧀ꦤꦼꦂꦫꦺꦲꦶꦏꦶ꧈ ꦢꦺꦤꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦲꦶꦪ꧈ ꦏꦥꦿꦶꦪꦺꦮꦼꦮꦫꦶꦱ꧀ꦱꦤ꧀ꦤꦺ꧈ ꦥꦸꦤ꧀ꦥꦁꦔꦸꦭꦸꦲꦠꦸꦂꦱꦼꦩ꧀ꦧꦃ꧈ ꦥꦸꦠꦿꦠꦸꦮꦤ꧀ꦥꦸꦤꦶꦏ꧈ ꦏꦁꦮꦼꦢꦃꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦿꦠꦸ꧈ ꦤꦔꦶꦁꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦶꦤꦸꦁꦢꦸꦤ꧀ꦚ꧈" ;
+    ex:arti "Sebenarnya semua ini, oleh anakku, bagaimana warisan itu, kepala berucap, ayah leluhur itu, yang layak jadi raja, tapi sudah tidak di dunia." .
 
 ex:Kata_42_0 a ex:Kata ;
-    ex:latin "Wisata" ;
-    ex:aksaraJawa "ꦮꦶꦱꦠ" ;
-    ex:arti "Wisata" ;
+    ex:latin "sabên​nêrbên​nêreiki" ;
+    ex:aksaraJawa "ꦱꦧꦼꦤ꧀ꦤꦼꦂꦧꦼꦤ꧀ꦤꦼꦂꦫꦺꦲꦶꦏꦶ" ;
+    ex:arti "Sebenarnya semua ini" ;
     ex:munculDalamParagraf ex:Paragraf_42 .
 
 ex:Kata_42_1 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "deninghanakkingsun​iya" ;
+    ex:aksaraJawa "ꦢꦺꦤꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦲꦶꦪ" ;
+    ex:arti "oleh anakku" ;
     ex:munculDalamParagraf ex:Paragraf_42 .
 
 ex:Kata_42_2 a ex:Kata ;
-    ex:latin "mengenalkan" ;
-    ex:aksaraJawa "ꦩꦼꦔꦼꦤ꧀ꦭꦤ꧀ꦏꦤ" ;
-    ex:arti "mengenalkan" ;
+    ex:latin "kapriyewêwarissan​ne" ;
+    ex:aksaraJawa "ꦏꦥꦿꦶꦪꦺꦮꦼꦮꦫꦶꦱ꧀ꦱꦤ꧀ꦤꦺ" ;
+    ex:arti "bagaimana warisan itu" ;
     ex:munculDalamParagraf ex:Paragraf_42 .
 
 ex:Kata_42_3 a ex:Kata ;
-    ex:latin "sejarah" ;
-    ex:aksaraJawa "ꦱꦺꦗꦫꦃ" ;
-    ex:arti "sejarah" ;
+    ex:latin "pun​pangnguluatursêm​bah" ;
+    ex:aksaraJawa "ꦥꦸꦤ꧀ꦥꦁꦔꦸꦭꦸꦲꦠꦸꦂꦱꦼꦩ꧀ꦧꦃ" ;
+    ex:arti "kepala berucap" ;
     ex:munculDalamParagraf ex:Paragraf_42 .
 
 ex:Kata_42_4 a ex:Kata ;
-    ex:latin "lokal" ;
-    ex:aksaraJawa "ꦭꦺꦴꦏꦭ꧀" ;
-    ex:arti "lokal" ;
+    ex:latin "putratuwan​punika" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦠꦸꦮꦤ꧀ꦥꦸꦤꦶꦏ" ;
+    ex:arti "ayah leluhur itu" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_5 a ex:Kata ;
+    ex:latin "kangwêdahjumênêngngratu" ;
+    ex:aksaraJawa "ꦏꦁꦮꦼꦢꦃꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦿꦠꦸ" ;
+    ex:arti "yang layak jadi raja" ;
+    ex:munculDalamParagraf ex:Paragraf_42 .
+
+ex:Kata_42_6 a ex:Kata ;
+    ex:latin "nangingsampunsinungdun​nya" ;
+    ex:aksaraJawa "ꦤꦔꦶꦁꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦶꦤꦸꦁꦢꦸꦤ꧀ꦚ꧈" ;
+    ex:arti "tapi sudah tidak di dunia." ;
     ex:munculDalamParagraf ex:Paragraf_42 .
 
 # Paragraf 43
 ex:Paragraf_43 a ex:Paragraf ;
-    ex:isiLatin "Kreativitas diperlukan untuk inovasi" ;
-    ex:isiAksaraJawa "ꦏꦿꦺꦲꦠꦶꦮꦶꦠꦱ ꦢꦼꦥꦶꦭꦼꦤ ꦲꦸꦤꦠꦸꦏ ꦆꦤꦺꦴꦮꦱꦶ" ;
-    ex:arti "Kreativitas diperlukan untuk inovasi" .
+    ex:isiLatin "hingkangnganem​anderbeni, hingdun​nyan​nipun​pinaḍa, sawangsawangdaudum​mane, nangngingkasrahkangnêgara, mêngkatên​ukum​sarak, punikapêm​manggihulun, kawulahanu_un​duka" ;
+    ex:isiAksaraJawa "꧄ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ꧈ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ꧈ ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ꧈ ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ꧈ ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀ ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀ ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈" ;
+    ex:arti "Yang menjadi pemilik, dunia yang diselimuti, mengawasi kehidupan dunia, tapi menyerahkan negeri, menaikkan hukum adat, itulah pendapatku, aku berterima kasih." .
 
 ex:Kata_43_0 a ex:Kata ;
-    ex:latin "Kreativitas" ;
-    ex:aksaraJawa "ꦏꦿꦺꦲꦠꦶꦮꦶꦠꦱ" ;
-    ex:arti "Kreativitas" ;
+    ex:latin "hingkangnganem​anderbeni" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ" ;
+    ex:arti "Yang menjadi pemilik" ;
     ex:munculDalamParagraf ex:Paragraf_43 .
 
 ex:Kata_43_1 a ex:Kata ;
-    ex:latin "diperlukan" ;
-    ex:aksaraJawa "ꦢꦼꦥꦶꦭꦼꦤ" ;
-    ex:arti "diperlukan" ;
+    ex:latin "hingdun​nyan​nipun​pinaḍa" ;
+    ex:aksaraJawa "ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ" ;
+    ex:arti "dunia yang diselimuti" ;
     ex:munculDalamParagraf ex:Paragraf_43 .
 
 ex:Kata_43_2 a ex:Kata ;
-    ex:latin "untuk" ;
-    ex:aksaraJawa "ꦲꦸꦤꦠꦸꦏ" ;
-    ex:arti "untuk" ;
+    ex:latin "sawangsawangdaudum​mane" ;
+    ex:aksaraJawa "ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ" ;
+    ex:arti "mengawasi kehidupan dunia" ;
     ex:munculDalamParagraf ex:Paragraf_43 .
 
 ex:Kata_43_3 a ex:Kata ;
-    ex:latin "inovasi" ;
-    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
-    ex:arti "inovasi" ;
+    ex:latin "nangngingkasrahkangnêgara" ;
+    ex:aksaraJawa "ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ" ;
+    ex:arti "tapi menyerahkan negeri" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_4 a ex:Kata ;
+    ex:latin "mêngkatên​ukum​sarak" ;
+    ex:aksaraJawa "ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀" ;
+    ex:arti "menaikkan hukum adat" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_5 a ex:Kata ;
+    ex:latin "punikapêm​manggihulun" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀" ;
+    ex:arti "itulah pendapatku" ;
+    ex:munculDalamParagraf ex:Paragraf_43 .
+
+ex:Kata_43_6 a ex:Kata ;
+    ex:latin "kawulahanu_un​duka" ;
+    ex:aksaraJawa "ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈" ;
+    ex:arti "aku berterima kasih" ;
     ex:munculDalamParagraf ex:Paragraf_43 .
 
 # Paragraf 44
 ex:Paragraf_44 a ex:Paragraf ;
-    ex:isiLatin "Musik tradisional kaya nilai budaya" ;
-    ex:isiAksaraJawa "ꦩꦸꦱꦶꦏ꧀ ꦠꦿꦢꦶꦱꦶꦪꦭꦤ ꦏꦪ ꦤꦶꦭꦶ ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "Musik tradisional kaya nilai budaya" .
+    ex:isiLatin "karan​tên​nulyaawaris, sasampun​ningmaris​dunya, ramapadukakangdêrbe, nêgarimulyaingcêm​pa, iyangpadupêjah, tan​dangngunulyakinubur, ramatuwan​dados​nata" ;
+    ex:isiAksaraJawa "꧄ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀ ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ꧈ ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ꧈ ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈ ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ꧈ ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ꧈ ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ꧈" ;
+    ex:arti "Setelah ayah meninggal, setelah wafat dunia, ayah leluhur yang tadi, negeri mulia di Champa, sudah lama meninggal, segera dikubur, ayah leluhur jadi raja." .
 
 ex:Kata_44_0 a ex:Kata ;
-    ex:latin "Musik" ;
-    ex:aksaraJawa "ꦩꦸꦱꦶꦏ꧀" ;
-    ex:arti "Musik" ;
+    ex:latin "karan​tên​nulyaawaris" ;
+    ex:aksaraJawa "ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀" ;
+    ex:arti "Setelah ayah meninggal" ;
     ex:munculDalamParagraf ex:Paragraf_44 .
 
 ex:Kata_44_1 a ex:Kata ;
-    ex:latin "tradisional" ;
-    ex:aksaraJawa "ꦠꦿꦢꦶꦱꦶꦪꦭꦤ" ;
-    ex:arti "tradisional" ;
+    ex:latin "sasampun​ningmaris​dunya" ;
+    ex:aksaraJawa "ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ" ;
+    ex:arti "setelah wafat dunia" ;
     ex:munculDalamParagraf ex:Paragraf_44 .
 
 ex:Kata_44_2 a ex:Kata ;
-    ex:latin "kaya" ;
-    ex:aksaraJawa "ꦏꦪ" ;
-    ex:arti "kaya" ;
+    ex:latin "ramapadukakangdêrbe" ;
+    ex:aksaraJawa "ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ" ;
+    ex:arti "ayah leluhur yang tadi" ;
     ex:munculDalamParagraf ex:Paragraf_44 .
 
 ex:Kata_44_3 a ex:Kata ;
-    ex:latin "nilai" ;
-    ex:aksaraJawa "ꦤꦶꦭꦶ" ;
-    ex:arti "nilai" ;
+    ex:latin "nêgarimulyaingcêm​pa" ;
+    ex:aksaraJawa "ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "negeri mulia di Champa" ;
     ex:munculDalamParagraf ex:Paragraf_44 .
 
 ex:Kata_44_4 a ex:Kata ;
-    ex:latin "budaya" ;
-    ex:aksaraJawa "ꦧꦸꦛꦸꦭꦪ" ;
-    ex:arti "budaya" ;
+    ex:latin "iyangpadupêjah" ;
+    ex:aksaraJawa "ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ" ;
+    ex:arti "sudah lama meninggal" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_5 a ex:Kata ;
+    ex:latin "tan​dangngunulyakinubur" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ" ;
+    ex:arti "segera dikubur" ;
+    ex:munculDalamParagraf ex:Paragraf_44 .
+
+ex:Kata_44_6 a ex:Kata ;
+    ex:latin "ramatuwan​dados​nata" ;
+    ex:aksaraJawa "ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ" ;
+    ex:arti "ayah leluhur jadi raja" ;
     ex:munculDalamParagraf ex:Paragraf_44 .
 
 # Paragraf 45
 ex:Paragraf_45 a ex:Paragraf ;
-    ex:isiLatin "Teknik pertanian berkontribusi pada pangan" ;
-    ex:isiAksaraJawa "ꦠꦼꦏꦶꦏ꧀ ꦥꦼꦂꦠꦶꦔꦤ ꦧꦼꦂꦏꦸꦤ꧀ꦠꦿꦶꦧꦸꦱꦶ ꦥꦢ ꦥꦁꦒꦤ" ;
-    ex:arti "Teknik pertanian berkontribusi pada pangan" .
+    ex:isiLatin "mêngkatên​aturingdasih, nan​dhês​aturingkipatya, kangrayisakatigan​ne, miyarsamerangkalin​tang, arsa mêdal​pasilan, tan​amit​malihingratu, kangkatigasam​mimêdal" ;
+    ex:isiAksaraJawa "꧄ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ꧈ ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ꧈ ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ꧈ ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀ ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ꧈ ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀" ;
+    ex:arti "Menaikkan kasih sayang, menegaskan patih, yang memerintah ketiga raja, menyampaikan berita yang hebat, akan keluar peristiwa, tak akan kembali lagi di raja, yang ketiga akan pergi." .
 
 ex:Kata_45_0 a ex:Kata ;
-    ex:latin "Teknik" ;
-    ex:aksaraJawa "ꦠꦼꦏꦶꦏ꧀" ;
-    ex:arti "Teknik" ;
+    ex:latin "mêngkatên​aturingdasih" ;
+    ex:aksaraJawa "ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ" ;
+    ex:arti "Menaikkan kasih sayang" ;
     ex:munculDalamParagraf ex:Paragraf_45 .
 
 ex:Kata_45_1 a ex:Kata ;
-    ex:latin "pertanian" ;
-    ex:aksaraJawa "ꦥꦼꦂꦠꦶꦔꦤ" ;
-    ex:arti "pertanian" ;
+    ex:latin "nan​dhês​aturingkipatya" ;
+    ex:aksaraJawa "ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ" ;
+    ex:arti "menegaskan patih" ;
     ex:munculDalamParagraf ex:Paragraf_45 .
 
 ex:Kata_45_2 a ex:Kata ;
-    ex:latin "berkontribusi" ;
-    ex:aksaraJawa "ꦧꦼꦂꦏꦸꦤ꧀ꦠꦿꦶꦧꦸꦱꦶ" ;
-    ex:arti "berkontribusi" ;
+    ex:latin "kangrayisakatigan​ne" ;
+    ex:aksaraJawa "ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ" ;
+    ex:arti "yang memerintah ketiga raja" ;
     ex:munculDalamParagraf ex:Paragraf_45 .
 
 ex:Kata_45_3 a ex:Kata ;
-    ex:latin "pada" ;
-    ex:aksaraJawa "ꦥꦢ" ;
-    ex:arti "pada" ;
+    ex:latin "miyarsamerangkalin​tang" ;
+    ex:aksaraJawa "ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ" ;
+    ex:arti "menyampaikan berita yang hebat" ;
     ex:munculDalamParagraf ex:Paragraf_45 .
 
 ex:Kata_45_4 a ex:Kata ;
-    ex:latin "pangan" ;
-    ex:aksaraJawa "ꦥꦁꦒꦤ" ;
-    ex:arti "pangan" ;
+    ex:latin "arsa mêdal​pasilan" ;
+    ex:aksaraJawa "ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀" ;
+    ex:arti "akan keluar peristiwa" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_5 a ex:Kata ;
+    ex:latin "tan​amit​malihingratu" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ" ;
+    ex:arti "tak akan kembali lagi di raja" ;
+    ex:munculDalamParagraf ex:Paragraf_45 .
+
+ex:Kata_45_6 a ex:Kata ;
+    ex:latin "kangkatigasam​mimêdal" ;
+    ex:aksaraJawa "ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀" ;
+    ex:arti "yang ketiga akan pergi." ;
     ex:munculDalamParagraf ex:Paragraf_45 .
 
 # Paragraf 46
 ex:Paragraf_46 a ex:Paragraf ;
-    ex:isiLatin "Sistem pendidikan harus adaptif" ;
-    ex:isiAksaraJawa "ꦱꦶꦱ꧀ꦠꦺꦩ꧀ ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦲꦲꦸꦱ ꦲꦢꦥ꧀ꦠꦶꦥ꧀" ;
-    ex:arti "Sistem pendidikan harus adaptif" .
+    ex:isiLatin "sangnatabubartinangkil, tumulyaaglisngaḍattyan, paramantribubarkabeh, saksanasurup, yyangngarka, tankawarnasangnata, putratitigawinuwus, kumpul​anengwis​mannira" ;
+    ex:isiAksaraJawa "꧄ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀ ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀ ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ꧈ ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀ ꦪꦾꦁꦔꦂꦏ꧈ ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ꧈ ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀ ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "Raja bubar pergi, dengan hormat menghadap, para menteri bubar semua, seperti senja menghilang, tak terlihat raja, ketiga putra telah berkumpul, di wisma." .
 
 ex:Kata_46_0 a ex:Kata ;
-    ex:latin "Sistem" ;
-    ex:aksaraJawa "ꦱꦶꦱ꧀ꦠꦺꦩ꧀" ;
-    ex:arti "Sistem" ;
+    ex:latin "sangnatabubartinangkil" ;
+    ex:aksaraJawa "ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀" ;
+    ex:arti "Raja bubar pergi" ;
     ex:munculDalamParagraf ex:Paragraf_46 .
 
 ex:Kata_46_1 a ex:Kata ;
-    ex:latin "pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
-    ex:arti "pendidikan" ;
+    ex:latin "tumulyaaglisngaḍattyan" ;
+    ex:aksaraJawa "ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦡꦾꦤ꧀" ;
+    ex:arti "dengan hormat menghadap" ;
     ex:munculDalamParagraf ex:Paragraf_46 .
 
 ex:Kata_46_2 a ex:Kata ;
-    ex:latin "harus" ;
-    ex:aksaraJawa "ꦲꦲꦸꦱ" ;
-    ex:arti "harus" ;
+    ex:latin "paramantribubarkabeh" ;
+    ex:aksaraJawa "ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ" ;
+    ex:arti "para menteri bubar semua" ;
     ex:munculDalamParagraf ex:Paragraf_46 .
 
 ex:Kata_46_3 a ex:Kata ;
-    ex:latin "adaptif" ;
-    ex:aksaraJawa "ꦲꦢꦥ꧀ꦠꦶꦥ꧀" ;
-    ex:arti "adaptif" ;
+    ex:latin "saksanasurup" ;
+    ex:aksaraJawa "ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀" ;
+    ex:arti "seperti senja menghilang" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_4 a ex:Kata ;
+    ex:latin "yyangngarka" ;
+    ex:aksaraJawa "ꦪꦾꦁꦔꦂꦏ" ;
+    ex:arti "senja menghilang" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_5 a ex:Kata ;
+    ex:latin "tankawarnasangnata" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ" ;
+    ex:arti "tak terlihat raja" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_6 a ex:Kata ;
+    ex:latin "putratitigawinuwus" ;
+    ex:aksaraJawa "ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀" ;
+    ex:arti "ketiga putra telah berkumpul" ;
+    ex:munculDalamParagraf ex:Paragraf_46 .
+
+ex:Kata_46_7 a ex:Kata ;
+    ex:latin "kumpul​anengwis​mannira" ;
+    ex:aksaraJawa "ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈" ;
+    ex:arti "di wisma." ;
     ex:munculDalamParagraf ex:Paragraf_46 .
 
 # Paragraf 47
 ex:Paragraf_47 a ex:Paragraf ;
-    ex:isiLatin "Pendidikan karakter membentuk kepribadian" ;
-    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦏꦂꦠꦼꦏꦼꦂ ꦩꦼꦧꦠꦺꦴꦁ ꦏꦼꦥꦿꦶꦧꦶꦪꦤ" ;
-    ex:arti "Pendidikan karakter membentuk kepribadian" .
+    ex:isiLatin "têngngahdaluwêt​taran​ning, raresamyapagunêm​man, selarasahingwuwus​se, rakadawêk​samikesah, apapin​nrihingcêpa, mongsajumênêngngaratu, angngurkesahanglêllana" ;
+    ex:isiAksaraJawa "꧄ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ꧈ ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀ ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ꧈ ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ꧈ ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ꧈ ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈" ;
+    ex:arti "Tengah malam di luar, para gadis sedang berbincang, Selarasa di dalam, para putra semuanya, apa keinginan di Champa, pada masa pemerintahan raja, mengurus negeri." .
 
 ex:Kata_47_0 a ex:Kata ;
-    ex:latin "Pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
-    ex:arti "Pendidikan" ;
+    ex:latin "têngngahdaluwêt​taran​ning" ;
+    ex:aksaraJawa "ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ" ;
+    ex:arti "Tengah malam di luar" ;
     ex:munculDalamParagraf ex:Paragraf_47 .
 
 ex:Kata_47_1 a ex:Kata ;
-    ex:latin "karakter" ;
-    ex:aksaraJawa "ꦏꦂꦠꦼꦏꦼꦂ" ;
-    ex:arti "karakter" ;
+    ex:latin "raresamyapagunêm​man" ;
+    ex:aksaraJawa "ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀" ;
+    ex:arti "para gadis sedang berbincang" ;
     ex:munculDalamParagraf ex:Paragraf_47 .
 
 ex:Kata_47_2 a ex:Kata ;
-    ex:latin "membentuk" ;
-    ex:aksaraJawa "ꦩꦼꦧꦠꦺꦴꦁ" ;
-    ex:arti "membentuk" ;
+    ex:latin "selarasahingwuwus​se" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ" ;
+    ex:arti "Selarasa di dalam" ;
     ex:munculDalamParagraf ex:Paragraf_47 .
 
 ex:Kata_47_3 a ex:Kata ;
-    ex:latin "kepribadian" ;
-    ex:aksaraJawa "ꦏꦼꦥꦿꦶꦧꦶꦪꦤ" ;
-    ex:arti "kepribadian" ;
+    ex:latin "rakadawêk​samikesah" ;
+    ex:aksaraJawa "ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ" ;
+    ex:arti "para putra semuanya" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_4 a ex:Kata ;
+    ex:latin "apapin​nrihingcêpa" ;
+    ex:aksaraJawa "ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ" ;
+    ex:arti "apa keinginan di Champa" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_5 a ex:Kata ;
+    ex:latin "mongsajumênêngngaratu" ;
+    ex:aksaraJawa "ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ" ;
+    ex:arti "pada masa pemerintahan raja" ;
+    ex:munculDalamParagraf ex:Paragraf_47 .
+
+ex:Kata_47_6 a ex:Kata ;
+    ex:latin "angngurkesahanglêllana" ;
+    ex:aksaraJawa "ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈" ;
+    ex:arti "mengurus negeri." ;
     ex:munculDalamParagraf ex:Paragraf_47 .
 
 # Paragraf 48
 ex:Paragraf_48 a ex:Paragraf ;
-    ex:isiLatin "Teknologi informasi mempercepat komunikasi" ;
-    ex:isiAksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ ꦲꦶꦤ꧀ꦥꦿꦩꦼꦂꦕꦼꦥꦠ꧀ ꦏꦺꦴꦩꦸꦤꦶꦏasi" ;
-    ex:arti "Teknologi informasi mempercepat komunikasi" .
+    ex:isiLatin "lan​malihwatêk​kingngaji, ingkangsamisugihwongsa, samidados​kawulan​ne, punikakawulasungkan, ngawulakathahilang, samisaminak​kingratu, têk​kahan​dikangawula" ;
+    ex:isiAksaraJawa "꧄ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ꧈ ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ꧈ ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ꧈ ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀ ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ꧈ ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈" ;
+    ex:arti "Dan lagi saat senja, yang kaya dan berkuasa, menjadi hamba, aku sungkan, banyak yang hilang, sama-sama dari raja, datang untuk mengabdi." .
 
 ex:Kata_48_0 a ex:Kata ;
-    ex:latin "Teknologi" ;
-    ex:aksaraJawa "ꦠꦼꦏ꧀ꦤꦺꦭꦺꦴꦒꦶ" ;
-    ex:arti "Teknologi" ;
+    ex:latin "lan​malihwatêk​kingngaji" ;
+    ex:aksaraJawa "ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ" ;
+    ex:arti "Dan lagi saat senja" ;
     ex:munculDalamParagraf ex:Paragraf_48 .
 
 ex:Kata_48_1 a ex:Kata ;
-    ex:latin "informasi" ;
-    ex:aksaraJawa "ꦲꦶꦤ꧀ꦥꦿꦩꦼꦂꦕꦼꦥꦠ꧀" ;
-    ex:arti "informasi" ;
+    ex:latin "ingkangsamisugihwongsa" ;
+    ex:aksaraJawa "ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ" ;
+    ex:arti "yang kaya dan berkuasa" ;
     ex:munculDalamParagraf ex:Paragraf_48 .
 
 ex:Kata_48_2 a ex:Kata ;
-    ex:latin "mempercepat" ;
-    ex:aksaraJawa "ꦏꦺꦴꦩꦸꦤꦶꦏasi" ;  # maaf ada typo, ini harusnya "ꦩꦼꦥꦼꦂꦕꦼꦥꦠ꧀"
-    ex:arti "mempercepat" ;
+    ex:latin "samidados​kawulan​ne" ;
+    ex:aksaraJawa "ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ" ;
+    ex:arti "menjadi hamba" ;
     ex:munculDalamParagraf ex:Paragraf_48 .
 
 ex:Kata_48_3 a ex:Kata ;
-    ex:latin "komunikasi" ;
-    ex:aksaraJawa "ꦏꦺꦴꦩꦸꦤꦶꦏꦱꦶ" ;
-    ex:arti "komunikasi" ;
+    ex:latin "punikakawulasungkan" ;
+    ex:aksaraJawa "ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀" ;
+    ex:arti "aku sungkan" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_4 a ex:Kata ;
+    ex:latin "ngawulakathahilang" ;
+    ex:aksaraJawa "ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ" ;
+    ex:arti "banyak yang hilang" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_5 a ex:Kata ;
+    ex:latin "samisaminak​kingratu" ;
+    ex:aksaraJawa "ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ" ;
+    ex:arti "sama-sama dari raja" ;
+    ex:munculDalamParagraf ex:Paragraf_48 .
+
+ex:Kata_48_6 a ex:Kata ;
+    ex:latin "têk​kahan​dikangawula" ;
+    ex:aksaraJawa "ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈" ;
+    ex:arti "datang untuk mengabdi." ;
     ex:munculDalamParagraf ex:Paragraf_48 .
 
 # Paragraf 49
 ex:Paragraf_49 a ex:Paragraf ;
-    ex:isiLatin "Olahraga menjaga kesehatan tubuh" ;
-    ex:isiAksaraJawa "ꦎꦭꦺꦴꦫꦠꦱ ꦩꦗꦔ ꦏꦺꦴꦭꦺꦴꦠꦤ ꦠꦸꦧꦸꦃ" ;
-    ex:arti "Olahraga menjaga kesehatan tubuh" .
+    ex:isiLatin "selanggon​dahangng​lingharis, lungasihapaden​sêdya, selarasaden​wuwus​se, tuwisihanengnêgara, yen​maksihanengcêm​pa, kakang langkungwiranghingsun, aningaliwonghingcêpa" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ꧈ ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ꧈ ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ꧈ ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀ ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈" ;
+    ex:arti "Selanggănda hendak pergi, memberi sayang atau tidak, Selarasa di dalam negeri, kalau masih di Champa, aku lebih prihatin, melihat keadaan orang Champa." .
 
 ex:Kata_49_0 a ex:Kata ;
-    ex:latin "Olahraga" ;
-    ex:aksaraJawa "ꦎꦭꦺꦴꦫꦠꦱ" ;
-    ex:arti "Olahraga" ;
+    ex:latin "selanggon​dahangng​lingharis" ;
+    ex:aksaraJawa "ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀" ;
+    ex:arti "Selanggănda hendak pergi" ;
     ex:munculDalamParagraf ex:Paragraf_49 .
 
 ex:Kata_49_1 a ex:Kata ;
-    ex:latin "menjaga" ;
-    ex:aksaraJawa "ꦩꦗꦔ" ;
-    ex:arti "menjaga" ;
+    ex:latin "lungasihapaden​sêdya" ;
+    ex:aksaraJawa "ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ" ;
+    ex:arti "memberi sayang atau tidak" ;
     ex:munculDalamParagraf ex:Paragraf_49 .
 
 ex:Kata_49_2 a ex:Kata ;
-    ex:latin "kesehatan" ;
-    ex:aksaraJawa "ꦏꦺꦴꦭꦺꦴꦠꦤ" ;
-    ex:arti "kesehatan" ;
+    ex:latin "selarasaden​wuwus​se" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ" ;
+    ex:arti "Selarasa di dalam negeri" ;
     ex:munculDalamParagraf ex:Paragraf_49 .
 
 ex:Kata_49_3 a ex:Kata ;
-    ex:latin "tubuh" ;
-    ex:aksaraJawa "ꦠꦸꦧꦸꦃ" ;
-    ex:arti "tubuh" ;
+    ex:latin "tuwisihanengnêgara" ;
+    ex:aksaraJawa "ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ" ;
+    ex:arti "di dalam negeri" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_4 a ex:Kata ;
+    ex:latin "yen​maksihanengcêm​pa" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "kalau masih di Champa" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_5 a ex:Kata ;
+    ex:latin "kakang langkungwiranghingsun" ;
+    ex:aksaraJawa "ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀" ;
+    ex:arti "aku lebih prihatin" ;
+    ex:munculDalamParagraf ex:Paragraf_49 .
+
+ex:Kata_49_6 a ex:Kata ;
+    ex:latin "aningaliwonghingcêpa" ;
+    ex:aksaraJawa "ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈" ;
+    ex:arti "melihat keadaan orang Champa." ;
     ex:munculDalamParagraf ex:Paragraf_49 .
 
 # Paragraf 50
 ex:Paragraf_50 a ex:Paragraf ;
-    ex:isiLatin "Pendidikan inklusif mendukung keberagaman" ;
-    ex:isiAksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ ꦆꦤ꧀ꦏ꧀ꦭꦸꦱꦶꦥ꧀ ꦩꦼꦤ꧀ꦢꦸꦔꦸꦁ ꦏꦼꦧꦫꦒꦮꦤ꧀" ;
-    ex:arti "Pendidikan inklusif mendukung keberagaman" .
+    ex:isiLatin "selarasyamaturaris, yen​padukanurut​karsa, saparen​tahingwonggêḍae, kakangbotên​kêlam​pahan, wirangtêm​mên​kawula, paḍapaḍanaka​kaingratu, têkapadukakan​dhap​pan" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ꧈ ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ꧈ ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀ ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ꧈ ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀" ;
+    ex:arti "Selarasya berkata, jika paduka setuju, seluruh orang besar, kakang tak dilaksanakan, sangat prihatin aku, sama-sama dari raja, datang paduka ke tempatmu." .
 
 ex:Kata_50_0 a ex:Kata ;
-    ex:latin "Pendidikan" ;
-    ex:aksaraJawa "ꦥꦼꦤ꧀ꦢꦶꦏꦸꦤ" ;
-    ex:arti "Pendidikan" ;
+    ex:latin "selarasyamaturaris" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀" ;
+    ex:arti "Selarasya berkata" ;
     ex:munculDalamParagraf ex:Paragraf_50 .
 
 ex:Kata_50_1 a ex:Kata ;
-    ex:latin "inklusif" ;
-    ex:aksaraJawa "ꦆꦤ꧀ꦏ꧀ꦭꦸꦱꦶꦥ꧀" ;
-    ex:arti "inklusif" ;
+    ex:latin "yen​padukanurut​karsa" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ" ;
+    ex:arti "jika paduka setuju" ;
     ex:munculDalamParagraf ex:Paragraf_50 .
 
 ex:Kata_50_2 a ex:Kata ;
-    ex:latin "mendukung" ;
-    ex:aksaraJawa "ꦩꦼꦤ꧀ꦢꦸꦔꦸꦁ" ;
-    ex:arti "mendukung" ;
+    ex:latin "saparen​tahingwonggêḍae" ;
+    ex:aksaraJawa "ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ" ;
+    ex:arti "seluruh orang besar" ;
     ex:munculDalamParagraf ex:Paragraf_50 .
 
 ex:Kata_50_3 a ex:Kata ;
-    ex:latin "keberagaman" ;
-    ex:aksaraJawa "ꦏꦼꦧꦫꦒꦮꦤ꧀" ;
-    ex:arti "keberagaman" ;
+    ex:latin "kakangbotên​kêlam​pahan" ;
+    ex:aksaraJawa "ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀" ;
+    ex:arti "kakang tak dilaksanakan" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_4 a ex:Kata ;
+    ex:latin "wirangtêm​mên​kawula" ;
+    ex:aksaraJawa "ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ" ;
+    ex:arti "sangat prihatin aku" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_5 a ex:Kata ;
+    ex:latin "paḍapaḍanaka​kaingratu" ;
+    ex:aksaraJawa "ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ" ;
+    ex:arti "sama-sama dari raja" ;
+    ex:munculDalamParagraf ex:Paragraf_50 .
+
+ex:Kata_50_6 a ex:Kata ;
+    ex:latin "têkapadukakan​dhap​pan" ;
+    ex:aksaraJawa "ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀" ;
+    ex:arti "datang paduka ke tempatmu." ;
     ex:munculDalamParagraf ex:Paragraf_50 .
 
 # Paragraf 51
 ex:Paragraf_51 a ex:Paragraf ;
-    ex:isiLatin "Maju terus tanpa mandeg" ;
-    ex:isiAksaraJawa "ꦩꦗꦸ ꦠꦼꦫꦸꦱ ꦠꦤ꧀ꦥ ꦩꦤ꧀ꦢꦼꦒ꧀" ;
-    ex:arti "Terus maju tanpa berhenti" .
+    ex:isiLatin "kawulahanyêgahkingking, benjangyendhatênghingparan, ḍataêngyangkulapin​tane, padukadados​sanata, selagon​dalingngira, inggihrakakulamahkul, aturerayisam​peyan" ;
+    ex:isiAksaraJawa "꧄ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ꧈ ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀ ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ꧈ ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ꧈ ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀ ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀" ;
+    ex:arti "Aku berpendapat, kalau besok ke tempat, pada Yang aku tuju, paduka menjadi raja, Selagănda disampingku, ya itu saudaraku, aku sampaikan kabar paduka." .
 
 ex:Kata_51_0 a ex:Kata ;
-    ex:latin "Maju" ;
-    ex:aksaraJawa "ꦩꦗꦸ" ;
-    ex:arti "Maju" ;
+    ex:latin "kawulahanyêgahkingking" ;
+    ex:aksaraJawa "ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ" ;
+    ex:arti "Aku berpendapat" ;
     ex:munculDalamParagraf ex:Paragraf_51 .
 
 ex:Kata_51_1 a ex:Kata ;
-    ex:latin "terus" ;
-    ex:aksaraJawa "ꦠꦼꦫꦸꦱ" ;
-    ex:arti "terus" ;
+    ex:latin "benjangyendhatênghingparan" ;
+    ex:aksaraJawa "ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀" ;
+    ex:arti "kalau besok ke tempat" ;
     ex:munculDalamParagraf ex:Paragraf_51 .
 
 ex:Kata_51_2 a ex:Kata ;
-    ex:latin "tanpa" ;
-    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
-    ex:arti "tanpa" ;
+    ex:latin "ḍataêngyangkulapin​tane" ;
+    ex:aksaraJawa "ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ" ;
+    ex:arti "pada Yang aku tuju" ;
     ex:munculDalamParagraf ex:Paragraf_51 .
 
 ex:Kata_51_3 a ex:Kata ;
-    ex:latin "mandeg" ;
-    ex:aksaraJawa "ꦩꦤ꧀ꦢꦼꦒ꧀" ;
-    ex:arti "berhenti" ;
+    ex:latin "padukadados​sanata" ;
+    ex:aksaraJawa "ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ" ;
+    ex:arti "paduka menjadi raja" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_4 a ex:Kata ;
+    ex:latin "selagon​dalingngira" ;
+    ex:aksaraJawa "ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ" ;
+    ex:arti "Selagănda disampingku" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_5 a ex:Kata ;
+    ex:latin "inggihrakakulamahkul" ;
+    ex:aksaraJawa "ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀" ;
+    ex:arti "ya itu saudaraku" ;
+    ex:munculDalamParagraf ex:Paragraf_51 .
+
+ex:Kata_51_6 a ex:Kata ;
+    ex:latin "aturerayisam​peyan" ;
+    ex:aksaraJawa "ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀" ;
+    ex:arti "aku sampaikan kabar paduka." ;
     ex:munculDalamParagraf ex:Paragraf_51 .
 
 # Paragraf 52
 ex:Paragraf_52 a ex:Paragraf ;
-    ex:isiLatin "Belajar tanpa rasa takut gagal" ;
-    ex:isiAksaraJawa "ꦧꦼꦭꦗꦂ ꦠꦤ꧀ꦥ ꦫꦱ ꦠꦏꦸꦠ꧀ ꦒꦭꦃ" ;
-    ex:arti "Belajar tanpa rasa takut gagal" .
+    ex:isiLatin "selasyarahangng​lingharis, yen​mangkanakarêppira, iyakapriyebêcikke, lungahajakawênangngan, yayideningwongcêm​pa, selarasanêm​bahmatur, mangkeminggahingbahitra" ;
+    ex:isiAksaraJawa "꧄ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ꧈ ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ꧈ ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀ ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ꧈ ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ꧈ ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈" ;
+    ex:arti "Selasyara berkata, kalau begitu keinginanmu, bagaimana yang baik, pergilah jangan terlena, oleh orang Champa, Selarasa mohon, nanti naik ke baitra." .
 
 ex:Kata_52_0 a ex:Kata ;
-    ex:latin "Belajar" ;
-    ex:aksaraJawa "ꦧꦼꦭꦗꦂ" ;
-    ex:arti "Belajar" ;
+    ex:latin "selasyarahangng​lingharis" ;
+    ex:aksaraJawa "ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀" ;
+    ex:arti "Selasyara berkata" ;
     ex:munculDalamParagraf ex:Paragraf_52 .
 
 ex:Kata_52_1 a ex:Kata ;
-    ex:latin "tanpa" ;
-    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
-    ex:arti "tanpa" ;
+    ex:latin "yen​mangkanakarêppira" ;
+    ex:aksaraJawa "ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ" ;
+    ex:arti "kalau begitu keinginanmu" ;
     ex:munculDalamParagraf ex:Paragraf_52 .
 
 ex:Kata_52_2 a ex:Kata ;
-    ex:latin "rasa" ;
-    ex:aksaraJawa "ꦫꦱ" ;
-    ex:arti "rasa" ;
+    ex:latin "iyakapriyebêcikke" ;
+    ex:aksaraJawa "ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ" ;
+    ex:arti "bagaimana yang baik" ;
     ex:munculDalamParagraf ex:Paragraf_52 .
 
 ex:Kata_52_3 a ex:Kata ;
-    ex:latin "takut" ;
-    ex:aksaraJawa "ꦠꦏꦸꦠ꧀" ;
-    ex:arti "takut" ;
+    ex:latin "lungahajakawênangngan" ;
+    ex:aksaraJawa "ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀" ;
+    ex:arti "pergilah jangan terlena" ;
     ex:munculDalamParagraf ex:Paragraf_52 .
 
 ex:Kata_52_4 a ex:Kata ;
-    ex:latin "gagal" ;
-    ex:aksaraJawa "ꦒꦭꦃ" ;
-    ex:arti "gagal" ;
+    ex:latin "yayideningwongcêm​pa" ;
+    ex:aksaraJawa "ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ" ;
+    ex:arti "oleh orang Champa" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_5 a ex:Kata ;
+    ex:latin "selarasanêm​bahmatur" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ" ;
+    ex:arti "Selarasa mohon" ;
+    ex:munculDalamParagraf ex:Paragraf_52 .
+
+ex:Kata_52_6 a ex:Kata ;
+    ex:latin "mangkeminggahingbahitra" ;
+    ex:aksaraJawa "ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈" ;
+    ex:arti "nanti naik ke baitra." ;
     ex:munculDalamParagraf ex:Paragraf_52 .
 
 # Paragraf 53
 ex:Paragraf_53 a ex:Paragraf ;
-    ex:isiLatin "Inovasi adalah kunci kemajuan" ;
-    ex:isiAksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ ꦲꦭꦱ ꦏꦸꦏꦶ ꦏꦼꦩꦗꦸꦁ" ;
-    ex:arti "Inovasi adalah kunci kemajuan" .
+    ex:isiLatin "kesahmangkedaluikisupayahajanawikan, samyamin​tarkatigane, punangwonghabahurêksa, datan​won​tên​uningnga, kesahwan​citêngngahdalu, mringpasisirkangsinadya" ;
+    ex:isiAksaraJawa "꧄ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀ ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ꧈ ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ꧈ ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ꧈ ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ꧈ ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ꧈" ;
+    ex:arti "Pergilah malam ini, agar tidak ketahuan, mereka menunggu ketiga, para pelindung, tak ada yang tahu, pergilah tengah malam, ke pesisir yang disiapkan." .
 
 ex:Kata_53_0 a ex:Kata ;
-    ex:latin "Inovasi" ;
-    ex:aksaraJawa "ꦆꦤꦺꦴꦮꦱꦶ" ;
-    ex:arti "Inovasi" ;
+    ex:latin "kesahmangkedaluikisupayahajanawikan" ;
+    ex:aksaraJawa "ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀" ;
+    ex:arti "Pergilah malam ini, agar tidak ketahuan" ;
     ex:munculDalamParagraf ex:Paragraf_53 .
 
 ex:Kata_53_1 a ex:Kata ;
-    ex:latin "adalah" ;
-    ex:aksaraJawa "ꦲꦭꦱ" ;
-    ex:arti "adalah" ;
+    ex:latin "samyamin​tarkatigane" ;
+    ex:aksaraJawa "ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ" ;
+    ex:arti "mereka menunggu ketiga" ;
     ex:munculDalamParagraf ex:Paragraf_53 .
 
 ex:Kata_53_2 a ex:Kata ;
-    ex:latin "kunci" ;
-    ex:aksaraJawa "ꦏꦸꦏꦶ" ;
-    ex:arti "kunci" ;
+    ex:latin "punangwonghabahurêksa" ;
+    ex:aksaraJawa "ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ" ;
+    ex:arti "para pelindung" ;
     ex:munculDalamParagraf ex:Paragraf_53 .
 
 ex:Kata_53_3 a ex:Kata ;
-    ex:latin "kemajuan" ;
-    ex:aksaraJawa "ꦏꦼꦩꦗꦸꦁ" ;
-    ex:arti "kemajuan" ;
+    ex:latin "datan​won​tên​uningnga" ;
+    ex:aksaraJawa "ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ" ;
+    ex:arti "tak ada yang tahu" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+ex:Kata_53_4 a ex:Kata ;
+    ex:latin "kesahwan​citêngngahdalu" ;
+    ex:aksaraJawa "ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ" ;
+    ex:arti "pergilah tengah malam" ;
+    ex:munculDalamParagraf ex:Paragraf_53 .
+
+ex:Kata_53_5 a ex:Kata ;
+    ex:latin "mringpasisirkangsinadya" ;
+    ex:aksaraJawa "ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ" ;
+    ex:arti "ke pesisir yang disiapkan." ;
     ex:munculDalamParagraf ex:Paragraf_53 .
 
 # Paragraf 54
 ex:Paragraf_54 a ex:Paragraf ;
-    ex:isiLatin "Kebersamaan membangun harmoni sosial" ;
-    ex:isiAksaraJawa "ꦏꦼꦧꦼꦂꦱꦩꦤ ꦩꦼꦧꦤ꧀ꦒꦸꦤ꧀ ꦲꦫꦩꦺꦴꦤꦶ ꦱꦺꦴꦱꦶꦪꦭ꧀" ;
-    ex:arti "Kebersamaan membangun harmoni sosial" .
+    ex:isiLatin "saprap​taneingpasisir, akathahpunangbahitra, jukungkun​thinglan​kecine, pêran​tiyen​ngam​bil​ulam, jajarsêkongmayangngan, atem​bak​anenghinglahut, arsakesahamisaya" ;
+    ex:isiAksaraJawa "꧄ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ꧈ ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ꧈ ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ꧈ ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀ ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀ ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀ ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈" ;
+    ex:arti "Di pesisir, banyak yang menjaga baitra, perahu kuning dan kecil, alat menangkap ikan, berjajar sebaris, menembak di laut, hendak pergi menangkap ikan." .
 
 ex:Kata_54_0 a ex:Kata ;
-    ex:latin "Kebersamaan" ;
-    ex:aksaraJawa "ꦏꦼꦧꦼꦂꦱꦩꦤ" ;
-    ex:arti "Kebersamaan" ;
+    ex:latin "saprap​taneingpasisir" ;
+    ex:aksaraJawa "ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ" ;
+    ex:arti "Di pesisir" ;
     ex:munculDalamParagraf ex:Paragraf_54 .
 
 ex:Kata_54_1 a ex:Kata ;
-    ex:latin "membangun" ;
-    ex:aksaraJawa "ꦩꦼꦧꦤ꧀ꦒꦸꦤ꧀" ;
-    ex:arti "membangun" ;
+    ex:latin "akathahpunangbahitra" ;
+    ex:aksaraJawa "ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ" ;
+    ex:arti "banyak yang menjaga baitra" ;
     ex:munculDalamParagraf ex:Paragraf_54 .
 
 ex:Kata_54_2 a ex:Kata ;
-    ex:latin "harmoni" ;
-    ex:aksaraJawa "ꦲꦫꦩꦺꦴꦤꦶ" ;
-    ex:arti "harmoni" ;
+    ex:latin "jukungkun​thinglan​kecine" ;
+    ex:aksaraJawa "ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ" ;
+    ex:arti "perahu kuning dan kecil" ;
     ex:munculDalamParagraf ex:Paragraf_54 .
 
 ex:Kata_54_3 a ex:Kata ;
-    ex:latin "sosial" ;
-    ex:aksaraJawa "ꦱꦺꦴꦱꦶꦪꦭ꧀" ;
-    ex:arti "sosial" ;
+    ex:latin "pêran​tiyen​ngam​bil​ulam" ;
+    ex:aksaraJawa "ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀" ;
+    ex:arti "alat menangkap ikan" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_4 a ex:Kata ;
+    ex:latin "jajarsêkongmayangngan" ;
+    ex:aksaraJawa "ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀" ;
+    ex:arti "berjejer sebaris" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_5 a ex:Kata ;
+    ex:latin "atem​bak​anenghinglahut" ;
+    ex:aksaraJawa "ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀" ;
+    ex:arti "menembak di laut" ;
+    ex:munculDalamParagraf ex:Paragraf_54 .
+
+ex:Kata_54_6 a ex:Kata ;
+    ex:latin "arsakesahamisaya" ;
+    ex:aksaraJawa "ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈" ;
+    ex:arti "hendak pergi menangkap ikan." ;
     ex:munculDalamParagraf ex:Paragraf_54 .
 
 # Paragraf 55
 ex:Paragraf_55 a ex:Paragraf ;
-    ex:isiLatin "Pengembangan diri memerlukan disiplin" ;
-    ex:isiAksaraJawa "ꦥꦼꦔꦧꦸꦩꦤ ꦢꦶꦫꦶ ꦩꦼꦤꦺꦴꦭꦸꦂꦏꦤ ꦢꦶꦱꦶꦥ꧀ꦭꦶꦤ꧀" ;
-    ex:arti "Pengembangan diri memerlukan disiplin" .
+    ex:isiLatin "sadayapan​dipun​pilih, pêrahukangnengpinggiran, won​tên​pamisayan​ningwong, samak​taḍayaunglan​layar, kamun​dhinipun​pisan, adan​tinitiyan​sampun, wus​ nêngngahḍataêngsamodra" ;
+    ex:isiAksaraJawa "꧄ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ꧈ ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀ ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ꧈ ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ꧈ ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀ ꦲꦢꦤ꧀ꦠꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈" ;
+    ex:arti "Semua dipilih, perahu yang di pinggir, ada pemisah orang, bersama dayung dan layar, sudah dituntun, menunggang sudah, sudah menuju samudra." .
 
 ex:Kata_55_0 a ex:Kata ;
-    ex:latin "Pengembangan" ;
-    ex:aksaraJawa "ꦥꦼꦔꦧꦸꦩꦤ" ;
-    ex:arti "Pengembangan" ;
+    ex:latin "sadayapan​dipun​pilih" ;
+    ex:aksaraJawa "ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ" ;
+    ex:arti "Semua dipilih" ;
     ex:munculDalamParagraf ex:Paragraf_55 .
 
 ex:Kata_55_1 a ex:Kata ;
-    ex:latin "diri" ;
-    ex:aksaraJawa "ꦢꦶꦫꦶ" ;
-    ex:arti "diri" ;
+    ex:latin "pêrahukangnengpinggiran" ;
+    ex:aksaraJawa "ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀" ;
+    ex:arti "perahu yang di pinggir" ;
     ex:munculDalamParagraf ex:Paragraf_55 .
 
 ex:Kata_55_2 a ex:Kata ;
-    ex:latin "memerlukan" ;
-    ex:aksaraJawa "ꦩꦼꦤꦺꦴꦭꦸꦂꦏꦤ" ;
-    ex:arti "memerlukan" ;
+    ex:latin "won​tên​pamisayan​ningwong" ;
+    ex:aksaraJawa "ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ" ;
+    ex:arti "ada pemisah orang" ;
     ex:munculDalamParagraf ex:Paragraf_55 .
 
 ex:Kata_55_3 a ex:Kata ;
-    ex:latin "disiplin" ;
-    ex:aksaraJawa "ꦢꦶꦱꦶꦥ꧀ꦭꦶꦤ꧀" ;
-    ex:arti "disiplin" ;
+    ex:latin "samak​taḍayaunglan​layar" ;
+    ex:aksaraJawa "ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ" ;
+    ex:arti "bersama dayung dan layar" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_4 a ex:Kata ;
+    ex:latin "kamun​dhinipun​pisan" ;
+    ex:aksaraJawa "ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀" ;
+    ex:arti "sudah dituntun" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_5 a ex:Kata ;
+    ex:latin "adan​tinitiyan​sampun" ;
+    ex:aksaraJawa "ꦲꦢꦤ꧀ꦡꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀" ;
+    ex:arti "menunggang sudah" ;
+    ex:munculDalamParagraf ex:Paragraf_55 .
+
+ex:Kata_55_6 a ex:Kata ;
+    ex:latin "wus​ nêngngahḍataêngsamodra" ;
+    ex:aksaraJawa "ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈" ;
+    ex:arti "sudah menuju samudra." ;
     ex:munculDalamParagraf ex:Paragraf_55 .
 
 # Paragraf 56
 ex:Paragraf_56 a ex:Paragraf ;
-    ex:isiLatin "Maju terus tanpa mandeg" ;
-    ex:isiAksaraJawa "ꦩꦗꦸ ꦠꦼꦫꦸꦱ ꦠꦤ꧀ꦥ ꦩꦤ꧀ꦢꦼꦒ꧀" ;
-    ex:arti "Terus maju tanpa berhenti" .
+    ex:isiLatin "sigra_alayartumuli, wus​lêpas​palayarira, tan​karuwan​ningsêdyane, selarasahaturira, kakangwon​tên​nêgara, ingngrikikawulajujuk, srinatahingkangsinadya" ;
+    ex:isiAksaraJawa "꧄ꦱꦶꦒꦿꦲꦭꦪꦂꦠꦸꦩꦸꦭꦶ꧈ ꦮꦸꦱ꧀ꦭꦼꦥꦱ꧀ꦥꦭꦪꦂꦫꦶꦫ꧈ ꦠꦤ꧀ꦏꦫꦸꦮꦤ꧀ꦤꦶꦁꦱꦼꦢꦾꦤꦺ꧈ ꦱꦺꦭꦫꦱꦲꦠꦸꦫꦶꦫ꧈ ꦏꦏꦁꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦤꦼꦒꦫ꧈ ꦲꦶꦁꦔꦿꦶꦏꦶꦏꦮꦸꦭꦗꦸꦗꦸꦏ꧀ ꦱꦿꦶꦤꦠꦲꦶꦁꦏꦁꦱꦶꦤꦢꦾ꧉" ;
+    ex:arti "Segera berlayar, sudah berangkat pelayarannya, tak sadar di waktu itu, Selarasa menyampaikan, kakang di negeri ini, aku menunggu, raja yang disiapkan." .
 
 ex:Kata_56_0 a ex:Kata ;
-    ex:latin "Maju" ;
-    ex:aksaraJawa "ꦩꦗꦸ" ;
-    ex:arti "Maju" ;
+    ex:latin "sigra_alayartumuli" ;
+    ex:aksaraJawa "ꦱꦶꦒꦿꦲꦭꦪꦂꦠꦸꦩꦸꦭꦶ" ;
+    ex:arti "Segera berlayar" ;
     ex:munculDalamParagraf ex:Paragraf_56 .
 
 ex:Kata_56_1 a ex:Kata ;
-    ex:latin "terus" ;
-    ex:aksaraJawa "ꦠꦼꦫꦸꦱ" ;
-    ex:arti "terus" ;
+    ex:latin "wus​lêpas​palayarira" ;
+    ex:aksaraJawa "ꦮꦸꦱ꧀ꦭꦼꦥꦱ꧀ꦥꦭꦪꦂꦫꦶꦫ" ;
+    ex:arti "sudah berangkat pelayarannya" ;
     ex:munculDalamParagraf ex:Paragraf_56 .
 
 ex:Kata_56_2 a ex:Kata ;
-    ex:latin "tanpa" ;
-    ex:aksaraJawa "ꦠꦤ꧀ꦥ" ;
-    ex:arti "tanpa" ;
+    ex:latin "tan​karuwan​ningsêdyane" ;
+    ex:aksaraJawa "ꦠꦤ꧀ꦏꦫꦸꦮꦤ꧀ꦤꦶꦁꦱꦼꦢꦾꦤꦺ" ;
+    ex:arti "tak sadar di waktu itu" ;
     ex:munculDalamParagraf ex:Paragraf_56 .
 
 ex:Kata_56_3 a ex:Kata ;
-    ex:latin "mandeg" ;
-    ex:aksaraJawa "ꦩꦤ꧀ꦢꦼꦒ꧀" ;
-    ex:arti "berhenti" ;
+    ex:latin "selarasahaturira" ;
+    ex:aksaraJawa "ꦱꦺꦭꦫꦱꦲꦠꦸꦫꦶꦫ" ;
+    ex:arti "Selarasa menyampaikan" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_4 a ex:Kata ;
+    ex:latin "kakangwon​tên​nêgara" ;
+    ex:aksaraJawa "ꦏꦏꦁꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦤꦼꦒꦫ" ;
+    ex:arti "kakang di negeri ini" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_5 a ex:Kata ;
+    ex:latin "ingngrikikawulajujuk" ;
+    ex:aksaraJawa "ꦲꦶꦁꦔꦿꦶꦏꦶꦏꦮꦸꦭꦗꦸꦗꦸꦏ꧀" ;
+    ex:arti "aku menunggu" ;
+    ex:munculDalamParagraf ex:Paragraf_56 .
+
+ex:Kata_56_6 a ex:Kata ;
+    ex:latin "srinatahingkangsinadya" ;
+    ex:aksaraJawa "ꦱꦿꦶꦤꦠꦲꦶꦁꦏꦁꦱꦶꦤꦢꦾ" ;
+    ex:arti "raja yang disiapkan." ;
     ex:munculDalamParagraf ex:Paragraf_56 .

@@ -1,0 +1,525 @@
+id,type,isiLatin,isiAksaraJawa,arti,munculDalamParagraf,sumber
+Paragraf_1,Paragraf,"tatkala wiwit tinulis ing ditên ngahad punika pukul sapta ing wayahe, kawanlikur ing kang tanggal nênggih ing śaśi sapar, tahun nalip duk tinurun jêjêging mongsa katiga","ꦠꦠ꧀ꦏꦭ​ꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ","Ketika mulai ditulis pada hari Ngahad pukul tujuh pada tanggal dua puluh bulan Sapar tahun Alip turun masa ketiga",,1
+Kata_1_0,Kata,"tatkala","ꦠꦠ꧀ꦏꦭ","Ketika",ex:Paragraf_1,1
+Kata_1_1,Kata,"wiwit","ꦮꦶꦮꦶꦠ꧀","mulai",ex:Paragraf_1,1
+Kata_1_2,Kata,"tinulis","ꦠꦶꦤꦸꦭꦶꦱ꧀","ditulis",ex:Paragraf_1,1
+Kata_1_3,Kata,"ing","ꦲꦶꦁ","pada",ex:Paragraf_1,1
+Kata_1_4,Kata,"ditên","ꦢꦶꦠꦼꦤ꧀","hari",ex:Paragraf_1,1
+Kata_1_5,Kata,"ngahad","ꦔꦲꦢ꧀","Ngahad",ex:Paragraf_1,1
+Kata_1_6,Kata,"punika","ꦥꦸꦤꦶꦏ","itu",ex:Paragraf_1,1
+Kata_1_7,Kata,"pukul","ꦥꦸꦏꦸꦭ꧀","pukul",ex:Paragraf_1,1
+Kata_1_8,Kata,"sapta","ꦱꦥ꧀ꦠ","tujuh",ex:Paragraf_1,1
+Kata_1_9,Kata,"ing","ꦲꦶꦁ","pada",ex:Paragraf_1,1
+Kata_1_10,Kata,"wayahe","ꦮꦪꦃꦲꦺ","waktunya",ex:Paragraf_1,1
+Kata_1_11,Kata,"kawanlikur","ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ","dua puluh empat",ex:Paragraf_1,1
+Kata_1_12,Kata,"ing","ꦲꦶꦁ","di",ex:Paragraf_1,1
+Kata_1_13,Kata,"kang","ꦏꦁ","yang",ex:Paragraf_1,1
+Kata_1_14,Kata,"tanggal","ꦠꦁ​ꦒꦭ꧀","tanggal",ex:Paragraf_1,1
+Kata_1_15,Kata,"nênggih","ꦤꦼꦁꦒꦶꦃ","yaitu",ex:Paragraf_1,1
+Kata_1_16,Kata,"ing","ꦲꦶꦁ","di",ex:Paragraf_1,1
+Kata_1_17,Kata,"śaśi","ꦯꦯꦶ","bulan",ex:Paragraf_1,1
+Kata_1_18,Kata,"sapar","ꦱꦥꦂ","Sapar",ex:Paragraf_1,1
+Kata_1_19,Kata,"tahun","ꦠꦲꦸꦤ꧀","tahun",ex:Paragraf_1,1
+Kata_1_20,Kata,"nalip","ꦤꦭꦶꦥ꧀","Alip",ex:Paragraf_1,1
+Kata_1_21,Kata,"duk","ꦢꦸꦏ꧀","ketika",ex:Paragraf_1,1
+Kata_1_22,Kata,"tinurun","ꦠꦶꦤꦸꦫꦸꦤ꧀","diturunkan",ex:Paragraf_1,1
+Kata_1_23,Kata,"jêjêging","ꦗꦼꦗꦼꦒꦶꦁ","berlakunya",ex:Paragraf_1,1
+Kata_1_24,Kata,"mongsa","ꦩꦺꦴꦁ​ꦱ","masa",ex:Paragraf_1,1
+Kata_1_25,Kata,"katiga","ꦏꦠꦶꦒ","ketiga",ex:Paragraf_1,1
+Paragraf_2,Paragraf,"sinêngkalan duk tinulis anuju ing zamannira, sewu pitung ngatus kehe, tigang dasa lan satunggal samya den engngêttana, waspada aja kaliru, ingêrre tahun lan jamman","꧃ꦱꦶꦤꦼꦁ​ꦏꦭꦤ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦤꦸꦗꦸ​ꦲꦶꦁ​ꦗ꦳ꦩꦤ꧀ꦤꦶꦫ꧈​ꦱꦺꦮꦸ​ꦥꦶꦠꦸꦁ​ꦔꦠꦸꦱ꧀ꦏꦺꦃꦲꦺ꧈​ꦠꦶꦒꦁ​ꦢꦱ​ꦭꦤ꧀ꦱꦠꦸꦁ​ꦒꦭ꧀​ꦱꦩꦾ​ꦢꦺꦤ꧀ꦲꦺꦁꦔꦼꦠ꧀ꦠꦤ꧀ꦤꦤ꧈​ꦮꦱ꧀ꦥꦢ​ꦲꦗ​ꦏꦭꦶꦫꦸ꧈​ꦲꦶꦔꦼꦂ​ꦫꦺ​ꦠꦲꦸꦤ꧀ꦭꦤ꧀ꦗꦩ꧀ꦩꦤ","Tertulis dengan sinengkalan dalam zamannya, seribu tujuh ratus, tiga puluh satu, semua diingat baik, hati-hati jangan salah, di dalam tahun dan zaman",,2
+Kata_2_0,Kata,"sinêngkalan","ꦱꦶꦤꦼꦁ​ꦏꦭꦤ꧀","sinengkalan",ex:Paragraf_2,2
+Kata_2_1,Kata,"duk","ꦢꦸꦏ꧀","ketika",ex:Paragraf_2,2
+Kata_2_2,Kata,"tinulis","ꦠꦶꦤꦸꦭꦶꦱ꧀","ditulis",ex:Paragraf_2,2
+Kata_2_3,Kata,"anuju","ꦲꦤꦸꦗꦸ","menuju",ex:Paragraf_2,2
+Kata_2_4,Kata,"ing","ꦲꦶꦁ","di",ex:Paragraf_2,2
+Kata_2_5,Kata,"zamannira","ꦗ꦳ꦩꦤ꧀ꦤꦶꦫ","zamannya",ex:Paragraf_2,2
+Kata_2_6,Kata,"sewu","ꦱꦺꦮꦸ","seribu",ex:Paragraf_2,2
+Kata_2_7,Kata,"pitung","ꦥꦶꦠꦸꦁ","tujuh",ex:Paragraf_2,2
+Kata_2_8,Kata,"ngatus","ꦔꦠꦸꦱ꧀","ratus",ex:Paragraf_2,2
+Kata_2_9,Kata,"kehe","ꦏꦺꦃꦲꦺ","banyaknya",ex:Paragraf_2,2
+Kata_2_10,Kata,"tigang","ꦠꦶꦒꦁ","tiga",ex:Paragraf_2,2
+Kata_2_11,Kata,"dasa","ꦢꦱ","puluh",ex:Paragraf_2,2
+Kata_2_12,Kata,"lan","ꦭꦤ꧀","dan",ex:Paragraf_2,2
+Kata_2_13,Kata,"satunggal","ꦱꦠꦸꦁ​ꦒꦭ꧀","satu",ex:Paragraf_2,2
+Kata_2_14,Kata,"samya","ꦱꦩꦾ","semua",ex:Paragraf_2,2
+Kata_2_15,Kata,"den","ꦢꦺꦤ꧀","oleh",ex:Paragraf_2,2
+Kata_2_16,Kata,"engngêttana","ꦲꦺꦁꦔꦼꦠ꧀ꦠꦤ꧀ꦤꦤ","diingat",ex:Paragraf_2,2
+Kata_2_17,Kata,"waspada","ꦮꦱ꧀ꦥꦢ","hati-hati",ex:Paragraf_2,2
+Kata_2_18,Kata,"aja","ꦲꦗ","jangan",ex:Paragraf_2,2
+Kata_2_19,Kata,"kaliru","ꦏꦭꦶꦫꦸ","salah",ex:Paragraf_2,2
+Kata_2_20,Kata,"ingêrre","ꦲꦶꦔꦼꦂ​ꦫꦺ","diingat",ex:Paragraf_2,2
+Kata_2_21,Kata,"tahun","ꦠꦲꦸꦤ꧀","tahun",ex:Paragraf_2,2
+Kata_2_22,Kata,"lan","ꦭꦤ꧀","dan",ex:Paragraf_2,2
+Kata_2_23,Kata,"jamman","ꦗꦩ꧀ꦩꦤ","zaman",ex:Paragraf_2,2
+Paragraf_3,Paragraf,"anêdheng pangaksamaning, kang nêrat jalma amudha, kang kinudang ing sêstrane, tumrapping dêlancang kertas, ala nênggih abongga, tan​dukking kathah kang singguk ukaran​nya, tuna liwat","꧃​ꦲꦤꦼꦝꦺꦁ​ꦥꦔꦏ꧀ꦱꦩꦤꦶꦁ꧈​ꦏꦁ​ꦤꦼꦫꦠ꧀ꦗꦭ꧀ꦩ​ꦲꦩꦸꦝ꧈​ꦏꦁ​ꦏꦶꦤꦸꦢꦁ​ꦲꦶꦁ​ꦱꦼꦱ꧀ꦠꦿꦤꦺ꧈​ꦠꦸꦩꦿꦥ꧀ꦥꦶꦁ​ꦢꦼꦭꦤ꧀ꦕꦁ​ꦏꦼꦂꦠꦱ꧀꧈​ꦲꦭ​ꦤꦼꦁꦒꦶꦃ​ꦲꦧꦺꦴꦁꦒ꧈​ꦠꦤ꧀ꦢꦸꦏ꧀ꦏꦶꦁ​ꦏꦛꦃ​ꦏꦁ​ꦱꦶꦁꦒꦸꦏ꧀​ꦲꦸꦏꦫꦤ꧀ꦚ꧈​ꦠꦸꦤꦭꦶꦮꦠ꧀","Ada sebuah pengingat yang menimpa manusia muda, yang dipanggil dalam kitab, untuk menulis di kertas, tentang hal yang buruk, tanduk banyak yang menonjol, ucapannya adalah ketidaksenangan",,3
+Kata_3_0,Kata,"anêdheng","ꦲꦤꦼꦝꦺꦁ","Ada sebuah",ex:Paragraf_3,3
+Kata_3_1,Kata,"pangaksamaning","ꦥꦔꦏ꧀ꦱꦩꦤꦶꦁ","pengingat",ex:Paragraf_3,3
+Kata_3_2,Kata,"kang","ꦏꦁ","yang",ex:Paragraf_3,3
+Kata_3_3,Kata,"nêrat","ꦤꦼꦫꦠ꧀","menimpa",ex:Paragraf_3,3
+Kata_3_4,Kata,"jalma","ꦗꦭ꧀ꦩ","manusia",ex:Paragraf_3,3
+Kata_3_5,Kata,"amudha","ꦲꦩꦸꦝ","muda",ex:Paragraf_3,3
+Kata_3_6,Kata,"kang","ꦏꦁ","yang",ex:Paragraf_3,3
+Kata_3_7,Kata,"kinudang","ꦏꦶꦤꦸꦢꦁ","dipanggil",ex:Paragraf_3,3
+Kata_3_8,Kata,"ing","ꦲꦶꦁ","dalam",ex:Paragraf_3,3
+Kata_3_9,Kata,"sêstrane","ꦱꦼꦱ꧀ꦠꦿꦤꦺ","kitabnya",ex:Paragraf_3,3
+Kata_3_10,Kata,"tumrapping","ꦠꦸꦩꦿꦥ꧀ꦥꦶꦁ","untuk",ex:Paragraf_3,3
+Kata_3_11,Kata,"dêlancang","ꦢꦼꦭꦤ꧀ꦕꦁ","menulis",ex:Paragraf_3,3
+Kata_3_12,Kata,"kêrtas","ꦏꦼꦂꦠꦱ꧀","kertas",ex:Paragraf_3,3
+Kata_3_13,Kata,"ala","ꦲꦭ","buruk",ex:Paragraf_3,3
+Kata_3_14,Kata,"nênggih","ꦤꦼꦁꦒꦶꦃ","yaitu",ex:Paragraf_3,3
+Kata_3_15,Kata,"abongga","ꦲꦧꦺꦴꦁꦒ","buruk",ex:Paragraf_3,3
+Kata_3_16,Kata,"tandukking","ꦠꦤ꧀ꦢꦸꦏ꧀ꦏꦶꦁ","tanduknya",ex:Paragraf_3,3
+Kata_3_17,Kata,"kathah","ꦏꦛꦃ","banyak",ex:Paragraf_3,3
+Kata_3_18,Kata,"kang","ꦏꦁ","yang",ex:Paragraf_3,3
+Kata_3_19,Kata,"singguk","ꦱꦶꦁꦒꦸꦏ꧀","menonjol",ex:Paragraf_3,3
+Kata_3_20,Kata,"ukarannya","ꦲꦸꦏꦫꦤ꧀ꦚ","ucapannya",ex:Paragraf_3,3
+Kata_3_21,Kata,"tuna","ꦠꦸꦤ","rugi",ex:Paragraf_3,3
+Kata_3_22,Kata,"liwat","ꦭꦶꦮꦠ꧀","lewat",ex:Paragraf_3,3
+Paragraf_4,Paragraf,"kangsudya amahosṭauwin sampunwalgita ing nala, ing tembang miwahtêbungnge,hakaku tanpa têkênnan lila denwancen​nana, kang luwihsudabyeng kidung deningwang kadya kunjana","꧄ꦏꦁꦱꦸꦢꦾ​ꦲꦩꦲꦺꦴꦱ꧀ꦡꦸꦮꦶꦤ꧀​ꦱꦩ꧀ꦥꦸꦤ꧀ꦮꦭ꧀ꦒꦶꦠ​ꦲꦶꦁ​ꦤꦭ꧈​ꦲꦶꦁ​ꦠꦼꦩ꧀ꦧꦁ​ꦩꦶꦮꦃꦠꦼꦧꦸꦁꦔꦺ꧈ꦲꦏꦏꦸ​ꦠꦤ꧀ꦥ​ꦠꦼꦏꦼꦤ꧀ꦤꦤ꧀​ꦭꦶꦭ​ꦢꦺꦤ꧀ꦮꦤ꧀ꦕꦺꦤ꧀ꦤꦤ꧈​ꦏꦁ​ꦭꦸꦮꦶꦃꦱꦸꦢꦧꦾꦺꦁ​ꦏꦶꦢꦸꦁ​ꦢꦺꦤꦶꦁꦮꦁ​ꦏꦢꦾ​ꦏꦸꦤ꧀ꦗꦤ","Yang sudah dibaca dan dihafal sudah lelah dalam penderitaan, dalam tembang dan kata-words, aku mengakui tanpa paksaan, lama waktunya, yang lebih suci, seperti kunjana",,4
+Kata_4_0,Kata,"kangsudya","ꦏꦁꦱꦸꦢꦾ","Yang sudah",ex:Paragraf_4,4
+Kata_4_1,Kata,"amahosṭauwin","ꦩꦲꦺꦴꦱ꧀ꦡꦸꦮꦶꦤ꧀","dibaca dan dihafal",ex:Paragraf_4,4
+Kata_4_2,Kata,"sampunwalgita","ꦱꦩ꧀ꦥꦸꦤ꧀ꦮꦭ꧀ꦒꦶꦠ","sudah lelah",ex:Paragraf_4,4
+Kata_4_3,Kata,"ing","ꦲꦶꦁ","dalam",ex:Paragraf_4,4
+Kata_4_4,Kata,"nala","ꦤꦭ","hati",ex:Paragraf_4,4
+Kata_4_5,Kata,"ing","ꦲꦶꦁ","dalam",ex:Paragraf_4,4
+Kata_4_6,Kata,"tembang","ꦠꦼꦩ꧀ꦧꦁ","tembang",ex:Paragraf_4,4
+Kata_4_7,Kata,"miwahtêbungnge","ꦩꦶꦮꦃꦠꦼꦧꦸꦁꦔꦺ","dan kata-kata",ex:Paragraf_4,4
+Kata_4_8,Kata,"hakaku","ꦲꦏꦏꦸ","aku mengakui",ex:Paragraf_4,4
+Kata_4_9,Kata,"tanpa","ꦠꦤ꧀ꦥ","tanpa",ex:Paragraf_4,4
+Kata_4_10,Kata,"têkênnan","ꦠꦼꦏꦼꦤ꧀ꦤꦤ꧀","paksaan",ex:Paragraf_4,4
+Kata_4_11,Kata,"lila","ꦭꦶꦭ","rela",ex:Paragraf_4,4
+Kata_4_12,Kata,"denwancennana","ꦢꦺꦤ꧀ꦮꦤ꧀ꦕꦺꦤ꧀ꦤꦤ","diatur",ex:Paragraf_4,4
+Kata_4_13,Kata,"kang","ꦏꦁ","yang",ex:Paragraf_4,4
+Kata_4_14,Kata,"luwihsudabyeng","ꦭꦸꦮꦶꦃꦱꦸꦢꦧꦾꦺꦁ","lebih suci",ex:Paragraf_4,4
+Kata_4_15,Kata,"kidung","ꦏꦶꦢꦸꦁ","kidung",ex:Paragraf_4,4
+Kata_4_16,Kata,"deningwang","ꦢꦺꦤꦶꦁꦮꦁ","oleh orang",ex:Paragraf_4,4
+Kata_4_17,Kata,"kadya","ꦏꦢꦾ","seperti",ex:Paragraf_4,4
+Kata_4_18,Kata,"kunjana","ꦏꦸꦤ꧀ꦗꦤ","kunjana",ex:Paragraf_4,4
+Paragraf_5,Paragraf,"rumênggêp umagêmringgit nisthane raga tanketang, lir sasawi upamine, ngukuli punang ing ngawan, pankadya sang kukila, ngucaptanwringtêgêssipun pasthi ngesemansujana","꧄ꦫꦸꦩꦼꦁꦒꦼꦥ꧀ꦲꦸꦩꦒꦼꦩ꧀ꦩꦿꦶꦁꦒꦶꦠ꧀​ꦤꦶꦱ꧀ꦛꦤꦺ​ꦫꦒ​ꦠꦤ꧀ꦏꦺꦠꦁ꧈​ꦭꦶꦂ​ꦱꦱꦮꦶ​ꦲꦸꦥꦩꦶꦤꦺ꧈ꦔꦸꦏꦸꦭꦶ​ꦥꦸꦤꦁ​ꦲꦶꦁ​ꦔꦮꦤ꧀​ꦥꦤ꧀ꦏꦢꦾ​ꦱꦁ​ꦏꦸꦏꦶꦭ꧈​ꦔꦸꦕꦥ꧀ꦠꦤ꧀ꦮꦿꦶꦤ꧀ꦠꦼꦒꦼꦱ꧀ꦱꦶꦥꦸꦤ꧀​ꦥꦱ꧀ꦛꦶ​ꦔꦺꦱꦼꦩꦤ꧀ꦱꦸꦗꦤ","Terdengar ringgit suara nafas tubuh tak terhitung, seperti ibarat upamine, melawan di siang hari, seperti burung kukila, berkata tanpa makna, pasti menggelisahkan hati",,5
+Kata_5_0,Kata,"rumênggêp","ꦫꦸꦩꦼꦁꦒꦼꦥ꧀","Terdengar",ex:Paragraf_5,5
+Kata_5_1,Kata,"umagêmringgit","ꦲꦸꦩꦒꦼꦩ꧀ꦩꦿꦶꦁꦒꦶꦠ꧀","ringgit suara",ex:Paragraf_5,5
+Kata_5_2,Kata,"nisthane","ꦤꦶꦱ꧀ꦛꦤꦺ","nafas",ex:Paragraf_5,5
+Kata_5_3,Kata,"raga","ꦫꦒ","tubuh",ex:Paragraf_5,5
+Kata_5_4,Kata,"tanketang","ꦠꦤ꧀ꦏꦺꦠꦁ","tak terhitung",ex:Paragraf_5,5
+Kata_5_5,Kata,"lir","ꦭꦶꦂ","seperti",ex:Paragraf_5,5
+Kata_5_6,Kata,"sasawi","ꦱꦱꦮꦶ","ibarat",ex:Paragraf_5,5
+Kata_5_7,Kata,"upamine","ꦲꦸꦥꦩꦶꦤꦺ","contohnya",ex:Paragraf_5,5
+Kata_5_8,Kata,"ngukuli","ꦔꦸꦏꦸꦭꦶ","melawan",ex:Paragraf_5,5
+Kata_5_9,Kata,"punang","ꦥꦸꦤꦁ","yang",ex:Paragraf_5,5
+Kata_5_10,Kata,"ing","ꦲꦶꦁ","di",ex:Paragraf_5,5
+Kata_5_11,Kata,"ngawan","ꦔꦮꦤ꧀","siang",ex:Paragraf_5,5
+Kata_5_12,Kata,"pankadya","ꦥꦤ꧀ꦏꦢꦾ","seperti",ex:Paragraf_5,5
+Kata_5_13,Kata,"sang","ꦱꦁ","sang",ex:Paragraf_5,5
+Kata_5_14,Kata,"kukila","ꦏꦸꦏꦶꦭ꧀","burung",ex:Paragraf_5,5
+Kata_5_15,Kata,"ngucaptanwringtêgêssipun","ꦔꦸꦕꦥ꧀ꦠꦤ꧀ꦮꦿꦶꦤ꧀ꦠꦼꦒꦼꦱ꧀ꦱꦶꦥꦸꦤ꧀","berkata tanpa makna",ex:Paragraf_5,5
+Kata_5_16,Kata,"pasthi","ꦥꦱ꧀ꦛꦶ","pasti",ex:Paragraf_5,5
+Kata_5_17,Kata,"ngesemansujana","ꦔꦺꦱꦼꦩꦤ꧀ꦱꦸꦗꦤ","menggelisahkan hati",ex:Paragraf_5,5
+Paragraf_6,Paragraf,"purwaningwasitaluwih, sujalmadi amangkurat, marmacitraneratune, sangkaneśaśipurnama, sidiktanpatan​dhingngan, bagus sesusunaningsun, kadyasukmahonengdunya","꧄ꦥꦸꦂꦮꦤꦶꦁꦮꦱꦶꦠꦭꦸꦮꦶꦃ꧈ ꦱꦸꦗꦭ꧀ꦩꦢꦶꦲꦩꦁꦏꦸꦫꦠ꧀ ꦩꦂꦩꦕꦶꦠꦿꦤꦺꦫꦠꦸꦤꦺ꧈ ꦱꦁꦏꦤꦺꦯꦯꦶꦥꦸꦂꦤꦩ꧈ ꦱꦶꦢꦶꦏ꧀ꦠꦤ꧀ꦥꦠꦤ꧀ꦝꦶꦁꦔꦤ꧀ ꦧꦒꦸꦱ꧀ꦱꦺꦱꦸꦱꦸꦤꦤꦶꦁꦱꦸꦤ꧀ ꦏꦢꦾꦱꦸꦏ꧀ꦩꦲꦺꦴꦤꦺꦁꦢꦸꦤ꧀ꦚ꧉","Asal muasal wasiat lebih, dari manusia dimurkai, karena citra rajanya, pada purnama, unik tak tertandingi, baik susunanku, seperti roh di dunia.",,6
+Kata_6_0,Kata,"purwaningwasitaluwih","ꦥꦸꦂꦮꦤꦶꦁꦮꦱꦶꦠꦭꦸꦮꦶꦃ","Asal muasal wasiat lebih",ex:Paragraf_6,6
+Kata_6_1,Kata,"sujalmadi","ꦱꦸꦗꦭ꧀ꦩꦢꦶ","dari manusia",ex:Paragraf_6,6
+Kata_6_2,Kata,"amangkurat","ꦲꦩꦁꦏꦸꦫꦠ꧀","dimurkai",ex:Paragraf_6,6
+Kata_6_3,Kata,"marmacitraneratune","ꦩꦂꦩꦕꦶꦠꦿꦤꦺꦫꦠꦸꦤꦺ","karena citra rajanya",ex:Paragraf_6,6
+Kata_6_4,Kata,"sangkaneśaśipurnama","ꦱꦁꦏꦤꦺꦯꦯꦶꦥꦸꦂꦤꦩ꧈","pada purnama",ex:Paragraf_6,6
+Kata_6_5,Kata,"sidiktanpatandhingngan","ꦱꦶꦢꦶꦏ꧀ꦠꦤ꧀ꦥꦠꦤ꧀ꦝꦶꦁꦔꦤ꧀","unik tak tertandingi",ex:Paragraf_6,6
+Kata_6_6,Kata,"bagus sesusunaningsun","ꦧꦒꦸꦱ꧀ꦱꦺꦱꦸꦱꦸꦤꦤꦶꦁꦱꦸꦤ꧀","baik susunanku",ex:Paragraf_6,6
+Kata_6_7,Kata,"kadyasukmahonengdunya","ꦏꦢꦾꦱꦸꦏ꧀ꦩꦲꦺꦴꦤꦺꦁꦢꦸꦤ꧀ꦚ꧉","seperti roh di dunia.",ex:Paragraf_6,6
+Paragraf_7,Paragraf,"kadikumalahingngukir, susunannêgrihingcem​pa, lirnabiyusup​citrane, kadyaratusakingswarga, tu_uyenpintuningyang, pangngan​dikasêpêtmadu, kangngasukapahitkilang","꧄ꦏꦢꦶꦏꦸꦩꦭꦲꦶꦁꦔꦸꦏꦶꦂ꧈ ꦱꦸꦱꦸꦤ꧀ꦤꦤ꧀ꦤꦼꦒꦿꦶꦲꦶꦁꦲꦶꦁꦕꦺꦩ꧀ꦥ꧈ ꦭꦶꦂꦤꦧꦶꦪꦸꦱꦸꦥ꧀ꦕꦶꦠꦿꦤꦺ꧈ ꦏꦢꦾꦫꦠꦸꦱꦏꦶꦁꦱ꧀ꦮꦂꦒ꧈ ꦠꦸꦲꦸꦪꦺꦤ꧀ꦥꦶꦤ꧀ꦠꦸꦤꦶꦁꦪꦁ꧈ ꦥꦁꦔꦤ꧀ꦢꦶꦏꦱꦼꦥꦼꦠ꧀ꦩꦢꦸ꧈ ꦏꦁꦔꦱꦸꦏꦥꦲꦶꦠ꧀ꦏꦶꦭꦁ꧈","Seperti permata terukir, susunan negeri di Champa, seperti Nabi Yusuf bentuknya, seperti ratu dari surga, benar jika pintu Yang, ucapannya manis seperti madu, tapi ada rasa pahit di dalamnya.",,7
+Kata_7_0,Kata,"kadikumalahingngukir","ꦏꦢꦶꦏꦸꦩꦭꦲꦶꦁꦔꦸꦏꦶꦂ","Seperti permata terukir",ex:Paragraf_7,7
+Kata_7_1,Kata,"susunannêgrihingcempa","ꦱꦸꦱꦸꦤ꧀ꦤꦤ꧀ꦤꦼꦒꦿꦶꦲꦶꦁꦲꦶꦁꦕꦺꦩ꧀ꦥ","susunan negeri di Champa",ex:Paragraf_7,7
+Kata_7_2,Kata,"lirnabiyusupcitrane","ꦭꦶꦂꦤꦧꦶꦪꦸꦱꦸꦥ꧀ꦕꦶꦠꦿꦤꦺ","seperti Nabi Yusuf bentuknya",ex:Paragraf_7,7
+Kata_7_3,Kata,"kadyaratusakingswarga","ꦏꦢꦾꦫꦠꦸꦱꦏꦶꦁꦱ꧀ꦮꦂꦒ","seperti ratu dari surga",ex:Paragraf_7,7
+Kata_7_4,Kata,"tuuyenpintuningyang","ꦠꦸꦲꦸꦪꦺꦤ꧀ꦥꦶꦤ꧀ꦠꦸꦤꦶꦁꦪꦁ","benar jika pintu Yang",ex:Paragraf_7,7
+Kata_7_5,Kata,"pangngan​dikasêpêtmadu","ꦥꦁꦔꦤ꧀ꦢꦶꦏꦱꦼꦥꦼꦠ꧀ꦩꦢꦸ","ucapannya manis seperti madu",ex:Paragraf_7,7
+Kata_7_6,Kata,"kangngasukapahitkilang","ꦏꦁꦔꦱꦸꦏꦥꦲꦶꦠ꧀ꦏꦶꦭꦁ","tapi ada rasa pahit di dalamnya.",ex:Paragraf_7,7
+Paragraf_8,Paragraf,"nêgaricêm​pawinarni, nêgarinirasangnata, selabêretbisikkane, putranekijangtisyara, sabakdanelêlana, selabêretjênêngratu, anyakrawatiingcempa","꧄ꦤꦼꦒꦫꦶꦕꦼꦩ꧀ꦥꦮꦶꦤꦂꦤꦶ꧈ ꦤꦼꦒꦫꦶꦤꦶꦫꦱꦁꦤꦠ꧈ ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦧꦶꦱꦶꦏ꧀ꦏꦤꦺ꧈ ꦥꦸꦠꦿꦤꦺꦏꦶꦗꦁꦠꦶꦱꦾꦫ꧈ ꦱꦧꦏ꧀ꦢꦤꦺꦊꦭꦤ꧈ ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦗꦺꦼꦤꦼꦁꦫꦠꦸ꧈ ꦲꦚꦏꦿꦮꦠꦶꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈","Negeri Champa diterangi, pemerintahnya Sang Raja, Selaberet anak Ki Jangtisyara, sejak perjalanan, Selaberet bernama ratu, wanita utama di Champa.",,8
+Kata_8_0,Kata,"nêgaricêm​pawinarni","ꦤꦼꦒꦫꦶꦕꦼꦩ꧀ꦥꦮꦶꦤꦂꦤꦶ","Negeri Champa diterangi",ex:Paragraf_8,8
+Kata_8_1,Kata,"nêgarinirasangnata","ꦤꦼꦒꦫꦶꦤꦶꦫꦱꦁꦤꦠ","pemerintahnya Sang Raja",ex:Paragraf_8,8
+Kata_8_2,Kata,"selabêretbisikkane","ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦧꦶꦱꦶꦏ꧀ꦏꦤꦺ","Selaberet anak Ki Jangtisyara",ex:Paragraf_8,8
+Kata_8_3,Kata,"putranekijangtisyara","ꦥꦸꦠꦿꦤꦺꦏꦶꦗꦁꦠꦶꦱꦾꦫ","anak Ki Jangtisyara",ex:Paragraf_8,8
+Kata_8_4,Kata,"sabakdanelêlana","ꦱꦧꦏ꧀ꦢꦤꦺꦊꦭꦤ","sejak perjalanan",ex:Paragraf_8,8
+Kata_8_5,Kata,"selabêretjênêngratu","ꦱꦺꦭꦧꦼꦂꦫꦺꦠ꧀ꦗꦺꦼꦤꦼꦁꦫꦠꦸ","Selaberet bernama ratu",ex:Paragraf_8,8
+Kata_8_6,Kata,"anyakrawatiingcempa","ꦲꦚꦏꦿꦮꦠꦶꦲꦶꦁꦕꦼꦩ꧀ꦥ","wanita utama di Champa",ex:Paragraf_8,8
+Paragraf_9,Paragraf,"tankawarnasakal​aning, sehbêretjumênêngnata, kêlangkungdenirakahot, ambêkbudikalamarta, ngibadattetanpêgat, baktineḍataêng yyangwagung, tu_uyenkalipat​tolah","꧄ꦠꦤ꧀ꦏꦮꦂꦤꦱꦏꦭꦤꦶꦁ꧈ ꦱꦺꦃꦧꦼꦫꦺꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦤꦠ꧈ ꦏꦼꦭꦁꦏꦸꦁꦢꦺꦤꦶꦫꦏꦲꦺꦴꦠ꧀ ꦲꦩ꧀ꦧꦼꦏ꧀ꦧꦸꦢꦶꦏꦭꦩꦂꦠ꧈ ꦔꦶꦧꦢꦠ꧀ꦠꦺꦠꦤ꧀ꦥꦼꦒꦠ꧀ ꦧꦏ꧀ꦡꦶꦤꦺꦣꦠꦼꦁ​ꦪꦾꦁꦮꦒꦸꦁ꧈ ꦠꦸꦲꦸꦪꦺꦤ꧀ꦏꦭꦶꦥꦠ꧀ꦠꦺꦴꦭꦃ꧈","Tak terlukis oleh mata, Sèh Bêrèt memerintah, sangat keras hatinya, ambek budi kalamarta, ibadah tak henti, baktinya pada Yang Maha Agung, benar jika diredakan.",,9
+Kata_9_0,Kata,"tankawarnasakal​aning","ꦠꦤ꧀ꦏꦮꦂꦤꦱꦏꦭꦤꦶꦁ","Tak terlukis oleh mata",ex:Paragraf_9,9
+Kata_9_1,Kata,"sehbêretjumênêngnata","ꦱꦺꦃꦧꦼꦫꦺꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦤꦠ","Sèh Bêrèt memerintah",ex:Paragraf_9,9
+Kata_9_2,Kata,"kêlangkungdenirakahot","ꦏꦼꦭꦁꦏꦸꦁꦢꦺꦤꦶꦫꦏꦲꦺꦴꦠ꧀","sangat keras hatinya",ex:Paragraf_9,9
+Kata_9_3,Kata,"ambêkbudikalamarta","ꦲꦩ꧀ꦧꦼꦏ꧀ꦧꦸꦢꦶꦏꦭꦩꦂꦠ","ambek budi kalamarta",ex:Paragraf_9,9
+Kata_9_4,Kata,"ngibadattetanpêgat","ꦔꦶꦧꦢꦠ꧀ꦠꦺꦠꦤ꧀ꦥꦼꦒꦠ꧀","ibadah tak henti",ex:Paragraf_9,9
+Kata_9_5,Kata,"baktineḍataêng yyangwagung","ꦧꦏ꧀ꦡꦶꦤꦺꦣꦠꦼꦁ​ꦪꦾꦁꦮꦒꦸꦁ","baktinya pada Yang Maha Agung",ex:Paragraf_9,9
+Kata_9_6,Kata,"tu_uyenkalipat​tolah","ꦠꦸꦲꦸꦪꦺꦤ꧀ꦏꦭꦶꦥꦠ꧀ꦠꦺꦴꦭꦃ","benar jika diredakan.",ex:Paragraf_9,9
+Paragraf_10,Paragraf,"sigêgên ingkangkawarni sehbêretsampunsumallah, nêgrihingcêm​pakan​dhane, wuskasrahḍataêngkangputra, apantilarwawêka, kangkacatursamijalu, kunêngkêkasi_eputra","꧄ꦱꦶꦒꦼꦒꦼꦤ꧀ꦲꦶꦁꦏꦁꦏꦮꦂꦤꦶ ꦱꦺꦃꦧꦼꦂꦫꦺꦠ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦸꦩꦭ꧀ꦭꦃ꧈ꦤꦼꦒꦿꦶꦲꦶꦁꦕꦼꦩ꧀ꦥꦏꦤ꧀ꦝꦤꦺ꧈ ꦮꦸꦱ꧀ꦏꦱꦿꦃꦣꦠꦼꦁꦏꦁꦥꦸꦠꦿ꧈ ꦲꦥꦤ꧀ꦠꦶꦭꦂꦮꦮꦼꦏ꧈ ꦏꦁꦏꦕꦠꦸꦂꦱꦩꦶꦗꦭꦸ꧈ ꦏꦸꦤꦼꦁꦏꦼꦏꦱꦶꦲꦺꦥꦸꦠꦿ꧈","Tak terhitung yang memerintah, Sèh Bêrèt sudah wafat, negeri Champa dikabarkan, sudah diserahkan pada putra, sudah meninggalkan tanda, yang tertulis semua pria, dan kasihan pada putranya.",,10
+Kata_10_0,Kata,"sigêgên","ꦱꦶꦒꦼꦒꦼꦤ꧀","Tak terhitung",ex:Paragraf_10,10
+Kata_10_1,Kata,"ingkangkawarni","ꦲꦶꦁꦏꦁꦏꦮꦂꦤꦶ","yang memerintah",ex:Paragraf_10,10
+Kata_10_2,Kata,"sehbêretsampunsumallah","ꦱꦺꦃꦧꦼꦂꦫꦺꦠ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦸꦩꦭ꧀ꦭꦃ","Sèh Bêrèt sudah wafat",ex:Paragraf_10,10
+Kata_10_3,Kata,"nêgrihingcêmpakandhane","ꦤꦼꦒꦿꦶꦲꦶꦁꦕꦼꦩ꧀ꦥꦏꦤ꧀ꦝꦤꦺ","negeri Champa dikabarkan",ex:Paragraf_10,10
+Kata_10_4,Kata,"wuskasrahḍataêngkangputra","ꦮꦸꦱ꧀ꦏꦱꦿꦃꦣꦠꦼꦁꦏꦁꦥꦸꦠꦿ","sudah diserahkan pada putra",ex:Paragraf_10,10
+Kata_10_5,Kata,"apantilarwawêka","ꦲꦥꦤ꧀ꦠꦶꦭꦂꦮꦮꦼꦏ","sudah meninggalkan tanda",ex:Paragraf_10,10
+Kata_10_6,Kata,"kangkacatursamijalu","ꦏꦁꦏꦕꦠꦸꦂꦱꦩꦶꦗꦭꦸ","yang tertulis semua pria",ex:Paragraf_10,10
+Kata_10_7,Kata,"kunêngkêkasi_eputra","ꦏꦸꦤꦼꦁꦏꦼꦏꦱꦶꦲꦺꦥꦸꦠꦿ","dan kasihan pada putranya",ex:Paragraf_10,10
+Paragraf_11,Paragraf,"raden​selangkaranênggih, kêkasihirakangwêrdah, selasyarapanênggêkke, kangsumên​dhiselagon​da, pamuragilepisan, selarasyajênêngngipun, sangangtahunhingkangyusya","꧄ꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫꦤꦼꦁꦒꦶꦃ꧈ꦏꦼꦏꦱꦶꦃꦲꦶꦫꦏꦁꦮꦼꦂꦢꦃ꧈ ꦱꦺꦭꦱꦾꦫꦥꦤꦼꦁꦒꦼꦏ꧀ꦏꦺ꧈ ꦏꦁꦱꦸꦩꦼꦤ꧀ꦝꦶꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ꧈ ꦥꦩꦸꦫꦒꦶꦭꦺꦥꦶꦱꦤ꧀ ꦱꦺꦭꦫꦱꦾꦗꦼꦤꦼꦁꦔꦶꦥꦸꦤ꧀ ꦱꦔꦁꦠꦲꦸꦤ꧀ꦲꦶꦁꦏꦁꦪꦸꦱꦾ꧈","Radèn Selangkara adalah, kesayangannya yang putih, Selasyara yang menjaga, yang bersembunyi Selagănda, pengikutnya pertama, namanya Selarasya, berumur sembilan tahun.",,11
+Kata_11_0,Kata,"raden​selangkaranênggih","ꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫꦤꦼꦁꦒꦶꦃ","Radèn Selangkara adalah",ex:Paragraf_11,11
+Kata_11_1,Kata,"kêkasihirakangwêrdah","ꦏꦼꦏꦱꦶꦃꦲꦶꦫꦏꦁꦮꦼꦂꦢꦃ","kesayangannya yang putih",ex:Paragraf_11,11
+Kata_11_2,Kata,"selasyarapanênggêkke","ꦱꦺꦭꦱꦾꦫꦥꦤꦼꦁꦒꦼꦏ꧀ꦏꦺ","Selasyara yang menjaga",ex:Paragraf_11,11
+Kata_11_3,Kata,"kangsumên​dhiselagon​da","ꦏꦁꦱꦸꦩꦼꦤ꧀ꦝꦶꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ","yang bersembunyi Selagănda",ex:Paragraf_11,11
+Kata_11_4,Kata,"pamuragilepisan","ꦥꦩꦸꦫꦒꦶꦭꦺꦥꦶꦱꦤ꧀","pengikutnya pertama",ex:Paragraf_11,11
+Kata_11_5,Kata,"selarasyajênêngngipun","ꦱꦺꦭꦫꦱꦾꦗꦼꦤꦼꦁꦔꦶꦥꦸꦤ꧀","namanya Selarasya",ex:Paragraf_11,11
+Kata_11_6,Kata,"sangangtahunhingkangyusya","ꦱꦔꦁꦠꦲꦸꦤ꧀ꦲꦶꦁꦏꦁꦪꦸꦱꦾ꧈","berumur sembilan tahun.",ex:Paragraf_11,11
+Paragraf_12,Paragraf,"sasedanesribupati, awêtawis gan​tiwêrsa, ngêmas​siprameswari_ne, tumuturḍataêngkangraka, sampunniramangkana, selangkarajênêngratu, kêlangkunghingmurkanira","꧄ꦱꦱꦺꦢꦤꦺꦱꦿꦶꦧꦸꦥꦠꦶ꧈ ꦲꦮꦼꦠꦮꦶꦱ꧀​ꦒꦤ꧀ꦠꦶꦮꦼꦂꦱ꧈ ꦔꦼꦩꦱ꧀ꦱꦶꦥꦿꦩꦺꦱ꧀ꦮꦫꦶꦤꦺ꧈ ꦠꦸꦩꦸꦠꦸꦂꦣꦠꦼꦁꦏꦁꦫꦏ꧈ ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦫꦩꦁꦏꦤ꧈ ꦱꦺꦭꦁꦏꦫꦗꦼꦤꦼꦁꦫꦠꦸ꧈ ꦏꦼꦭꦁꦏꦸꦁꦲꦶꦁꦩꦸꦂꦏꦤꦶꦫ꧈","Sekitar bupati, kurang lebih pergantian tahun, mengurusi urusannya, memberi tahu pada yang muda, sudah begitulah, Selangkara bernama ratu, sangat marah.",,12
+Kata_12_0,Kata,"sasedanesribupati","ꦱꦱꦺꦢꦤꦺꦱꦿꦶꦧꦸꦥꦠꦶ","Sekitar bupati",ex:Paragraf_12,12
+Kata_12_1,Kata,"awêtawis gan​tiwêrsa","ꦲꦮꦼꦠꦮꦶꦱ꧀​ꦒꦤ꧀ꦠꦶꦮꦼꦂꦱ","kurang lebih pergantian tahun",ex:Paragraf_12,12
+Kata_12_2,Kata,"ngêmas​siprameswari_ne","ꦔꦼꦩꦱ꧀ꦱꦶꦥꦿꦩꦺꦱ꧀ꦮꦫꦶꦤꦺ","mengurusi urusannya",ex:Paragraf_12,12
+Kata_12_3,Kata,"tumuturḍataêngkangraka","ꦠꦸꦩꦸꦠꦸꦂꦣꦠꦼꦁꦏꦁꦫꦏ","memberi tahu pada yang muda",ex:Paragraf_12,12
+Kata_12_4,Kata,"sampunniramangkana","ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦫꦩꦁꦏꦤ","sudah begitulah",ex:Paragraf_12,12
+Kata_12_5,Kata,"selangkarajênêngratu","ꦱꦺꦭꦁꦏꦫꦗꦼꦤꦼꦁꦫꦠꦸ","Selangkara bernama ratu",ex:Paragraf_12,12
+Kata_12_6,Kata,"kêlangkunghingmurkanira","ꦏꦼꦭꦁꦏꦸꦁꦲꦶꦁꦩꦸꦂꦏꦤꦶꦫ","sangat marah.",ex:Paragraf_12,12
+Paragraf_13,Paragraf,"sahisinekangnêgari, titiyangmiwahbêrana, mapankinukutankabeh, kangrayimiwahtitiga, tan​sinungngan​warissan, mangkanapangngêkanipun, maharajasilangkara","꧄ꦱꦲꦶꦱꦶꦤꦺꦏꦁꦤꦼꦒꦫꦶ꧈ ꦠꦶꦠꦶꦪꦁꦩꦶꦮꦃꦧꦼꦂꦫꦤ꧈ ꦩꦥꦤ꧀ꦏꦶꦤꦸꦏꦸꦠꦤ꧀ꦏꦧꦺꦃ꧈ ꦏꦁꦫꦪꦶꦩꦶꦮꦃꦠꦶꦠꦶꦒ꧈ ꦠꦤ꧀ꦱꦶꦤꦸꦁꦔꦤ꧀ꦮꦫꦶꦱ꧀ꦱꦤ꧀ ꦩꦁꦏꦤꦥꦁꦔꦺꦏꦤꦶꦥꦸꦤ꧀ ꦩꦲꦫꦗꦱꦶꦭꦁꦏꦫ꧈","Isi negeri, orang dan binatang, sudah tunduk semua, raja dan tiga orang, tak diwariskan, demikian keadaannya, Maharaja Silangkara.",,13
+Kata_13_0,Kata,"sahisinekangnêgari","ꦱꦲꦶꦱꦶꦤꦺꦏꦁꦤꦼꦒꦫꦶ","Isi negeri",ex:Paragraf_13,13
+Kata_13_1,Kata,"titiyangmiwahbêrana","ꦠꦶꦠꦶꦪꦁꦩꦶꦮꦃꦧꦼꦂꦫꦤ","orang dan binatang",ex:Paragraf_13,13
+Kata_13_2,Kata,"mapankinukutankabeh","ꦩꦥꦤ꧀ꦏꦶꦤꦸꦏꦸꦠꦤ꧀ꦏꦧꦺꦃ","sudah tunduk semua",ex:Paragraf_13,13
+Kata_13_3,Kata,"kangrayimiwahtitiga","ꦏꦁꦫꦪꦶꦩꦶꦮꦃꦠꦶꦠꦶꦒ","raja dan tiga orang",ex:Paragraf_13,13
+Kata_13_4,Kata,"tan​sinungngan​warissan","ꦠꦤ꧀ꦱꦶꦤꦸꦁꦔꦤ꧀ꦮꦫꦶꦱ꧀ꦱꦤ꧀","tak diwariskan",ex:Paragraf_13,13
+Kata_13_5,Kata,"mangkanapangngêkanipun","ꦩꦁꦏꦤꦥꦁꦔꦺꦏꦤꦶꦥꦸꦤ꧀","demikian keadaannya",ex:Paragraf_13,13
+Kata_13_6,Kata,"maharajasilangkara","ꦩꦲꦫꦗꦱꦶꦭꦁꦏꦫ","Maharaja Silangkara",ex:Paragraf_13,13
+Paragraf_14,Paragraf,"yen​den​wehanawêwaris, sadulursêdaya, donyabêranalan​wongnge, yen​nangngrasaduwebala, utawiyen​sugiha, bok​angngên​dhihjênênghingsin, mongsasun​taulus​wibawa","꧄ꦪꦺꦤ꧀ꦢꦺꦤ꧀ꦮꦺꦃꦲꦤꦮꦼꦮꦫꦶꦱ꧀꧈ꦱꦢꦸꦭꦸꦂꦱꦼꦢꦪ꧈ꦢꦺꦴꦤ꧀ꦚꦧꦼꦂꦫꦤꦭꦤ꧀ꦮꦺꦴꦁꦔꦺ꧈ ꦪꦺꦤ꧀ꦤꦁꦔ꿱ꦢꦸꦮꦺꦧꦭ꧈ ꦲꦸꦠꦮꦶꦪꦺꦤ꧀ꦱꦸꦒꦶꦃꦲ꧈ ꦧꦺꦴꦏ꧀ꦲꦁꦔꦼꦤ꧀ꦝꦶꦃꦗꦼꦤꦼꦁꦲꦶꦁꦱꦶꦤ꧀ ꦩꦺꦴꦁ​ꦱ​ꦱꦸꦤ꧀ꦡꦸꦭꦸꦱ꧀ꦮꦶꦧꦮ꧈","Jika diwariskan, semua saudara, dunia dan manusia, jika merasa punya tentara, atau harta, namaku akan kukatakan, pada masa yang tulus berwibawa.",,14
+Kata_14_0,Kata,"yen​den​wehanawêwaris","ꦪꦺꦤ꧀ꦢꦺꦤ꧀ꦮꦺꦃꦲꦤꦮꦼꦮꦫꦶꦱ꧀","Jika diwariskan",ex:Paragraf_14,14
+Kata_14_1,Kata,"sadulursêdaya","ꦱꦢꦸꦭꦸꦂꦱꦼꦢꦪ","semua saudara",ex:Paragraf_14,14
+Kata_14_2,Kata,"donyabêranalan​wongnge","ꦢꦺꦴꦤ꧀ꦚꦧꦼꦂꦫꦤꦭꦤ꧀ꦮꦺꦴꦁꦔꦺ","dunia dan manusia",ex:Paragraf_14,14
+Kata_14_3,Kata,"yen​nangngrasaduwebala","ꦪꦺꦤ꧀ꦤꦁꦔ꿱ꦢꦸꦮꦺꦧꦭ","jika merasa punya tentara",ex:Paragraf_14,14
+Kata_14_4,Kata,"utawiyen​sugiha","ꦲꦸꦠꦮꦶꦪꦺꦤ꧀ꦱꦸꦒꦶꦃꦲ","atau harta",ex:Paragraf_14,14
+Kata_14_5,Kata,"bok​angngên​dhihjênênghingsin","ꦧꦺꦴꦏ꧀ꦲꦁꦔꦼꦤ꧀ꦝꦶꦃꦗꦼꦤꦼꦁꦲꦶꦁꦱꦶꦤ꧀","namaku akan kukatakan",ex:Paragraf_14,14
+Kata_14_6,Kata,"mongsasun​taulus​wibawa","ꦩꦺꦴꦁ​ꦱ​ꦱꦸꦤ꧀ꦡꦸꦭꦸꦱ꧀ꦮꦶꦧꦮ","pada masa yang tulus berwibawa.",ex:Paragraf_14,14
+Paragraf_15,Paragraf,"mangkanasajroningngati, siraraden​selangkara, tan​sahjinagawangsane, bilihangukihnêgara, malahrayikatiga, pinisahpanggen​nan​nipun, pinêrnahjawiningkitha","꧄ ꦩꦁꦏꦤꦱꦗꦿꦺꦴꦤꦶꦁꦔꦠꦶ꧈ ꦱꦶꦫꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫ꧈ ꦠꦤ꧀ꦱꦃꦗꦶꦤꦒꦮꦁꦱꦤꦺ꧈ ꦧꦶꦭꦶꦃꦲꦔꦸꦏꦶꦃꦤꦼꦒꦫ꧈ ꦩꦭꦃꦫꦪꦶꦏꦠꦶꦒ꧈ ꦥꦶꦤꦶꦱꦃꦥꦁꦒꦺꦤ꧀ꦤꦤ꧀ꦤꦶꦥꦸꦤ꧀ ꦥꦶꦤꦼꦂꦤꦃꦗꦮꦶꦤꦶꦁꦏꦶꦛ꧈","Demikian dalam hati, Radèn Selangkara, selalu menjaga kediaman, bila menjaga negara, malah raja ketiga, memisah tempatnya, menduduki pusat kota.",,15
+Kata_15_0,Kata,"mangkanasajroningngati","ꦩꦁꦏꦤꦱꦗꦿꦺꦴꦤꦶꦁꦔꦠꦶ","Demikian dalam hati",ex:Paragraf_15,15
+Kata_15_1,Kata,"siraraden​selangkara","ꦱꦶꦫꦫꦢꦺꦤ꧀ꦱꦺꦭꦁꦏꦫ","Radèn Selangkara",ex:Paragraf_15,15
+Kata_15_2,Kata,"tan​sahjinagawangsane","ꦠꦤ꧀ꦱꦃꦗꦶꦤꦒꦮꦁꦱꦤꦺ","selalu menjaga kediaman",ex:Paragraf_15,15
+Kata_15_3,Kata,"bilihangukihnêgara","ꦧꦶꦭꦶꦃꦲꦔꦸꦏꦶꦃꦤꦼꦒꦫ","bila menjaga negara",ex:Paragraf_15,15
+Kata_15_4,Kata,"malahrayikatiga","ꦩꦭꦃꦫꦪꦶꦏꦠꦶꦒ","malah raja ketiga",ex:Paragraf_15,15
+Kata_15_5,Kata,"pinisahpanggen​nan​nipun","ꦥꦶꦤꦶꦱꦃꦥꦁꦒꦺꦤ꧀ꦤꦤ꧀ꦤꦶꦥꦸꦤ꧀","memisah tempatnya",ex:Paragraf_15,15
+Kata_15_6,Kata,"pinêrnahjawiningkitha","ꦥꦶꦤꦼꦂꦤꦃꦗꦮꦶꦤꦶꦁꦏꦶꦛ","menduduki pusat kota.",ex:Paragraf_15,15
+Paragraf_16,Paragraf,"san​dhangpangan​den​baton​ni, tan​sinungkiranglangkungnga, kêlangkungbutarêppanne, sirarajaselangkara, wuwussên​duksino_an, sahupacarasupênuh, _ulubalanglan​panglima","꧄ꦱꦤ꧀ꦝꦁꦥꦔꦤ꧀ꦢꦺꦤ꧀ꦧꦠꦺꦴꦤ꧀ꦤꦶ꧈ ꦠꦤ꧀ꦱꦶꦤꦸꦁꦏꦶꦫꦁꦭꦁꦏꦸꦁꦔ꧈ ꦏꦼꦭꦁꦏꦸꦁꦧꦸꦠꦉꦥ꧀ꦥꦤ꧀ꦤꦺ꧈ ꦱꦶꦫꦫꦗꦱꦺꦭꦁꦏꦫ꧈ ꦮꦸꦮꦸꦱ꧀ꦱꦼꦤ꧀ꦢꦸꦏ꧀ꦱꦶꦤꦺꦴꦲꦤ꧀ ꦱꦲꦸꦥꦕꦫꦱꦸꦥꦼꦤꦸꦃ꧈ ꦲꦸꦭꦸꦧꦭꦁꦭꦤ꧀ꦥꦁꦭꦶꦩ꧈","Sandang dan pangan tak kurang, tak ada yang kurang, sangat makmur, Raja Selangkara, berkata pada tamu, sopan santun lengkap, ulubalang dan panglima.",,16
+Kata_16_0,Kata,"san​dhangpangan​den​baton​ni","ꦱꦤ꧀ꦝꦁꦥꦔꦤ꧀ꦢꦺꦤ꧀ꦧꦠꦺꦴꦤ꧀ꦤꦶ","Sandang dan pangan tak kurang",ex:Paragraf_16,16
+Kata_16_1,Kata,"tan​sinungkiranglangkungnga","ꦠꦤ꧀ꦱꦶꦤꦸꦁꦏꦶꦫꦁꦭꦁꦏꦸꦁꦔ","tak ada yang kurang",ex:Paragraf_16,16
+Kata_16_2,Kata,"kêlangkungbutarêppanne","ꦏꦼꦭꦁꦏꦸꦁꦧꦸꦠꦉꦥ꧀ꦥꦤ꧀ꦤꦺ","sangat makmur",ex:Paragraf_16,16
+Kata_16_3,Kata,"sirarajaselangkara","ꦱꦶꦫꦫꦗꦱꦺꦭꦁꦏꦫ","Raja Selangkara",ex:Paragraf_16,16
+Kata_16_4,Kata,"wuwussên​duksino_an","ꦮꦸꦮꦸꦱ꧀ꦱꦼꦤ꧀ꦢꦸꦏ꧀ꦱꦶꦤꦺꦴꦲꦤ꧀","berkata pada tamu",ex:Paragraf_16,16
+Kata_16_5,Kata,"sahupacarasupênuh","ꦱꦲꦸꦥꦕꦫꦱꦸꦥꦼꦤꦸꦃ","sopan santun lengkap",ex:Paragraf_16,16
+Kata_16_6,Kata,"_ulubalanglan​panglima","ꦲꦸꦭꦸꦧꦭꦁꦭꦤ꧀ꦥꦁꦭꦶꦩ","ulubalang dan panglima",ex:Paragraf_16,16
+Paragraf_17,Paragraf,"miwahkangsên​tanaman​tri, prajurit​kangginongsongngan, kinen​angngubêngsangkaton, sinangkêppan​ṭaubak​pêdang, kaehewongtupangsila, sinêlan​tawok​lan​ṭaulup, tinitihlawan​prayat​na","꧄ꦩꦶꦮꦃꦏꦁꦱꦼꦤ꧀ꦠꦤꦩꦤ꧀ꦠꦿꦶ꧈ ꦥꦿꦗꦸꦫꦶꦠ꧀ꦏꦁꦒꦶꦤꦺꦴꦁꦱꦺꦴꦁꦔꦤ꧀ ꦏꦶꦤꦺꦤ꧀ꦲꦁꦔꦸꦧꦼꦁꦱꦁꦏꦠꦺꦴꦤ꧀ ꦱꦶꦤꦁꦏꦼꦥ꧀ꦥꦤ꧀ꦡꦸꦧꦏ꧀ꦥꦼꦣꦁ꧈ ꦏꦺꦃꦲꦺꦮꦺꦴꦁꦠꦸꦥꦁꦱꦶꦭ꧈ ꦱꦶꦤꦼꦭꦤ꧀ꦠꦮꦺꦴꦏ꧀ꦭꦤ꧀ꦡꦸꦭꦸꦥ꧀ ꦠꦶꦤꦶꦠꦶꦃꦭꦮꦤ꧀ꦥꦿꦪꦠ꧀ꦤ꧈","Dan anak-anak menteri, prajurit lengkap bersenjata, dilengkapi tombak, pedang, banyak orang pelayan, berbaris dengan sigap, memakai tombak dan perisai, menunggang kuda dengan rajin.",,17
+Kata_17_0,Kata,"miwahkangsên​tanaman​tri","ꦩꦶꦮꦃꦏꦁꦱꦼꦤ꧀ꦠꦤꦩꦤ꧀ꦠꦿꦶ","Dan anak-anak menteri",ex:Paragraf_17,17
+Kata_17_1,Kata,"prajurit​kangginongsongngan","ꦥꦿꦗꦸꦫꦶꦠ꧀ꦏꦁꦒꦶꦤꦺꦴꦁꦱꦺꦴꦁꦔꦤ꧀","prajurit lengkap bersenjata",ex:Paragraf_17,17
+Kata_17_2,Kata,"kinen​angngubêngsangkaton","ꦏꦶꦤꦺꦤ꧀ꦲꦁꦔꦸꦧꦼꦁꦱꦁꦏꦠꦺꦴꦤ꧀","dilengkapi tombak, pedang",ex:Paragraf_17,17
+Kata_17_3,Kata,"sinangkêppan​ṭaubak​pêdang","ꦱꦶꦤꦁꦏꦼꦥ꧀ꦥꦤ꧀ꦡꦸꦧꦏ꧀ꦥꦼꦣꦁ","dilengkapi tombak, pedang",ex:Paragraf_17,17
+Kata_17_4,Kata,"kaehewongtupangsila","ꦏꦺꦃꦲꦺꦮꦺꦴꦁꦠꦸꦥꦁꦱꦶꦭ","banyak orang pelayan",ex:Paragraf_17,17
+Kata_17_5,Kata,"sinêlan​tawok​lan​ṭaulup","ꦱꦶꦤꦼꦭꦤ꧀ꦠꦮꦺꦴꦏ꧀ꦭꦤ꧀ꦡꦸꦭꦸꦥ꧀","memakai tombak dan perisai",ex:Paragraf_17,17
+Kata_17_6,Kata,"tinitihlawan​prayat​na","ꦠꦶꦤꦶꦠꦶꦃꦭꦮꦤ꧀ꦥꦿꦪꦠ꧀ꦤ","menunggang kuda dengan rajin",ex:Paragraf_17,17
+Paragraf_18,Paragraf,"sajawiningwot​ rêrawi, man​ṭari_ingkangcawis​ṭum​bak, samilinigagaman​ne, sangnatasikêp​pan​nira, bêdail​pêsatol​tinatah, tigangcêngkangpahos​sipun, _ingngapit​pêdangmalaela","꧄ꦱꦗꦮꦶꦤꦶꦁꦮꦺꦴꦠ꧀​ꦫꦼꦫꦮꦶ꧈ ꦩꦤ꧀ꦡꦿꦶꦲꦶꦁꦏꦁꦕꦮꦶꦱ꧀ꦡꦸꦩ꧀ꦧꦏ꧀ ꦱꦩꦶꦭꦶꦤꦶꦒꦒꦩꦤ꧀ꦤꦺ꧈ ꦱꦁꦤꦠꦱꦶꦏꦼꦥ꧀ꦥꦤ꧀ꦤꦶꦫ꧈ ꦧꦼꦣꦶꦭ꧀ꦥꦼꦱꦠꦺꦴꦭ꧀ꦠꦶꦤꦠꦃ꧈ ꦠꦶꦒꦁꦕꦼꦁꦏꦁꦥꦲꦺꦴꦱ꧀ꦱꦶꦥꦸꦤ꧀ ꦲꦶꦁꦔꦥꦶꦠ꧀ꦥꦼꦣꦁꦩꦭꦺꦭ꧈","Saat pagi menjelang, para menteri siap tombak, membawa senjata, sang raja memberi isyarat, membawa senapan dan pistol, tiga laras panjang, ditemani pedang.",,18
+Kata_18_0,Kata,"sajawiningwot​ rêrawi","ꦱꦗꦮꦶꦤꦶꦁꦮꦺꦴꦠ꧀​ꦫꦼꦫꦮꦶ","Saat pagi menjelang",ex:Paragraf_18,18
+Kata_18_1,Kata,"man​ṭari_ingkangcawis​ṭum​bak","ꦩꦤ꧀ꦡꦿꦶꦲꦶꦁꦏꦁꦕꦮꦶꦱ꧀ꦡꦸꦩ꧀ꦧꦏ꧀","para menteri siap tombak",ex:Paragraf_18,18
+Kata_18_2,Kata,"samilinigagaman​ne","ꦱꦩꦶꦭꦶꦤꦶꦒꦒꦩꦤ꧀ꦤꦺ","membawa senjata",ex:Paragraf_18,18
+Kata_18_3,Kata,"sangnatasikêppannira","ꦱꦁꦤꦠꦱꦶꦏꦼꦥ꧀ꦥꦤ꧀ꦤꦶꦫ","sang raja memberi isyarat",ex:Paragraf_18,18
+Kata_18_4,Kata,"bêdail​pêsatol​tinatah","ꦧꦼꦣꦶꦭ꧀ꦥꦼꦱꦠꦺꦴꦭ꧀ꦠꦶꦤꦠꦃ","membawa senapan dan pistol",ex:Paragraf_18,18
+Kata_18_5,Kata,"tigangcêngkangpahos​sipun","ꦠꦶꦒꦁꦕꦼꦁꦏꦁꦥꦲꦺꦴꦱ꧀ꦱꦶꦥꦸꦤ꧀","tiga laras panjang",ex:Paragraf_18,18
+Kata_18_6,Kata,"_ingngapit​pêdangmalaela","ꦲꦶꦁꦔꦥꦶꦠ꧀ꦥꦼꦣꦁꦩꦭꦺꦭ꧈","ditemani pedang.",ex:Paragraf_18,18
+Paragraf_19,Paragraf,"hin​jingmangsanetinangkil, maharajaselangkara, miwahtigangḍawuhdereng, bubaresak​sanahapyak, _ingngalun​alun​sigra, kangrayikatigan​nipun, _arsasowan​ningkangraka","꧄ꦲꦶꦤ꧀ꦗꦶꦁꦩꦁꦱꦤꦺꦠꦶꦤꦁꦏꦶꦭ꧀ ꦩꦃꦲꦫꦗꦱꦺꦭꦁꦏꦫ꧈ ꦩꦶꦮꦃꦠꦶꦒꦁꦣꦮꦸꦃꦢꦺꦫꦺꦁ꧈ ꦧꦸꦧꦂꦫꦺꦱꦏ꧀ꦱꦤꦲꦥꦾꦏ꧀ ꦲꦶꦁꦔꦭꦸꦤ꧀ꦲꦭꦸꦤ꧀ꦱꦶꦒꦿ꧈ ꦏꦁꦫꦪꦶꦏꦠꦶꦒꦤ꧀ꦤꦶꦥꦸꦤ꧀ ꦲꦂꦱꦺꦴꦮꦤ꧀ꦤꦶꦁꦏꦁꦫꦏ꧈","Esoknya raja bersiap, Maharaja Selangkara, bersama tiga perintah, segera bubar, di alun-alun cepat, para raja ketiga, hendak menemui putranya.",,19
+Kata_19_0,Kata,"hin​jingmangsanetinangkil","ꦲꦶꦤ꧀ꦗꦶꦁꦩꦁꦱꦤꦺꦠꦶꦤꦁꦏꦶꦭ꧀","Esoknya raja bersiap",ex:Paragraf_19,19
+Kata_19_1,Kata,"maharajaselangkara","ꦩꦃꦲꦫꦗꦱꦺꦭꦁꦏꦫ","Maharaja Selangkara",ex:Paragraf_19,19
+Kata_19_2,Kata,"miwahtigangḍawuhdereng","ꦩꦶꦮꦃꦠꦶꦒꦁꦣꦮꦸꦃꦢꦺꦫꦺꦁ","bersama tiga perintah",ex:Paragraf_19,19
+Kata_19_3,Kata,"bubaresak​sanahapyak","ꦧꦸꦧꦂꦫꦺꦱꦏ꧀ꦱꦤꦲꦥꦾꦏ꧀","segera bubar",ex:Paragraf_19,19
+Kata_19_4,Kata,"_ingngalun​alun​sigra","ꦲꦶꦁꦔꦭꦸꦤ꧀ꦲꦭꦸꦤ꧀ꦱꦶꦒꦿ","di alun-alun cepat",ex:Paragraf_19,19
+Kata_19_5,Kata,"kangrayikatigan​nipun","ꦏꦁꦫꦪꦶꦏꦠꦶꦒꦤ꧀ꦤꦶꦥꦸꦤ꧀","para raja ketiga",ex:Paragraf_19,19
+Kata_19_6,Kata,"_arsasowan​ningkangraka","ꦲꦂꦱꦺꦴꦮꦤ꧀ꦤꦶꦁꦏꦁꦫꦏ꧈","hendak menemui putranya",ex:Paragraf_19,19
+Paragraf_20,Paragraf,"samisanggit​man​tribaris, pêpêk​tan​nanasungmarga, selagon​daris​wuwus​sing, _ehman​triparapanglim​ma, piyak​kajaluk​lawang, _ingsun​pan​narsahangun​jung, _ingpadan​nekangjêngraka","꧄ꦱꦩꦶꦱꦁꦒꦶꦠ꧀ꦩꦤ꧀ꦠꦿꦶꦧꦫꦶꦱ꧀ ꦥꦼꦥꦼꦏ꧀ꦠꦤ꧀ꦤꦤꦱꦸꦁꦩꦂꦒ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦫꦶꦱ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦶꦁ꧈ ꦲꦺꦃꦩꦤ꧀ꦠꦿꦶꦥꦫꦥꦁꦭꦶꦩ꧀ꦩ꧈ ꦥꦶꦪꦏ꧀ꦏꦗꦭꦸꦏ꧀ꦭꦮꦁ꧈ ꦲꦶꦁꦱꦸꦤ꧀ꦥꦤ꧀ꦤꦂꦱꦲꦔꦸꦤꦸꦚ꧀ꦗꦸꦁ꧈ ꦲꦶꦁꦥꦢꦤ꧀ꦤꦺꦏꦁꦗꦼꦤꦼꦁꦫꦏ꧈","Semua menteri berjajar, barisan rapih, Selagănda berkata, Hei para menteri dan panglima, ada yang meminta pintu, aku hendak mengunjungi, tempat yang mulia",,20
+Kata_20_0,Kata,"samisanggit​man​tribaris","ꦱꦩꦶꦱꦁꦒꦶꦠ꧀ꦩꦤ꧀ꦠꦿꦶꦧꦫꦶꦱ꧀","Semua menteri berjajar",ex:Paragraf_20,20
+Kata_20_1,Kata,"pêpêk​tan​nanasungmarga","ꦥꦼꦥꦼꦏ꧀ꦠꦤ꧀ꦤꦤꦱꦸꦁꦩꦂꦒ","barisan rapih",ex:Paragraf_20,20
+Kata_20_2,Kata,"selagon​daris​wuwus​sing","ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦫꦶꦱ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦶꦁ","Selagănda berkata",ex:Paragraf_20,20
+Kata_20_3,Kata,"_ehman​triparapanglim​ma","ꦲꦺꦃꦩꦤ꧀ꦠꦿꦶꦥꦫꦥꦁꦭꦶꦩ꧀ꦩ","Hei para menteri dan panglima",ex:Paragraf_20,20
+Kata_20_4,Kata,"piyak​kajaluk​lawang","ꦥꦶꦪꦏ꧀ꦏꦗꦭꦸꦏ꧀ꦭꦮꦁ","ada yang meminta pintu",ex:Paragraf_20,20
+Kata_20_5,Kata,"_ingsun​pan​narsahangun​jung","ꦲꦶꦁꦱꦸꦤ꧀ꦥꦤ꧀ꦤꦂꦱꦲꦔꦸꦤꦸꦚ꧀ꦗꦸꦁ","aku hendak mengunjungi",ex:Paragraf_20,20
+Kata_20_6,Kata,"_ingpadan​nekangjêngraka","ꦲꦶꦁꦥꦢꦤ꧀ꦤꦺꦏꦁꦗꦼꦤꦼꦁꦫꦏ꧈","tempat yang mulia.",ex:Paragraf_20,20
+Paragraf_21,Paragraf,"panglim​mahasahurpêk​si, gus​tidunungngan​kawula, mangkegus​tiradingan​tos​pan​lagi_aturhuninga, _ingkangjêngrakatuwan, padukalerehrumu_un, sampun​nraginêrangwatang","꧄ꦥꦁꦭꦶꦩ꧀ꦩꦲꦱꦲꦸꦂꦥꦼꦏ꧀ꦱꦶ꧈ ꦒꦸꦱ꧀ꦠꦶꦢꦸꦤꦸꦁꦔꦤ꧀ꦏꦮꦸꦭ꧈ ꦩꦁꦏꦺꦒꦸꦱ꧀ꦠꦶꦫꦢꦶꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦥꦤ꧀ꦭꦒꦶꦲꦠꦸꦂꦲꦸꦤꦶꦔ꧈ ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦏꦠꦸꦮꦤ꧀ ꦥꦢꦸꦏꦭꦺꦫꦺꦃꦫꦸꦩꦸꦲꦸꦤ꧀ ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦿꦒꦶꦤꦼꦫꦁꦮꦠꦁ꧈","Panglima pembawa tombak, tuan pemilikku, nanti tuan akan menunggu, aku hendak melaporkan, kepada yang tua, saudara leluhur, sudah tiba waktunya.",,21
+Kata_21_0,Kata,"panglim​mahasahurpêk​si","ꦥꦁꦭꦶꦩ꧀ꦩꦲꦱꦲꦸꦂꦥꦼꦏ꧀ꦱꦶ","Panglima pembawa tombak",ex:Paragraf_21,21
+Kata_21_1,Kata,"gus​tidunungngan​kawula","ꦒꦸꦱ꧀ꦠꦶꦢꦸꦤꦸꦁꦔꦤ꧀ꦏꦮꦸꦭ","tuan pemilikku",ex:Paragraf_21,21
+Kata_21_2,Kata,"mangkegus​tiradingan​tos​pan​lagi_aturhuninga","ꦩꦁꦏꦺꦒꦸꦱ꧀ꦠꦶꦫꦢꦶꦔꦤ꧀ꦠꦺꦴꦱ꧀ꦥꦤ꧀ꦭꦒꦶꦲꦠꦸꦂꦲꦸꦤꦶꦔ","nanti tuan akan menunggu",ex:Paragraf_21,21
+Kata_21_3,Kata,"_ingkangjêngrakatuwan","ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦏꦠꦸꦮꦤ꧀","kepada yang tua",ex:Paragraf_21,21
+Kata_21_4,Kata,"padukalerehrumu_un","ꦥꦢꦸꦏꦭꦺꦫꦺꦃꦫꦸꦩꦸꦲꦸꦤ꧀","saudara leluhur",ex:Paragraf_21,21
+Kata_21_5,Kata,"sampun​nraginêrangwatang","ꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦿꦒꦶꦤꦼꦫꦁꦮꦠꦁ","sudah tiba waktunya.",ex:Paragraf_21,21
+Paragraf_22,Paragraf,"kam​pahsatriyakatrini, selasyaraselagon​da, selarasyakatigan​ne, saksanahutus​san​mêdal, prajurit​ganggangsinang, awêtawis​kawan​puluh, prap​taneangng​ligap​dhang","꧄ꦏꦩ꧀ꦥꦃꦱꦠꦿꦶꦪꦏꦠꦿꦶꦤꦶ꧈ꦱꦺꦭꦱꦾꦫꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ꧈ ꦱꦺꦭꦫꦱꦾꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦱꦏ꧀ꦱꦤꦲꦸꦠꦸꦱ꧀ꦱꦤ꧀ꦩꦼꦢꦭ꧀ ꦥꦿꦗꦸꦫꦶꦠ꧀ꦒꦁꦒꦁꦱꦶꦤꦁ꧈ ꦲꦮꦼꦠꦮꦶꦱ꧀ꦏꦮꦤ꧀ꦥꦸꦭꦸꦃ꧈ ꦥꦿꦥ꧀ꦠꦤꦺꦲꦁꦔ꧀ꦭꦶꦒꦥ꧀ꦝꦁ꧈","Pasukan satria katrini, Selasyara Selagănda, Selarasya ketiganya, utusan dengan pedang, berjumlah sekitar empat puluh, datang membawa pedang.",,22
+Kata_22_0,Kata,"kam​pahsatriyakatrini","ꦏꦩ꧀ꦥꦃꦱꦠꦿꦶꦪꦏꦠꦿꦶꦤꦶ","Pasukan satria katrini",ex:Paragraf_22,22
+Kata_22_1,Kata,"selasyaraselagon​da","ꦱꦺꦭꦱꦾꦫꦱꦺꦭꦒꦺꦴꦤ꧀ꦢ","Selasyara Selagănda",ex:Paragraf_22,22
+Kata_22_2,Kata,"selarasyakatigan​ne","ꦱꦺꦭꦫꦱꦾꦏꦠꦶꦒꦤ꧀ꦤꦺ","Selarasya ketiganya",ex:Paragraf_22,22
+Kata_22_3,Kata,"saksanahutus​san​mêdal","ꦱꦏ꧀ꦱꦤꦲꦸꦠꦸꦱ꧀ꦱꦤ꧀ꦩꦼꦢꦭ꧀","utusan dengan pedang",ex:Paragraf_22,22
+Kata_22_4,Kata,"prajurit​ganggangsinang","ꦥꦿꦗꦸꦫꦶꦠ꧀ꦒꦁꦒꦁꦱꦶꦤꦁ","prajurit dengan pedang",ex:Paragraf_22,22
+Kata_22_5,Kata,"awêtawis​kawan​puluh","ꦲꦮꦼꦠꦮꦶꦱ꧀ꦏꦮꦤ꧀ꦥꦸꦭꦸꦃ","berjumlah sekitar empat puluh",ex:Paragraf_22,22
+Kata_22_6,Kata,"prap​taneangng​ligap​dhang","ꦥꦿꦥ꧀ꦠꦤꦺꦲꦁꦔ꧀ꦭꦶꦒꦥ꧀ꦝꦁ","datang membawa pedang",ex:Paragraf_22,22
+Paragraf_23,Paragraf,"hingkangnganem​anderbeni, hingdun​nyan​nipun​pinaḍa, sawangsawangdaudum​mane, nangngingkasrahkangnêgara, mêngkatên​ukum​sarak, punikapêm​manggihulun, kawulahanu_un​duka","꧄ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ꧈ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ꧈ ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ꧈ ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ꧈ ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀ ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀ ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈","Yang menjadi pemilik, dunia yang diselimuti, mengawasi kehidupan dunia, tapi menyerahkan negeri, menaikkan hukum adat, itulah pendapatku, aku berterima kasih.",,23
+Kata_23_0,Kata,"hingkangnganem​anderbeni","ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ","Yang menjadi pemilik",ex:Paragraf_23,23
+Kata_23_1,Kata,"hingdun​nyan​nipun​pinaḍa","ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ","dunia yang diselimuti",ex:Paragraf_23,23
+Kata_23_2,Kata,"sawangsawangdaudum​mane","ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ","mengawasi kehidupan dunia",ex:Paragraf_23,23
+Kata_23_3,Kata,"nangngingkasrahkangnêgara","ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ","tapi menyerahkan negeri",ex:Paragraf_23,23
+Kata_23_4,Kata,"mêngkatên​ukum​sarak","ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀","menaikkan hukum adat",ex:Paragraf_23,23
+Kata_23_5,Kata,"punikapêm​manggihulun","ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀","itulah pendapatku",ex:Paragraf_23,23
+Kata_23_6,Kata,"kawulahanu_un​duka","ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈","aku berterima kasih.",ex:Paragraf_23,23
+Paragraf_24,Paragraf,"karan​tên​nulya_awaris, sasampun​ningmaris​dunya, ramapadukakangdêrbe, nêgarimulya_ingcêm​pa, _iyangpadupêjah, tan​dangngunulyakinubur, ramatuwan​dados​nata","꧄ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀ ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ꧈ ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ꧈ ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈ ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ꧈ ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ꧈ ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ꧈","Setelah ayah meninggal, setelah wafat dunia, ayah leluhur yang tadi, negeri mulia di Champa, sudah lama meninggal, segera dikubur, ayah leluhur jadi raja.",,24
+Kata_24_0,Kata,"karan​tên​nulya_awaris","ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀","Setelah ayah meninggal",ex:Paragraf_24,24
+Kata_24_1,Kata,"sasampun​ningmaris​dunya","ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ","setelah wafat dunia",ex:Paragraf_24,24
+Kata_24_2,Kata,"ramapadukakangdêrbe","ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ","ayah leluhur yang tadi",ex:Paragraf_24,24
+Kata_24_3,Kata,"nêgarimulya_ingcêm​pa","ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ","negeri mulia di Champa",ex:Paragraf_24,24
+Kata_24_4,Kata,"_iyangpadupêjah","ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ","sudah lama meninggal",ex:Paragraf_24,24
+Kata_24_5,Kata,"tan​dangngunulyakinubur","ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ","segera dikubur",ex:Paragraf_24,24
+Kata_24_6,Kata,"ramatuwan​dados​nata","ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ","ayah leluhur jadi raja",ex:Paragraf_24,24
+Paragraf_25,Paragraf,"mêngkatên​aturingdasih, nan​dhês​aturingkipatya, kangrayisakatigan​ne, miyarsamerangkalin​tang, _arsa mêdal​pasilan, tan​amit​malihingratu, kangkatigasam​mimêdal","꧄ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ꧈ ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ꧈ ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ꧈ ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀ ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ꧈ ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀","Menaikkan kasih sayang, menegaskan patih, yang memerintah ketiga raja, menyampaikan berita yang hebat, akan keluar peristiwa, tak akan kembali lagi di raja, yang ketiga akan pergi.",,25
+Kata_25_0,Kata,"mêngkatên​aturingdasih","ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ","Menaikkan kasih sayang",ex:Paragraf_25,25
+Kata_25_1,Kata,"nan​dhês​aturingkipatya","ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ","menegaskan patih",ex:Paragraf_25,25
+Kata_25_2,Kata,"kangrayisakatigan​ne","ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ","yang memerintah ketiga raja",ex:Paragraf_25,25
+Kata_25_3,Kata,"miyarsamerangkalin​tang","ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ","menyampaikan berita yang hebat",ex:Paragraf_25,25
+Kata_25_4,Kata,"_arsa mêdal​pasilan","ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀","akan keluar peristiwa",ex:Paragraf_25,25
+Kata_25_5,Kata,"tan​amit​malihingratu","ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ","tak akan kembali lagi di raja",ex:Paragraf_25,25
+Kata_25_6,Kata,"kangkatigasam​mimêdal","ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀","yang ketiga akan pergi.",ex:Paragraf_25,25
+Paragraf_26,Paragraf,"sangnatabubartinangkil, tumulyaaglisngaḍattyan, paramantribubarkabeh, saksanasurup, yyangngarka, tankawarnasangnata, putratitigawinuwus, kumpul​anengwis​mannira","꧄ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀ ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀ ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ꧈ ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀ ꦪꦾꦁꦔꦂꦏ꧈ ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ꧈ ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀ ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈","Raja bubar pergi, dengan hormat menghadap, para menteri bubar semua, seperti senja menghilang, tak terlihat raja, ketiga putra telah berkumpul, di wisma.",,26
+Kata_26_0,Kata,"sangnatabubartinangkil","ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀","Raja bubar pergi",ex:Paragraf_26,26
+Kata_26_1,Kata,"tumulyaaglisngaḍattyan","ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀","dengan hormat menghadap",ex:Paragraf_26,26
+Kata_26_2,Kata,"paramantribubarkabeh","ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ","para menteri bubar semua",ex:Paragraf_26,26
+Kata_26_3,Kata,"saksanasurup","ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀","seperti senja menghilang",ex:Paragraf_26,26
+Kata_26_4,Kata,"yyangngarka","ꦪꦾꦁꦔꦂꦏ","senja menghilang",ex:Paragraf_26,26
+Kata_26_5,Kata,"tankawarnasangnata","ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ","tak terlihat raja",ex:Paragraf_26,26
+Kata_26_6,Kata,"putratitigawinuwus","ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀","ketiga putra telah berkumpul",ex:Paragraf_26,26
+Kata_26_7,Kata,"kumpul​anengwis​mannira","ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈","di wisma.",ex:Paragraf_26,26
+Paragraf_27,Paragraf,"têngngahdaluwêt​taran​ning, raresamyapagunêm​man, selarasahingwuwus​se, rakadawêk​samikesah, apapin​nrihingcêpa, mongsajumênêngngaratu, angngurkesahanglêllana","꧄ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ꧈ ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀ ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ꧈ ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ꧈ ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ꧈ ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈","Tengah malam di luar, para gadis sedang berbincang, Selarasa di dalam, para putra semuanya, apa keinginan di Champa, pada masa pemerintahan raja, mengurus negeri.",,27
+Kata_27_0,Kata,"têngngahdaluwêt​taran​ning","ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ","Tengah malam di luar",ex:Paragraf_27,27
+Kata_27_1,Kata,"raresamyapagunêm​man","ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀","para gadis sedang berbincang",ex:Paragraf_27,27
+Kata_27_2,Kata,"selarasahingwuwus​se","ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ","Selarasa di dalam",ex:Paragraf_27,27
+Kata_27_3,Kata,"rakadawêk​samikesah","ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ","para putra semuanya",ex:Paragraf_27,27
+Kata_27_4,Kata,"apapin​nrihingcêpa","ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ","apa keinginan di Champa",ex:Paragraf_27,27
+Kata_27_5,Kata,"mongsajumênêngngaratu","ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ","pada masa pemerintahan raja",ex:Paragraf_27,27
+Kata_27_6,Kata,"angngurkesahanglêllana","ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ","mengurus negeri.",ex:Paragraf_27,27
+Paragraf_28,Paragraf,"lan​malihwatêk​kingngaji, ingkangsamisugihwongsa, samidados​kawulan​ne, punikakawulasungkan, ngawulakathahilang, samisaminak​kingratu, têk​kahan​dikangawula","꧄ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ꧈ ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ꧈ ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ꧈ ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀ ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ꧈ ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈","Dan lagi saat senja, yang kaya dan berkuasa, menjadi hamba, aku sungkan, banyak yang hilang, sama-sama dari raja, datang untuk mengabdi.",,28
+Kata_28_0,Kata,"lan​malihwatêk​kingngaji","ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ","Dan lagi saat senja",ex:Paragraf_28,28
+Kata_28_1,Kata,"ingkangsamisugihwongsa","ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ","yang kaya dan berkuasa",ex:Paragraf_28,28
+Kata_28_2,Kata,"samidados​kawulan​ne","ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ","menjadi hamba",ex:Paragraf_28,28
+Kata_28_3,Kata,"punikakawulasungkan","ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀","aku sungkan",ex:Paragraf_28,28
+Kata_28_4,Kata,"ngawulakathahilang","ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ","banyak yang hilang",ex:Paragraf_28,28
+Kata_28_5,Kata,"samisaminak​kingratu","ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ","sama-sama dari raja",ex:Paragraf_28,28
+Kata_28_6,Kata,"têk​kahan​dikangawula","ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈","datang untuk mengabdi.",ex:Paragraf_28,28
+Paragraf_29,Paragraf,"selanggon​dahangng​lingharis, lungasihapaden​sêdya, selarasaden​wuwus​se, tuwisihanengnêgara, yen​maksihanengcêm​pa, kakang langkungwiranghingsun, aningaliwonghingcêpa","꧄ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ꧈ ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ꧈ ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ꧈ ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀ ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈","Selanggănda hendak pergi, memberi sayang atau tidak, Selarasa di dalam negeri, kalau masih di Champa, aku lebih prihatin, melihat keadaan orang Champa.",,29
+Kata_29_0,Kata,"selanggon​dahangng​lingharis","ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀","Selanggănda hendak pergi",ex:Paragraf_29,29
+Kata_29_1,Kata,"lungasihapaden​sêdya","ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ","memberi sayang atau tidak",ex:Paragraf_29,29
+Kata_29_2,Kata,"selarasaden​wuwus​se","ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ","Selarasa di dalam negeri",ex:Paragraf_29,29
+Kata_29_3,Kata,"tuwisihanengnêgara","ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ","di dalam negeri",ex:Paragraf_29,29
+Kata_29_4,Kata,"yen​maksihanengcêm​pa","ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ","kalau masih di Champa",ex:Paragraf_29,29
+Kata_29_5,Kata,"kakang langkungwiranghingsun","ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀","aku lebih prihatin",ex:Paragraf_29,29
+Kata_29_6,Kata,"aningaliwonghingcêpa","ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈","melihat keadaan orang Champa.",ex:Paragraf_29,29
+Paragraf_30,Paragraf,"selarasyamaturaris, yen​padukanurut​karsa, saparen​tahingwonggêḍae, kakangbotên​kêlam​pahan, wirangtêm​mên​kawula, paḍapaḍanaka​kaingratu, têkapadukakan​dhap​pan","꧄ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ꧈ ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ꧈ ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀ ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ꧈ ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀","Selarasya berkata, jika paduka setuju, seluruh orang besar, kakang tak dilaksanakan, sangat prihatin aku, sama-sama dari raja, datang paduka ke tempatmu.",,30
+Kata_30_0,Kata,"selarasyamaturaris","ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀","Selarasya berkata",ex:Paragraf_30,30
+Kata_30_1,Kata,"yen​padukanurut​karsa","ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ","jika paduka setuju",ex:Paragraf_30,30
+Kata_30_2,Kata,"saparen​tahingwonggêḍae","ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ","seluruh orang besar",ex:Paragraf_30,30
+Kata_30_3,Kata,"kakangbotên​kêlam​pahan","ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀","kakang tak dilaksanakan",ex:Paragraf_30,30
+Kata_30_4,Kata,"wirangtêm​mên​kawula","ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ","sangat prihatin aku",ex:Paragraf_30,30
+Kata_30_5,Kata,"paḍapaḍanaka​kaingratu","ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ","sama-sama dari raja",ex:Paragraf_30,30
+Kata_30_6,Kata,"têkapadukakan​dhap​pan","ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀","datang paduka ke tempatmu.",ex:Paragraf_30,30
+Paragraf_31,Paragraf,"kawulahanyêgahkingking, ben​jangyen​dhatênghingparan, ḍataêngyangkulapin​tane, padukadados​sanata, selagon​dalingngira, inggihrakakulamahkul, aturerayisam​peyan","꧄ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ꧈ ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀ ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ꧈ ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ꧈ ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀ ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀","Aku berpendapat, kalau besok ke tempat, pada Yang aku tuju, paduka menjadi raja, Selagănda disampingku, ya itu saudaraku, aku sampaikan kabar paduka.",,31
+Kata_31_0,Kata,"kawulahanyêgahkingking","ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ","Aku berpendapat",ex:Paragraf_31,31
+Kata_31_1,Kata,"ben​jangyen​dhatênghingparan","ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀","kalau besok ke tempat",ex:Paragraf_31,31
+Kata_31_2,Kata,"ḍataêngyangkulapin​tane","ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ","pada Yang aku tuju",ex:Paragraf_31,31
+Kata_31_3,Kata,"padukadados​sanata","ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ","paduka menjadi raja",ex:Paragraf_31,31
+Kata_31_4,Kata,"selagon​dalingngira","ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ","Selagănda disampingku",ex:Paragraf_31,31
+Kata_31_5,Kata,"inggihrakakulamahkul","ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀","ya itu saudaraku",ex:Paragraf_31,31
+Kata_31_6,Kata,"aturerayisam​peyan","ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀","aku sampaikan kabar paduka.",ex:Paragraf_31,31
+Paragraf_32,Paragraf,"selasyarahangng​lingharis, yen​mangkanakarêppira, _iyakapriyebêcikke, lungahajakawênangngan, yayideningwongcêm​pa, selarasanêm​bahmatur, mangkeminggahingbahitra","꧄ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ꧈ ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ꧈ ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀ ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ꧈ ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ꧈ ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈","Selasyara berkata, kalau begitu keinginanmu, bagaimana yang baik, pergilah jangan terlena, oleh orang Champa, Selarasa mohon, nanti naik ke baitra.",,32
+Kata_32_0,Kata,"selasyarahangng​lingharis","ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀","Selasyara berkata",ex:Paragraf_32,32
+Kata_32_1,Kata,"yen​mangkanakarêppira","ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ","kalau begitu keinginanmu",ex:Paragraf_32,32
+Kata_32_2,Kata,"_iyakapriyebêcikke","ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ","bagaimana yang baik",ex:Paragraf_32,32
+Kata_32_3,Kata,"lungahajakawênangngan","ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀","pergilah jangan terlena",ex:Paragraf_32,32
+Kata_32_4,Kata,"yayideningwongcêm​pa","ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ","oleh orang Champa",ex:Paragraf_32,32
+Kata_32_5,Kata,"selarasanêm​bahmatur","ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ","Selarasa mohon",ex:Paragraf_32,32
+Kata_32_6,Kata,"mangkeminggahingbahitra","ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈","nanti naik ke baitra.",ex:Paragraf_32,32
+Paragraf_33,Paragraf,"kesahmangkedalu_ikisupayahajanawikan, samyamin​tarkatigane, punangwonghabahurêksa, datan​won​tên​uningnga, kesahwan​citêngngahdalu, mringpasisirkangsinadya","꧄ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀ ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ꧈ ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ꧈ ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ꧈ ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ꧈ ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ꧈","Pergilah malam ini, agar tidak ketahuan, mereka menunggu ketiga, para pelindung, tak ada yang tahu, pergilah tengah malam, ke pesisir yang disiapkan.",,33
+Kata_33_0,Kata,"kesahmangkedalu_ikisupayahajanawikan","ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀","Pergilah malam ini, agar tidak ketahuan",ex:Paragraf_33,33
+Kata_33_1,Kata,"samyamin​tarkatigane","ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ","mereka menunggu ketiga",ex:Paragraf_33,33
+Kata_33_2,Kata,"punangwonghabahurêksa","ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ","para pelindung",ex:Paragraf_33,33
+Kata_33_3,Kata,"datan​won​tên​uningnga","ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ","tak ada yang tahu",ex:Paragraf_33,33
+Kata_33_4,Kata,"kesahwan​citêngngahdalu","ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ","pergilah tengah malam",ex:Paragraf_33,33
+Kata_33_5,Kata,"mringpasisirkangsinadya","ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ","ke pesisir yang disiapkan.",ex:Paragraf_33,33
+Paragraf_34,Paragraf,"saprap​tane_ingpasisir, akathahpunangbahitra, jukungkun​thinglan​kecine, pêran​tiyen​ngam​bil​ulam, jajarsêkongmayangngan, atem​bak​anenghinglahut, arsakesahamisaya","꧄ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ꧈ ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ꧈ ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ꧈ ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀ ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀ ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀ ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈","Di pesisir, banyak yang menjaga baitra, perahu kuning dan kecil, alat menangkap ikan, berjajar sebaris, menembak di laut, hendak pergi menangkap ikan.",,34
+Kata_34_0,Kata,"saprap​tane_ingpasisir","ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ","Di pesisir",ex:Paragraf_34,34
+Kata_34_1,Kata,"akathahpunangbahitra","ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ","banyak yang menjaga baitra",ex:Paragraf_34,34
+Kata_34_2,Kata,"jukungkun​thinglan​kecine","ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ","perahu kuning dan kecil",ex:Paragraf_34,34
+Kata_34_3,Kata,"pêran​tiyen​ngam​bil​ulam","ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀","alat menangkap ikan",ex:Paragraf_34,34
+Kata_34_4,Kata,"jajarsêkongmayangngan","ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀","berjejer sebaris",ex:Paragraf_34,34
+Kata_34_5,Kata,"atem​bak​anenghinglahut","ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀","menembak di laut",ex:Paragraf_34,34
+Kata_34_6,Kata,"arsakesahamisaya","ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈","hendak pergi menangkap ikan.",ex:Paragraf_34,34
+Paragraf_35,Paragraf,"sadayapan​dipun​pilih, pêrahukangnengpinggiran, won​tên​pamisayan​ningwong, samak​taḍayaunglan​layar, kamun​dhinipun​pisan, adan​tinitiyan​sampun, wus​ nêngngahḍataêngsamodra","꧄ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ꧈ ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀ ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ꧈ ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ꧈ ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀ ꦲꦢꦤ꧀ꦠꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈","Semua dipilih, perahu yang di pinggir, ada pemisah orang, bersama dayung dan layar, sudah dituntun, menunggang sudah, sudah menuju samudra.",,35
+Kata_35_0,Kata,"sadayapan​dipun​pilih","ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ","Semua dipilih",ex:Paragraf_35,35
+Kata_35_1,Kata,"pêrahukangnengpinggiran","ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀","perahu yang di pinggir",ex:Paragraf_35,35
+Kata_35_2,Kata,"won​tên​pamisayan​ningwong","ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ","ada pemisah orang",ex:Paragraf_35,35
+Kata_35_3,Kata,"samak​taḍayaunglan​layar","ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ","bersama dayung dan layar",ex:Paragraf_35,35
+Kata_35_4,Kata,"kamun​dhinipun​pisan","ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀","sudah dituntun",ex:Paragraf_35,35
+Kata_35_5,Kata,"adan​tinitiyan​sampun","ꦲꦢꦤ꧀ꦡꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀","menunggang sudah",ex:Paragraf_35,35
+Kata_35_6,Kata,"wus​ nêngngahḍataêngsamodra","ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈","sudah menuju samudra.",ex:Paragraf_35,35
+Paragraf_36,Paragraf,"ingwaktuneajênglalis, paraputrahingngaturan, miwahparawargakabeh, samyakêmpêlhingngajêngngan, ingkangwongsasêdaya, pêpêkalinggihingngayun, putrasakingpêriprap​ta","꧄ꦲꦶꦁꦮꦏ꧀ꦡꦸꦤꦺꦲꦗꦼꦁꦭꦭꦶꦱ꧀꧈ꦥꦫꦥꦸꦠꦿꦲꦶꦁꦔꦠꦸꦫꦤ꧀ ꦩꦶꦮꦃꦥꦫꦮꦂꦒꦏꦧꦺꦃ꧈ ꦱꦩꦾꦏꦼꦩ꧀ꦥꦼꦭ꧀ꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀ ꦲꦶꦁꦏꦁꦮꦺꦴꦁꦱꦱꦼꦢꦪ꧈ ꦥꦼꦥꦼꦏ꧀ꦲꦭꦶꦁꦒꦶꦃꦲꦶꦁꦔꦪꦸꦤ꧀ ꦥꦸꦠꦿꦱꦏꦶꦁꦥꦼꦂꦫꦶꦥꦿꦥ꧀ꦠ꧈","Pada waktu yang akan datang, para putra diatur, dan seluruh rakyat, semua dikumpulkan, yang berkuasa semuanya, duduk mengayun, putra dari leluhur turun.",,36
+Kata_36_0,Kata,"ingwaktuneajênglalis","ꦲꦶꦁꦮꦏ꧀ꦡꦸꦤꦺꦲꦗꦼꦁꦭꦭꦶꦱ꧀","Pada waktu yang akan datang",ex:Paragraf_36,36
+Kata_36_1,Kata,"paraputrahingngaturan","ꦥꦫꦥꦸꦠꦿꦲꦶꦁꦔꦠꦸꦫꦤ꧀","para putra diatur",ex:Paragraf_36,36
+Kata_36_2,Kata,"miwahparawargakabeh","ꦩꦶꦮꦃꦥꦫꦮꦂꦒꦏꦧꦺꦃ","dan seluruh rakyat",ex:Paragraf_36,36
+Kata_36_3,Kata,"samyakêmpêlhingngajêngngan","ꦱꦩꦾꦏꦼꦩ꧀ꦥꦼꦭ꧀ꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀","semua dikumpulkan",ex:Paragraf_36,36
+Kata_36_4,Kata,"ingkangwongsasêdaya","ꦲꦶꦁꦏꦁꦮꦺꦴꦁꦱꦱꦼꦢꦪ","yang berkuasa semuanya",ex:Paragraf_36,36
+Kata_36_5,Kata,"pêpêkalinggihingngayun","ꦥꦼꦥꦼꦏ꧀ꦲꦭꦶꦁꦒꦶꦃꦲꦶꦁꦔꦪꦸꦤ꧀","duduk mengayun",ex:Paragraf_36,36
+Kata_36_6,Kata,"putrasakingpêriprap​ta","ꦥꦸꦠꦿꦱꦏꦶꦁꦥꦼꦂꦫꦶꦥꦿꦥ꧀ꦠ꧈","putra dari leluhur turun.",ex:Paragraf_36,36
+Paragraf_37,Paragraf,"gangsalsêdayakangsiwi, eyangpadukasurga, patut​tanaingpêriangger, amungkangsakingmanusya, sawargiramatuwan, punikakapêrnahsêpuh, sêdayapêrnahtaruna","꧄ꦒꦁꦱꦭ꧀ꦱꦼꦢꦪꦏꦁꦱꦶꦮꦶ꧈ ꦲꦺꦪꦾꦁꦥꦢꦸꦏꦱꦸꦂꦒ꧈ ꦥꦠꦸꦠ꧀ꦡꦤ꧀ꦲꦶꦁꦥꦼꦂꦫꦶꦲꦁꦒꦺꦂ꧈ ꦲꦩꦸꦁꦏꦁꦱꦏꦶꦁꦩꦤꦸꦱꦾ꧈ ꦱꦮꦂꦒꦶꦫꦩꦠꦸꦮꦤ꧀ ꦥꦸꦤꦶꦏꦏꦥꦼꦂꦤꦃꦱꦼꦥꦸꦃ꧈ ꦱꦼꦢꦪꦥꦼꦂꦤꦃꦠꦫꦸꦤ꧈","Lima semuanya yang dimiliki, leluhur surga, sesuai masa turun, hanya yang dari manusia, bersama ayah leluhur, itulah para leluhur, semua pernah muda.",,37
+Kata_37_0,Kata,"gangsalsêdayakangsiwi","ꦒꦁꦱꦭ꧀ꦱꦼꦢꦪꦏꦁꦱꦶꦮꦶ","Lima semuanya yang dimiliki",ex:Paragraf_37,37
+Kata_37_1,Kata,"eyangpadukasurga","ꦲꦺꦪꦾꦁꦥꦢꦸꦏꦱꦸꦂꦒ","leluhur surga",ex:Paragraf_37,37
+Kata_37_2,Kata,"patut​tanaingpêriangger","ꦥꦠꦸꦠ꧀ꦡꦤ꧀ꦲꦶꦁꦥꦼꦂꦫꦶꦲꦁꦒꦺꦂ","sesuai masa turun",ex:Paragraf_37,37
+Kata_37_3,Kata,"amungkangsakingmanusya","ꦲꦩꦸꦁꦏꦁꦱꦏꦶꦁꦩꦤꦸꦱꦾ","hanya yang dari manusia",ex:Paragraf_37,37
+Kata_37_4,Kata,"sawargiramatuwan","ꦱꦮꦂꦒꦶꦫꦩꦠꦸꦮꦤ꧀","bersama ayah leluhur",ex:Paragraf_37,37
+Kata_37_5,Kata,"punikakapêrnahsêpuh","ꦥꦸꦤꦶꦏꦏꦥꦼꦂꦤꦃꦱꦼꦥꦸꦃ","itulah para leluhur",ex:Paragraf_37,37
+Kata_37_6,Kata,"sêdayapêrnahtaruna","ꦱꦼꦢꦪꦥꦼꦂꦤꦃꦠꦫꦸꦤ꧈","semua pernah muda.",ex:Paragraf_37,37
+Paragraf_38,Paragraf,"pêpêkkang​putraalinggih, iyatuwan​angan​dika, ḍataêngputrasêdayane, kabehanakkingsunpaḍa, ajahanapaitênah, den​natutsanak​sadulur, bisuk​ingsapungkurhingwang","꧄ꦥꦼꦥꦼꦏ꧀ꦏꦁ​ꦥꦸꦠꦿꦲꦭꦶꦁꦒꦶꦃ꧈ ꦲꦶꦪꦠꦸꦮꦤ꧀ꦲꦔꦤ꧀ꦢꦶꦏ꧈ ꦣꦠꦼꦁꦥꦸꦠꦿꦱꦼꦢꦪꦤꦺ꧈ ꦏꦧꦺꦃꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦥꦣ꧈ ꦲꦗꦲꦤꦥꦶꦠꦼꦤꦃ꧈ ꦢꦺꦤ꧀ꦤꦠꦸꦠ꧀ꦱꦤꦏ꧀ꦱꦢꦸꦭꦸꦂ ꦧꦶꦱꦸꦏ꧀​ꦲꦶꦁꦱꦥꦸꦁꦏꦸꦂꦲꦶꦁꦮꦁ꧈","Anak-anak semua duduk, begitu ayah berkata, pada semua putranya, jangan ada pertengkaran, agar persaudaraan tetap, jangan jadi musuh saudara, besok jadi dosa.",,38
+Kata_38_0,Kata,"pêpêkkang​putraalinggih","ꦥꦼꦥꦼꦏ꧀ꦏꦁ​ꦥꦸꦠꦿꦲꦭꦶꦁꦒꦶꦃ","Anak-anak semua duduk",ex:Paragraf_38,38
+Kata_38_1,Kata,"iyatuwan​angan​dika","ꦲꦶꦪꦠꦸꦮꦤ꧀ꦲꦔꦤ꧀ꦢꦶꦏ","begitu ayah berkata",ex:Paragraf_38,38
+Kata_38_2,Kata,"ḍataêngputrasêdayane","ꦣꦠꦼꦁꦥꦸꦠꦿꦱꦼꦢꦪꦤꦺ","pada semua putranya",ex:Paragraf_38,38
+Kata_38_3,Kata,"kabehanakkingsunpaḍa","ꦏꦧꦺꦃꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦥꦣ","jangan ada pertengkaran",ex:Paragraf_38,38
+Kata_38_4,Kata,"ajahanapaitênah","ꦲꦗꦲꦤꦥꦶꦠꦼꦤꦃ","jangan ada pertengkaran",ex:Paragraf_38,38
+Kata_38_5,Kata,"den​natutsanak​sadulur","ꦢꦺꦤ꧀ꦤꦠꦸꦠ꧀ꦱꦤꦏ꧀ꦱꦢꦸꦭꦸꦂ","agar persaudaraan tetap",ex:Paragraf_38,38
+Kata_38_6,Kata,"bisuk​ingsapungkurhingwang","ꦧꦶꦱꦸꦏ꧀​ꦲꦶꦁꦱꦥꦸꦁꦏꦸꦂꦲꦶꦁꦮꦁ꧈","besok jadi dosa.",ex:Paragraf_38,38
+Paragraf_39,Paragraf,"angnginghanakkingsun​siji, bisuk​jumênêngnalen​dra, nêgarahikikaduwe, amunghanakkingsunwongsa, kabehpaḍahataut​ta, panawuspatut​lawan​ukum, sirahajanalênggana","꧄ꦲꦁꦔꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦱꦶꦗꦶ꧈ ꦧꦶꦱꦸꦏ꧀ꦗꦸꦩꦼꦤꦼꦤ꧀ꦤꦭꦺꦤ꧀ꦢꦿ꧈ ꦤꦼꦒꦫꦲꦶꦏꦶꦏꦢꦸꦮꦺ꧈ ꦲꦩꦸꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦮꦺꦴꦁꦱ꧈ ꦏꦧꦺꦃꦥꦣꦲꦠꦸꦠ꧀ꦡ꧈ ꦥꦤ꧀ꦮꦸꦱ꧀ꦥꦠꦸꦠ꧀ꦭꦮꦤ꧀ꦲꦸꦏꦸꦩ꧀ ꦱꦶꦫꦲꦗꦤꦊꦁꦒꦤ꧈","Tapi anakku satu, yang menjadi bintang terang, negeri ini punya dua, hanya anakku yang berkuasa, semua bertengkar, sudah pantas dengan aturan, jangan sampai berperang.",,39
+Kata_39_0,Kata,"angnginghanakkingsun​siji","ꦲꦁꦔꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦱꦶꦗꦶ","Tapi anakku satu",ex:Paragraf_39,39
+Kata_39_1,Kata,"bisuk​jumênêngnalen​dra","ꦧꦶꦱꦸꦏ꧀ꦗꦸꦩꦼꦤꦼꦤ꧀ꦤꦭꦺꦤ꧀ꦢꦿ","yang menjadi bintang terang",ex:Paragraf_39,39
+Kata_39_2,Kata,"nêgarahikikaduwe","ꦤꦼꦒꦫꦲꦶꦏꦶꦏꦢꦸꦮꦺ","negeri ini punya dua",ex:Paragraf_39,39
+Kata_39_3,Kata,"amunghanakkingsunwongsa","ꦲꦩꦸꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦮꦺꦴꦁꦱ","hanya anakku yang berkuasa",ex:Paragraf_39,39
+Kata_39_4,Kata,"kabehpaḍahataut​ta","ꦏꦧꦺꦃꦥꦣꦲꦠꦸꦠ꧀ꦡ","semua bertengkar",ex:Paragraf_39,39
+Kata_39_5,Kata,"panawuspatut​lawan​ukum","ꦥꦤ꧀ꦮꦸꦱ꧀ꦥꦠꦸꦠ꧀ꦭꦮꦤ꧀ꦲꦸꦏꦸꦩ꧀","sudah pantas dengan aturan",ex:Paragraf_39,39
+Kata_39_6,Kata,"sirahajanalênggana","ꦱꦶꦫꦲꦗꦤꦊꦁꦒꦤ꧈","jangan sampai berperang.",ex:Paragraf_39,39
+Paragraf_40,Paragraf,"putrasêdayawot​sari, kawulasêdyasumongga, ingkangjêngramakarsane, ḍataêngwongsahingkangwêrdah, pan​dunungnganesêm​bah, kangpatut​jumênêngratu, amêngkuwahingnêgara","꧄ꦥꦸꦠꦿꦱꦼꦢꦪꦮꦺꦴꦠ꧀ꦱꦫꦶ꧈ꦏꦮꦸꦭꦱꦼꦢꦾꦱꦸꦩꦺꦴꦁꦒ꧈ ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦩꦏꦂꦱꦤꦺ꧈ ꦣꦠꦼꦁꦮꦺꦴꦁꦱꦲꦶꦁꦏꦁꦮꦼꦂꦢꦃ꧈ ꦥꦤ꧀ꦢꦸꦤꦸꦁꦔꦤꦺꦱꦼꦩ꧀ꦧꦃ꧈ ꦏꦁꦥꦠꦸꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦫꦠꦸ꧈ ꦲꦩꦼꦁꦏꦸꦮꦲꦶꦁꦤꦼꦒꦫ꧈","Anak-anak sudah dewasa, aku siap mendukung, pada keinginan ayah, kepada keturunan yang baik, tempatnya mulia, yang layak jadi raja, menjadi pemimpin negara.",,40
+Kata_40_0,Kata,"putrasêdayawot​sari","ꦥꦸꦠꦿꦱꦼꦢꦪꦮꦺꦴꦠ꧀ꦱꦫꦶ","Anak-anak sudah dewasa",ex:Paragraf_40,40
+Kata_40_1,Kata,"kawulasêdyasumongga","ꦏꦮꦸꦭꦱꦼꦢꦾꦱꦸꦩꦺꦴꦁꦒ","aku siap mendukung",ex:Paragraf_40,40
+Kata_40_2,Kata,"ingkangjêngramakarsane","ꦲꦶꦁꦏꦁꦗꦼꦤꦼꦁꦫꦩꦏꦂꦱꦤꦺ","pada keinginan ayah",ex:Paragraf_40,40
+Kata_40_3,Kata,"ḍataêngwongsahingkangwêrdah","ꦣꦠꦼꦁꦮꦺꦴꦁꦱꦲꦶꦁꦏꦁꦮꦼꦂꦢꦃ","kepada keturunan yang baik",ex:Paragraf_40,40
+Kata_40_4,Kata,"pan​dunungnganesêm​bah","ꦥꦤ꧀ꦢꦸꦤꦸꦁꦔꦤꦺꦱꦼꦩ꧀ꦧꦃ","tempatnya mulia",ex:Paragraf_40,40
+Kata_40_5,Kata,"kangpatut​jumênêngratu","ꦏꦁꦥꦠꦸꦠ꧀ꦗꦸꦩꦼꦤꦼꦁꦫꦠꦸ","yang layak jadi raja",ex:Paragraf_40,40
+Kata_40_6,Kata,"amêngkuwahingnêgara","ꦲꦩꦼꦁꦏꦸꦮꦲꦶꦁꦤꦼꦒꦫ꧈","menjadi pemimpin negara.",ex:Paragraf_40,40
+Paragraf_41,Paragraf,"sampuningmangkanamalih, iyangtuwanangngêndika, pangulungan​dikan​kabeh, saprap​taneingngajêngngan, iyangtuwanngandika, sêkathahedon​nyanipun, pangnguluingkarsannira","꧄ꦱꦩ꧀ꦥꦸꦤꦶꦁꦩꦁꦏꦤꦩꦭꦶꦃ꧈ ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦲꦁꦔꦼꦤ꧀ꦢꦶꦏ꧈ ꦥꦔꦸꦭꦸꦔꦤ꧀ꦢꦶꦏꦤ꧀ꦏꦧꦺꦃ꧈ ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀ ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦔꦤ꧀ꦢꦶꦏ꧈ ꦱꦼꦏꦛꦃꦲꦺꦢꦺꦴꦤ꧀ꦚꦤꦶꦥꦸꦤ꧀ ꦥꦁꦔꦸꦭꦸꦲꦶꦁꦏꦂꦱꦤ꧀ꦤꦶꦫ꧈","Setelah itu lagi, ayah leluhur berkata, kepala berkata semuanya, sudah di depan, ayah leluhur berkata, seluruh dunia, kepala sesuai keinginannya.",,41
+Kata_41_0,Kata,"sampuningmangkanamalih","ꦱꦩ꧀ꦥꦸꦤꦶꦁꦩꦁꦏꦤꦩꦭꦶꦃ","Setelah itu lagi",ex:Paragraf_41,41
+Kata_41_1,Kata,"iyangtuwanangngêndika","ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦲꦁꦔꦼꦤ꧀ꦢꦶꦏ","ayah leluhur berkata",ex:Paragraf_41,41
+Kata_41_2,Kata,"pangulungandikankabeh","ꦥꦔꦸꦭꦸꦔꦤ꧀ꦢꦶꦏꦤ꧀ꦏꦧꦺꦃ","kepala berkata semuanya",ex:Paragraf_41,41
+Kata_41_3,Kata,"saprap​taneingngajêngngan","ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦔꦗꦼꦁꦔꦤ꧀","sudah di depan",ex:Paragraf_41,41
+Kata_41_4,Kata,"iyangtuwanngandika","ꦲꦶꦪꦁꦠꦸꦮꦤ꧀ꦔꦤ꧀ꦢꦶꦏ","ayah leluhur berkata",ex:Paragraf_41,41
+Kata_41_5,Kata,"sêkathahedon​nyanipun","ꦱꦼꦏꦛꦃꦲꦺꦢꦺꦴꦤ꧀ꦚꦤꦶꦥꦸꦤ꧀","seluruh dunia",ex:Paragraf_41,41
+Kata_41_6,Kata,"pangnguluingkarsannira","ꦥꦁꦔꦸꦭꦸꦲꦶꦁꦏꦂꦱꦤ꧀ꦤꦶꦫ꧈","kepala sesuai keinginannya.",ex:Paragraf_41,41
+Paragraf_42,Paragraf,"sabên​nêrbên​nêreiki, deninghanakkingsun​iya, kapriyewêwarissan​ne, pun​pangnguluatursêm​bah, putratuwan​punika, kangwêdahjumênêngngratu, nangingsampunsinungdun​nya","꧄ꦱꦧꦼꦤ꧀ꦤꦼꦂꦧꦼꦤ꧀ꦤꦼꦂꦫꦺꦲꦶꦏꦶ꧈ ꦢꦺꦤꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦲꦶꦪ꧈ ꦏꦥꦿꦶꦪꦺꦮꦼꦮꦫꦶꦱ꧀ꦱꦤ꧀ꦤꦺ꧈ ꦥꦸꦤ꧀ꦥꦁꦔꦸꦭꦸꦲꦠꦸꦂꦱꦼꦩ꧀ꦧꦃ꧈ ꦥꦸꦠꦿꦠꦸꦮꦤ꧀ꦥꦸꦤꦶꦏ꧈ ꦏꦁꦮꦼꦢꦃꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦿꦠꦸ꧈ ꦤꦔꦶꦁꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦶꦤꦸꦁꦢꦸꦤ꧀ꦚ꧈","Sebenarnya semua ini, oleh anakku, bagaimana warisan itu, kepala berucap, ayah leluhur itu, yang layak jadi raja, tapi sudah tidak di dunia.",,42
+Kata_42_0,Kata,"sabên​nêrbên​nêreiki","ꦱꦧꦼꦤ꧀ꦤꦼꦂꦧꦼꦤ꧀ꦤꦼꦂꦫꦺꦲꦶꦏꦶ","Sebenarnya semua ini",ex:Paragraf_42,42
+Kata_42_1,Kata,"deninghanakkingsun​iya","ꦢꦺꦤꦶꦁꦲꦤꦏ꧀ꦏꦶꦁꦱꦸꦤ꧀ꦲꦶꦪ","oleh anakku",ex:Paragraf_42,42
+Kata_42_2,Kata,"kapriyewêwarissan​ne","ꦏꦥꦿꦶꦪꦺꦮꦼꦮꦫꦶꦱ꧀ꦱꦤ꧀ꦤꦺ","bagaimana warisan itu",ex:Paragraf_42,42
+Kata_42_3,Kata,"pun​pangnguluatursêm​bah","ꦥꦸꦤ꧀ꦥꦁꦔꦸꦭꦸꦲꦠꦸꦂꦱꦼꦩ꧀ꦧꦃ","kepala berucap",ex:Paragraf_42,42
+Kata_42_4,Kata,"putratuwan​punika","ꦥꦸꦠꦿꦠꦸꦮꦤ꧀ꦥꦸꦤꦶꦏ","ayah leluhur itu",ex:Paragraf_42,42
+Kata_42_5,Kata,"kangwêdahjumênêngngratu","ꦏꦁꦮꦼꦢꦃꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦿꦠꦸ","yang layak jadi raja",ex:Paragraf_42,42
+Kata_42_6,Kata,"nangingsampunsinungdun​nya","ꦤꦔꦶꦁꦱꦩ꧀ꦥꦸꦤ꧀ꦱꦶꦤꦸꦁꦢꦸꦤ꧀ꦚ꧈","tapi sudah tidak di dunia.",ex:Paragraf_42,42
+Paragraf_43,Paragraf,"hingkangnganem​anderbeni, hingdun​nyan​nipun​pinaḍa, sawangsawangdaudum​mane, nangngingkasrahkangnêgara, mêngkatên​ukum​sarak, punikapêm​manggihulun, kawulahanu_un​duka","꧄ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ꧈ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ꧈ ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ꧈ ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ꧈ ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀ ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀ ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈","Yang menjadi pemilik, dunia yang diselimuti, mengawasi kehidupan dunia, tapi menyerahkan negeri, menaikkan hukum adat, itulah pendapatku, aku berterima kasih.",,43
+Kata_43_0,Kata,"hingkangnganem​anderbeni","ꦲꦶꦁꦏꦁꦔꦤꦺꦩ꧀ꦲꦤ꧀ꦢꦼꦂꦧꦺꦤꦶ","Yang menjadi pemilik",ex:Paragraf_43,43
+Kata_43_1,Kata,"hingdun​nyan​nipun​pinaḍa","ꦲꦶꦁꦢꦸꦤ꧀ꦚꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦥꦶꦤꦣ","dunia yang diselimuti",ex:Paragraf_43,43
+Kata_43_2,Kata,"sawangsawangdaudum​mane","ꦱꦮꦁꦱꦮꦁꦢꦸꦢꦸꦩ꧀ꦩꦤꦺ","mengawasi kehidupan dunia",ex:Paragraf_43,43
+Kata_43_3,Kata,"nangngingkasrahkangnêgara","ꦤꦁꦔꦶꦁꦏꦱꦿꦃꦏꦁꦤꦼꦒꦫ","tapi menyerahkan negeri",ex:Paragraf_43,43
+Kata_43_4,Kata,"mêngkatên​ukum​sarak","ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦸꦏꦸꦩ꧀ꦱꦫꦏ꧀","menaikkan hukum adat",ex:Paragraf_43,43
+Kata_43_5,Kata,"punikapêm​manggihulun","ꦥꦸꦤꦶꦏꦥꦼꦩ꧀ꦩꦁꦒꦶꦃꦲꦸꦭꦸꦤ꧀","itulah pendapatku",ex:Paragraf_43,43
+Kata_43_6,Kata,"kawulahanu_un​duka","ꦏꦮꦸꦭꦲꦤꦸꦲꦸꦤ꧀ꦢꦸꦏ꧈","aku berterima kasih.",ex:Paragraf_43,43
+Paragraf_44,Paragraf,"karan​tên​nulyaawaris, sasampun​ningmaris​dunya, ramapadukakangdêrbe, nêgarimulyaingcêm​pa, iyangpadupêjah, tan​dangngunulyakinubur, ramatuwan​dados​nata","꧄ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀ ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ꧈ ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ꧈ ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ꧈ ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ꧈ ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ꧈ ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ꧈","Setelah ayah meninggal, setelah wafat dunia, ayah leluhur yang tadi, negeri mulia di Champa, sudah lama meninggal, segera dikubur, ayah leluhur jadi raja.",,44
+Kata_44_0,Kata,"karan​tên​nulyaawaris","ꦏꦫꦤ꧀ꦠꦼꦤ꧀ꦤꦸꦭꦾꦲꦮꦫꦶꦱ꧀","Setelah ayah meninggal",ex:Paragraf_44,44
+Kata_44_1,Kata,"sasampun​ningmaris​dunya","ꦱꦱꦩ꧀ꦥꦸꦤ꧀ꦤꦶꦁꦩꦫꦶꦱ꧀ꦢꦸꦤ꧀ꦚ","setelah wafat dunia",ex:Paragraf_44,44
+Kata_44_2,Kata,"ramapadukakangdêrbe","ꦫꦩꦥꦢꦸꦏꦏꦁꦢꦼꦂꦧꦺ","ayah leluhur yang tadi",ex:Paragraf_44,44
+Kata_44_3,Kata,"nêgarimulyaingcêm​pa","ꦤꦼꦒꦫꦶꦩꦸꦭꦾꦲꦶꦁꦕꦼꦩ꧀ꦥ","negeri mulia di Champa",ex:Paragraf_44,44
+Kata_44_4,Kata,"iyangpadupêjah","ꦲꦶꦪꦁꦥꦢꦸꦥꦼꦗꦃ","sudah lama meninggal",ex:Paragraf_44,44
+Kata_44_5,Kata,"tan​dangngunulyakinubur","ꦠꦤ꧀ꦢꦁꦔꦸꦤꦸꦭꦾꦏꦶꦤꦸꦧꦸꦂ","segera dikubur",ex:Paragraf_44,44
+Kata_44_6,Kata,"ramatuwan​dados​nata","ꦫꦩꦠꦸꦮꦤ꧀ꦢꦢꦺꦴꦱ꧀ꦤꦠ","ayah leluhur jadi raja",ex:Paragraf_44,44
+Paragraf_45,Paragraf,"mêngkatên​aturingdasih, nan​dhês​aturingkipatya, kangrayisakatigan​ne, miyarsamerangkalin​tang, arsa mêdal​pasilan, tan​amit​malihingratu, kangkatigasam​mimêdal","꧄ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ꧈ ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ꧈ ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ꧈ ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ꧈ ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀ ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ꧈ ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀","Menaikkan kasih sayang, menegaskan patih, yang memerintah ketiga raja, menyampaikan berita yang hebat, akan keluar peristiwa, tak akan kembali lagi di raja, yang ketiga akan pergi.",,45
+Kata_45_0,Kata,"mêngkatên​aturingdasih","ꦩꦼꦁꦏꦠꦼꦤ꧀ꦲꦠꦸꦂꦫꦶꦁꦢꦱꦶꦃ","Menaikkan kasih sayang",ex:Paragraf_45,45
+Kata_45_1,Kata,"nan​dhês​aturingkipatya","ꦤꦤ꧀ꦝꦼꦱ꧀ꦲꦠꦸꦂꦫꦶꦁꦏꦶꦥꦠꦾ","menegaskan patih",ex:Paragraf_45,45
+Kata_45_2,Kata,"kangrayisakatigan​ne","ꦏꦁꦫꦪꦶꦱꦏꦠꦶꦒꦤ꧀ꦤꦺ","yang memerintah ketiga raja",ex:Paragraf_45,45
+Kata_45_3,Kata,"miyarsamerangkalin​tang","ꦩꦶꦪꦂꦱꦩꦺꦫꦁꦏꦭꦶꦤ꧀ꦠꦁ","menyampaikan berita yang hebat",ex:Paragraf_45,45
+Kata_45_4,Kata,"arsa mêdal​pasilan","ꦲꦂꦱ ꦩꦼꦢꦭ꧀ꦥꦱꦶꦭꦤ꧀","akan keluar peristiwa",ex:Paragraf_45,45
+Kata_45_5,Kata,"tan​amit​malihingratu","ꦠꦤ꧀ꦲꦩꦶꦠ꧀ꦩꦭꦶꦃꦲꦶꦁꦫꦠꦸ","tak akan kembali lagi di raja",ex:Paragraf_45,45
+Kata_45_6,Kata,"kangkatigasam​mimêdal","ꦏꦁꦏꦠꦶꦒꦱꦩ꧀ꦩꦶꦩꦼꦢꦭ꧀","yang ketiga akan pergi.",ex:Paragraf_45,45
+Paragraf_46,Paragraf,"sangnatabubartinangkil, tumulyaaglisngaḍattyan, paramantribubarkabeh, saksanasurup, yyangngarka, tankawarnasangnata, putratitigawinuwus, kumpul​anengwis​mannira","꧄ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀ ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀ ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ꧈ ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀ ꦪꦾꦁꦔꦂꦏ꧈ ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ꧈ ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀ ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈","Raja bubar pergi, dengan hormat menghadap, para menteri bubar semua, seperti senja menghilang, tak terlihat raja, ketiga putra telah berkumpul, di wisma.",,46
+Kata_46_0,Kata,"sangnatabubartinangkil","ꦱꦁꦤꦠꦧꦸꦧꦂꦠꦶꦤꦁꦏꦶꦭ꧀","Raja bubar pergi",ex:Paragraf_46,46
+Kata_46_1,Kata,"tumulyaaglisngaḍattyan","ꦠꦸꦩꦸꦭꦾꦲꦒ꧀ꦭꦶꦱ꧀ꦔꦣꦠ꧀ꦠꦾꦤ꧀","dengan hormat menghadap",ex:Paragraf_46,46
+Kata_46_2,Kata,"paramantribubarkabeh","ꦥꦫꦩꦤ꧀ꦠꦿꦶꦧꦸꦧꦂꦏꦧꦺꦃ","para menteri bubar semua",ex:Paragraf_46,46
+Kata_46_3,Kata,"saksanasurup","ꦱꦏ꧀ꦱꦤꦱꦸꦫꦸꦥ꧀","seperti senja menghilang",ex:Paragraf_46,46
+Kata_46_4,Kata,"yyangngarka","ꦪꦾꦁꦔꦂꦏ","senja menghilang",ex:Paragraf_46,46
+Kata_46_5,Kata,"tankawarnasangnata","ꦠꦤ꧀ꦏꦮꦂꦤꦱꦁꦤꦠ","tak terlihat raja",ex:Paragraf_46,46
+Kata_46_6,Kata,"putratitigawinuwus","ꦥꦸꦠꦿꦠꦶꦠꦶꦒꦮꦶꦤꦸꦮꦸꦱ꧀","ketiga putra telah berkumpul",ex:Paragraf_46,46
+Kata_46_7,Kata,"kumpul​anengwis​mannira","ꦏꦸꦩ꧀ꦥꦸꦭ꧀ꦲꦤꦺꦁꦮꦶꦱ꧀ꦩꦤ꧀ꦤꦶꦫ꧈","di wisma.",ex:Paragraf_46,46
+Paragraf_47,Paragraf,"têngngahdaluwêt​taran​ning, raresamyapagunêm​man, selarasahingwuwus​se, rakadawêk​samikesah, apapin​nrihingcêpa, mongsajumênêngngaratu, angngurkesahanglêllana","꧄ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ꧈ ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀ ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ꧈ ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ꧈ ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ꧈ ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈","Tengah malam di luar, para gadis sedang berbincang, Selarasa di dalam, para putra semuanya, apa keinginan di Champa, pada masa pemerintahan raja, mengurus negeri.",,47
+Kata_47_0,Kata,"têngngahdaluwêt​taran​ning","ꦠꦼꦁꦔꦃꦢꦭꦸꦮꦼꦠ꧀ꦠꦫꦤ꧀ꦤꦶꦁ","Tengah malam di luar",ex:Paragraf_47,47
+Kata_47_1,Kata,"raresamyapagunêm​man","ꦫꦫꦺꦱꦩꦾꦥꦒꦸꦤꦼꦩ꧀ꦩꦤ꧀","para gadis sedang berbincang",ex:Paragraf_47,47
+Kata_47_2,Kata,"selarasahingwuwus​se","ꦱꦺꦭꦫꦱꦲꦶꦁꦮꦸꦮꦸꦱ꧀ꦱꦺ","Selarasa di dalam",ex:Paragraf_47,47
+Kata_47_3,Kata,"rakadawêk​samikesah","ꦫꦏꦢꦮꦼꦏ꧀ꦱꦩꦶꦏꦺꦱꦃ","para putra semuanya",ex:Paragraf_47,47
+Kata_47_4,Kata,"apapin​nrihingcêpa","ꦲꦥꦥꦶꦤ꧀ꦤꦿꦶꦃꦲꦶꦁꦕꦼꦥ","apa keinginan di Champa",ex:Paragraf_47,47
+Kata_47_5,Kata,"mongsajumênêngngaratu","ꦩꦺꦴꦁ​ꦱ​ꦗꦸꦩꦼꦤꦼꦤ꧀ꦔꦫꦠꦸ","pada masa pemerintahan raja",ex:Paragraf_47,47
+Kata_47_6,Kata,"angngurkesahanglêllana","ꦲꦁꦔꦸꦂꦏꦺꦱꦃꦲꦁꦊꦭ꧀ꦭꦤ꧈","mengurus negeri.",ex:Paragraf_47,47
+Paragraf_48,Paragraf,"lan​malihwatêk​kingngaji, ingkangsamisugihwongsa, samidados​kawulan​ne, punikakawulasungkan, ngawulakathahilang, samisaminak​kingratu, têk​kahan​dikangawula","꧄ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ꧈ ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ꧈ ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ꧈ ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀ ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ꧈ ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈","Dan lagi saat senja, yang kaya dan berkuasa, menjadi hamba, aku sungkan, banyak yang hilang, sama-sama dari raja, datang untuk mengabdi.",,48
+Kata_48_0,Kata,"lan​malihwatêk​kingngaji","ꦭꦤ꧀ꦩꦭꦶꦃꦮꦠꦼꦏ꧀ꦏꦶꦁꦔꦗꦶ","Dan lagi saat senja",ex:Paragraf_48,48
+Kata_48_1,Kata,"ingkangsamisugihwongsa","ꦲꦶꦁꦏꦁꦱꦩꦶꦱꦸꦒꦶꦃꦮꦺꦴꦁꦱ","yang kaya dan berkuasa",ex:Paragraf_48,48
+Kata_48_2,Kata,"samidados​kawulan​ne","ꦱꦩꦶꦢꦢꦺꦴꦱ꧀ꦏꦮꦸꦭꦤ꧀ꦤꦺ","menjadi hamba",ex:Paragraf_48,48
+Kata_48_3,Kata,"punikakawulasungkan","ꦥꦸꦤꦶꦏꦏꦮꦸꦭꦱꦸꦁꦏꦤ꧀","aku sungkan",ex:Paragraf_48,48
+Kata_48_4,Kata,"ngawulakathahilang","ꦔꦮꦸꦭꦏꦛꦃꦲꦶꦭꦁ","banyak yang hilang",ex:Paragraf_48,48
+Kata_48_5,Kata,"samisaminak​kingratu","ꦱꦩꦶꦱꦩꦶꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ","sama-sama dari raja",ex:Paragraf_48,48
+Kata_48_6,Kata,"têk​kahan​dikangawula","ꦠꦼꦏ꧀ꦏꦲꦤ꧀ꦢꦶꦏꦔꦮꦸꦭ꧈","datang untuk mengabdi.",ex:Paragraf_48,48
+Paragraf_49,Paragraf,"selanggon​dahangng​lingharis, lungasihapaden​sêdya, selarasaden​wuwus​se, tuwisihanengnêgara, yen​maksihanengcêm​pa, kakang langkungwiranghingsun, aningaliwonghingcêpa","꧄ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ꧈ ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ꧈ ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ꧈ ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ꧈ ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀ ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈","Selanggănda hendak pergi, memberi sayang atau tidak, Selarasa di dalam negeri, kalau masih di Champa, aku lebih prihatin, melihat keadaan orang Champa.",,49
+Kata_49_0,Kata,"selanggon​dahangng​lingharis","ꦱꦺꦭꦁꦒꦺꦴꦤ꧀ꦢꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀","Selanggănda hendak pergi",ex:Paragraf_49,49
+Kata_49_1,Kata,"lungasihapaden​sêdya","ꦭꦸꦔꦱꦶꦃꦲꦥꦢꦺꦤ꧀ꦱꦼꦢꦾ","memberi sayang atau tidak",ex:Paragraf_49,49
+Kata_49_2,Kata,"selarasaden​wuwus​se","ꦱꦺꦭꦫꦱꦢꦺꦤ꧀ꦮꦸꦮꦸꦱ꧀ꦱꦺ","Selarasa di dalam negeri",ex:Paragraf_49,49
+Kata_49_3,Kata,"tuwisihanengnêgara","ꦠꦸꦮꦶꦱꦶꦃꦲꦤꦺꦁꦤꦼꦒꦫ","di dalam negeri",ex:Paragraf_49,49
+Kata_49_4,Kata,"yen​maksihanengcêm​pa","ꦪꦺꦤ꧀ꦩꦏ꧀ꦱꦶꦃꦲꦤꦺꦁꦕꦼꦩ꧀ꦥ","kalau masih di Champa",ex:Paragraf_49,49
+Kata_49_5,Kata,"kakang langkungwiranghingsun","ꦏꦏꦁ​ꦭꦁꦏꦸꦁꦮꦶꦫꦁꦲꦶꦁꦱꦸꦤ꧀","aku lebih prihatin",ex:Paragraf_49,49
+Kata_49_6,Kata,"aningaliwonghingcêpa","ꦲꦤꦶꦔꦭꦶꦮꦺꦴꦁꦲꦶꦁꦕꦼꦥ꧈","melihat keadaan orang Champa.",ex:Paragraf_49,49
+Paragraf_50,Paragraf,"selarasyamaturaris, yen​padukanurut​karsa, saparen​tahingwonggêḍae, kakangbotên​kêlam​pahan, wirangtêm​mên​kawula, paḍapaḍanaka​kaingratu, têkapadukakan​dhap​pan","꧄ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ꧈ ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ꧈ ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀ ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ꧈ ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ꧈ ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀","Selarasya berkata, jika paduka setuju, seluruh orang besar, kakang tak dilaksanakan, sangat prihatin aku, sama-sama dari raja, datang paduka ke tempatmu.",,50 
+Kata_50_0,Kata,"selarasyamaturaris","ꦱꦺꦭꦫꦱꦾꦩꦠꦸꦂꦫꦫꦶꦱ꧀","Selarasya berkata",ex:Paragraf_50,50
+Kata_50_1,Kata,"yen​padukanurut​karsa","ꦪꦺꦤ꧀ꦥꦢꦸꦏꦤꦸꦫꦸꦠ꧀ꦏꦂꦱ","jika paduka setuju",ex:Paragraf_50,50
+Kata_50_2,Kata,"saparen​tahingwonggêḍae","ꦱꦥꦫꦺꦤ꧀ꦠꦃꦲꦶꦁꦮꦺꦴꦁꦒꦼꦣꦺ","seluruh orang besar",ex:Paragraf_50,50
+Kata_50_3,Kata,"kakangbotên​kêlam​pahan","ꦏꦏꦁꦧꦺꦴꦠꦼꦤ꧀ꦏꦼꦭꦩ꧀ꦥꦃꦲꦤ꧀","kakang tak dilaksanakan",ex:Paragraf_50,50
+Kata_50_4,Kata,"wirangtêm​mên​kawula","ꦮꦶꦫꦁꦠꦼꦩ꧀ꦩꦼꦤ꧀ꦏꦮꦸꦭ","sangat prihatin aku",ex:Paragraf_50,50
+Kata_50_5,Kata,"paḍapaḍanaka​kaingratu","ꦥꦣꦥꦣꦤꦏ꧀ꦏꦶꦁꦫꦠꦸ","sama-sama dari raja",ex:Paragraf_50,50
+Kata_50_6,Kata,"têkapadukakan​dhap​pan","ꦠꦼꦏꦥꦢꦸꦏꦏꦤ꧀ꦝꦥ꧀ꦥꦤ꧀","datang paduka ke tempatmu.",ex:Paragraf_50,50
+Paragraf_51,Paragraf,"kawulahanyêgahkingking, benjangyendhatênghingparan, ḍataêngyangkulapin​tane, padukadados​sanata, selagon​dalingngira, inggihrakakulamahkul, aturerayisam​peyan","꧄ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ꧈ ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀ ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ꧈ ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ꧈ ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ꧈ ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀ ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀","Aku berpendapat, kalau besok ke tempat, pada Yang aku tuju, paduka menjadi raja, Selagănda disampingku, ya itu saudaraku, aku sampaikan kabar paduka.",,51
+Kata_51_0,Kata,"kawulahanyêgahkingking","ꦏꦮꦸꦭꦲꦚꦼꦒꦃꦏꦶꦁꦏꦶꦁ","Aku berpendapat",ex:Paragraf_51,51
+Kata_51_1,Kata,"benjangyendhatênghingparan","ꦧꦺꦤ꧀ꦗꦁꦪꦺꦤ꧀ꦝꦠꦼꦁꦲꦶꦁꦥꦫꦤ꧀","kalau besok ke tempat",ex:Paragraf_51,51
+Kata_51_2,Kata,"ḍataêngyangkulapin​tane","ꦣꦠꦼꦁꦪꦁꦏꦸꦭꦥꦶꦤ꧀ꦠꦤꦺ","pada Yang aku tuju",ex:Paragraf_51,51
+Kata_51_3,Kata,"padukadados​sanata","ꦥꦢꦸꦏꦢꦢꦺꦴꦱ꧀ꦱꦤꦠ","paduka menjadi raja",ex:Paragraf_51,51
+Kata_51_4,Kata,"selagon​dalingngira","ꦱꦺꦭꦒꦺꦴꦤ꧀ꦢꦭꦶꦁꦔꦶꦫ","Selagănda disampingku",ex:Paragraf_51,51
+Kata_51_5,Kata,"inggihrakakulamahkul","ꦲꦶꦁꦒꦶꦃꦫꦏꦏꦸꦭꦩꦃꦏꦸꦭ꧀","ya itu saudaraku",ex:Paragraf_51,51
+Kata_51_6,Kata,"aturerayisam​peyan","ꦲꦠꦸꦂꦫꦺꦫꦪꦶꦱꦩ꧀ꦥꦺꦪꦤ꧀","aku sampaikan kabar paduka.",ex:Paragraf_51,51
+Paragraf_52,Paragraf,"selasyarahangng​lingharis, yen​mangkanakarêppira, iyakapriyebêcikke, lungahajakawênangngan, yayideningwongcêm​pa, selarasanêm​bahmatur, mangkeminggahingbahitra","꧄ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀ ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ꧈ ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ꧈ ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀ ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ꧈ ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ꧈ ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈","Selasyara berkata, kalau begitu keinginanmu, bagaimana yang baik, pergilah jangan terlena, oleh orang Champa, Selarasa mohon, nanti naik ke baitra.",,52
+Kata_52_0,Kata,"selasyarahangng​lingharis","ꦱꦺꦭꦱꦾꦫꦲꦁꦔ꧀ꦭꦶꦁꦲꦫꦶꦱ꧀","Selasyara berkata",ex:Paragraf_52,52
+Kata_52_1,Kata,"yen​mangkanakarêppira","ꦪꦺꦤ꧀ꦩꦁꦏꦤꦏꦉꦥ꧀ꦥꦶꦫ","kalau begitu keinginanmu",ex:Paragraf_52,52
+Kata_52_2,Kata,"iyakapriyebêcikke","ꦲꦶꦪꦏꦥꦿꦶꦪꦺꦧꦼꦕꦶꦏ꧀ꦏꦺ","bagaimana yang baik",ex:Paragraf_52,52
+Kata_52_3,Kata,"lungahajakawênangngan","ꦭꦸꦔꦲꦗꦏꦮꦼꦤꦁꦔꦤ꧀","pergilah jangan terlena",ex:Paragraf_52,52
+Kata_52_4,Kata,"yayideningwongcêm​pa","ꦪꦪꦶꦢꦺꦤꦶꦁꦮꦺꦴꦁꦕꦼꦩ꧀ꦥ","oleh orang Champa",ex:Paragraf_52,52
+Kata_52_5,Kata,"selarasanêm​bahmatur","ꦱꦺꦭꦫꦱꦤꦼꦩ꧀ꦧꦃꦩꦠꦸꦂ","Selarasa mohon",ex:Paragraf_52,52
+Kata_52_6,Kata,"mangkeminggahingbahitra","ꦩꦁꦏꦺꦩꦶꦁꦒꦃꦲꦶꦁꦧꦲꦶꦠꦿ꧈","nanti naik ke baitra.",ex:Paragraf_52,52
+Paragraf_53,Paragraf,"kesahmangkedaluikisupayahajanawikan, samyamin​tarkatigane, punangwonghabahurêksa, datan​won​tên​uningnga, kesahwan​citêngngahdalu, mringpasisirkangsinadya","꧄ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀ ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ꧈ ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ꧈ ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ꧈ ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ꧈ ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ꧈","Pergilah malam ini, agar tidak ketahuan, mereka menunggu ketiga, para pelindung, tak ada yang tahu, pergilah tengah malam, ke pesisir yang disiapkan.",,53
+Kata_53_0,Kata,"kesahmangkedaluikisupayahajanawikan","ꦏꦺꦱꦃꦩꦁꦏꦺꦢꦭꦸꦲꦶꦏꦶꦱꦸꦥꦪꦲꦗꦤꦮꦶꦏꦤ꧀","Pergilah malam ini, agar tidak ketahuan",ex:Paragraf_53,53
+Kata_53_1,Kata,"samyamin​tarkatigane","ꦱꦩꦾꦩꦶꦤ꧀ꦠꦂꦏꦠꦶꦒꦤꦺ","mereka menunggu ketiga",ex:Paragraf_53,53
+Kata_53_2,Kata,"punangwonghabahurêksa","ꦥꦸꦤꦁꦮꦺꦴꦁꦲꦧꦲꦸꦉꦏ꧀ꦱ","para pelindung",ex:Paragraf_53,53
+Kata_53_3,Kata,"datan​won​tên​uningnga","ꦢꦠꦤ꧀ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦲꦸꦤꦶꦁꦔ","tak ada yang tahu",ex:Paragraf_53,53
+Kata_53_4,Kata,"kesahwan​citêngngahdalu","ꦏꦺꦱꦃꦮꦤ꧀ꦕꦶꦠꦼꦁꦔꦃꦢꦭꦸ","pergilah tengah malam",ex:Paragraf_53,53
+Kata_53_5,Kata,"mringpasisirkangsinadya","ꦩꦿꦶꦁꦥꦱꦶꦱꦶꦂꦏꦁꦱꦶꦤꦢꦾ","ke pesisir yang disiapkan.",ex:Paragraf_53,53
+Paragraf_54,Paragraf,"saprap​taneingpasisir, akathahpunangbahitra, jukungkun​thinglan​kecine, pêran​tiyen​ngam​bil​ulam, jajarsêkongmayangngan, atem​bak​anenghinglahut, arsakesahamisaya","꧄ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ꧈ ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ꧈ ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ꧈ ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀ ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀ ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀ ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈","Di pesisir, banyak yang menjaga baitra, perahu kuning dan kecil, alat menangkap ikan, berjajar sebaris, menembak di laut, hendak pergi menangkap ikan.",,54
+Kata_54_0,Kata,"saprap​taneingpasisir","ꦱꦥꦿꦥ꧀ꦠꦤꦺꦲꦶꦁꦥꦱꦶꦱꦶꦂ","Di pesisir",ex:Paragraf_54,54
+Kata_54_1,Kata,"akathahpunangbahitra","ꦲꦏꦛꦃꦥꦸꦤꦁꦧꦲꦶꦠꦿ","banyak yang menjaga baitra",ex:Paragraf_54,54
+Kata_54_2,Kata,"jukungkun​thinglan​kecine","ꦗꦸꦏꦸꦁꦏꦸꦤ꧀ꦛꦶꦁꦭꦤ꧀ꦏꦺꦕꦶꦤꦺ","perahu kuning dan kecil",ex:Paragraf_54,54
+Kata_54_3,Kata,"pêran​tiyen​ngam​bil​ulam","ꦥꦼꦫꦤ꧀ꦠꦶꦪꦺꦤ꧀ꦔꦩ꧀ꦧꦶꦭ꧀ꦲꦸꦭꦩ꧀","alat menangkap ikan",ex:Paragraf_54,54
+Kata_54_4,Kata,"jajarsêkongmayangngan","ꦗꦗꦂꦱꦼꦏꦺꦴꦁꦩꦪꦁꦔꦤ꧀","berjejer sebaris",ex:Paragraf_54,54
+Kata_54_5,Kata,"atem​bak​anenghinglahut","ꦲꦠꦺꦩ꧀ꦧꦏ꧀ꦲꦤꦺꦁꦲꦶꦁꦭꦲꦸꦠ꧀","menembak di laut",ex:Paragraf_54,54
+Kata_54_6,Kata,"arsakesahamisaya","ꦲꦂꦱꦏꦺꦱꦃꦲꦩꦶꦱꦪ꧈","hendak pergi menangkap ikan.",ex:Paragraf_54,54
+Paragraf_55,Paragraf,"sadayapan​dipun​pilih, pêrahukangnengpinggiran, won​tên​pamisayan​ningwong, samak​taḍayaunglan​layar, kamun​dhinipun​pisan, adan​tinitiyan​sampun, wus​ nêngngahḍataêngsamodra","꧄ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ꧈ ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀ ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ꧈ ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ꧈ ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀ ꦲꦢꦤ꧀ꦡꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀ ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈","Semua dipilih, perahu yang di pinggir, ada pemisah orang, bersama dayung dan layar, sudah dituntun, menunggang sudah, sudah menuju samudra.",,55
+Kata_55_0,Kata,"sadayapan​dipun​pilih","ꦱꦢꦪꦥꦤ꧀ꦢꦶꦥꦸꦤ꧀ꦥꦶꦭꦶꦃ","Semua dipilih",ex:Paragraf_55,55
+Kata_55_1,Kata,"pêrahukangnengpinggiran","ꦥꦼꦂꦫꦲꦸꦏꦁꦤꦺꦁꦥꦶꦁꦒꦶꦂꦫꦤ꧀","perahu yang di pinggir",ex:Paragraf_55,55
+Kata_55_2,Kata,"won​tên​pamisayan​ningwong","ꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦥꦩꦶꦱꦪꦤ꧀ꦤꦶꦁꦮꦺꦴꦁ","ada pemisah orang",ex:Paragraf_55,55
+Kata_55_3,Kata,"samak​taḍayaunglan​layar","ꦱꦩꦏ꧀ꦡꦣꦪꦸꦁꦭꦤ꧀ꦭꦪꦂ","bersama dayung dan layar",ex:Paragraf_55,55
+Kata_55_4,Kata,"kamun​dhinipun​pisan","ꦏꦩꦸꦤ꧀ꦝꦶꦤꦶꦥꦸꦤ꧀ꦥꦶꦱꦤ꧀","sudah dituntun",ex:Paragraf_55,55
+Kata_55_5,Kata,"adan​tinitiyan​sampun","ꦲꦢꦤ꧀ꦡꦶꦤꦶꦠꦶꦪꦤ꧀ꦱꦩ꧀ꦥꦸꦤ꧀","menunggang sudah",ex:Paragraf_55,55
+Kata_55_6,Kata,"wus​ nêngngahḍataêngsamodra","ꦮꦸꦱ꧀​ꦤꦼꦁꦔꦃꦣꦠꦼꦁꦱꦩꦺꦴꦢꦿ꧈","sudah menuju samudra.",ex:Paragraf_55,55
+Paragraf_56,Paragraf,"sigra_alayartumuli, wus​lêpas​palayarira, tan​karuwan​ningsêdyane, selarasahaturira, kakangwon​tên​nêgara, ingngrikikawulajujuk, srinatahingkangsinadya","꧄ꦱꦶꦒꦿꦲꦭꦪꦂꦠꦸꦩꦸꦭꦶ꧈ ꦮꦸꦱ꧀ꦭꦼꦥꦱ꧀ꦥꦭꦪꦂꦫꦶꦫ꧈ ꦠꦤ꧀ꦏꦫꦸꦮꦤ꧀ꦤꦶꦁꦱꦼꦢꦾꦤꦺ꧈ ꦱꦺꦭꦫꦱꦲꦠꦸꦫꦶꦫ꧈ ꦏꦏꦁꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦤꦼꦒꦫ꧈ ꦲꦶꦁꦔꦿꦶꦏꦶꦏꦮꦸꦭꦗꦸꦗꦸꦏ꧀ ꦱꦿꦶꦤꦠꦲꦶꦁꦏꦁꦱꦶꦤꦢꦾ꧉","Segera berlayar, sudah berangkat pelayarannya, tak sadar di waktu itu, Selarasa menyampaikan, kakang di negeri ini, aku menunggu, raja yang disiapkan.",,56
+Kata_56_0,Kata,"sigra_alayartumuli","ꦱꦶꦒꦿꦲꦭꦪꦂꦠꦸꦩꦸꦭꦶ","Segera berlayar",ex:Paragraf_56,56
+Kata_56_1,Kata,"wus​lêpas​palayarira","ꦮꦸꦱ꧀ꦭꦼꦥꦱ꧀ꦥꦭꦪꦂꦫꦶꦫ","sudah berangkat pelayarannya",ex:Paragraf_56,56
+Kata_56_2,Kata,"tan​karuwan​ningsêdyane","ꦠꦤ꧀ꦏꦫꦸꦮꦤ꧀ꦤꦶꦁꦱꦼꦢꦾꦤꦺ","tak sadar di waktu itu",ex:Paragraf_56,56
+Kata_56_3,Kata,"selarasahaturira","ꦱꦺꦭꦫꦱꦲꦠꦸꦫꦶꦫ","Selarasa menyampaikan",ex:Paragraf_56,56
+Kata_56_4,Kata,"kakangwon​tên​nêgara","ꦏꦏꦁꦮꦺꦴꦤ꧀ꦠꦼꦤ꧀ꦤꦼꦒꦫ","kakang di negeri ini",ex:Paragraf_56,56
+Kata_56_5,Kata,"ingngrikikawulajujuk","ꦲꦶꦁꦔꦿꦶꦏꦶꦏꦮꦸꦭꦗꦸꦗꦸꦏ꧀","aku menunggu",ex:Paragraf_56,56
+Kata_56_6,Kata,"srinatahingkangsinadya","ꦱꦿꦶꦤꦠꦲꦶꦁꦏꦁꦱꦶꦤꦢꦾ","raja yang disiapkan.",ex:Paragraf_56,56
