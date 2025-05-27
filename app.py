@@ -300,7 +300,13 @@ def highlight_text(text, query):
         return text.replace(query_escaped, f'<span class="highlighted-text">{query_escaped}</span>')
 
 # Keyboard aksara Jawa berdasarkan dataset
+# Ganti fungsi create_javanese_keyboard yang ada (sekitar baris 200-340) dengan kode berikut:
+
+# Ganti fungsi create_javanese_keyboard yang ada (sekitar baris 200-340) dengan kode berikut:
+
 def create_javanese_keyboard(df):
+    """Membuat keyboard aksara Jawa dengan layout profesional seperti foto"""
+    
     # Dapatkan karakter aksara Jawa unik dari dataset
     javanese_chars = get_unique_javanese_chars(df)
     
@@ -308,116 +314,335 @@ def create_javanese_keyboard(df):
         st.info("Tidak ada karakter aksara Jawa ditemukan dalam dataset.")
         return
     
-    st.markdown('<div class="javanese-keyboard">', unsafe_allow_html=True)
-    st.markdown('<div class="keyboard-title">Keyboard Aksara Jawa</div>', unsafe_allow_html=True)
+    # Header keyboard
+    st.markdown("""
+    <div style="text-align: center; margin: 2rem 0 1.5rem 0;">
+        <h3 style="color: #1e3a8a; margin-bottom: 0.5rem;">⌨️ Keyboard Aksara Jawa</h3>
+        <p style="color: #64748b; font-size: 0.9rem;">Tersedia {0} karakter unik dari dataset</p>
+    </div>
+    """.format(len(javanese_chars)), unsafe_allow_html=True)
     
-    # Tampilkan jumlah karakter yang tersedia
-    st.markdown(f'<p style="text-align: center; color: #64748b; font-size: 0.9rem;">Tersedia {len(javanese_chars)} karakter unik dari dataset</p>', unsafe_allow_html=True)
-    
-    # Kelompokkan karakter berdasarkan fungsi
-    # Aksara dasar, sandhangan, tanda baca, dll
+    # Kelompokkan karakter berdasarkan fungsi dengan definisi yang lebih spesifik
     consonants = []
     vowel_marks = []
     punctuation = []
     others = []
     
+    # Definisi range yang lebih tepat berdasarkan Unicode Javanese block
     for char in javanese_chars:
         char_code = ord(char)
-        if 0xA980 <= char_code <= 0xA9B2:  # Aksara dasar
+        # Aksara dasar (Ha, Na, Ca, Ra, Ka, dst)
+        if 0xA980 <= char_code <= 0xA9B2:
             consonants.append(char)
-        elif 0xA9B3 <= char_code <= 0xA9C0:  # Sandhangan vokal
+        # Sandhangan vokal (wulu, suku, taling, dst)
+        elif 0xA9B3 <= char_code <= 0xA9C0:
             vowel_marks.append(char)
-        elif char_code in [0xA9C1, 0xA9C2, 0xA9C3, 0xA9C4, 0xA9C5, 0xA9C6, 0xA9C7, 0xA9C8, 0xA9C9, 0xA9CA, 0xA9CB, 0xA9CC, 0xA9CD, 0xA9DE, 0xA9DF]:  # Tanda baca
+        # Tanda baca dan simbol
+        elif char_code >= 0xA9C1:
             punctuation.append(char)
         else:
             others.append(char)
     
-    # Tampilkan tombol clear dan space
-    col_clear, col_space = st.columns([1, 1])
-    with col_clear:
-        if st.button("🗑 Hapus", key="clear_search", help="Hapus semua teks pencarian"):
-            st.session_state.search_query = ""
-            st.rerun()
-    with col_space:
-        if st.button("⎵ Spasi", key="add_space", help="Tambahkan spasi"):
-            if 'search_query' not in st.session_state:
-                st.session_state.search_query = ""
-            st.session_state.search_query += " "
-            st.rerun()
-    
-    # Tampilkan grup karakter
+    # 1. Section Aksara Dasar (bagian paling besar)
     if consonants:
-        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Aksara Dasar</h5>', unsafe_allow_html=True)
-        chars_per_row = 12
+        st.markdown("""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        ">
+            <h4 style="
+                text-align: center;
+                color: #1e40af;
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            ">Aksara Dasar</h4>
+        """, unsafe_allow_html=True)
+        
+        # Grid untuk aksara dasar dengan spacing yang konsisten
+        chars_per_row = 10
         rows = [consonants[i:i + chars_per_row] for i in range(0, len(consonants), chars_per_row)]
         
         for row_idx, char_row in enumerate(rows):
             cols = st.columns(len(char_row))
             for col_idx, char in enumerate(char_row):
                 with cols[col_idx]:
-                    if st.button(char, key=f"cons_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                    if st.button(
+                        char, 
+                        key=f"cons_{row_idx}_{col_idx}",
+                        help=f"Tambahkan {char} (U+{ord(char):04X})",
+                        use_container_width=True
+                    ):
                         if 'search_query' not in st.session_state:
                             st.session_state.search_query = ""
                         st.session_state.search_query += char
                         st.rerun()
-    
-    if vowel_marks:
-        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Sandhangan Vokal</h5>', unsafe_allow_html=True)
-        chars_per_row = 10
-        rows = [vowel_marks[i:i + chars_per_row] for i in range(0, len(vowel_marks), chars_per_row)]
         
-        for row_idx, char_row in enumerate(rows):
-            cols = st.columns(len(char_row))
-            for col_idx, char in enumerate(char_row):
-                with cols[col_idx]:
-                    if st.button(char, key=f"vowel_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
-                        if 'search_query' not in st.session_state:
-                            st.session_state.search_query = ""
-                        st.session_state.search_query += char
-                        st.rerun()
+        st.markdown('</div>', unsafe_allow_html=True)
     
-    if punctuation:
-        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Tanda Baca & Simbol</h5>', unsafe_allow_html=True)
-        chars_per_row = 8
-        rows = [punctuation[i:i + chars_per_row] for i in range(0, len(punctuation), chars_per_row)]
+    # Layout 2x2 untuk section lainnya
+    col1, col2 = st.columns(2, gap="large")
+    
+    # 2. Section Sandhangan Vokal
+    with col1:
+        if vowel_marks:
+            st.markdown("""
+            <div style="
+                background: white;
+                border-radius: 12px;
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                border: 1px solid #e2e8f0;
+            ">
+                <h4 style="
+                    text-align: center;
+                    color: #1e40af;
+                    margin-bottom: 1rem;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                ">Sandhangan Vokal</h4>
+            """, unsafe_allow_html=True)
+            
+            chars_per_row = 5
+            rows = [vowel_marks[i:i + chars_per_row] for i in range(0, len(vowel_marks), chars_per_row)]
+            
+            for row_idx, char_row in enumerate(rows):
+                cols_inner = st.columns(len(char_row))
+                for col_idx, char in enumerate(char_row):
+                    with cols_inner[col_idx]:
+                        if st.button(
+                            char, 
+                            key=f"vowel_{row_idx}_{col_idx}",
+                            help=f"Tambahkan {char} (U+{ord(char):04X})",
+                            use_container_width=True
+                        ):
+                            if 'search_query' not in st.session_state:
+                                st.session_state.search_query = ""
+                            st.session_state.search_query += char
+                            st.rerun()
+            
+            st.markdown('</div>', unsafe_allow_html=True)
+    
+    # 3. Section Tanda Baca & Simbol
+    with col2:
+        if punctuation:
+            st.markdown("""
+            <div style="
+                background: white;
+                border-radius: 12px;
+                padding: 1rem;
+                margin-bottom: 1.5rem;
+                box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+                border: 1px solid #e2e8f0;
+            ">
+                <h4 style="
+                    text-align: center;
+                    color: #1e40af;
+                    margin-bottom: 1rem;
+                    font-size: 1.2rem;
+                    font-weight: 600;
+                ">Tanda Baca & Simbol</h4>
+            """, unsafe_allow_html=True)
+            
+            chars_per_row = 5
+            rows = [punctuation[i:i + chars_per_row] for i in range(0, len(punctuation), chars_per_row)]
+            
+            for row_idx, char_row in enumerate(rows):
+                cols_inner = st.columns(len(char_row))
+                for col_idx, char in enumerate(char_row):
+                    with cols_inner[col_idx]:
+                        if st.button(
+                            char, 
+                            key=f"punct_{row_idx}_{col_idx}",
+                            help=f"Tambahkan {char} (U+{ord(char):04X})",
+                            use_container_width=True
+                        ):
+                            if 'search_query' not in st.session_state:
+                                st.session_state.search_query = ""
+                            st.session_state.search_query += char
+                            st.rerun()
+            
+            st.markdown('</div>', unsafe_allow_html=True)
+    
+    # Baris bawah untuk control dan contoh
+    col3, col4 = st.columns(2, gap="large")
+    
+    # 4. Section Kontrol
+    with col3:
+        st.markdown("""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        ">
+            <h4 style="
+                text-align: center;
+                color: #1e40af;
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            ">Kontrol</h4>
+        """, unsafe_allow_html=True)
         
-        for row_idx, char_row in enumerate(rows):
-            cols = st.columns(len(char_row))
-            for col_idx, char in enumerate(char_row):
-                with cols[col_idx]:
-                    if st.button(char, key=f"punct_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
-                        if 'search_query' not in st.session_state:
-                            st.session_state.search_query = ""
-                        st.session_state.search_query += char
-                        st.rerun()
+        # Tombol control dalam grid yang rapi
+        control_col1, control_col2 = st.columns(2)
+        
+        with control_col1:
+            if st.button(
+                "⎵ Spasi", 
+                key="add_space", 
+                help="Tambahkan spasi",
+                use_container_width=True
+            ):
+                if 'search_query' not in st.session_state:
+                    st.session_state.search_query = ""
+                st.session_state.search_query += " "
+                st.rerun()
+        
+        with control_col2:
+            if st.button(
+                "🗑️ Hapus", 
+                key="clear_search", 
+                help="Hapus semua teks pencarian",
+                use_container_width=True
+            ):
+                st.session_state.search_query = ""
+                st.rerun()
+        
+        st.markdown('</div>', unsafe_allow_html=True)
     
+    # 5. Section Contoh Pencarian
+    with col4:
+        st.markdown("""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        ">
+            <h4 style="
+                text-align: center;
+                color: #1e40af;
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            ">Contoh Pencarian</h4>
+        """, unsafe_allow_html=True)
+        
+        # Contoh kata-kata populer dari dataset
+        example_words = ["ꦠꦠ꧀ꦏꦭ", "ꦤꦼꦒꦫꦶ", "ꦱꦸꦫꦥꦿꦶꦁꦒ", "ꦲꦶꦁ"]
+        
+        example_col1, example_col2 = st.columns(2)
+        
+        for i, word in enumerate(example_words):
+            target_col = example_col1 if i % 2 == 0 else example_col2
+            with target_col:
+                if st.button(
+                    f"📝 {word}", 
+                    key=f"example_{i}", 
+                    help=f"Coba cari: {word}",
+                    use_container_width=True
+                ):
+                    st.session_state.search_query = word
+                    st.rerun()
+        
+        st.markdown('</div>', unsafe_allow_html=True)
+    
+    # Tampilkan karakter lainnya jika ada
     if others:
-        st.markdown('<h5 style="text-align: center; margin: 1rem 0 0.5rem 0;">Karakter Lainnya</h5>', unsafe_allow_html=True)
-        chars_per_row = 10
+        st.markdown("""
+        <div style="
+            background: white;
+            border-radius: 12px;
+            padding: 1rem;
+            margin-top: 1.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        ">
+            <h4 style="
+                text-align: center;
+                color: #1e40af;
+                margin-bottom: 1rem;
+                font-size: 1.2rem;
+                font-weight: 600;
+            ">Karakter Lainnya</h4>
+        """, unsafe_allow_html=True)
+        
+        chars_per_row = 8
         rows = [others[i:i + chars_per_row] for i in range(0, len(others), chars_per_row)]
         
         for row_idx, char_row in enumerate(rows):
-            cols = st.columns(len(char_row))
+            cols_inner = st.columns(len(char_row))
             for col_idx, char in enumerate(char_row):
-                with cols[col_idx]:
-                    if st.button(char, key=f"other_{row_idx}_{col_idx}", help=f"Tambahkan {char}"):
+                with cols_inner[col_idx]:
+                    if st.button(
+                        char, 
+                        key=f"other_{row_idx}_{col_idx}",
+                        help=f"Tambahkan {char} (U+{ord(char):04X})",
+                        use_container_width=True
+                    ):
                         if 'search_query' not in st.session_state:
                             st.session_state.search_query = ""
                         st.session_state.search_query += char
                         st.rerun()
+        
+        st.markdown('</div>', unsafe_allow_html=True)
     
-    # Tampilkan contoh penggunaan
-    st.markdown('<h6 style="margin: 0 0 0.5rem 0; color: #1e40af;">Contoh Pencarian:</h6>', unsafe_allow_html=True)
-    example_words = ["ꦠꦠ꧀ꦏꦭ", "ꦤꦼꦒꦫꦶ", "ꦱꦸꦫꦥꦿꦶꦁꦒ", "ꦲꦶꦁ"]
-    
-    cols = st.columns(len(example_words))
-    for i, word in enumerate(example_words):
-        with cols[i]:
-            if st.button(f"📝 {word}", key=f"example_{i}", help=f"Coba cari: {word}"):
-                st.session_state.search_query = word
-                st.rerun()
-    
+    # Tutup container utama
     st.markdown('</div>', unsafe_allow_html=True)
+    
+    # Tips penggunaan
+    st.markdown("""
+    <div style="
+        text-align: center;
+        margin-top: 1rem;
+        padding: 1rem;
+        background: #f1f5f9;
+        border-radius: 8px;
+        border-left: 4px solid #3b82f6;
+    ">
+        <p style="margin: 0; color: #475569; font-size: 0.9rem;">
+            💡 <strong>Tips:</strong> Klik karakter untuk menambahkan ke pencarian, 
+            gunakan tombol spasi untuk memisahkan kata, dan hapus untuk membersihkan pencarian.
+        </p>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Tampilkan karakter lainnya jika ada
+    if others:
+        st.markdown('<div class="keyboard-section keyboard-section-small">', unsafe_allow_html=True)
+        st.markdown('<h5 class="section-title">Karakter Lainnya</h5>', unsafe_allow_html=True)
+        st.markdown('<div class="keyboard-grid keyboard-grid-small">', unsafe_allow_html=True)
+        
+        chars_per_row = 6
+        rows = [others[i:i + chars_per_row] for i in range(0, len(others), chars_per_row)]
+        
+        for row_idx, char_row in enumerate(rows):
+            st.markdown('<div class="keyboard-row">', unsafe_allow_html=True)
+            cols_inner = st.columns(len(char_row))
+            for col_idx, char in enumerate(char_row):
+                with cols_inner[col_idx]:
+                    if st.button(char, key=f"other_{row_idx}_{col_idx}", 
+                               help=f"Tambahkan {char} (U+{ord(char):04X})"):
+                        if 'search_query' not in st.session_state:
+                            st.session_state.search_query = ""
+                        st.session_state.search_query += char
+                        st.rerun()
+            st.markdown('</div>', unsafe_allow_html=True)
+        
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+    
     st.markdown('</div>', unsafe_allow_html=True)
 
 # Fungsi untuk menampilkan statistik

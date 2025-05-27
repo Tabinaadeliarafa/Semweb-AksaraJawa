@@ -82,6 +82,39 @@
     gap: 0.5rem;
 }
 
+.keyboard-section {
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem 0;
+}
+
+.keyboard-section-large {
+    margin-bottom: 1rem;
+}
+
+.keyboard-section-medium {
+    min-height: 200px;
+}
+
+.keyboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.keyboard-row {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    color: #1e40af;
+    font-size: 1rem;
+}
+
 /* Javanese Text Styling */
 .javanese-text {
     font-family: 'Noto Sans Javanese', sans-serif;
