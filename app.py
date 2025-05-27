@@ -343,24 +343,13 @@ def create_javanese_keyboard(df):
         else:
             others.append(char)
     
-    # Container utama keyboard
-    st.markdown("""
-    <div style="
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
-        border-radius: 16px;
-        padding: 2rem;
-        box-shadow: 0 10px 25px rgba(0,0,0,0.1);
-        border: 1px solid #e2e8f0;
-    ">
-    """, unsafe_allow_html=True)
-    
     # 1. Section Aksara Dasar (bagian paling besar)
     if consonants:
         st.markdown("""
         <div style="
             background: white;
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 1rem;
             margin-bottom: 1.5rem;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             border: 1px solid #e2e8f0;
@@ -369,7 +358,7 @@ def create_javanese_keyboard(df):
                 text-align: center;
                 color: #1e40af;
                 margin-bottom: 1rem;
-                font-size: 1.1rem;
+                font-size: 1.2rem;
                 font-weight: 600;
             ">Aksara Dasar</h4>
         """, unsafe_allow_html=True)
@@ -405,17 +394,16 @@ def create_javanese_keyboard(df):
             <div style="
                 background: white;
                 border-radius: 12px;
-                padding: 1.5rem;
+                padding: 1rem;
                 margin-bottom: 1.5rem;
                 box-shadow: 0 4px 12px rgba(0,0,0,0.05);
                 border: 1px solid #e2e8f0;
-                min-height: 200px;
             ">
                 <h4 style="
                     text-align: center;
                     color: #1e40af;
                     margin-bottom: 1rem;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 600;
                 ">Sandhangan Vokal</h4>
             """, unsafe_allow_html=True)
@@ -447,17 +435,16 @@ def create_javanese_keyboard(df):
             <div style="
                 background: white;
                 border-radius: 12px;
-                padding: 1.5rem;
+                padding: 1rem;
                 margin-bottom: 1.5rem;
                 box-shadow: 0 4px 12px rgba(0,0,0,0.05);
                 border: 1px solid #e2e8f0;
-                min-height: 200px;
             ">
                 <h4 style="
                     text-align: center;
                     color: #1e40af;
                     margin-bottom: 1rem;
-                    font-size: 1rem;
+                    font-size: 1.2rem;
                     font-weight: 600;
                 ">Tanda Baca & Simbol</h4>
             """, unsafe_allow_html=True)
@@ -491,16 +478,16 @@ def create_javanese_keyboard(df):
         <div style="
             background: white;
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             border: 1px solid #e2e8f0;
-            min-height: 150px;
         ">
             <h4 style="
                 text-align: center;
                 color: #1e40af;
                 margin-bottom: 1rem;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: 600;
             ">Kontrol</h4>
         """, unsafe_allow_html=True)
@@ -538,16 +525,16 @@ def create_javanese_keyboard(df):
         <div style="
             background: white;
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 1rem;
+            margin-bottom: 1.5rem;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             border: 1px solid #e2e8f0;
-            min-height: 150px;
         ">
             <h4 style="
                 text-align: center;
                 color: #1e40af;
                 margin-bottom: 1rem;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: 600;
             ">Contoh Pencarian</h4>
         """, unsafe_allow_html=True)
@@ -577,7 +564,7 @@ def create_javanese_keyboard(df):
         <div style="
             background: white;
             border-radius: 12px;
-            padding: 1.5rem;
+            padding: 1rem;
             margin-top: 1.5rem;
             box-shadow: 0 4px 12px rgba(0,0,0,0.05);
             border: 1px solid #e2e8f0;
@@ -586,7 +573,7 @@ def create_javanese_keyboard(df):
                 text-align: center;
                 color: #1e40af;
                 margin-bottom: 1rem;
-                font-size: 1rem;
+                font-size: 1.2rem;
                 font-weight: 600;
             ">Karakter Lainnya</h4>
         """, unsafe_allow_html=True)
