@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import re
 from pathlib import Path
+from SPARQLWrapper import SPARQLWrapper, JSON # Import SPARQLWrapper
 
 # Konfigurasi halaman
 st.set_page_config(
@@ -20,17 +21,59 @@ def load_css():
     else:
         st.warning("File styles.css tidak ditemukan. Pastikan file CSS ada di direktori yang sama.")
 
-# Load data
-@st.cache_data
-def load_data():
+# Load data from GraphDB
+@st.cache_data # Cache data untuk performa
+def load_data_from_graphdb():
+    # Ganti dengan URL endpoint GraphDB Anda
+    sparql_endpoint = "http://LAPTOP-3RKM154R:7200/repositories/AksaraJawa"
+    sparql = SPARQLWrapper(sparql_endpoint)
+
+    # SPARQL query untuk mengambil semua data Paragraf dan Kata
+    # Memastikan semua properti yang relevan diambil
+    query = """
+    PREFIX ex: <http://example.org/pupuh#>
+    SELECT ?s ?type ?isiLatin ?isiAksaraJawa ?arti ?munculDalamParagraf
+    WHERE {
+        {
+            ?s a ex:Paragraf .
+            OPTIONAL { ?s ex:isiLatin ?isiLatin . }
+            OPTIONAL { ?s ex:isiAksaraJawa ?isiAksaraJawa . }
+            OPTIONAL { ?s ex:arti ?arti . }
+            BIND("Paragraf" AS ?type)
+        } UNION {
+            ?s a ex:Kata .
+            OPTIONAL { ?s ex:latin ?isiLatin . }
+            OPTIONAL { ?s ex:aksaraJawa ?isiAksaraJawa . }
+            OPTIONAL { ?s ex:arti ?arti . }
+            OPTIONAL { ?s ex:munculDalamParagraf ?munculDalamParagrafUri .
+                       BIND(STRAFTER(STR(?munculDalamParagrafUri), "http://example.org/pupuh#") AS ?munculDalamParagraf) }
+            BIND("Kata" AS ?type)
+        }
+    }
+    """
+
+    sparql.setQuery(query)
+    sparql.setReturnFormat(JSON)
+
     try:
-        df = pd.read_csv("dataset/pupuh.csv")
+        results = sparql.query().convert()
+        data = []
+        for result in results["results"]["bindings"]:
+            row = {
+                "s": result["s"]["value"], # URI dari entitas
+                "type": result["type"]["value"],
+                "isiLatin": result["isiLatin"]["value"] if "isiLatin" in result else None,
+                "isiAksaraJawa": result["isiAksaraJawa"]["value"] if "isiAksaraJawa" in result else None,
+                "arti": result["arti"]["value"] if "arti" in result else None,
+                "munculDalamParagraf": result["munculDalamParagraf"]["value"] if "munculDalamParagraf" in result else None
+            }
+            data.append(row)
+        
+        df = pd.DataFrame(data)
         return df
-    except FileNotFoundError:
-        st.error("File pupuh.csv tidak ditemukan. Pastikan file CSV ada di direktori yang sama.")
-        return pd.DataFrame()
     except Exception as e:
-        st.error(f"Error loading data: {str(e)}")
+        st.error(f"Error loading data from GraphDB: {str(e)}")
+        st.info("Pastikan GraphDB berjalan dan dapat diakses dari aplikasi ini.")
         return pd.DataFrame()
 
 # Fungsi untuk mendapatkan karakter aksara Jawa unik dari dataset
@@ -39,9 +82,10 @@ def get_unique_javanese_chars(df):
     """Ekstrak karakter aksara Jawa unik dari dataset"""
     if df.empty or 'isiAksaraJawa' not in df.columns:
         # Fallback ke karakter dari contoh yang diberikan user
+        # Ini penting jika koneksi ke GraphDB gagal atau data kosong
         sample_text = """꧋ꦥꦸꦤꦶꦏ‌ꦱꦼꦂꦫꦠ꧀‌ꦏꦒꦸꦁꦔꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦚꦚꦃ​ꦱꦏꦺꦧꦼꦂ‌​ꦲꦶꦁ​ꦱꦸꦫꦥꦿꦶꦁꦒ꧋
 ꧁ꦥꦸꦃꦠꦼꦩ꧀ꦧꦁ​ꦲꦱ꧀ꦩꦫꦢꦺꦴꦤ꧂
-꧃ꦠꦠ꧀ꦏꦭꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ꦮꦪꦃꦲꦺ꧈​ꦏꦮꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁ​ꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ꧉"""
+꧃ꦠꦠ꧀ꦏꦭꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ဝꦪꦃꦲꦺ꧈​ꦏဝꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁ​ꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ꧉"""
         
         all_chars = set()
         for char in sample_text:
@@ -73,31 +117,31 @@ def search_text(df, query, search_type="all"):
     
     if search_type in ["all", "latin"]:
         # Pencarian presisi dalam kolom isiLatin dengan word boundary
-        latin_matches = df[df['isiLatin'].str.contains(rf'\b{re.escape(query.lower())}\b', 
+        latin_matches = df[df['isiLatin'].astype(str).str.contains(rf'\b{re.escape(query.lower())}\b', 
                                                       case=False, na=False, regex=True)]
         results = pd.concat([results, latin_matches], ignore_index=True)
     
     if search_type in ["all", "translation"]:
         # Pencarian presisi dalam kolom arti dengan word boundary
-        translation_matches = df[df['arti'].str.contains(rf'\b{re.escape(query.lower())}\b', 
+        translation_matches = df[df['arti'].astype(str).str.contains(rf'\b{re.escape(query.lower())}\b', 
                                                         case=False, na=False, regex=True)]
         results = pd.concat([results, translation_matches], ignore_index=True)
     
     if search_type in ["all", "javanese"]:
         # Pencarian dalam kolom isiAksaraJawa dengan metode yang lebih fleksibel
         # Cari exact match terlebih dahulu
-        exact_matches = df[df['isiAksaraJawa'].str.contains(re.escape(query), na=False, regex=True)]
+        exact_matches = df[df['isiAksaraJawa'].astype(str).str.contains(re.escape(query), na=False, regex=True)]
         results = pd.concat([results, exact_matches], ignore_index=True)
         
         # Jika tidak ada exact match, coba pencarian dengan word boundary yang lebih longgar
         if exact_matches.empty:
             # Cari dengan pola yang mempertimbangkan spasi dan tanda baca aksara Jawa
             pattern = rf'{re.escape(query)}'
-            loose_matches = df[df['isiAksaraJawa'].str.contains(pattern, na=False, regex=True)]
+            loose_matches = df[df['isiAksaraJawa'].astype(str).str.contains(pattern, na=False, regex=True)]
             results = pd.concat([results, loose_matches], ignore_index=True)
     
     # Hapus duplikat
-    results = results.drop_duplicates().reset_index(drop=True)
+    results = results.drop_duplicates(subset=['s']).reset_index(drop=True) # Gunakan 's' (URI) untuk identifikasi unik
     
     # Group results by unique words/phrases
     grouped_results = group_search_results(results, query)
@@ -110,32 +154,34 @@ def group_search_results(df, query):
         return {}
     
     grouped = {}
+
+    kata_results = df[df['type'] == 'Kata']
+    paragraf_results = df[df['type'] == 'Paragraf']
     
-    for idx, row in df.iterrows():
-        # Tentukan kata kunci utama yang ditemukan dengan pencarian presisi
-        found_in_latin = bool(re.search(rf'\b{re.escape(query.lower())}\b', 
-                                       row['isiLatin'].lower() if pd.notna(row['isiLatin']) else '', 
-                                       re.IGNORECASE))
-        found_in_translation = bool(re.search(rf'\b{re.escape(query.lower())}\b', 
-                                             row['arti'].lower() if pd.notna(row['arti']) else '', 
-                                             re.IGNORECASE))
-        found_in_javanese = bool(re.search(rf'(?<!\S){re.escape(query)}(?!\S)', 
-                                          row['isiAksaraJawa'] if pd.notna(row['isiAksaraJawa']) else ''))
-        
-        # Buat key untuk grouping
-        if row['type'] == 'Kata':
-            # Untuk kata, group berdasarkan kata itu sendiri
-            group_key = f"{row['isiLatin']} ({row['isiAksaraJawa']})"
-            main_word = row['isiLatin']
-            main_javanese = row['isiAksaraJawa']
-            main_translation = row['arti']
+    # Process 'Kata' entries first
+    for idx, row in df[df['type'] == 'Kata'].iterrows():
+        isi_latin = row['isiLatin'] if pd.notna(row['isiLatin']) else ''
+        arti = row['arti'] if pd.notna(row['arti']) else ''
+        isi_aksara_jawa = row['isiAksaraJawa'] if pd.notna(row['isiAksaraJawa']) else ''
+
+        # Determine if this 'Kata' is an exact match for the query
+        is_exact_query_match = (pd.notna(isi_latin) and isi_latin.lower() == query.lower()) or \
+                               (pd.notna(isi_aksara_jawa) and isi_aksara_jawa == query)
+
+        if is_exact_query_match:
+            # If it's an exact Kata match, create a group based on the Kata itself
+            group_key = f"Kata: {isi_latin} ({isi_aksara_jawa})"
+            main_word = isi_latin
+            main_javanese = isi_aksara_jawa
+            main_translation = arti
         else:
-            # Untuk paragraf, group berdasarkan query yang ditemukan
-            group_key = f"Paragraf mengandung '{query}'"
-            main_word = f"Mencari: {query}"
-            main_javanese = extract_javanese_context(row['isiAksaraJawa'], query)
-            main_translation = extract_translation_context(row['arti'], query)
-        
+            # If it's a 'Kata' but not an exact match to the query (e.g., query is 'ing' but 'ing' also appears in another 'Kata' like 'ingkang')
+            # This case might be less common if search_text is precise, but handle it.
+            group_key = f"Kata: {isi_latin} ({isi_aksara_jawa}) - Terkait '{query}'"
+            main_word = isi_latin
+            main_javanese = isi_aksara_jawa
+            main_translation = arti
+
         if group_key not in grouped:
             grouped[group_key] = {
                 'main_word': main_word,
@@ -145,22 +191,69 @@ def group_search_results(df, query):
                 'total_count': 0
             }
         
-        # Tambahkan occurrence dengan informasi referensi yang lebih lengkap
+        # Add the current row as an occurrence to its determined group
         occurrence = {
             'type': row['type'],
-            'javanese': row['isiAksaraJawa'],
-            'latin': row['isiLatin'],
-            'translation': row['arti'],
+            'javanese': isi_aksara_jawa,
+            'latin': isi_latin,
+            'translation': arti,
             'paragraph_reference': get_paragraph_reference(row),
             'full_sentence': get_full_sentence(row),
             'source_info': get_source_info(row),
             'found_in': {
-                'latin': found_in_latin,
-                'translation': found_in_translation,
-                'javanese': found_in_javanese
+                'latin': bool(re.search(rf'\b{re.escape(query.lower())}\b', isi_latin.lower(), re.IGNORECASE)),
+                'translation': bool(re.search(rf'\b{re.escape(query.lower())}\b', arti.lower(), re.IGNORECASE)),
+                'javanese': bool(re.search(rf'{re.escape(query)}', isi_aksara_jawa))
             }
         }
+        grouped[group_key]['occurrences'].append(occurrence)
+        grouped[group_key]['total_count'] += 1
+
+    # Process 'Paragraf' entries
+    for idx, row in df[df['type'] == 'Paragraf'].iterrows():
+        isi_latin = row['isiLatin'] if pd.notna(row['isiLatin']) else ''
+        arti = row['arti'] if pd.notna(row['arti']) else ''
+        isi_aksara_jawa = row['isiAksaraJawa'] if pd.notna(row['isiAksaraJawa']) else ''
+
+        paragraph_id = row['s'].split('#')[-1] if pd.notna(row['s']) else 'Unknown_Paragraf'
         
+        # Get a snippet of the Javanese text for the subtitle
+        javanese_snippet = isi_aksara_jawa.strip()
+        if len(javanese_snippet) > 70: # Adjust length as needed to fit the display
+            javanese_snippet = javanese_snippet[:70] + "..."
+        elif len(javanese_snippet) == 0:
+            javanese_snippet = "..." # Fallback if empty
+        
+        # Use the paragraph ID in the group key for uniqueness
+        group_key = f"Paragraf: {paragraph_id} (Query: {query})"
+        main_word = f"Mencari: {query}" # Matches the image style for paragraph searches
+        main_javanese = javanese_snippet # Use a snippet of the actual Javanese from the paragraph
+        main_translation = extract_translation_context(arti, query) # Contextual translation
+
+        if group_key not in grouped:
+            grouped[group_key] = {
+                'main_word': main_word,
+                'main_javanese': main_javanese,
+                'main_translation': main_translation,
+                'occurrences': [],
+                'total_count': 0
+            }
+        
+        # Add the current row as an occurrence to its determined group
+        occurrence = {
+            'type': row['type'],
+            'javanese': isi_aksara_jawa,
+            'latin': isi_latin,
+            'translation': arti,
+            'paragraph_reference': get_paragraph_reference(row),
+            'full_sentence': get_full_sentence(row),
+            'source_info': get_source_info(row),
+            'found_in': {
+                'latin': bool(re.search(rf'\b{re.escape(query.lower())}\b', isi_latin.lower(), re.IGNORECASE)),
+                'translation': bool(re.search(rf'\b{re.escape(query.lower())}\b', arti.lower(), re.IGNORECASE)),
+                'javanese': bool(re.search(rf'{re.escape(query)}', isi_aksara_jawa))
+            }
+        }
         grouped[group_key]['occurrences'].append(occurrence)
         grouped[group_key]['total_count'] += 1
     
@@ -172,30 +265,26 @@ def get_paragraph_reference(row):
     reference_parts = []
     
     # Cek berbagai kolom yang mungkin berisi informasi referensi
-    possible_ref_columns = ['munculDalamParagraf', 'paragraph', 'paragraf', 'bab', 'chapter']
+    # 'munculDalamParagraf' adalah properti dari Kata ke Paragraf
+    if 'munculDalamParagraf' in row and pd.notna(row['munculDalamParagraf']):
+        reference_parts.append(f"Paragraf: {row['munculDalamParagraf']}")
     
-    for col in possible_ref_columns:
-        if col in row and pd.notna(row[col]):
-            reference_parts.append(f"{col.replace('munculDalamParagraf', 'Paragraf')}: {row[col]}")
+    # Jika entitas itu sendiri adalah Paragraf, gunakan URI-nya
+    if row['type'] == 'Paragraf' and 's' in row and pd.notna(row['s']):
+        paragraph_id = row['s'].split('#')[-1] # Ambil bagian setelah '#'
+        if not reference_parts: # Hanya tambahkan jika belum ada referensi paragraf
+            reference_parts.append(f"Paragraf: {paragraph_id}")
     
-    # Jika ada nomor baris atau indeks
-    if 'baris' in row and pd.notna(row['baris']):
-        reference_parts.append(f"Baris: {row['baris']}")
-    elif hasattr(row, 'name') and row.name is not None:
-        reference_parts.append(f"Entri: {row.name + 1}")
+    # Tambahkan informasi baris/indeks jika ada (dari DataFrame lokal)
+    # Ini mungkin tidak relevan lagi jika data dari GraphDB tidak memiliki indeks baris
+    if hasattr(row, 'name') and row.name is not None:
+        if not any("Entri" in part for part in reference_parts): # Hindari duplikasi jika sudah ada
+            reference_parts.append(f"Entri: {row.name + 1}")
     
     return " | ".join(reference_parts) if reference_parts else "Referensi tidak tersedia"
 
 def get_full_sentence(row):
-    """Dapatkan kalimat lengkap jika tersedia"""
-    # Cek kolom yang mungkin berisi kalimat lengkap
-    possible_sentence_columns = ['kalimat', 'sentence', 'fullText', 'context']
-    
-    for col in possible_sentence_columns:
-        if col in row and pd.notna(row[col]):
-            return row[col]
-    
-    # Jika tidak ada kalimat lengkap, gabungkan informasi yang ada
+    """Dapatkan kalimat lengkap jika tersedia. Untuk GraphDB, isiLatin/isiAksaraJawa/arti dari Paragraf sudah bisa dianggap full sentence."""
     parts = []
     if pd.notna(row['isiAksaraJawa']):
         parts.append(f"Aksara Jawa: {row['isiAksaraJawa']}")
@@ -207,32 +296,17 @@ def get_full_sentence(row):
     return " | ".join(parts) if parts else "Konteks tidak tersedia"
 
 def get_source_info(row):
-    """Dapatkan informasi sumber yang lebih detail"""
-    source_parts = []
-    
-    # Cek berbagai kolom sumber
-    possible_source_columns = ['sumber', 'source', 'book', 'manuscript', 'naskah']
-    
-    for col in possible_source_columns:
-        if col in row and pd.notna(row[col]):
-            source_parts.append(f"{col.title()}: {row[col]}")
-    
-    # Tambahkan informasi tambahan jika ada
-    if 'penulis' in row and pd.notna(row['penulis']):
-        source_parts.append(f"Penulis: {row['penulis']}")
-    if 'tahun' in row and pd.notna(row['tahun']):
-        source_parts.append(f"Tahun: {row['tahun']}")
-    
-    return " | ".join(source_parts) if source_parts else "Sumber tidak diketahui"
+    """Dapatkan informasi sumber yang lebih detail. Untuk data ini, sumber adalah GraphDB itu sendiri."""
+    return "Sumber: GraphDB AksaraJawa"
 
-# Helper functions
+# Helper functions for context extraction
 def extract_javanese_context(text, query, context_length=50):
     if not text or not query:
         return text
     
-    # Untuk aksara Jawa, ambil konteks di sekitar query dengan word boundary
+    # Untuk aksara Jawa, ambil konteks di sekitar query
     try:
-        pattern = rf'(?<!\S){re.escape(query)}(?!\S)'
+        pattern = rf'{re.escape(query)}'
         match = re.search(pattern, text)
         if match:
             start_idx = match.start()
@@ -272,14 +346,6 @@ def extract_translation_context(text, query, context_length=100):
     
     return text
 
-def extract_source_paragraph(row):
-    if 'munculDalamParagraf' in row and pd.notna(row['munculDalamParagraf']):
-        return row['munculDalamParagraf']
-    elif 'sumber' in row and pd.notna(row['sumber']):
-        return f"Sumber: {row['sumber']}"
-    else:
-        return "Tidak diketahui"
-
 # Fungsi untuk highlight text dengan word boundary
 def highlight_text(text, query):
     if not text or not query:
@@ -287,23 +353,30 @@ def highlight_text(text, query):
     
     # Escape HTML special characters
     import html
-    text = html.escape(str(text))
+    text_escaped = html.escape(str(text))
     query_escaped = html.escape(str(query))
     
-    # Use word boundary untuk highlight yang presisi
+    # Use word boundary untuk highlight yang presisi untuk Latin/Terjemahan
+    # Untuk Aksara Jawa, highlight exact match
     try:
-        pattern = rf'\b({re.escape(query)})\b'
-        highlighted = re.sub(pattern, f'<span class="highlighted-text">\\1</span>', text, flags=re.IGNORECASE)
+        # Cek apakah query adalah Aksara Jawa (berisi karakter Unicode Javanese)
+        is_javanese_query = any('\ua980' <= char <= '\ua9df' for char in query)
+
+        if is_javanese_query:
+            # Untuk Aksara Jawa, cukup cari substring exact
+            pattern = re.escape(query)
+        else:
+            # Untuk Latin/Terjemahan, gunakan word boundary
+            pattern = rf'\b{re.escape(query)}\b'
+        
+        highlighted = re.sub(pattern, f'<span class="highlighted-text">\\g<0></span>', text_escaped, flags=re.IGNORECASE if not is_javanese_query else 0)
         return highlighted
-    except:
+    except Exception as e:
         # Fallback jika regex gagal
-        return text.replace(query_escaped, f'<span class="highlighted-text">{query_escaped}</span>')
+        st.warning(f"Highlighting error: {e}. Falling back to simple replace.")
+        return text_escaped.replace(query_escaped, f'<span class="highlighted-text">{query_escaped}</span>')
 
 # Keyboard aksara Jawa berdasarkan dataset
-# Ganti fungsi create_javanese_keyboard yang ada (sekitar baris 200-340) dengan kode berikut:
-
-# Ganti fungsi create_javanese_keyboard yang ada (sekitar baris 200-340) dengan kode berikut:
-
 def create_javanese_keyboard(df):
     """Membuat keyboard aksara Jawa dengan layout profesional seperti foto"""
     
@@ -695,16 +768,19 @@ def display_grouped_results(grouped_results, query):
         ''', unsafe_allow_html=True)
         return
     
+    # Total groups now refers to the number of distinct words/paragraphs found
     total_groups = len(grouped_results)
     total_occurrences = sum(group['total_count'] for group in grouped_results.values())
     
-    st.markdown(f"<h3>Hasil Pencarian: {total_groups} kata/frasa unik dengan {total_occurrences} kemunculan</h3>", unsafe_allow_html=True)
+    st.markdown(f"<h3>Hasil Pencarian: {total_groups} entri unik dengan {total_occurrences} kemunculan</h3>", unsafe_allow_html=True)
     
-    # Initialize session state for expanded results
-    if 'expanded_results' not in st.session_state:
-        st.session_state.expanded_results = set()
-    
-    for group_key, group_data in grouped_results.items():
+    # Sort groups to display 'Kata' first, then 'Paragraf'
+    sorted_group_keys = sorted(grouped_results.keys(), 
+                               key=lambda k: (0 if k.startswith("Kata:") else 1, k))
+
+    for group_key in sorted_group_keys:
+        group_data = grouped_results[group_key]
+        
         # Create unique key for this result group
         result_id = f"result_{hash(group_key) % 100000}"
         is_expanded = result_id in st.session_state.expanded_results
@@ -811,8 +887,12 @@ def main():
     </div>
     ''', unsafe_allow_html=True)
     
+    # Initialize session state for expanded results at the very beginning of main()
+    if 'expanded_results' not in st.session_state:
+        st.session_state.expanded_results = set()
+
     # Load data
-    df = load_data()
+    df = load_data_from_graphdb() 
     
     if df.empty:
         st.stop()
@@ -877,16 +957,17 @@ def main():
         # Create dummy grouped results for sample display
         sample_grouped = {}
         for idx, row in sample_data.iterrows():
-            key = f"{row['isiLatin']} ({row['isiAksaraJawa']})"
+            # Untuk contoh, buat key yang unik berdasarkan isi entri
+            key = f"Contoh Entri {idx+1}: {row['isiLatin']}" if pd.notna(row['isiLatin']) else f"Contoh Entri {idx+1}"
             sample_grouped[key] = {
-                'main_word': row['isiLatin'],
-                'main_javanese': row['isiAksaraJawa'],
-                'main_translation': row['arti'],
+                'main_word': row['isiLatin'] if pd.notna(row['isiLatin']) else 'N/A',
+                'main_javanese': row['isiAksaraJawa'] if pd.notna(row['isiAksaraJawa']) else 'N/A',
+                'main_translation': row['arti'] if pd.notna(row['arti']) else 'N/A',
                 'occurrences': [{
                     'type': row['type'],
-                    'javanese': row['isiAksaraJawa'],
-                    'latin': row['isiLatin'],
-                    'translation': row['arti'],
+                    'javanese': row['isiAksaraJawa'] if pd.notna(row['isiAksaraJawa']) else 'N/A',
+                    'latin': row['isiLatin'] if pd.notna(row['isiLatin']) else 'N/A',
+                    'translation': row['arti'] if pd.notna(row['arti']) else 'N/A',
                     'paragraph_reference': get_paragraph_reference(row),
                     'full_sentence': get_full_sentence(row),
                     'source_info': get_source_info(row),
