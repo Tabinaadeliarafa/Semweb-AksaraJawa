@@ -25,7 +25,7 @@ def load_css():
 @st.cache_data # Cache data untuk performa
 def load_data_from_graphdb():
     # Ganti dengan URL endpoint GraphDB Anda
-    sparql_endpoint = "http://LAPTOP-3RKM154R:7200/repositories/AksaraJawa"
+    sparql_endpoint = "http://854f-103-125-116-42.ngrok-free.app/repositories/AksaraJawa"
     sparql = SPARQLWrapper(sparql_endpoint)
 
     # SPARQL query untuk mengambil semua data Paragraf dan Kata
@@ -684,7 +684,7 @@ def main():
         st.error("❌ Tidak dapat memuat data dari GraphDB. Pastikan GraphDB berjalan dan dapat diakses.")
         st.info("""
         Panduan Troubleshooting:
-        1. Pastikan GraphDB berjalan di http://LAPTOP-3RKM154R:7200
+        1. Pastikan GraphDB berjalan di http://854f-103-125-116-42.ngrok-free.app/repositories/AksaraJawa
         2. Pastikan repository 'AksaraJawa' sudah dibuat dan berisi data
         3. Pastikan tidak ada firewall yang memblokir koneksi
         4. Cek apakah SPARQLWrapper terinstal: pip install SPARQLWrapper
@@ -805,7 +805,7 @@ def main():
             st.markdown("### 🔗 Informasi Koneksi")
             st.info("""
             Sumber Data: GraphDB Repository 'AksaraJawa'  
-            Endpoint: http://LAPTOP-3RKM154R:7200/repositories/AksaraJawa  
+            Endpoint: http://854f-103-125-116-42.ngrok-free.app  
             Status: ✅ Terhubung dan data berhasil dimuat
             """)
         
