@@ -81,8 +81,6 @@ def load_data_from_graphdb():
 def get_unique_javanese_chars(df):
     """Ekstrak karakter aksara Jawa unik dari dataset"""
     if df.empty or 'isiAksaraJawa' not in df.columns:
-        # Fallback ke karakter dari contoh yang diberikan user
-        # Ini penting jika koneksi ke GraphDB gagal atau data kosong
         sample_text = """꧋ꦥꦸꦤꦶꦏ‌ꦱꦼꦂꦫꦠ꧀‌ꦏꦒꦸꦁꦔꦤ꧀ꦤꦶꦥꦸꦤ꧀ꦚꦚꦃ​ꦱꦏꦺꦧꦼꦂ‌​ꦲꦶꦁ​ꦱꦸꦫꦥꦿꦶꦁꦒ꧋
 ꧁ꦥꦸꦃꦠꦼꦩ꧀ꦧꦁ​ꦲꦱ꧀ꦩꦫꦢꦺꦴꦤ꧂
 ꧃ꦠꦠ꧀ꦏꦭꦮꦶꦮꦶꦠ꧀ꦠꦶꦤꦸꦭꦶꦱ꧀ꦲꦶꦁ​ꦢꦶꦠꦼꦤ꧀꧈​ꦔꦲꦢ꧀ꦥꦸꦤꦶꦏ​ꦥꦸꦏꦸꦭ꧀ꦱꦥ꧀ꦠ​ꦲꦶꦁ​ဝꦪꦃꦲꦺ꧈​ꦏဝꦤ꧀ꦭꦶꦏꦸꦂ​ꦲꦶꦁ​ꦏꦁ​ꦠꦁ​ꦒꦭ꧀​ꦤꦼꦁ​ꦒꦶꦃ​ꦲꦶꦁ​ꦯꦯꦶ​​ꦱꦥꦂ꧈​ꦠꦲꦸꦤ꧀ꦤꦭꦶꦥ꧀ꦢꦸꦏ꧀ꦠꦶꦤꦸꦫꦸꦤ꧀​​ꦗꦼꦗꦼꦒꦶꦁ​ꦩꦺꦴꦁ​ꦱ​ꦏꦠꦶꦒ꧉"""
@@ -560,7 +558,7 @@ def display_search_results(final_grouped_results, query):
     
     st.markdown(f"""
     <div class="search-results-summary">
-        <h2 class="search-results-summary-title">📊 Hasil Pencarian</h2>
+        <h2 class="search-results-summary-title">📝 Hasil Pencarian</h2>
         <p class="search-results-summary-text">
             Ditemukan <strong>{total_kata_occurrences + total_paragraf_occurrences}</strong> kemunculan untuk "<em>{query}</em>"
         </p>
@@ -592,7 +590,7 @@ def display_search_results(final_grouped_results, query):
                     with col2:
                         st.metric("Kemunculan Sub-Grup", sub_group_data['total_count'])
 
-                    st.markdown("##### 📝 Detail Setiap Kemunculan:")
+                    st.markdown("##### 💾 Detail Setiap Kemunculan:")
                     
                     # Display individual occurrences within the sub-group
                     for occ_idx, occurrence in enumerate(sub_group_data['occurrences'], 1):
@@ -695,7 +693,7 @@ def main():
     st.success(f"✅ Berhasil memuat {len(df)} entri dari GraphDB")
     
     # Tabs untuk organisasi fitur
-    tab1, tab2 = st.tabs(["🔍 Pencarian", "📊 Statistik Dataset"]) # Removed Keyboard tab
+    tab1, tab2 = st.tabs(["🔍 Pencarian", "📊 Dataset"]) # Removed Keyboard tab
     
     with tab1:
         # Input pencarian dengan session state
@@ -723,10 +721,10 @@ def main():
                 "Cari dalam:",
                 ["all", "latin", "javanese", "translation"],
                 format_func=lambda x: {
-                    "all": "🌐 Semua",
+                    "all": "🌍 Semua",
                     "latin": "🔤 Latin",
-                    "javanese": "🏛 Aksara Jawa",
-                    "translation": "🌍 Terjemahan"
+                    "javanese": "✒️ Aksara Jawa",
+                    "translation": "🇮🇩 Terjemahan"
                 }[x],
                 help="Pilih jenis teks yang ingin dicari"
             )
@@ -753,12 +751,12 @@ def main():
             search_button = st.button("🔍 Cari", type="primary", use_container_width=True)
         
         with col_btn2:
-            if st.button("🧹 Bersihkan", use_container_width=True):
+            if st.button("🗑️ Bersihkan", use_container_width=True):
                 st.session_state.search_query = ""
                 st.rerun()
         
         with col_btn3:
-            if st.button("📊 Contoh Pencarian", use_container_width=True):
+            if st.button("📤 Contoh Pencarian", use_container_width=True):
                 # Pilih contoh pencarian secara acak
                 examples = ["punika", "ꦥꦸꦤꦶꦏ", "adalah", "dalam", "yang"]
                 import random
@@ -773,42 +771,54 @@ def main():
             # Tampilkan hasil
             display_search_results(final_grouped_results, search_query)
             
-    with tab2: # This is now the "Statistik Dataset" tab
+    with tab2: # This is now the "Dataset" tab
         st.markdown("""
-        <div class="app-main-header-container">
-            <h2 class="app-main-header-title">📊 Statistik Dataset</h2>
-            <p class="app-main-header-subtitle">Informasi detail tentang dataset naskah Jawa</p>
+        <div class="app-main-header-container-2">
+            <h2 class="app-main-header-title-2">📊 Dataset GraphDB - Informasi detail tentang dataset naskah Jawa</h2>
         </div>
         """, unsafe_allow_html=True)
         
         if not df.empty:
-            # Statistik umum
-            col1, col2, col3, col4 = st.columns(4)
-            
-            with col1:
-                total_entries = len(df)
-                st.metric("Total Entri", total_entries)
-            
-            with col2:
-                kata_count = len(df[df['type'] == 'Kata'])
-                st.metric("Jumlah Kata", kata_count)
-            
-            with col3:
-                paragraf_count = len(df[df['type'] == 'Paragraf'])
-                st.metric("Jumlah Paragraf", paragraf_count)
-            
-            with col4:
-                unique_javanese_chars = len(get_unique_javanese_chars(df))
-                st.metric("Karakter Aksara Jawa", unique_javanese_chars)
-            
+            total_entries = len(df)
+            kata_count = len(df[df['type'] == 'Kata'])
+            paragraf_count = len(df[df['type'] == 'Paragraf'])
+            unique_javanese_chars = len(get_unique_javanese_chars(df))
+
+            st.markdown(f"""
+            <div class="custom-info-box">
+                <div style="display: flex; justify-content: flex-start; padding: 10px 20px; gap: 300px;">
+                    <div>
+                        <p style="margin: 0; font-size: 1.2rem; font-weight: 450;">Total Entri</p>
+                        <h2 style="margin: 0; font-size: 1.2rem; font-weight: 800">{total_entries}</h2>
+                    </div>
+                    <div>
+                        <p style="margin: 0; font-size: 1.2rem; font-weight: 450;">Jumlah Kata</p>
+                        <h2 style="margin: 0; font-size: 1.2rem; font-weight: 800">{kata_count}</h2>
+                    </div>
+                    <div>
+                        <p style="margin: 0; font-size: 1.2rem; font-weight: 450;">Jumlah Paragraf</p>
+                        <h2 style="margin: 0; font-size: 1.2rem; font-weight: 800">{paragraf_count}</h2>
+                    </div>
+                    <div>
+                        <p style="margin: 0; font-size: 1.2rem; font-weight: 450;">Karakter Aksara Jawa</p>
+                        <h2 style="margin: 0; font-size: 1.2rem; font-weight: 800">{unique_javanese_chars}</h2>
+                    </div>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
+    
             # Info koneksi GraphDB
-            st.markdown("### 🔗 Informasi Koneksi")
-            st.info("""
-            Sumber Data: GraphDB Repository 'AksaraJawa'  
-            Endpoint: http://854f-103-125-116-42.ngrok-free.app  
-            Status: ✅ Terhubung dan data berhasil dimuat
-            """)
-        
+            st.markdown("""
+            <div class="app-main-header-container-2">
+                <h2 class="app-main-header-title-2">🔗 Informasi Koneksi</h2>
+            </div>
+            <div class="custom-info-box">
+                <p><strong>Sumber Data:</strong> GraphDB Repository 'AksaraJawa'</p>
+                <p><strong>Endpoint:</strong> <a href="http://854f-103-125-116-42.ngrok-free.app" target="_blank">http://854f-103-125-116-42.ngrok-free.app</a></p>
+                <p><strong>Status:</strong> ✅ Terhubung dan data berhasil dimuat</p>
+            </div>
+            """, unsafe_allow_html=True)
+            
         else:
             st.warning("Tidak ada data untuk ditampilkan. Pastikan koneksi ke GraphDB berhasil.")
 

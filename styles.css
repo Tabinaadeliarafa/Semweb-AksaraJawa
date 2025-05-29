@@ -1,11 +1,11 @@
-/* Enhanced Styles for Javanese Manuscript Search */
+/* Enhanced Styles for Javanese Manuscript Search - Pink Theme */
 
 /* Import Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap");
 
 /* Global Styles */
 .stApp {
-    background: linear-gradient(135deg, #ffff, #d5ecf6 100%);
+    background: #ffffff;
     min-height: 100vh;
 }
 
@@ -13,45 +13,67 @@
 .app-main-header-container {
     text-align: center;
     margin-bottom: 2rem;
+    background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%);
+    border: 2px solid #be185d;
+    border-radius: 15px;
+    padding: 2rem 1.5rem;
+    box-shadow: 0 6px 20px rgba(190, 24, 93, 0.15);
+}
+
+.app-main-header-container-2 {
+    text-align: left;
+    margin-bottom: 0.2rem;
+    margin-top: 0.2rem;
 }
 
 .app-main-header-title {
-    color: #1e40af;
+    color: #be185d;
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    text-shadow: 2px 2px 4px rgba(190, 24, 93, 0.1);
+    font-weight: 700;
+}
+
+.app-main-header-title-2{
+    color: #be185d;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(190, 24, 93, 0.1);
+    font-weight: 200;
 }
 
 .app-main-header-subtitle {
-    color: #64748b;
+    color: #831843;
     font-size: 1.2rem;
     margin: 0;
+    font-weight: 500;
 }
 
 /* Highlighted Text */
 .highlighted-text {
-    background: linear-gradient(135deg, #ffeaa7 0%, #fab1a0 100%);
-    color: #2d3436;
+    background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 100%);
+    color: #be185d;
     padding: 2px 6px;
     border-radius: 4px;
     font-weight: 600;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(219, 39, 119, 0.1);
 }
 
 /* Search Results Summary Header */
 .search-results-summary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 1.5rem;
+    background: linear-gradient(135deg, #cee6ff 0%, #a1c6ec 100%);
+    color: #1c3045;
+    padding: 1.3rem;
     border-radius: 12px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.3rem;
     text-align: center;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 25px rgba(154, 187, 202, 0.438);
 }
 
 .search-results-summary-title {
     margin: 0;
     font-size: 1.5rem;
+    color: #1c3045;
 }
 
 .search-results-summary-text {
@@ -61,15 +83,15 @@
 
 /* Group Info Card */
 .group-info-card {
-    background: #f8fafc;
+    background: #fdf2f8;
     padding: 1rem;
     border-radius: 8px;
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid #ec4899;
     margin-bottom: 1rem;
 }
 
 .group-info-title {
-    color: #1e40af;
+    color: #be185d;
     margin: 0 0 0.5rem 0;
 }
 
@@ -80,11 +102,11 @@
 /* Occurrence Card */
 .occurrence-card {
     background: white;
-    border: 1px solid #e5e7eb;
-    border-radius: 8px;
+    border: 1px solid #f9a8d4;
+    border-radius: 12px;
     padding: 1rem;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    box-shadow: 0 4px 12px rgba(236, 72, 153, 0.08);
 }
 
 .occurrence-header {
@@ -92,7 +114,7 @@
     align-items: center;
     margin-bottom: 0.75rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid #f3f4f6;
+    border-bottom: 1px solid #fce7f3;
 }
 
 .type-tag-base { /* Base for both type tags */
@@ -105,15 +127,15 @@
 }
 
 .type-tag-kata {
-    background: #3b82f6; /* Corresponds to 'Kata' */
+    background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
 }
 
 .type-tag-paragraf {
-    background: #10b981; /* Corresponds to 'Paragraf' */
+    background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
 }
 
 .occurrence-reference {
-    color: #6b7280;
+    color: #9ca3af;
     font-size: 0.9rem;
 }
 
@@ -139,17 +161,17 @@
 .translation-content {
     font-size: 1em;
     line-height: 1.6;
-    color: #4b5563;
+    color: #6b7280;
 }
 
 .found-in-footer {
     margin-top: 0.75rem;
     padding-top: 0.5rem;
-    border-top: 1px solid #f3f4f6;
+    border-top: 1px solid #fce7f3;
 }
 
 .found-in-text {
-    color: #6b7280;
+    color: #9ca3af;
 }
 
 /* Keyboard Section */
@@ -159,12 +181,12 @@
 }
 
 .keyboard-header-title {
-    color: #1e3a8a;
+    color: #be185d;
     margin-bottom: 0.5rem;
 }
 
 .keyboard-header-subtitle {
-    color: #64748b;
+    color: #9ca3af;
     font-size: 0.9rem;
 }
 
@@ -173,21 +195,21 @@
     border-radius: 12px;
     padding: 1rem;
     margin-bottom: 1.5rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(236, 72, 153, 0.08);
+    border: 1px solid #fce7f3;
 }
 
 .keyboard-section-heading {
     text-align: center;
-    color: #1e40af;
+    color: #be185d;
     margin-bottom: 1rem;
     font-size: 1.2rem;
     font-weight: 600;
 }
 
 .current-query-display {
-    background: #eff6ff;
-    border: 2px solid #3b82f6;
+    background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+    border: 2px solid #f472b6;
     border-radius: 8px;
     padding: 1rem;
     margin-bottom: 1.5rem;
@@ -195,7 +217,7 @@
 }
 
 .current-query-label {
-    color: #1e40af;
+    color: #be185d;
     margin: 0 0 0.5rem 0;
 }
 
@@ -206,15 +228,15 @@
     background: white;
     padding: 0.75rem;
     border-radius: 6px;
-    border: 1px solid #d1d5db;
+    border: 1px solid #f9a8d4;
 }
 
 .keyboard-controls-container {
-    background: #f8fafc;
+    background: #fdf2f8;
     border-radius: 12px;
     margin-top: 1.5rem;
     text-align: center;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #fce7f3;
 }
 
 /* Responsive Design */
@@ -234,50 +256,67 @@
 
 /* Button Styling */
 .stButton > button {
-    background: linear-gradient(135deg, #4fa4e5 0%, #0984e3 100%);
+    background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
     color: white !important;
     border: none;
     border-radius: 10px;
     padding: 0.7rem 1.5rem;
     font-weight: 600;
-    box-shadow: 0 4px 15px rgba(116, 185, 255, 0.3);
+    box-shadow: 0 4px 15px rgba(244, 114, 182, 0.3);
+    transition: all 0.3s ease;
 }
 
 .stButton > button:hover {
-    background: #084777 100%;
+    background: linear-gradient(135deg, #ec4899 0%, #be185d 100%);
     color: white !important;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(116, 185, 255, 0.4);
+    box-shadow: 0 6px 20px rgba(236, 72, 153, 0.4);
+}
+
+.custom-info-box {
+    background-color: #e4c0d3; 
+    border-left: 6px solid #88113d;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.5rem;
+    color: #15171a;
+    line-height: 1.5;
 }
 
 /* Streamlit Input Styling */
 .stTextInput > div > div > input {
     border-radius: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #f9a8d4;
     padding: 0.8rem;
     font-size: 1rem;
     transition: border-color 0.3s ease;
 }
 
 .stTextInput > div > div > input:focus {
-    border-color: #74b9ff;
-    box-shadow: 0 0 0 3px rgba(116, 185, 255, 0.1);
+    border-color: #ec4899;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
 }
 
 .stSelectbox > div > div > div {
     border-radius: 10px;
-    border: 2px solid #ddd;
+    border: 2px solid #f9a8d4;
+}
+
+.stSelectbox > div > div > div:focus-within {
+    border-color: #ec4899;
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.1);
 }
 
 /* Expander Styling */
 .streamlit-expanderHeader {
-    background: linear-gradient(135deg, #fe9bc8 0%, #e75c8d 100%);
+    background: linear-gradient(135deg, #f472b6 0%, #ec4899 100%);
     color: white;
     border-radius: 10px;
     font-weight: 600;
 }
 
 .streamlit-expanderContent {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(253, 242, 248, 0.9);
     border-radius: 0 0 10px 10px;
+    border: 1px solid #fce7f3;
 }
