@@ -822,3 +822,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    with st.expander("Tentang Implementasi Keyboard ini"):
+        st.write("Mengacu pada penelitian Mahastama (2022) dalam Jurnal Buana Informatika, implementasi keyboard ini mengintegrasikan model berbasis aturan yang dikembangkan untuk keperluan transliterasi bahasa Jawa dari aksara Latin ke Aksara Jawa.")
