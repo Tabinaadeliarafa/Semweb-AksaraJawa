@@ -24,7 +24,7 @@ def load_css():
 # Load data from GraphDB
 @st.cache_data # Cache data untuk performa
 def load_data_from_graphdb():
-    # Ganti dengan URL endpoint GraphDB Anda
+    # URL endpoint GraphDB
     sparql_endpoint = "http://854f-103-125-116-42.ngrok-free.app/repositories/AksaraJawa"
     sparql = SPARQLWrapper(sparql_endpoint)
 
@@ -154,10 +154,9 @@ def search_text(df, query, search_type="all"):
     # Hapus duplikat berdasarkan URI unik
     results = results.drop_duplicates(subset=['s']).reset_index(drop=True)
     
-    # Group results by their content (e.g., all "pada" words together)
+    # Hail dari Grup (e.g., all "pada" words together)
     grouped_by_content = group_results_by_content(results, query)
 
-    # Restructure results into top-level Kata and Paragraf groups
     final_grouped_results = restructure_results_for_display(grouped_by_content, query)
     
     return results, final_grouped_results
@@ -198,7 +197,6 @@ def group_results_by_content(df, query):
         if row['type'] == 'Kata' and (is_latin_exact_match or is_javanese_exact_match):
             current_group_key = f"Kata: '{query}'"
             main_word = query
-            # If this is the first time we see this exact word as a main group, grab its Javanese/Translation
             if current_group_key not in grouped:
                 main_javanese = isi_aksara_jawa if pd.notna(isi_aksara_jawa) else ""
                 main_translation = arti if pd.notna(arti) else ""
@@ -213,7 +211,7 @@ def group_results_by_content(df, query):
             main_javanese = extract_javanese_context(isi_aksara_jawa, query, 100)
             main_translation = extract_translation_context(arti, query, 100)
 
-        elif row['type'] == 'Kata': # Substring match for Kata, or translation match
+        elif row['type'] == 'Kata':
             current_group_key = f"Kata: '{isi_latin}' ({isi_aksara_jawa}) - Mengandung '{query}'"
             main_word = isi_latin
             main_javanese = isi_aksara_jawa
