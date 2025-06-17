@@ -1,6 +1,4 @@
-# Semweb-AksaraJawa
-=====================
-# 📜 Sistem Pencarian Naskah Jawa
+# Sistem Pencarian Naskah Jawa
 
 Aplikasi web untuk pencarian teks dalam naskah Jawa dengan dukungan Aksara Jawa dan transliterasi Latin. Sistem ini terintegrasi dengan GraphDB untuk manajemen data semantik dan menyediakan antarmuka pencarian yang intuitif.
 
@@ -19,7 +17,7 @@ Aplikasi web untuk pencarian teks dalam naskah Jawa dengan dukungan Aksara Jawa 
 - **Hasil Terstruktur**: Menampilkan hasil pencarian yang dikelompokkan berdasarkan jenis (Kata/Paragraf)
 - **Interface Responsif**: Desain modern dan responsif dengan CSS kustom
 
-## 🚀 Panduan Instalasi
+## 🔃 Panduan Instalasi
 
 ### Prasyarat Sistem
 
