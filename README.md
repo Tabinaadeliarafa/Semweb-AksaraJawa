@@ -234,14 +234,6 @@ WHERE {
 pip install --upgrade streamlit pandas SPARQLWrapper
 ```
 
-### Masalah CSS
-
-**Warning**: "File styles.css tidak ditemukan"
-
-**Solusi**:
-1. Pastikan file `styles.css` ada di direktori yang sama dengan `app.py`
-2. Atau buat file CSS kosong jika tidak memiliki styling kustom
-
 ### Performance Issues
 
 **Masalah**: Aplikasi lambat saat pencarian
