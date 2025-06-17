@@ -267,10 +267,6 @@ pip install --upgrade streamlit pandas SPARQLWrapper
 - [SPARQLWrapper](https://sparqlwrapper.readthedocs.io/) - Python wrapper untuk SPARQL
 - [GraphDB](https://graphdb.ontotext.com/) - Database semantik
 
-## 📄 Lisensi
-
-Proyek ini menggunakan lisensi MIT - lihat file `LICENSE` untuk detail.
-
 ## 📞 Kontak
 
 Untuk pertanyaan atau dukungan, silakan buka issue di repository GitHub atau hubungi tim pengembang.
