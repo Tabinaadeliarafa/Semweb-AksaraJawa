@@ -25,7 +25,7 @@ def load_css():
 @st.cache_data # Cache data untuk performa
 def load_data_from_graphdb():
     # URL endpoint GraphDB
-    sparql_endpoint = "https://c64b-114-10-149-176.ngrok-free.app/repositories/AksaraJawa"
+    sparql_endpoint = "https://81ac-180-244-161-63.ngrok-free.app/repositories/AksaraJawa"
     sparql = SPARQLWrapper(sparql_endpoint)
 
     # SPARQL query untuk mengambil semua data Paragraf dan Kata
@@ -812,7 +812,7 @@ def main():
             </div>
             <div class="custom-info-box">
                 <p><strong>Sumber Data:</strong> GraphDB Repository 'AksaraJawa'</p>
-                <p><strong>Endpoint:</strong> <a href= "https://c64b-114-10-149-176.ngrok-free.app/repositories/AksaraJawa" target="_blank">https://c64b-114-10-149-176.ngrok-free.app/repositories/AksaraJawa</a></p>
+                <p><strong>Endpoint:</strong> <a href= "https://81ac-180-244-161-63.ngrok-free.app/repositories/AksaraJawa" target="_blank">https://81ac-180-244-161-63.ngrok-free.app/repositories/AksaraJawa</a></p>
                 <p><strong>Status:</strong> ✅ Terhubung dan data berhasil dimuat</p>
             </div>
             """, unsafe_allow_html=True)
